@@ -1,0 +1,25 @@
+{
+  "focus": "mix",
+  "mix": {
+    "verify": 7,
+    "growth": 2,
+    "reread": 1
+  },
+  "library_globs": [
+    "${REALKCAT_DIR}/data/browser_paper_evidence_assist_*/packages/*_pmid_*/evidence_assets/*.xml",
+    "${REALKCAT_DIR}/data/browser_paper_evidence_assist_*/packages/*_pmid_*/evidence_assets/*.pdf",
+    "${REALKCAT_DIR}/data/*_help/download_intake_*/*.pdf"
+  ],
+  "sources": [
+    "sources/fulltext_never_read.txt",
+    "sources/fulltext_read_before.txt",
+    "sources/db_citations.txt",
+    "sources/old_catalog_pmids.txt",
+    "sources/nopmid_ids.txt",
+    "sources/cited_not_queued.txt",
+    "sources/intenzydb_pmids.txt",
+    "sources/strenda_pmids.txt",
+    "sources/discovered_europepmc_20261014.txt",
+    "sources/discovered_km_20261109.txt"
+  ]
+}

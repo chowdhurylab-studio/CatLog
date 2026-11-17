@@ -1,0 +1,6 @@
+{
+  "permissions": {
+    "allow": ["Bash", "Read", "Edit", "Write", "Glob", "Grep", "WebFetch", "WebSearch", "Agent", "Workflow"],
+    "ask": ["Bash(git clean *)", "Bash(git reset --hard*)", "Bash(git push --force*)", "Bash(git push -f*)"]
+  }
+}

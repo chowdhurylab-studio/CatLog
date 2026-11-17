@@ -1,0 +1,6 @@
+# CatLog needs Python 3.11 or newer; the versions below are the ones the authors ran (with Python 3.12).
+# Also needed: the command-line tools named in README.md (poppler, tesseract; Java for OPSIN).
+PyMuPDF==1.26.5    # PDF texts: which font drew a micro sign (tools/fetch.py glyph warning: a µ printed as 'm'); skipped silently without it
+rdkit==2025.09.1   # substrate structures (tools/structures.py, tools/ids.py): needed by `catlog.py enrich`, `export` and `dbdiff`
+openpyxl==3.1.5    # Excel supplements, and the SKiD import (tools/skid_values.py)
+xlrd==2.0.2        # old .xls supplements; skipped when missing

@@ -1,0 +1,46 @@
+# Data: written into this folder by catlog.py and tools/, never part of the repository
+papers.tsv
+papers.tsv.*
+catalog.jsonl
+catalog.jsonl.*
+rejected.jsonl
+rejected.jsonl.*
+bounds.jsonl
+bounds.jsonl.*
+log.tsv
+log.tsv.*
+library.tsv
+catlog_wide.*
+catlog_bounds.*
+*.lock
+*.tmp
+texts/
+papers/
+work/
+enrich/
+sources/
+human_review/
+site_build/
+inbox/
+downloads/
+uniprot/
+tmp/
+# the earlier system (REALKCAT_DIR defaults to a realkcat/ folder here), the website and the authors' writing
+realkcat
+realkcat/
+cloudflare/
+paper/
+writing/
+# secrets and local settings (the authors' Claude Code permissions stay theirs; settings.example.json is this copy's)
+.env
+.env.*
+.claude/settings.json
+.claude/settings.local.json
+.claude/launch.json
+.claude/worktrees/
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
