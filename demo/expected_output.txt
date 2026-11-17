@@ -1,0 +1,24 @@
+demo paper 99999901: 9 rows written to texts/ and work/
+== catlog.py add 99999901
+99999901: kept 6 (dup 0), rejected 3
+== refused, and why (rejected.jsonl)
+D45A | kcat = 1.1 s-1 -> ['quote_not_in_paper']
+Y123F | Km = 66 ± 5 mM -> ['value_not_in_quote']
+wild type | Km = 0.8 ± 0.1 mM -> ['verifier_reject: Table 2 prints a Ki, not a Km']
+== catlog.py show 99999901
+[0] wild type | ATP | kcat = 12.3 ± 0.4 s-1  ->  stored as 12.3 s^-1
+[1] wild type | ATP | Km = 45 ± 3 µM  ->  stored as 0.045 mM
+[2] wild type | ATP | kcat/Km = 2.7 × 10^5 M-1 s-1  ->  stored as 270 mM^-1 s^-1
+[3] Y123F | ATP | kcat = 0.50 ± 0.02 s-1  ->  stored as 0.5 s^-1
+[4] Y123F | ATP | Km = 60 ± 5 µM  ->  stored as 0.06 mM
+[5] Y123F | ATP | kcat/Km = 8.3 × 10^3 M-1 s-1  ->  stored as 8.3 mM^-1 s^-1
+[6] D45A | ATP | kcat = 1.1 s-1  ->  stored as 1.1 s^-1
+[7] Y123F | ATP | Km = 66 ± 5 mM  ->  stored as 66 mM
+[8] wild type | ADP | Km = 0.8 ± 0.1 mM  ->  stored as 0.8 mM
+== tools/recheck.py
+0 measurements print a kcat/Km that differs from kcat / Km (kept as printed, noted in the export)
+6 rows carry provenance stamps, filled: reader_model 6, verifier_model 6, read_prompt 0, verify_prompt 0, task_prompt 0, pipeline_commit 0 (0 read by the verifier: missed values); 0 were added before stamping
+  model names without a version (not an exact ID): {'demo-model': 12}
+0 of the 0 rows added before stamping carry a reconstructed stamp, filled: reader_model 0, verifier_model 0, read_prompt 0, verify_prompt 0, pipeline_commit 0 (0 read by the verifier: missed values); 0 have none
+no catlog_wide.jsonl: run python3 catlog.py export first
+6 rows, 2 measurements: 0 problem(s)

@@ -37,7 +37,8 @@ import argparse, ast, fnmatch, getpass, hashlib, io, json, os, re, subprocess, s
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-OWN = {'README.md', 'LICENSE', 'requirements.txt', '.gitignore', 'sync_from_catlog.py', '.claude/settings.example.json'}
+OWN = {'README.md', 'LICENSE', 'requirements.txt', '.gitignore', 'sync_from_catlog.py', '.claude/settings.example.json',
+       'demo/make_demo_paper.py', 'demo/run_demo.sh', 'demo/expected_output.txt'}
 MANAGED = ('catlog.py', 'config.json', 'tools/', 'prompts/', '.claude/')  # what a sync may write or remove in DEST
 MAX_BYTES = 5 * 1024 * 1024
 HOME = r'/[U]sers/[^/\'"`\s]+'  # a macOS home folder, any user
@@ -46,7 +47,7 @@ VERSIONS = 'prompts/versions'  # the saved prompt and task texts, here
 TOOLS = '''brenda_count brenda_overlap brenda_values censored_scan coverage db_values dbcheck dbcompare discover_europepmc
 elsevier_to_text enrich export_site fetch human_review ids jats_to_text km_gain lane_agent nd_census nopmid
 provenance_backfill publication_years recheck ref_sequences ref_structures release_tree reprint_pairs sabio_values
-scale_sweep sequences site_release skid_values strenda_values structures test_blind_check test_dropped_relabel
+scale_sweep sequences site_release skid_values strenda_values structures test_blind_check test_dropped_relabel test_superseded_drop
 test_provenance test_provenance_backfill test_publication_years uniprot_values units vmax_sweep'''.split()
 INCLUDE = (['catlog.py', 'config.json']
            + [f'tools/{t}.py' for t in TOOLS]

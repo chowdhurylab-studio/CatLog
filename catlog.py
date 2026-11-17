@@ -1890,7 +1890,8 @@ def cmd_add(pmid):
     for (rd, vd), (rp, vp, by) in zip(pairs, ((read_p, ver_p, None), (miss_r, miss_v, pairs[0][1]))):
         k, r = judge(pmid, rd, vd, text_sq, row_stamp(pmid, rd, vd, rp, vp, by))  # missed rows: read by the verifier
         kept += k; rejected += r
-    finish(pmid, read, kept, rejected, empty_reason=str(pairs[0][1].get('reason_if_empty') or ''))
+    corrects = str(read.get('corrects') or pairs[0][1].get('corrects') or '').strip()  # a correction notice (read.md)
+    finish(pmid, read, kept, rejected, empty_reason=str(pairs[0][1].get('reason_if_empty') or ''), corrects=corrects)
 
 
 def add_one(pmid):
@@ -2489,8 +2490,10 @@ def twin(r, cells, claimed=()):
     return min(hits, key=rank) if hits else None  # a twin that converts alike first, then the same enzyme
 
 
-def finish(pmid, read, kept, rejected, empty_reason=''):
-    """Append the paper's rows (append_rows), then set its status."""
+def finish(pmid, read, kept, rejected, empty_reason='', corrects=''):
+    """Append the paper's rows (append_rows), then set its status. A correction notice that corrects kinetic values
+    (`corrects`: the PMID or DOI of the article it corrects; read.md Rules) gets a `correction_notice` line, which
+    status lists until that article's stored values are checked against it (corrections_pending)."""
     new, dup, nb = append_rows(pmid, kept, rejected)
     status = 'wrong_paper' if str(read.get('note', '')).startswith('wrong_paper') else 'done'
     note = str(read.get('note') or '')[:200].replace('\t', ' ').replace('\n', ' ')
@@ -2513,6 +2516,37 @@ def finish(pmid, read, kept, rejected, empty_reason=''):
     log(pmid, 'add', f'kept={len(new)}', f'dup={dup}', f'rejected={len(rejected)}', f'status={status}',
         *([f'bounds={len(nb)}'] if nb or only else []), *(['pass=censored'] if only else []))
     print(f'{pmid}: kept {len(new)} (dup {dup}), rejected {len(rejected)}' + (f', censored {len(nb)}' if nb or only else ''))
+    if corrects and status != 'wrong_paper':
+        log(pmid, 'correction_notice', corrects[:100].replace('\t', ' ').replace('\n', ' '))
+        print(f"{pmid}: the authors' correction of {corrects}; status lists it while that article has stored values "
+              f'(CLAUDE.md "Correction notices")')
+
+
+def corrections_pending(ev=None, cat=None, qrows=None):
+    """[(notice, article)]: correction notices (log `correction_notice`, written by finish()) whose corrected article
+    has stored values and no `corrigendum_check` line for this notice yet (tools/corrigendum.py --apply writes it, under
+    the article's PMID). A DOI is looked up in papers.tsv. Papers of the method paper's test set are left out."""
+    ev = events() if ev is None else ev
+    if cat is None:
+        cat = [json.loads(l) for l in open(CATALOG) if l.strip()] if CATALOG.exists() else []
+    if qrows is None:
+        with Queue(write=False) as q:
+            qrows = list(q.rows.values())
+    by_doi = {(r.get('doi') or '').strip().lower(): r['pmid'] for r in qrows if (r.get('doi') or '').strip()}
+    stored = {r['pmid'] for r in cat}
+    held = locked()
+    checked = {(f[3], f[1]) for f in ev if f[2] == 'corrigendum_check' and len(f) > 3}
+    out = []
+    for f in ev:
+        if f[2] != 'correction_notice' or len(f) < 4:
+            continue
+        notice, c = f[1], f[3].strip()
+        doi = re.sub(r'^(?:https?://(?:dx\.)?doi\.org/|doi:\s*)', '', c, flags=re.I).lower()
+        article = c if (c.isdigit() or is_standin(c)) else by_doi.get(doi, c)
+        if article in stored and article != notice and (notice, article) not in checked and (notice, article) not in out \
+                and notice not in held and article not in held:
+            out.append((notice, article))
+    return out
 
 
 def append_rows(pmid, kept, rejected):
@@ -5173,6 +5207,11 @@ def cmd_status(report=False):
                    f'(sources/database_corrections.tsv, verdict catlog_wrong): '
                    + ', '.join(f'{p} {rid}' for p, rid in wrong[:10]) + (' …' if len(wrong) > 10 else '')
                    + '; audit them (`audited ROW_ID keep|drop WHY`)')
+    pend = corrections_pending(ev, cat, qrows)
+    if pend:
+        out.append(f'- **Correction notices:** {len(pend)} whose corrected article still has stored values: '
+                   + ', '.join(f'{n} corrects {a}' for n, a in pend[:10]) + (' …' if len(pend) > 10 else '')
+                   + '; check them (CLAUDE.md "Correction notices": `catlog-corrigendum`, then tools/corrigendum.py)')
     if problems:
         out.append(f'- **database_corrections.tsv:** {len(problems)} rows not used as written (fix the row, or remove a '
                    f'row whose value left the catalog): ' + '; '.join(f"line {n}{' ' + rid if rid else ''} {why}" for n, rid, why in problems[:5]) + (' …' if len(problems) > 5 else ''))
@@ -5216,7 +5255,10 @@ if __name__ == '__main__':
     for d in (TEXTS, WORK, ROOT / 'enrich', ROOT / 'sources'):  # a fresh clone has none of them yet
         d.mkdir(exist_ok=True)
     a = [paper_id(x) for x in sys.argv[1:]] or ['status']
-    {'status': lambda: cmd_status(),
+    if a[0] in ('-h', '--help', 'help'):
+        print(__doc__)
+        sys.exit(0)
+    COMMANDS = {'status': lambda: cmd_status(),
      'report': lambda: cmd_status(report=True),
      'review': lambda: __import__('human_review').main(a[1:]),
      'site': lambda: __import__('site_release').main(a[1:]),
@@ -5253,4 +5295,7 @@ if __name__ == '__main__':
      'recover': lambda: cmd_recover(a[1], *a[2:]),
      'mark': lambda: cmd_mark([paper_id(x) for x in a[1].split(',')], a[2], ' '.join(a[3:]) or 'no reason given') if len(a) > 2 else sys.exit(
          'usage: catlog.py mark PMID[,PMID] lane=X|click=URL|login=URL|doi=DOI|todo|no_kinetics|wrong_paper|unavailable WHY'),
-     'asks': lambda: cmd_asks()}[a[0]]()
+     'asks': lambda: cmd_asks()}
+    if a[0] not in COMMANDS:
+        sys.exit(f'unknown command {a[0]!r}; python3 catlog.py --help lists them')
+    COMMANDS[a[0]]()

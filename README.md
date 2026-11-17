@@ -99,8 +99,25 @@ scoring, the statistics and the figure builders), which the authors keep with th
   asking each time; it lets them run any shell command in this folder, so use it only where that is acceptable. It
   asks before destructive git commands.
 
+Tested on macOS 26.3.1 (Apple silicon) with Python 3.12.12, and on the same Mac with Python 3.11 from a fresh clone;
+poppler 25.10.0, tesseract 5.5.2, Java 1.8.0_402, git 2.50.1. Linux was not tested. In a fresh virtual environment
+`pip install -r requirements.txt` takes about 20 seconds; the reference files take as long as their 200 MB download.
+No special hardware is needed. The agent steps need Claude Code with a paid Claude plan or Anthropic API access; the
+code checks, the demo and the tests need neither.
+
 Data files are written into this folder and are git-ignored (`papers.tsv`, `catalog.jsonl`, `rejected.jsonl`,
 `bounds.jsonl`, `log.tsv`, `texts/`, `work/`, `enrich/`, `sources/`, the exports); the folders are made on first use.
+
+## Demo
+
+    bash demo/run_demo.sh
+
+It copies the code to a temporary folder and puts one made-up paper through the code checks, with no agent, API key
+or network: the paper's text, a reader's file and a verifier's file (`demo/make_demo_paper.py`), then `catlog.py add`,
+the refusal reasons, `catlog.py show` and `tools/recheck.py`. Of its nine values CatLog keeps six and refuses three:
+one whose quote is not in the paper, one whose number is not in its quote, and a Ki read as a Km that the verifier
+rejected. The run takes about a second; `demo/expected_output.txt` is the output to expect. The tests: `python3 -I -B
+-m unittest discover -s tools -p 'test_*.py'` (about 8 seconds, offline).
 
 ## Settings
 
@@ -162,7 +179,7 @@ database table.
 | `sources/brenda_2026_1.json.tar.gz` | BRENDA release 2026.1 (JSON) | `tools/brenda_values.py`; `python3 tools/brenda_count.py sources` writes `sources/brenda_pmids.tsv`, which `tools/coverage.py` and `tools/brenda_overlap.py` read |
 | (fetched) | the SABIO-RK Export API, all entries (about 25 minutes) | `tools/sabio_values.py` |
 | (fetched) | UniProtKB reviewed entries' kinetics | `tools/uniprot_values.py` |
-| `sources/oed_export_<date>.csv` | an Open Enzyme Database export | `tools/db_values.py` |
+| `sources/oed_export_<date>.csv` | an Open Enzyme Database export (the paper's: 7 October 2026) | `tools/db_values.py` |
 | `sources/skid/Main_dataset_v1.xlsx`, `sources/skid/References.tar.gz` | SKiD | `tools/skid_values.py` |
 | `sources/strenda/STRENDA_Claude_handoff.zip` | a snapshot of STRENDA DB's public datasets (7 October 2026) prepared for the authors | `tools/strenda_values.py` |
 
@@ -210,8 +227,8 @@ licences allow it, since many publishers' licences restrict systematic downloadi
 
 ## Licence
 
-MIT (`LICENSE`). It covers this code and its prompts; the catalogue's data are published on the CatLog website under
-CC BY 4.0.
+MIT (`LICENSE`). It covers this code and its prompts. The catalogue's data are published on the CatLog website:
+CatLog's reading is CC BY 4.0, structures keep their sources' terms, and quoted lines remain the publishers' text.
 
 ## How this copy is made
 
