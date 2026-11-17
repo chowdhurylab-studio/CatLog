@@ -1,0 +1,48 @@
+item	column	header	meaning
+S2	pmid	PubMed ID or DOI	The paper: its PubMed ID, or its DOI where it has none.
+S2	family (Extended Data head)	Family	The family of trap, as Extended Data 3 heads it.
+S2	kind of trap	Kind of trap	The kind of error the paper invites, in short words; Supplementary Table 4 names the same kinds in the words of CatLog's list of kinds of error.
+S2	the trap (key)	The trap	What a careless reading of the paper would store, and why that is wrong.
+S2	how CatLog's records documented it before the test	Documented before the test	How CatLog's own records showed this trap before the test was run: which step saw, caught, missed or removed it.
+S2	set	Set	first: among the first papers chosen, each a known case where the trap once put a wrong value into CatLog; drawn: drawn by a fixed rule from every case CatLog's records document.
+S2	trap seen in	Trap seen in	Whether a careful reading of the paper alone can see the trap ('the paper'), or only with another publication, such as the earlier paper whose values it reprints ('another publication').
+S2	key cells	Key cells	How many cells of the paper the key scores: up to ten representative trap cells, each with its right value, read on the page by one agent and checked by a second agent; Supplementary Table 3 lists them.
+S2	Plain reading: outcome	Plain reading: outcome	Outcome of one plain reading by the same model as CatLog's readings, without CatLog's instructions or checks: wrong value stored (in at least one key cell), undecided (none, but scoring cannot tell a cell's label or variant), or right value stored (in every key cell).
+S2	CatLog before Verify and Check: outcome	CatLog before Verify and Check: outcome	The same, for CatLog as frozen for the tests: its reader's rows, each value computed by CatLog's code from the printed cell and the unit the reader gave, before the verifier and code checks.
+S2	CatLog after Verify and Check: outcome	CatLog after Verify and Check: outcome	The same, for CatLog as frozen for the tests, after its verifier and code checks: the rows it kept. Nothing later (audits, sweeps, database checks, people's review) is included; this is not CatLog's catalogue.
+S2	Plain reading: trap cells	Plain reading: trap cells	How many key cells this reading stored as the trap.
+S2	CatLog before Verify and Check: trap cells	CatLog before Verify and Check: trap cells	The same, for CatLog before the verifier and code checks.
+S2	CatLog after Verify and Check: trap cells	CatLog after Verify and Check: trap cells	The same, for CatLog after the verifier and code checks (not CatLog's catalogue).
+S3	pmid	PubMed ID or DOI	The paper, as in Supplementary Table 2.
+S3	family (Extended Data head)	Family	As in Supplementary Table 2.
+S3	cell	Cell	The key cell's number within its paper.
+S3	where it is printed	Where it is printed	The place in the paper (table, row and column, or text), with the printed line where it helps.
+S3	metric	Constant	kcat, Km or kcat/Km.
+S3	enzyme	Enzyme	As the key names it.
+S3	variant	Variant	Wild type or the variant, as the key names it.
+S3	substrate	Substrate	As the key names it.
+S3	printed	Printed cell	The cell exactly as the page prints it, ± and footnote marks included. Only a few values quoted from sentences carry their unit; for the others, the unit is in the header or line given under Where it is printed.
+S3	right value (catalogue units)	Right value	The value a correct reading stores, in catalogue units (kcat s⁻¹, Km mM, kcat/Km mM⁻¹ s⁻¹); none where the cell must not be stored: it is not this constant, it repeats an earlier paper, or it belongs to another row.
+S3	how the right value is known	How the right value is known	Why the right value is right and the trap wrong, from the paper's own numbers and words, or, for a reprinted value, from the earlier paper it repeats.
+S3	the trap	The trap	The wrong value a careless reading stores, in catalogue units; where the error is the label, the constant or variant it would be stored under.
+S3	Plain reading	Plain reading	The plain reading's verdict on this cell: wrong value stored (the trap's); right value stored (where the right value is none: the trap not stored); or undecided (scoring cannot tell under which label or variant the number was stored).
+S3	CatLog before Verify and Check	CatLog before Verify and Check	The same, for CatLog as frozen for the tests, before Verify and Check: its reader's rows, each value computed by CatLog's code from the printed cell and the unit the reader gave.
+S3	CatLog after Verify and Check	CatLog after Verify and Check	The same, for the rows CatLog as frozen for the tests kept after its verifier and code checks; not CatLog's catalogue.
+S4	id	ID	The kind's identifier on CatLog's list of kinds of error; X1 and X2 were found after the list was written.
+S4	kind of error	Kind of error	What goes wrong.
+S4	example (from CatLog's records)	Example	One instance from CatLog's records: the paper's PubMed ID (or DOI where it has none), then what happened; 'no PMID on file' where the records give none; empty for X1 and X2.
+S4	status	Status	rule: a rule in the instructions or code guards it; flag kept as printed: the value stays, with a flag; open: no rule yet.
+S4	Fig. 4a layer	Fig. 4a layer	For rules: From checking databases against papers, or who first found the error, as Fig. 4a stacks it; flags say flag first; open kinds none.
+S4	first found in	First found in	How the error was first found: checking database values against their papers, an author running CatLog with an agent, a code check, an audit, and so on.
+S4	papers read when found	Papers read when found	How many papers CatLog had read when the error was first recorded; blank for kinds known at the start, from checking database values against their papers.
+S4	papers read at the rule	Papers read at the rule	How many papers CatLog had read when the rule took effect; CatLog's first 11 rules date from 3 papers read. Fig. 4a counts them from the first paper, and places five more 2 to 15 papers later, by CatLog's log.
+S4	rule commit	Rule commit	The commit of the authors' working repository, which is not public, that added the rule; partial guard, not a rule, for three open kinds.
+S4	papers read at later changes	Papers read at later changes	How many papers CatLog had read at each later change to the rule.
+S4	step	Step	Where the rule, flag or partial guard acts: Fig. 1's Read, Convert, Verify or Check, the database check or the audit; none for the seven open kinds with no guard.
+S4	what it guards against	What it guards against	A wrong value or label let in; a right value refused or lost; or the process, with no value at stake.
+S4	caught since the rule, other papers	Caught since the rule	How often the rule acted after it took effect, outside the papers where the error was found, in the next column's unit, counted to 15 November 2026, 00:30. A floor: a value a reader skips leaves no trace. Extended Data 7 counts nine rows otherwise.
+S4	unit	Unit	The unit of that count: values, records, papers, joins, verdicts or forms. Counts in different units are never added.
+S4	papers, other papers	Papers	In how many papers the rule acted after it took effect, outside the papers where the error was found; counted to 15 November 2026, 00:30.
+S4	on the Extended Data list	On Extended Data 7	yes where Extended Data 7 draws the kind: 16 of the rules and flags learned from errors found while CatLog read that acted in ten or more papers. Not drawn: known kinds, and five more learned rules that also acted in ten or more.
+S4	papers drawn (Extended Data)	Papers in Extended Data 7	The papers Extended Data 7 and Fig. 4 draw. Nine rows differ from the Papers column: PP1 counts only papers whose own numbers show the header misprinted (121 against 135), PP5 both its units (39 against 24), and seven others leave out or add values.
+S4	of them first read before the rule	Of them, first read before the rule	How many of those papers CatLog first read before the first version of the rule that did that kind of act: usually its first commit; for IP2 its join rule (9,317 papers read), and for one act each of PP6 and CU5 a later change.

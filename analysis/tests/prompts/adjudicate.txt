@@ -1,0 +1,34 @@
+Scientific data curation: check claimed enzyme kinetic values against one research paper.
+
+Paper {PMID}. Its files are in {DIR}: paper.txt (the full text, with each table as a "=== Table" block),
+paper.supp.txt if present, and the original article (source.pdf or source.xml). If paper.txt starts with a
+GLYPH WARNING, its text layer misprints symbols: take every number, unit prefix and exponent from the page image.
+You may render PDF pages and view them: pdftoppm -r 200 -f N -l N -png {DIR}/source.pdf /tmp/{RUN}-{PMID}-p
+
+{CLAIMS} lists claimed values for this paper, each in these units: kcat s^-1, Km mM, kcat/Km mM^-1 s^-1. For each
+claim, find what the paper prints and give one verdict:
+
+- supported: the paper itself measured this value and prints it, for this metric and this enzyme, organism, variant
+  and substrate (and cosubstrate, pH and temperature where the claim gives them). The number agrees after unit
+  conversion within 1.5% or within the printed rounding. Synonyms, other spellings, and an isozyme or allele named as
+  either the enzyme or the variant are fine. A blank field is fine.
+- wrong_number: the paper prints a different number for this value, or the number belongs to another cell or row.
+- wrong_scale: the digits are right but a unit, prefix, exponent or header multiplier was applied wrongly (for example
+  1000-fold or 60-fold).
+- wrong_metric: the printed quantity is not this metric. kcat is the turnover number, including a Vmax the paper
+  itself expresses per active site or calls kcat. Km is the Michaelis constant, including an apparent Km. kcat/Km is
+  the printed specificity constant. These are not: Ki, Kd, Kact, IC50, a K0.5 or S0.5 from a Hill fit with n clearly
+  not 1, a Vmax or specific activity per mg of protein, a ratio to wild type, a constant for one product of a reaction
+  whose total the paper also gives, a constant in M^-2 s^-1.
+- wrong_identity: the value belongs to another enzyme, organism, variant, substrate or cosubstrate.
+- wrong_conditions: the claim's pH or temperature is not the one the paper gives for this value.
+- not_measured_here: the paper attributes the value to other work (a citation, "taken from", "as reported").
+- not_printed: the paper prints no such number for this value anywhere (it was computed, or read off a figure).
+- cannot_decide: the text and the page images do not settle it. Say what is missing.
+
+Write {OUT} as JSON:
+{"pmid": "{PMID}", "model": "<your exact model ID, as your system prompt states it>",
+ "verdicts": [{"id": "<claim id>", "verdict": "<one of the nine>", "found_at": "<Table 2 row 3, p.5 ...>",
+               "on_page_image": false, "reason": "<one line>"}]}
+Give one verdict for every claim id. Use only the files in {DIR} and {CLAIMS}. Write nothing except {OUT} and
+scratch files named /tmp/{RUN}-{PMID}-*.

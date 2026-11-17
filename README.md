@@ -75,13 +75,14 @@ texts kept only in the agents' logs, which the authors archive.
   that a value's stamp names (see "Versions").
 - `config.json`: the queue's source lists and reading order.
 - `.claude/settings.example.json`: permissions for the agents (see "Install").
-- `sync_from_catlog.py`: how this copy is made (see the end).
+- `analysis/`: the paper's analysis code (see "The paper's analysis code").
+- `sync_from_catlog.py`: how this copy is made, and `sync_analysis.py`: how `analysis/` is made (see the end).
 
 Not here: the data (the catalogue, paper texts, agents' outputs, database downloads, reviews, and the hand-checked
 tables and held-out lists in `sources/`), the website's own code, the authors' notes (`CLAUDE.md` and their guides),
 the reviewers' review page (`tools/review_ui/`, so `catlog.py review pack` stops with a message), the authors'
-machine helpers (Chrome and memory watchers, a website wording check), and the paper's analysis code (the tests'
-scoring, the statistics and the figure builders), which the authors keep with the paper's evidence.
+machine helpers (Chrome and memory watchers, a website wording check), and the inputs of the paper's analysis code in
+`analysis/`: the catalogue frozen for the paper and the tests' records (see "The paper's analysis code").
 
 ## Install
 
@@ -199,6 +200,16 @@ reread mixes and `tools/coverage.py` use the earlier catalogue (`REALKCAT_DIR`).
 included; `tools/site_release.py` and `tools/export_site.py`, which turn the catalogue into the website's data files,
 are, but they need the earlier system (`REALKCAT_DIR`).
 
+## The paper's analysis code
+
+`analysis/` holds the code behind the paper's results: the two tests (the plain reading's runner, CatLog's run in a
+frozen copy, the judges, the audits of every session and the scoring), the statistics, and the builders of every
+figure, Extended Data item and Supplementary Table. `analysis/README.md` says which script makes each item, what it
+reads, the command that ran it, and what was left out. The scripts' inputs, the catalogue frozen for the paper and the
+tests' records, are not in this repository, so the scripts show how each result was made rather than remake it from
+here. `sync_analysis.py` copies them from the authors' folders (the tests' kit as committed at the commit the locked
+test's report ran at) by fixed rules for paths, e-mail addresses and names, as `sync_from_catlog.py` makes this copy.
+
 ## Versions
 
 This copy is made from a commit of the authors' working repository, which each commit message here names. The
@@ -244,3 +255,8 @@ rules: the contact e-mail and machine paths become the settings above, the workf
 `args.root`, people's names become neutral labels (Reviewer A, B, ...), and the reviewers' own review data stays out.
 It checks the result before writing anything, and it refuses to write into this repository while the next commit
 would carry a personal name or e-mail.
+
+`analysis/` is made the same way by `sync_analysis.py`, from the authors' CatLog folder and the folder the tests ran in
+(`analysis/README.md` lists the rules):
+
+    python3 -I -B sync_analysis.py --catlog <CatLog folder> --kit <kit folder> --names <private names file> [--check]

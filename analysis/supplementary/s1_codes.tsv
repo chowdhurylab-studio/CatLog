@@ -1,0 +1,6 @@
+code	words	gloss
+wrong_metric	wrong metric	A constant other than the one named, e.g. Hill K0.5 as Km.
+not_measured_here	not measured here	Not measured in this paper; e.g. taken or recalculated from earlier work.
+wrong_scale	wrong scale	A unit or multiplier applied wrongly to the printed number.
+supported	supported	The judge found the stored value supported by the paper.
+corrected_misprint	corrected misprint	Later page check: CatLog’s value corrects a misprint in the paper.

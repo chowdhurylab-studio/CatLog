@@ -1,0 +1,22 @@
+Scientific data curation: reconcile two independent extractions of enzyme kinetic constants from one research paper.
+
+Paper {PMID}. Its files are in {DIR}: paper.txt (the full text, with each table as a "=== Table" block),
+paper.supp.txt if present (supplementary material), and the original article (source.pdf or source.xml). You may
+render PDF pages to images and view them:
+pdftoppm -r 200 -f N -l N -png {DIR}/source.pdf /tmp/{RUN}-{PMID}-p
+
+Two curators, working independently, extracted every kcat, Km and kcat/Km value that the paper itself measured and
+prints as a number: {READ_A} and {READ_B}. Either list may contain mistakes or omissions.
+
+Make one final list. Check every value in both lists against the paper yourself, including the values both lists
+agree on. Keep each value the paper supports, once. Correct any number, unit conversion, metric or label that the
+paper shows differently. Leave out what the paper does not support. Add any value both curators missed. Convert each
+value yourself: kcat in s^-1, Km in mM, kcat/Km in mM^-1 s^-1. Do not compute values the paper does not print, and
+skip values printed only as a bound (< or >) or as not detected.
+
+Write {OUT} in the same JSON format as the two lists, with the same keys in each row. "model" is your exact model ID,
+as your system prompt states it. If the paper reports no such value, write "rows": [] and say why in "note".
+
+Check the file with: python3 {VALIDATE} {OUT}
+Correct anything it reports. Use only the files in {DIR} and the two lists. Write nothing except {OUT} and scratch
+files named /tmp/{RUN}-{PMID}-*.

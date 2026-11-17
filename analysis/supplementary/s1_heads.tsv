@@ -1,0 +1,30 @@
+column	header	meaning
+test	Test	Which test the value was judged in: random (papers drawn at random; 147 in the judging behind the final verdict) or locked (83 held-out papers).
+pmid	PubMed ID	PubMed identifier of the paper the value comes from.
+source	Stored by	Which reading stored the value: CatLog, or plain (one plain reading of each paper by Claude Opus 5.5).
+claim_id	Claim ID	Identifier of the value in the judging’s records (each judged value is a ‘claim’), for tracing its verdict.
+metric	Kinetic constant	The constant the reading stored the value as: kcat, Km or kcat/Km.
+value	Stored value	The number as the reading stored it and the judges saw it, in the unit of the Unit column.
+unit	Unit	Unit of the stored value: s⁻¹ for kcat, mM for Km, mM⁻¹ s⁻¹ for kcat/Km.
+printed_cell	Printed cell, as read	The printed cell and unit, as the reading recorded them.
+enzyme	Enzyme	Enzyme name as the reading stored it.
+organism	Organism	Organism the enzyme comes from, as the reading stored it.
+variant	Variant	Wild type, mutant or construct, as the reading stored it.
+substrate	Substrate	The substrate the constant refers to, as the reading stored it.
+cosubstrate	Cosubstrate	Other substrates, cofactors or electron acceptors in the assay, as the reading stored them; blank = not stated.
+pH	pH	Assay pH as the reading stored it; blank = not stated.
+temperature_C	Temperature (°C)	Assay temperature in °C as the reading stored it; blank = not stated.
+location	Place in paper	Table, figure or text section holding the value, shortened from the reading’s own location.
+paper_label	Paper’s label or footnote	The paper’s label or footnote for the value, as the reading’s notes quote or name it (‘the reading's details:’ marks a paraphrase); else blank.
+final_verdict	Judges’ verdict	The final verdict: the one two judges agreed on; where the first two split, a third judge’s vote decided. Codes in the notes.
+votes	Each judge’s vote	Each judge’s verdict: j1 and j2 are the first two judges; j3, a third judge, was called where they split.
+judges_reason	Judges’ reasons	Word for word, the reasons of the judges whose verdict became final, each marked j1, j2 or j3.
+dissent	Dissenting judge	For the 11 split values, the outvoted judge’s verdict and reason; blank where the judges agreed.
+found_at_j1	Place found (judge 1)	Where the first judge found the value in the paper: page, table row and column, or text passage.
+claim_kind	Disputed or agreeing pair	Disputed: only this reading stored the value (96 values). Agreeing pair: matched by number with the other reading’s value, sampled for judging (1 value).
+first_judging	First judging’s verdict	Random test only: verdict and votes in that test’s first judging, before the judging that gave the final verdict; blank for the locked test.
+printed_header	Header as printed	CatLog’s 40 values only: the printed header or sentence giving the value’s unit; for 7334001, both readings of the contested exponent.
+value_as_printed	Value as printed	CatLog’s 40 values only: the printed cell with its printed unit taken at face value, converted to the stored unit; both readings for 7334001.
+arithmetic	Unit-change arithmetic	CatLog’s 34 deliberate unit changes: printed cell to stored value, then the paper’s own numbers on the scale; 9973343’s per-row figures computed for this table.
+later_check	Checks after judging	Agents’ checks against the paper made after the judging (post hoc), or a note that none has run; blank for the random test’s plain-reading values.
+details	Reading’s notes	The reading’s own notes on the value (place, assay, caveats), in full, as the judges saw them.

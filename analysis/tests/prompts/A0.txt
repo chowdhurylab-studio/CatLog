@@ -1,0 +1,28 @@
+Scientific data curation: extract enzyme kinetic constants from one research paper.
+
+Paper {PMID}. Its files are in {DIR}: paper.txt (the full text, with each table as a "=== Table" block),
+paper.supp.txt if present (supplementary material), and the original article (source.pdf or source.xml). Where the
+text is unclear, look at the original. You may render PDF pages to images and view them:
+pdftoppm -r 200 -f N -l N -png {DIR}/source.pdf /tmp/{RUN}-{PMID}-p
+
+Extract every kcat, Km and kcat/Km value that the paper itself measured and prints as a number, for every enzyme,
+variant, substrate and condition, from the tables and the text. One row per value: a table row that gives kcat, Km
+and kcat/Km is three rows. Do not compute values the paper does not print. Skip values printed only as a bound
+(< or >) or as not detected.
+
+Convert each value yourself: kcat in s^-1, Km in mM, kcat/Km in mM^-1 s^-1.
+
+Write {OUT} as JSON:
+{"pmid": "{PMID}", "model": "<your exact model ID, as your system prompt states it>", "note": "", "rows": [
+  {"metric": "kcat | Km | kcat/Km",
+   "value": <the number in the unit below>, "unit": "s^-1 | mM | mM^-1 s^-1",
+   "raw_value": "<the value as printed>", "raw_unit": "<the unit as printed>",
+   "enzyme": "", "organism": "", "variant": "<wild type, or the mutation(s)>",
+   "substrate": "", "cosubstrate": "",
+   "pH": <number or null>, "temperature_C": <number or null>,
+   "conditions": "", "location": "<Table 2, Figure 3 legend, Results ...>"}]}
+If the paper reports no such value, write "rows": [] and say why in "note".
+
+Check the file with: python3 {VALIDATE} {OUT}
+Correct anything it reports. Use only the files in {DIR}. Write nothing except {OUT} and scratch files named
+/tmp/{RUN}-{PMID}-*.
