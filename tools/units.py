@@ -19,9 +19,7 @@ def clean(s):
     s = re.sub('(?<=\\d)\\s*[·⋅]\\s*(?=10)', ' x ', s)  # 2.5·10^4 is a multiplication
     for a, b in (('⫾', '±'), ('⫺', '-'), ('−', '-'), ('–', '-'), ('—', '-'), ('µ', 'u'), ('μ', 'u'),
                  ('×', 'x'), ('⫻', 'x'), ('⋅', '.'), ('·', '.'), (' ', ' '), (' ', ' '),
-                 ('{', ''), ('}', ''),
-                 # slanted and double-bar ≥/≤ (19243936 prints '⩾400', 12637017 '⩽20'): the same bound signs
-                 ('⩾', '≥'), ('⩽', '≤'), ('≧', '≥'), ('≦', '≤')):
+                 ('{', ''), ('}', '')):
         s = s.replace(a, b)
     s = s.replace('␮', 'u').replace('Æ', '.')  # PDF text-layer glyphs: U+242E is a micro sign, 'Æ' a centred dot
     s = re.sub(r'(?<=[\d)])\s*X\s*(?=10)', ' x ', s)  # '1.2 X 10^5': a capital X is a multiplication sign too

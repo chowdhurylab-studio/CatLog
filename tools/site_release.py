@@ -1663,10 +1663,7 @@ NOT_DETECTED_KEY = 'not_detected_download'
 NOT_DETECTED_COLUMNS = ('data_id', 'snapshot_date', 'record_key', 'pubmed_id', 'doi', 'enzyme', 'ec_number', 'organism', 'uniprot_id',
                         'variant', 'construct', 'substrate', 'parameter', 'reported', 'limit_value', 'limit_unit',
                         'as_printed', 'detection_limit_as_printed', 'location', 'printed_line', 'ph', 'temperature_c',
-                        'conditions', 'note',
-                        # added at the end (2026-11-16): the value's ID (the refused file's copies name it) and its trail
-                        'value_id', 'read_by', 'reader_model', 'verifier_model', 'read_prompt', 'verify_prompt', 'task_prompt',
-                        'pipeline_commit', 'provenance_how')
+                        'conditions', 'note')
 REPORTED = {'not_detected': 'not detected', '<': 'below', '>': 'above'}  # catlog_bounds censored -> the download's words
 
 
@@ -1701,11 +1698,9 @@ def not_detected_csv(bounds, out_dir, manifest, record_keys, shown):
                          'as_printed': ' '.join(x for x in (b.get('raw_value') or '', b.get('raw_unit') or '') if x).translate(PDF_GLYPHS),
                          'detection_limit_as_printed': (b.get('limit') or '').translate(PDF_GLYPHS),
                          'location': LOCAL_PATH.sub('', b.get('location') or ''),
-                         'printed_line': _no_stamp((b.get('quote') or '').translate(PDF_GLYPHS)),
+                         'printed_line': (b.get('quote') or '').translate(PDF_GLYPHS),
                          'ph': _csv_num(b.get('ph')), 'temperature_c': _csv_num(b.get('temperature_c')),
-                         'conditions': b.get('conditions') or '', 'note': b.get('metric_note') or '',
-                         'value_id': b.get('row_id') or '',
-                         **_trail(stamp := (b.get('provenance') or {}).get(b['metric']), (stamp or {}).get('how', 'stamped'))})
+                         'conditions': b.get('conditions') or '', 'note': b.get('metric_note') or ''})
             n += 1
             papers.add(str(b['pubmed_id']))
     if not n:
@@ -1727,56 +1722,19 @@ def not_detected_csv(bounds, out_dir, manifest, record_keys, shown):
 # size_bytes, rows, calculated (the lines of a kcat/Km worked out from kcat and Km, value_origin calculated: the site's
 # 'values' are the printed ones, rows - calculated; 2026-11-06 Stats audit X2), records, format}. Sequence
 # clusters (MMseqs2) are left out: heavy compute runs on Nova, not this Mac.
-# Since 2026-11-16 (the paper's data availability statement: "each value with its printed cell and unit, place, quoted
-# line and trail"; the website stays the latest data, the owner: "the website is dynamic") each printed value's line
-# also has value_id (its row_id, which the refused file's reasons name), as_printed, location, check and conversion as
-# the record's drawer gives them, printed_line (whole: the drawer cuts it at 240 characters; empty for a value read off a
-# scanned page's image, page_image yes, as the drawer shows none) and its trail from the export's provenance: read_by,
-# the reader's and verifier's models, the instruction hashes, the code commit (catlog.STAMP) and provenance_how
-# (stamped by `add`, or reconstructed by tools/provenance_backfill.py). A kcat/Km calculated from kcat and Km has none.
 VALUES_STEM = 'catlog-values'
 VALUES_KEY = 'values_download'
-STAMP = ('read_by', 'reader_model', 'verifier_model', 'read_prompt', 'verify_prompt', 'task_prompt', 'pipeline_commit')  # catlog.STAMP
-TRAIL_COLUMNS = (*STAMP, 'provenance_how')
 VALUES_COLUMNS = ('data_id', 'snapshot_date', 'record_key', 'pubmed_id', 'doi', 'ec_number', 'ec_source', 'enzyme', 'organism',
                   'organism_source', 'taxon_id', 'uniprot_id', 'wild_type', 'mutation_signature', 'sequence', 'substrate',
                   'smiles', 'smiles_source', 'substrate_inchikey', 'substrate_chebi', 'substrate_pubchem_cid', 'parameter',
                   'value', 'log10_value', 'unit', 'err', 'value_origin', 'ph', 'temperature_c', 'conditions',
-                  'verification_status', 'accepted_basis', 'condition_flags',
-                  # added at the end (2026-11-16), so a reader that takes the columns by position still finds the others
-                  'value_id', 'as_printed', 'location', 'printed_line', 'page_image', 'check', 'conversion', *TRAIL_COLUMNS)
+                  'verification_status', 'accepted_basis', 'condition_flags')
 VALUE_FIELDS = (('kcat', 'kcat', 'kcat_err'), ('Km', 'km', 'km_err'), ('kcat/Km', 'kcat_over_km', 'kcat_over_km_err'))
 
 
-def _trail(stamp, how):
-    """A value's trail as the downloads give it: catlog.STAMP's fields and provenance_how ('stamped' by add,
-    'reconstructed' by tools/provenance_backfill.py), all empty without a stamp."""
-    return {**{f: str((stamp or {}).get(f) or '') for f in STAMP}, 'provenance_how': how if stamp else ''}
-
-
-# the stamp a publisher prints on every page of a downloaded PDF, which a text layer runs into a table's line: 'Downloaded
-# from portlandpress.com/... by Iowa State University user on 09 September 2026', '... on 23 October 2026 by
-# 2610:130:...' (the downloading computer's address): never published (review of 2026-11-16)
-DOWNLOAD_STAMP = re.compile(r'\s*\bDownloaded from \S+(?: (?:by|for) (?:guest|(?:[\w.&\'-]+ ){1,6}?user))?'
-                            r'(?: on \d{1,2} [A-Z][a-z]+,? \d{4})?(?: by [0-9A-Fa-f:.]{7,}\b)?\.?')
-
-
-def _no_stamp(text):
-    """A printed line without a publisher's download stamp (DOWNLOAD_STAMP)."""
-    return DOWNLOAD_STAMP.sub(' ', text).strip() if 'Downloaded from' in text else text
-
-
-def _line(quote, stand_ins=None):
-    """A quoted line as the downloads give it: whole (the record's drawer cuts it at 240 characters), with the paper's
-    symbols restored (_readable), the characters its text layer lost taken out (_kept) and no download stamp."""
-    q = re.sub(r'\s+', ' ', _no_stamp(_readable(re.sub(r'\s+', ' ', quote or ''), stand_ins))).strip()
-    return _kept(q)[0] if q else ''
-
-
-def values_csv(enriched, out_dir, manifest, wide=None):
+def values_csv(enriched, out_dir, manifest):
     """Write the values download from the bundle's Full data (enriched) into out_dir as catlog-values.<sha12>.csv.gz
-    (UTF-8 CSV, gzip without a name or time) and return its manifest entry. wide: record_key -> the catlog_wide record
-    build made it from (v2_row), for each value's ID, printed line and trail; without it those columns stay empty."""
+    (UTF-8 CSV, gzip without a name or time) and return its manifest entry."""
     data_id, date = manifest['content_sha256'][:10], manifest['generated_at'][:10]
     tmp, n, recs, calc = out_dir / f'{VALUES_STEM}.csv.gz.tmp', 0, 0, 0
     with open(tmp, 'wb') as raw, gzip.GzipFile(filename='', mode='wb', fileobj=raw, mtime=0) as gz, \
@@ -1790,10 +1748,6 @@ def values_csv(enriched, out_dir, manifest, wide=None):
             if not str(r.get('verification_method') or '').startswith(V2_METHOD):
                 continue
             recs += 1
-            w = (wide or {}).get(r.get('record_key') or '') or {}
-            evidence = w.get('evidence') or {}
-            pm = _stand_ins(evidence)  # the paper's ± and × in its text layer, as v2_row reads them
-            proofs = {p.get('metric'): p for p in r.get('proof_lines') or [] if isinstance(p, dict)}
             sig = r.get('mutation_signature')
             base = {'data_id': data_id, 'snapshot_date': date, 'record_key': r.get('record_key') or '',
                     'pubmed_id': r.get('pubmed_id') or '', 'doi': r.get('doi') or '', 'ec_number': r.get('ec_number') or '',
@@ -1816,19 +1770,8 @@ def values_csv(enriched, out_dir, manifest, wide=None):
                 if not isinstance(v, (int, float)) or isinstance(v, bool) or not math.isfinite(v) or v <= 0:
                     continue
                 origin = ('calculated' if r.get('kcat_over_km_origin') == 'calculated' else 'printed') if field == 'kcat_over_km' else 'printed'
-                ev = (evidence.get(metric) or {}) if origin == 'printed' else {}  # a calculated kcat/Km has no printed cell
-                proof = (proofs.get(metric) or {}) if ev else {}
-                img = bool(ev.get('quote_check'))  # read off the page image: the drawer shows no line for it either
-                stamp = (w.get('provenance') or {}).get(metric) if ev else None
                 cw.writerow({**base, 'parameter': metric, 'value': _csv_num(v), 'log10_value': _csv_num(round(math.log10(v), 6)),
-                             'unit': r.get(field + '_unit') or '', 'err': _csv_num(r.get(err)), 'value_origin': origin,
-                             'value_id': ev.get('row_id') or '', 'as_printed': proof.get('printed') or '',
-                             # where it is printed as read (the exporter rewrites some words of proof lines)
-                             'location': LOCAL_PATH.sub('', ev.get('location') or '') if ev else '',
-                             'printed_line': '' if img else _line(ev.get('quote'), pm),
-                             'page_image': 'yes' if img else '',
-                             'check': (proof.get('check') or '').replace(' (see Preparation)', ''),  # no such column here
-                             'conversion': proof.get('conversion') or '', **_trail(stamp, (stamp or {}).get('how', 'stamped'))})
+                             'unit': r.get(field + '_unit') or '', 'err': _csv_num(r.get(err)), 'value_origin': origin})
                 n += 1
                 calc += origin == 'calculated'
     digest = sha(tmp)
@@ -1836,201 +1779,6 @@ def values_csv(enriched, out_dir, manifest, wide=None):
     tmp.replace(path)
     return {'path': f'{out_dir.name}/{path.name}', 'sha256': digest, 'size_bytes': path.stat().st_size, 'rows': n,
             'calculated': calc, 'records': recs, 'format': 'csv.gz'}
-
-
-# The values CatLog refused (2026-11-16; the paper's data availability statement offers "the values CatLog refused, with
-# the reasons"): one line per value of rejected.jsonl, refused when added (code's checks, the second AI check) or
-# removed later by `drop` (a second copy of a stored value, a value printed again from an earlier paper, an audit or
-# another check against the paper), for the papers the site shows from CatLog (as the not-detected file). Never a value
-# stored now (catalog.jsonl or bounds.jsonl: `recover`, a unitfix that brought a refused value back; or this build's
-# export), nor a drop whose value came back under a corrected organism label (catlog.relabelled_drops: a label fix, the
-# owner 2026-11-15). A value refused more than once (by two reads, or refused and later stored and removed) is one line,
-# its latest refusal. reason_code: a fixed code (REFUSED_CODES, REMOVED_CODES; the README defines each); reason: that
-# code's fixed phrase (REASON), with the facts it names: the other value's ID for a copy, a conflict or a value removed
-# before, the earlier paper's PMID for a reprint, the empty fields. The recorded reasons are the agents' own notes and
-# are never published (WEBSITE.md: no model reasoning, no verify notes; review of 2026-11-16). value and unit: code's
-# conversion, when it made one. printed_line: none for a page-image reading or a quote code did not find in the paper
-# text. The trail: the line's own stamp, else the one tools/provenance_backfill.py rebuilt, else empty. Manifest
-# refused_download {path, sha256, size_bytes, rows (= values), papers, when_added, removed_later, format}.
-REFUSED_STEM = 'catlog-refused'
-REFUSED_KEY = 'refused_download'
-REFUSED_COLUMNS = ('data_id', 'snapshot_date', 'value_id', 'refused', 'refused_on', 'reason_code', 'reason', 'pubmed_id', 'doi',
-                   'enzyme', 'ec_number', 'organism', 'uniprot_id', 'variant', 'construct', 'substrate', 'parameter', 'reported',
-                   'as_printed', 'value', 'unit', 'location', 'printed_line', 'page_image', 'ph', 'temperature_c', 'conditions',
-                   *TRAIL_COLUMNS)
-# code of a value refused when added, from the start of its recorded why
-REFUSED_CODES = ((re.compile(r'^verifier_reject\b'), 'second_check'),
-                 (re.compile(r'^(?:value|marker)_not_in_quote\b'), 'not_in_quoted_line'),
-                 (re.compile(r'^quote_not_in_paper\b'), 'quote_not_in_paper'),
-                 (re.compile(r'^missing:'), 'missing_field'),
-                 (re.compile(r'^unknown_\w*unit\b'), 'unit_not_recognised'),
-                 (re.compile(r'^(?:conflicts with|same printed cell)\b'), 'conflict'),
-                 (re.compile(r'^audit dropped this (?:measurement|censored value) before\b'), 'removed_before'),
-                 (re.compile(r'^beyond_physical_limit\b'), 'above_physical_limit'),
-                 (re.compile(r'^ratio_non_closure\b'), 'kcat_km_mismatch'),
-                 (re.compile(r'^non_positive_value\b'), 'zero_or_negative'),
-                 (re.compile(r'^(?:bound_or_range|range_not_a_bound|censored_sign_mismatch)\b'), 'bound_or_range'))
-# code of a value removed later, from the start of the drop's why (after 'audit: '; review of 2026-11-16: matched
-# anywhere, 'reprint' had labelled a paper's own repeats as earlier papers' and its rows printed under a wrong label)
-REMOVED_CODES = ((re.compile(r'^(?:re-read (?:copy|duplicate)|duplicate\b|reprint of [0-9a-f]{16}|copy of (?:table \S+ )?row\b|'
-                             r'same measurement as row\b)', re.I), 'copy'),
-                 (re.compile(r'^(?:reprint(?:ed)?\b|printed again from\b|(?:kcat|km|kcat/km) reprinted from\b)', re.I), 'reprinted'),
-                 (re.compile(r'^(?:ref\.? \d+|[A-Z][\w-]+(?: et al\.?)?,? \d{4}) \([^)]*\bPMID\b'), 'reprinted'))
-REASON = {'second_check': 'The second AI check refused it against the paper.',
-          'not_in_quoted_line': 'The value is not in the line quoted for it.',
-          'quote_not_in_paper': 'The quoted line is not in the paper text.',
-          'missing_field': 'Not given: {}.',
-          'unit_not_recognised': 'Code could not convert its unit.',
-          'conflict': 'CatLog stores another number for this record and parameter{}.',
-          'removed_before': 'Read again after an audit had removed it{}.',
-          'above_physical_limit': 'Above the physical limit code allows.',
-          'kcat_km_mismatch': 'Its printed kcat/Km and kcat ÷ Km differed 5 times or more (a rule since dropped).',
-          'zero_or_negative': 'Printed as zero or less.',
-          'bound_or_range': 'A bound or range code could not store as printed.',
-          'other': 'Refused when added.',
-          'copy': 'Stored twice; the other copy stays{}.',
-          'reprinted': 'Printed again from an earlier paper{}.',
-          'paper_check': 'A later check against the paper found it wrong.'}
-FIELD_WORD = {'raw_unit': 'unit', 'location': 'place in the paper', 'raw_value': 'printed value', 'quote': 'quoted line'}
-VALUE_ID = re.compile(r'\b[0-9a-f]{16}\b')
-CATALOG_UNIT = {'s^-1': 's^(-1)', 'mM': 'mM', 'mM^-1 s^-1': 's^(-1)*mM^(-1)'}  # catlog.py's units as the values file spells them
-
-
-def refusal(r):
-    """(refused, reason_code, reason) of one rejected.jsonl line: 'when added', or 'removed later' (`drop` stamps
-    `dropped` and starts its why with 'audit: '); a fixed code; its fixed phrase with the facts it names (REASON)."""
-    why = [str(x) for x in (r.get('why') if isinstance(r.get('why'), list) else [r.get('why')]) if x]
-    text = '; '.join(why)
-    later = bool(r.get('dropped'))
-    if later:
-        text = re.sub(r'^audit:\s*', '', text)
-    code = next((c for pat, c in (REMOVED_CODES if later else REFUSED_CODES) if pat.search(text)),
-                'paper_check' if later else 'other')
-    fact = ''
-    if code == 'missing_field':
-        fact = ', '.join(dict.fromkeys(FIELD_WORD.get(f, f.replace('_', ' ')) for w in why for f in re.findall(r'^missing:(\w+)', w)))
-    elif code in ('conflict', 'removed_before', 'copy'):
-        other = VALUE_ID.search(text)
-        fact = f' (value {other.group(0)})' if other and other.group(0) != r.get('row_id') else ''
-    elif code == 'reprinted':
-        own = str(r.get('pmid') or '')
-        cited = [x for pair in re.findall(r'\bPMID[:\s]\s*(\d{5,9})\b|\btexts/(\d{5,9})\b', text) for x in pair if x and x != own]
-        fact = f' (PMID {cited[0]})' if cited else ''
-    return ('removed later' if later else 'when added'), code, REASON[code].format(fact)
-
-
-def backfill_stamps():
-    """row_id -> the catlog.STAMP values tools/provenance_backfill.py rebuilt for a line added before stamping
-    (sources/provenance_backfill.tsv, how 'reconstructed'; catlog.backfill_stamps); {} without the file."""
-    p = ROOT / 'sources' / 'provenance_backfill.tsv'
-    if not p.exists():
-        return {}
-    with open(p, newline='', encoding='utf-8') as fh:
-        return {r['row_id']: tuple(r.get(k) or '' for k in STAMP) for r in csv.DictReader(fh, delimiter='\t')
-                if r.get('row_id') and r.get('how') == 'reconstructed'}
-
-
-def relabelled(stored):
-    """The drops whose value came back under a corrected organism label: catlog.relabelled_drops (log.tsv `relabelled
-    <dropped> <new>`, a second correction followed to a row not dropped since), with `stored` as the rows present."""
-    hexid, back = re.compile(r'[0-9a-f]{16}'), {}
-    with open(ROOT / 'log.tsv', encoding='utf-8') as fh:
-        for line in fh:
-            f = line.rstrip('\n').split('\t')
-            if len(f) >= 7 and f[2] == 'relabelled' and hexid.fullmatch(f[3]) and hexid.fullmatch(f[4]):
-                back[f[3]] = f[4]
-    out = set()
-    for d, n in back.items():
-        seen = {d}
-        while n not in stored and n in back and n not in seen:
-            seen.add(n)
-            n = back[n]
-        if n in stored:
-            out.add(d)
-    return out
-
-
-def refusal_inputs():
-    """rejected.jsonl's lines and the row_ids of the values stored now (catalog.jsonl and bounds.jsonl), read under
-    catlog.py's lock file (shared: no add or drop writes meanwhile), right after build's export."""
-    with open(ROOT / 'catalog.jsonl.lock', 'a') as lock:
-        fcntl.flock(lock, fcntl.LOCK_SH)
-        try:
-            stored = {m.decode() for f in ('catalog.jsonl', 'bounds.jsonl') if (ROOT / f).exists()
-                      for m in re.findall(rb'"row_id": "(\w+)"', (ROOT / f).read_bytes())}
-            rejected = []
-            with open(ROOT / 'rejected.jsonl', encoding='utf-8') as fh:
-                for line in fh:
-                    try:
-                        rejected.append(json.loads(line))
-                    except ValueError:  # a write killed half-way leaves a cut-off last line (catlog.catalog_lock removes it)
-                        pass
-        finally:
-            fcntl.flock(lock, fcntl.LOCK_UN)
-    return rejected, stored
-
-
-def refused_csv(rejected, out_dir, manifest, shown, stored, backfill=None, label_fixed=frozenset()):
-    """Write the refused values (rejected: rejected.jsonl's lines, parsed) into out_dir as catlog-refused.<sha12>.csv.gz
-    (UTF-8 CSV, gzip without a name or time) and return its manifest entry, or None when there is none. shown: the
-    papers the site shows from CatLog; stored: row_ids of the values stored now or in this build's export (never
-    refused); backfill: backfill_stamps(); label_fixed: relabelled() (label corrections, not refusals)."""
-    data_id, date = manifest['content_sha256'][:10], manifest['generated_at'][:10]
-    mine = [r for r in rejected if str(r.get('pmid') or '') in shown and r.get('row_id') not in stored
-            and r.get('row_id') not in label_fixed]
-    by_paper = defaultdict(dict)  # the paper's ± and × in its text layer, from all its refused lines (as _stand_ins)
-    for i, r in enumerate(mine):
-        by_paper[str(r.get('pmid') or '')][i] = r
-    stand_ins = {p: _stand_ins(rows) for p, rows in by_paper.items()}
-    latest = {}
-    for r in mine:
-        pmid = str(r.get('pmid') or '')
-        refused, code, reason = refusal(r)
-        if any(f in r for f in STAMP):  # as catlog.provenance: the line's own stamp, else a rebuilt one
-            stamp, how = {f: r.get(f) for f in STAMP}, 'stamped'
-        elif r.get('row_id') in (backfill or {}):
-            stamp, how = dict(zip(STAMP, backfill[r['row_id']])), 'reconstructed'
-        else:
-            stamp, how = None, ''
-        v, img = r.get('value'), bool(r.get('quote_check'))
-        ok = isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v)
-        unfound = any('quote_not_in_paper' in str(w) for w in (r.get('why') if isinstance(r.get('why'), list) else [r.get('why')]))
-        line = {'data_id': data_id, 'snapshot_date': date, 'value_id': r.get('row_id') or '', 'refused': refused,
-                'refused_on': str((r.get('dropped') if r.get('dropped') else r.get('checked')) or '')[:10],
-                'reason_code': code, 'reason': reason, 'pubmed_id': pmid if pmid.isdigit() else '',
-                'doi': re.sub('[‐-―−]', '-', r.get('doi') or ''), 'enzyme': r.get('enzyme') or '',
-                'ec_number': r.get('ec') or '', 'organism': r.get('organism') or '', 'uniprot_id': r.get('uniprot') or '',
-                'variant': r.get('variant') or '', 'construct': r.get('construct') or '',
-                'substrate': r.get('substrate') or '', 'parameter': r.get('metric') or '',
-                'reported': REPORTED.get(r.get('censored') or '', ''),
-                'as_printed': _kept(_readable(_printed_text(r.get('raw_value'), r.get('raw_unit'),
-                                                            r.get('unit_for_conversion') or ''), stand_ins.get(pmid)))[0],
-                'value': _csv_num(v) if ok else '', 'unit': CATALOG_UNIT.get(r.get('unit'), r.get('unit') or '') if ok else '',
-                'location': LOCAL_PATH.sub('', r.get('location') or ''),
-                'printed_line': '' if img or unfound else _line(r.get('quote'), stand_ins.get(pmid)),
-                'page_image': 'yes' if img else '', 'ph': _csv_num(r.get('pH')),
-                'temperature_c': _csv_num(r.get('temperature_C')), 'conditions': _plain(_facts(r.get('conditions') or '')),
-                **_trail(stamp, how)}
-        when = (line['refused_on'], line['refused'] == 'removed later')  # a value refused more than once: its latest
-        if line['value_id'] not in latest or when >= latest[line['value_id']][0]:
-            latest[line['value_id']] = (when, line)
-    lines = [line for _, line in latest.values()]
-    if not lines:
-        return None
-    lines.sort(key=lambda x: (x['pubmed_id'] or x['doi'], x['parameter'], x['value_id']))  # the same lines give the same bytes
-    tmp = out_dir / f'{REFUSED_STEM}.csv.gz.tmp'
-    with open(tmp, 'wb') as raw, gzip.GzipFile(filename='', mode='wb', fileobj=raw, mtime=0) as gz, \
-            io.TextIOWrapper(gz, encoding='utf-8', newline='') as fh:
-        cw = csv.DictWriter(fh, REFUSED_COLUMNS, lineterminator='\n')
-        cw.writeheader()
-        cw.writerows(lines)
-    digest = sha(tmp)
-    path = out_dir / f'{REFUSED_STEM}.{digest[:12]}.csv.gz'
-    tmp.replace(path)
-    return {'path': f'{out_dir.name}/{path.name}', 'sha256': digest, 'size_bytes': path.stat().st_size, 'rows': len(lines),
-            'papers': len({x['pubmed_id'] or x['doi'] for x in lines}),
-            'when_added': sum(x['refused'] == 'when added' for x in lines),
-            'removed_later': sum(x['refused'] == 'removed later' for x in lines), 'format': 'csv.gz'}
 
 
 def catlog_unit(metric):
@@ -2148,11 +1896,10 @@ def _readable(text, stand_ins=None):
     t = str(text or '').translate(PDF_GLYPHS)
     if not CJK.search(cjk := t.translate(PDF_CJK)):
         t = cjk
-    # before the stand-ins: '2\x8a.6' is 2.6 where \x8a also stands for ± (review of 2026-11-16: '2±.6' in 5 papers)
-    t = re.sub(r'(?<=\d)[\x80-\x9f](?=\.\d)', '', t)
     for c, sym in sorted((stand_ins or {}).items()):
         t = re.sub(rf'(?:\^\s*)?{re.escape(c)}(?:\s*\^)?' if sym == '±' else re.escape(c), sym, t)
-    return re.sub(r'(?<=[A-Za-z)])\s?[\x01-\x08]\s?(?=1(?!\d))|(?<=10)[\x01-\x08](?=\d)', '−', t)
+    t = re.sub(r'(?<=[A-Za-z)])\s?[\x01-\x08]\s?(?=1(?!\d))|(?<=10)[\x01-\x08](?=\d)', '−', t)
+    return re.sub(r'(?<=\d)[\x80-\x9f](?=\.\d)', '', t)
 
 
 def _kept(text):
@@ -2220,7 +1967,7 @@ def v2_row(w):
         raw = _kept(_readable(_printed_text(ev.get('raw_value'), ev.get('raw_unit'), ufc), pm))[0]
         cell = _kept(_readable(str(ev.get('raw_value') or '').strip(), pm))[0]  # the printed cell alone, as raw
         excerpt, line, lost = '', '', False
-        q = re.sub(r'\s+', ' ', _no_stamp(_readable(re.sub(r'\s+', ' ', ev.get('quote') or ''), pm))).strip()
+        q = re.sub(r'\s+', ' ', _readable(re.sub(r'\s+', ' ', ev.get('quote') or ''), pm)).strip()
         if q and not img:  # only a line code found in the paper text
             if q in seen:
                 excerpt = ' (same line as above)'
@@ -2397,7 +2144,6 @@ def build():
     """Merged catalog -> the existing exporter -> site_build/bundle-<stamp>. Nothing public happens."""
     want = base_signature()
     run([sys.executable, str(ROOT / 'catlog.py'), 'export'], cwd=ROOT)  # catlog_wide.jsonl as of now
-    rejected, stored = refusal_inputs()  # the refused file's lines, read with the export (another chat may add meanwhile)
     # what this bundle is built from, taken now: another chat may commit or export while the merge and exporter run
     wide_sha = sha(ROOT / 'catlog_wide.jsonl')
     commit = run(['git', 'rev-parse', '--short', 'HEAD'], cwd=ROOT, capture=True).stdout.strip()
@@ -2458,20 +2204,10 @@ def build():
     manifest = _manifest_set(bundle / 'data' / 'manifest.js', COMPARISON_KEY, comparison)
     nd = not_detected_csv(ROOT / 'catlog_bounds.jsonl', bundle / 'data', manifest,
                           {m: k for k, m in mids.items()}, {str(p) for p in papers})
-    vals = values_csv(bundle / manifest['enriched_download']['path'], bundle / 'data', manifest,
-                      {r['measurement_key']: w for w, r in pairs})  # each value's ID, printed line and trail
+    vals = values_csv(bundle / manifest['enriched_download']['path'], bundle / 'data', manifest)
     manifest = _manifest_set(bundle / 'data' / 'manifest.js', VALUES_KEY, vals)  # one value per row, read from the paper
     print(f"  values file: {vals['rows'] - vals['calculated']:,} printed values and {vals['calculated']:,} kcat/Km calculated "
           f"from kcat and Km, of {vals['records']:,} records read from the paper -> {vals['path']}")
-    # the values CatLog refused, with the reasons: never one now in the catalogue or in this build's export
-    keep = stored | {i for w, _ in pairs for i in w.get('row_ids') or []} | {  # and the export's censored values
-        m.decode() for m in re.findall(rb'"row_id": "(\w+)"', (ROOT / 'catlog_bounds.jsonl').read_bytes())}
-    refused = refused_csv(rejected, bundle / 'data', manifest, {str(p) for p in papers}, keep, backfill_stamps(),
-                          relabelled(keep))
-    if refused:
-        manifest = _manifest_set(bundle / 'data' / 'manifest.js', REFUSED_KEY, refused)
-        print(f"  refused: {refused['rows']:,} values from {refused['papers']:,} papers ({refused['when_added']:,} when added, "
-              f"{refused['removed_later']:,} removed later) -> {refused['path']}")
     if nd:  # the values the papers report as not detected or only as a bound: their own download
         manifest = _manifest_set(bundle / 'data' / 'manifest.js', NOT_DETECTED_KEY, nd)
         print(f"  not detected or a bound: {nd['rows']:,} values from {nd['papers']:,} papers -> {nd['path']}")
@@ -2563,7 +2299,7 @@ def _load(name, path):
 def _refs(manifest):
     paths = set(manifest.get('detail_shards') or []) | set(manifest.get('record_chunks') or [])
     for key in ('table_download', 'enriched_download', 'viewer_index', 'full_data_download', COMPARISON_KEY, NOT_DETECTED_KEY,
-                VALUES_KEY, REFUSED_KEY):
+                VALUES_KEY):
         if (manifest.get(key) or {}).get('path'):
             paths.add(manifest[key]['path'])
     return {'tools/catlog-static/' + p for p in paths}
@@ -3202,7 +2938,7 @@ def _comparison_section(manifest, receipt, q=None):
 def _saved(date, part):
     """A download's file name as the site saves it (catlog-static.js: the snapshot's date, catlog-2026-10-18-full.jsonl.gz),
     which the Guide's Data ID check names too; the server's name carries the data ID instead."""
-    return f"catlog-{date}-{part}.{'csv' if part in ('database-comparison', 'not-detected', 'values', 'refused') else 'jsonl'}.gz"
+    return f"catlog-{date}-{part}.{'csv' if part in ('database-comparison', 'not-detected', 'values') else 'jsonl'}.gz"
 
 
 def _values_count(entry):
@@ -3290,8 +3026,8 @@ def _readme(manifest, receipt, quality=(), q=None):
                'values they sit beside, empty when the variant has no measured value); pubmed_id, doi, enzyme, ec_number, organism, '
                'uniprot_id, variant, construct, substrate; parameter (kcat, Km or kcat/Km); reported (not detected, below '
                'or above); limit_value and limit_unit (the printed limit in s⁻¹, mM or mM⁻¹ s⁻¹, when one is printed); '
-               'as_printed; detection_limit_as_printed; location; printed_line; ph; temperature_c; conditions; note; '
-               'value_id and the trail as in Values. Load with pandas.read_csv(path).']
+               'as_printed; detection_limit_as_printed; location; printed_line; ph; temperature_c; conditions; note. '
+               'Load with pandas.read_csv(path).']
               if manifest.get(NOT_DETECTED_KEY) else []),
             *([f'Values ({manifest[VALUES_KEY]["path"]} on the server): gzip-compressed CSV, one value per line, from '
                f'the {manifest[VALUES_KEY]["records"]:,} records of papers read in full ({_values_count(manifest[VALUES_KEY])}), '
@@ -3302,39 +3038,9 @@ def _readme(manifest, receipt, quality=(), q=None):
                'log10_value, unit, err (the printed ±, converted with the value), value_origin (printed, or calculated '
                'for a kcat/Km worked out from kcat and Km); ph, temperature_c, conditions (the assay and per-value notes: '
                'apparent, Hill fit, measured as Ki, the cosubstrate), verification_status, accepted_basis and '
-               'condition_flags as in the Full data; then, for each printed value, value_id (the value\'s ID, which the '
-               'reasons in the refused file name), as_printed (the printed cell and unit), location, printed_line (the '
-               'line it is printed in; empty for a value read off a scanned page\'s image, page_image yes), check '
-               '(confirmed, or what the second AI check corrected) and conversion, and the trail: read_by (reader, or '
-               'verifier (missed values) for a value the second check found the reader had left out), reader_model and '
-               'verifier_model, read_prompt, verify_prompt and task_prompt (the first 12 characters of the SHA-256 of the '
-               'instructions each followed; empty where that cannot be known), pipeline_commit (the code\'s git commit, '
-               '+dirty when the reading code had changes not yet committed) and provenance_how (stamped when the value '
-               'was added; reconstructed from the agents\' logs for values added before 21 October 2026). A kcat/Km '
-               'calculated from kcat and Km has none of these. CatLog\'s reading is CC BY 4.0; a substrate structure '
-               'keeps its source\'s terms (smiles_source; SKiD: CC BY-NC-ND 4.0). Load with pandas.read_csv(path).']
+               'condition_flags as in the Full data. CatLog\'s reading is CC BY 4.0; a substrate structure keeps its '
+               'source\'s terms (smiles_source; SKiD: CC BY-NC-ND 4.0). Load with pandas.read_csv(path).']
               if manifest.get(VALUES_KEY) else []),
-            *([f'Refused, {_saved(date, "refused")} ({manifest[REFUSED_KEY]["path"]} on the server): gzip-compressed CSV, '
-               f'one line per value CatLog refused in the papers read in full ({manifest[REFUSED_KEY]["rows"]:,} values '
-               f'from {manifest[REFUSED_KEY]["papers"]:,} papers so far: {manifest[REFUSED_KEY]["when_added"]:,} refused '
-               f'when added, {manifest[REFUSED_KEY]["removed_later"]:,} removed later; a value refused twice is given '
-               'once, with its latest refusal). They are in no other file. '
-               'Columns: data_id, snapshot_date; value_id; refused (when added, by code\'s checks or the second AI '
-               'check, or removed later) and refused_on; reason_code; reason (a fixed sentence for the code, with the ID '
-               'of the other value for a copy, a conflict or a value removed before, and the earlier paper\'s PMID for a '
-               'value printed again); pubmed_id, doi, enzyme, '
-               'ec_number, organism, uniprot_id, variant, construct, substrate (as read); parameter; reported (not '
-               'detected, below or above, for a value printed that way); as_printed; value and unit (code\'s conversion, '
-               'when it made one); location; printed_line (empty where the quoted line was not found in the paper text); '
-               'page_image; ph; temperature_c; conditions; and the trail as in Values. reason_code for a value refused '
-               'when added: second_check (the second AI check refused it), '
-               'not_in_quoted_line, quote_not_in_paper, missing_field, unit_not_recognised, conflict (CatLog stores '
-               'another value in its place), removed_before (read again after an audit removed it), '
-               'above_physical_limit, kcat_km_mismatch, zero_or_negative, bound_or_range, other; for a value removed '
-               'later: copy (the same value was stored twice; the other copy stays), reprinted (printed again from an '
-               'earlier paper), paper_check (another check against the paper found it wrong: a partial constant, a '
-               'wrong label, unit or scale, not a kcat, Km or kcat/Km). Load with pandas.read_csv(path).']
-              if manifest.get(REFUSED_KEY) else []),
             'Records of one paper share pubmed_id: split training and test sets by paper or by primary_uniprot_id.']),
         ('Units', [
             'kcat in s⁻¹ (kcat_unit "s^(-1)"); Km and Ki in mM (km_unit, ki_unit "mM"); kcat/Km in mM⁻¹ s⁻¹ '
@@ -3386,8 +3092,6 @@ def _readme(manifest, receipt, quality=(), q=None):
                f"{manifest[VALUES_KEY]['rows']:,} lines."] if manifest.get(VALUES_KEY) else []),
             *([f"Not detected file {Path(manifest[NOT_DETECTED_KEY]['path']).name}, SHA-256 "
                f"{manifest[NOT_DETECTED_KEY]['sha256']}, {manifest[NOT_DETECTED_KEY]['rows']:,} lines."] if manifest.get(NOT_DETECTED_KEY) else []),
-            *([f"Refused file {Path(manifest[REFUSED_KEY]['path']).name}, SHA-256 {manifest[REFUSED_KEY]['sha256']}, "
-               f"{manifest[REFUSED_KEY]['rows']:,} lines."] if manifest.get(REFUSED_KEY) else []),
             f"Source file this snapshot was built from: SHA-256 {manifest['source_sha256']}.",
             f"Records with a sequence: {cov.get('sequence', 0):,} (wild-type sequence {cov.get('wild_type_sequence', 0):,}, "
             f"variant sequence {cov.get('variant_sequence', 0):,}); records with SMILES: {cov.get('smiles', 0):,}."])]
@@ -3550,7 +3254,7 @@ def stage(note=None):
     manifest = builder.load_manifest(bundle / 'data' / 'manifest.js')
     assert manifest['web_only'] and not manifest['record_chunks'] and 'full_data_download' not in manifest
     paths = manifest['detail_shards'] + [manifest[k]['path'] for k in ('table_download', 'enriched_download', COMPARISON_KEY,
-                                                                       NOT_DETECTED_KEY, VALUES_KEY, REFUSED_KEY) if k in manifest]
+                                                                       NOT_DETECTED_KEY, VALUES_KEY) if k in manifest]
     for rel in paths:  # content-addressed data files: same name = same bytes
         src, dst = bundle / rel, cat / rel
         if dst.exists():

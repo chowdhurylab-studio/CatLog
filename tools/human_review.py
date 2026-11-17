@@ -2285,9 +2285,6 @@ def audit_detail():
 
 
 SWEEP_COPY = re.compile(r"(?i)re-?read (?:duplicate|copy)|reworded|duplicate\b|same measurement as row")  # the value stays in another row
-# a value right as its paper printed it, which the paper's authors corrected later in a correction notice (the corrected
-# value is stored under the notice's own PMID): not CatLog's error (40465391 and its corrigendum 41287407, 2026-11-17)
-SUPERSEDED = re.compile(r"(?i)superseded by the authors' correction\b")
 UNIT_FIXED = re.compile(r'unit corrected to (.+?) \(\d{4}-\d{2}-\d{2}')  # catlog.cmd_unitfix's verify_note
 AUDIT_ROW = re.compile(r'\(row ([0-9a-f]{16})\)')  # a unitfix reason naming the audited row it follows ('audit <day> (row <id>)')
 
@@ -2311,7 +2308,7 @@ def catlog_errors():
     misprints, also in unit_fix), sweep (values removed by a `drop` that no audit made: the sweeps of
     the catalog for an error an audit or check had found; reprinted and partial_constant say how many were values
     reprinted from an earlier paper and per-product partial constants; a copy of a value another row keeps is not an
-    error and not counted, nor a value its authors corrected later in a correction notice, SUPERSEDED),
+    error and not counted),
     unit_fix (values whose unit was corrected away from the printed one because the paper's unit is misprinted:
     cmd_unitfix's verify_note, in the catalog or in rows removed since, the two units compared as units.normalize reads
     them; a fix back to the printed unit is a reading change, counted under audit when an audit made it, else not an
@@ -2357,7 +2354,7 @@ def catlog_errors():
     audit_fixed.update({rid: p for rid, (e, p) in last.items() if e == 'audit_drop' and rid in label})  # a label an audit found
     for f in evs:
         if f[2] == 'drop' and len(f) > 4 and f[3] not in incat and f[3] not in audit and f[3] not in sweep \
-                and f[3] not in label and not SWEEP_COPY.match(f[4]) and not SUPERSEDED.match(f[4]):
+                and f[3] not in label and not SWEEP_COPY.match(f[4]):
             sweep[f[3]] = f[1]
             kinds['reprinted' if re.search(r'(?i)reprint', f[4]) else 'partial_constant'
                   if re.match(r'(?i)partial constant', f[4]) else 'other'] += 1
