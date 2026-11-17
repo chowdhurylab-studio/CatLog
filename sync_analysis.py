@@ -76,6 +76,10 @@ FILES = (
        ('statistics/human_review_freeze/freeze.py', CATLOG, 'paper/evidence/human_review_freeze_20261116/freeze.py'),
        ('statistics/reprint_sweep/build.py', CATLOG, 'paper/evidence/reprint_sweep_20261116/build.py'),
        ('statistics/numbers/numbers_build.py', CATLOG, 'paper/manuscript/numbers_build.py')]
+    # the Methods' checks of the tests and the catalogue (17 Nov 2026): the locked test's registered sensitivity
+    # analysis and the judging rules, the repeat launch, the cost, the fields code links to each record
+    + [(f'statistics/{d}/{d}.py', CATLOG, f'paper/evidence/{d}_20261117/{d}.py')
+       for d in ('sensitivity', 'stability', 'cost', 'linked_fields')]
     + [(f'statistics/numbers/rederive/{n}.py', CATLOG, f'paper/evidence/rederive_20261101/{n}.py')
        for n in ('rd_lib', 'rd_L13_multiplier', 'rd_L32_closure', 'rd_L46_brenda', 'rd_C56_origin')]
     # the figures and Extended Data
