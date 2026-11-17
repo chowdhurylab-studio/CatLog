@@ -203,8 +203,10 @@ are, but they need the earlier system (`REALKCAT_DIR`).
 
 This copy is made from a commit of the authors' working repository, which each commit message here names. The
 `pipeline_commit` stamped on each value names a commit of that repository, not of this one. The paper's counts come
-from its tag `paper-catalog-freeze-20261116`; `sync_from_catlog.py --ref paper-catalog-freeze-20261116` makes this
-copy as of that tag (the files that come from disk aside). The locked test's CatLog run used the tag
+from its tag `paper-catalog-freeze-20261116`. This repository's tag of the same name (branch
+`paper-freeze-20261116`) is the code as it was then, made with `sync_from_catlog.py --ref
+paper-catalog-freeze-20261116 --older` (the files that come from disk aside); `main` has the code since. The locked
+test's CatLog run used the tag
 `catlog-freeze-20261109`; the rules here are written for later code and stop on that tag, so a copy of it needs rule
 changes first.
 

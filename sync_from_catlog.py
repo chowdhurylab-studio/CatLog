@@ -690,6 +690,8 @@ def main():
     how.add_argument('--working-tree', action='store_true', help='copy the files as they are on disk instead')
     ap.add_argument('--dest', default=str(HERE), help='where to write (default: the folder of this script)')
     ap.add_argument('--check', action='store_true', help='apply and check everything, write nothing')
+    ap.add_argument('--older', action='store_true',
+                    help='copy an older commit (a freeze tag): files listed in INCLUDE that it does not have yet are skipped, not refused')
     a = ap.parse_args()
     src, dest = Path(a.source).resolve(), Path(a.dest).resolve()
     if not (src / 'catlog.py').is_file():
@@ -704,7 +706,11 @@ def main():
     errors = []
     new = sorted(p for p in files if p not in INCLUDE and not any(fnmatch.fnmatchcase(p, x) for x in EXCLUDE))
     errors += [f'{p}: new in the source; read it, then list it in INCLUDE, DISK or EXCLUDE' for p in new]
-    errors += [f'{p}: listed in INCLUDE but not in the source' for p in INCLUDE if p not in files]
+    missing = [p for p in INCLUDE if p not in files]
+    if a.older and missing:
+        print(f'--older: {len(missing)} listed file(s) not in this commit yet, skipped: ' + ', '.join(missing))
+    else:
+        errors += [f'{p}: listed in INCLUDE but not in the source' for p in missing]
     content, modes, original = {}, {}, {}
     for p in INCLUDE:
         if p in files:
