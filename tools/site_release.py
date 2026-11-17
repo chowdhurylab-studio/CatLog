@@ -1872,7 +1872,10 @@ REFUSED_CODES = ((re.compile(r'^verifier_reject\b'), 'second_check'),
                  (re.compile(r'^(?:bound_or_range|range_not_a_bound|censored_sign_mismatch)\b'), 'bound_or_range'))
 # code of a value removed later, from the start of the drop's why (after 'audit: '; review of 2026-11-16: matched
 # anywhere, 'reprint' had labelled a paper's own repeats as earlier papers' and its rows printed under a wrong label)
-REMOVED_CODES = ((re.compile(r'^(?:re-read (?:copy|duplicate)|duplicate\b|reprint of [0-9a-f]{16}|copy of (?:table \S+ )?row\b|'
+# superseded (2026-11-17, the Europe PMC chat: 40465391's 40 values its authors' corrigendum 41287407 recalculated):
+# right as first printed, so never "found it wrong"; human_review.catlog_errors leaves them out of CatLog's own errors too
+REMOVED_CODES = ((re.compile(r"^superseded by the authors'? correction\b", re.I), 'superseded'),
+                 (re.compile(r'^(?:re-read (?:copy|duplicate)|duplicate\b|reprint of [0-9a-f]{16}|copy of (?:table \S+ )?row\b|'
                              r'same measurement as row\b)', re.I), 'copy'),
                  (re.compile(r'^(?:reprint(?:ed)?\b|printed again from\b|(?:kcat|km|kcat/km) reprinted from\b)', re.I), 'reprinted'),
                  (re.compile(r'^(?:ref\.? \d+|[A-Z][\w-]+(?: et al\.?)?,? \d{4}) \([^)]*\bPMID\b'), 'reprinted'))
@@ -1890,6 +1893,7 @@ REASON = {'second_check': 'The second AI check refused it against the paper.',
           'other': 'Refused when added.',
           'copy': 'Stored twice; the other copy stays{}.',
           'reprinted': 'Printed again from an earlier paper{}.',
+          'superseded': 'Its authors corrected it later; the corrected value is stored under their correction{}.',
           'paper_check': 'A later check against the paper found it wrong.'}
 FIELD_WORD = {'raw_unit': 'unit', 'location': 'place in the paper', 'raw_value': 'printed value', 'quote': 'quoted line'}
 VALUE_ID = re.compile(r'\b[0-9a-f]{16}\b')
@@ -1912,7 +1916,7 @@ def refusal(r):
     elif code in ('conflict', 'removed_before', 'copy'):
         other = VALUE_ID.search(text)
         fact = f' (value {other.group(0)})' if other and other.group(0) != r.get('row_id') else ''
-    elif code == 'reprinted':
+    elif code in ('reprinted', 'superseded'):  # the earlier paper's PMID, or the correction's
         own = str(r.get('pmid') or '')
         cited = [x for pair in re.findall(r'\bPMID[:\s]\s*(\d{5,9})\b|\btexts/(\d{5,9})\b', text) for x in pair if x and x != own]
         fact = f' (PMID {cited[0]})' if cited else ''
@@ -3332,7 +3336,8 @@ def _readme(manifest, receipt, quality=(), q=None):
                'another value in its place), removed_before (read again after an audit removed it), '
                'above_physical_limit, kcat_km_mismatch, zero_or_negative, bound_or_range, other; for a value removed '
                'later: copy (the same value was stored twice; the other copy stays), reprinted (printed again from an '
-               'earlier paper), paper_check (another check against the paper found it wrong: a partial constant, a '
+               'earlier paper), superseded (its authors corrected it later; the corrected value is stored under their '
+               'correction), paper_check (another check against the paper found it wrong: a partial constant, a '
                'wrong label, unit or scale, not a kcat, Km or kcat/Km). Load with pandas.read_csv(path).']
               if manifest.get(REFUSED_KEY) else []),
             'Records of one paper share pubmed_id: split training and test sets by paper or by primary_uniprot_id.']),
