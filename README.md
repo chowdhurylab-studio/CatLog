@@ -210,7 +210,8 @@ licences allow it, since many publishers' licences restrict systematic downloadi
 
 ## Licence
 
-Not chosen yet: a licence will be added before this repository is made public.
+MIT (`LICENSE`). It covers this code and its prompts; the catalogue's data are published on the CatLog website under
+CC BY 4.0.
 
 ## How this copy is made
 

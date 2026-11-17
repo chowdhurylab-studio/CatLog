@@ -37,7 +37,7 @@ import argparse, ast, fnmatch, getpass, hashlib, io, json, os, re, subprocess, s
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-OWN = {'README.md', 'requirements.txt', '.gitignore', 'sync_from_catlog.py', '.claude/settings.example.json'}
+OWN = {'README.md', 'LICENSE', 'requirements.txt', '.gitignore', 'sync_from_catlog.py', '.claude/settings.example.json'}
 MANAGED = ('catlog.py', 'config.json', 'tools/', 'prompts/', '.claude/')  # what a sync may write or remove in DEST
 MAX_BYTES = 5 * 1024 * 1024
 HOME = r'/[U]sers/[^/\'"`\s]+'  # a macOS home folder, any user
