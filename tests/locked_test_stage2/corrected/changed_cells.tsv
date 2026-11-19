@@ -1,0 +1,257 @@
+source	pmid	metric	kind	file	rows	read_before	read_now
+curation	10411640	kcat/Km	left unread	manual_curated_runeem_dataset.csv	51	no	yes
+curation	10411640	kcat/Km	left unread	manual_curated_runeem_dataset.csv	52;55	no	yes
+curation	10411640	kcat/Km	left unread	manual_curated_runeem_dataset.csv	52;55	no	yes
+curation	10411640	kcat/Km	left unread	manual_curated_runeem_dataset.csv	60	no	yes
+curation	10806397	Km	left unread	manual_curated_runeem_dataset.csv	364	no	yes
+curation	10806397	Km	left unread	manual_curated_runeem_dataset.csv	366	no	yes
+curation	11298760	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	653	yes	yes
+curation	11298760	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	661	yes	yes
+curation	11298760	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	663	yes	yes
+curation	11298760	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	665	yes	yes
+curation	11298760	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	666	yes	yes
+curation	11298760	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	668	yes	yes
+curation	10029307	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	1212	yes	yes
+curation	10029307	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	1213	yes	yes
+curation	10029307	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	1214	yes	yes
+curation	10029307	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	1215	yes	yes
+curation	10029307	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	1216	yes	yes
+curation	10029307	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	1217	yes	yes
+curation	10029307	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	1219	yes	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1522	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1523	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1524	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1525	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1526	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1527	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1528	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1529	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1530	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1531;1533;1534	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1532	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1531;1533;1534	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1531;1533;1534	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1535	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1536	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1537	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1538	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1539	no	yes
+curation	10514486	kcat	left unread	manual_curated_runeem_dataset.csv	1540	no	yes
+curation	15210695	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	2911	yes	yes
+curation	15210695	kcat/Km	read as another number	manual_curated_runeem_dataset.csv	2912	yes	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3145	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3146	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3147	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3148	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3149	no	yes
+curation	9202000	kcat	left unread	manual_curated_runeem_dataset.csv	3151;3152;3153	no	yes
+curation	9202000	Km	left unread	manual_curated_runeem_dataset.csv	3151	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3151	no	yes
+curation	9202000	kcat	left unread	manual_curated_runeem_dataset.csv	3151;3152;3153	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3152	no	yes
+curation	9202000	kcat	left unread	manual_curated_runeem_dataset.csv	3151;3152;3153	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3153	no	yes
+curation	9202000	kcat	left unread	manual_curated_runeem_dataset.csv	3154;3155;3156	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3154	no	yes
+curation	9202000	kcat	left unread	manual_curated_runeem_dataset.csv	3154;3155;3156	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3155	no	yes
+curation	9202000	kcat	left unread	manual_curated_runeem_dataset.csv	3154;3155;3156	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3156	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3157	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3158	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3159	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3160	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3161	no	yes
+curation	9202000	kcat/Km	left unread	manual_curated_runeem_dataset.csv	3162	no	yes
+run_4o-05	10671479	kcat/Km	read as another number	rumble_4o-05_dev1.parquet	787	yes	yes
+run_4o-05	10671479	kcat/Km	read as another number	rumble_4o-05_dev1.parquet	789	yes	yes
+run_4o-05	10671479	kcat/Km	read as another number	rumble_4o-05_dev1.parquet	790	yes	yes
+run_4o-05	10671479	kcat/Km	read as another number	rumble_4o-05_dev1.parquet	791	yes	yes
+run_4o-05	10671479	kcat/Km	read as another number	rumble_4o-05_dev1.parquet	792	yes	yes
+run_4o-05	13678419	kcat	left unread	rumble_4o-05_dev1.parquet	2871	no	yes
+run_4o-05	13678419	Km	left unread	rumble_4o-05_dev1.parquet	2871	no	yes
+run_4o-05	15210695	kcat/Km	read as another number	rumble_4o-05_dev1.parquet	3166	yes	yes
+run_4o-05	15210695	kcat/Km	read as another number	rumble_4o-05_dev1.parquet	3167	yes	yes
+run_4o-mini_Rx	10671479	kcat/Km	read as another number	rumble_4o-mini_Rx_dev1.parquet	523	yes	yes
+run_4o-mini_Rx	10671479	kcat	left unread	rumble_4o-mini_Rx_dev1.parquet	524	no	yes
+run_4o-mini_Rx	10671479	kcat/Km	read as another number	rumble_4o-mini_Rx_dev1.parquet	525	yes	yes
+run_4o-mini_Rx	10671479	kcat/Km	read as another number	rumble_4o-mini_Rx_dev1.parquet	526	yes	yes
+run_4o-mini_Rx	15210695	kcat/Km	read as another number	rumble_4o-mini_Rx_dev1.parquet	2019	yes	yes
+run_4o-mini_Rx	15210695	kcat/Km	read as another number	rumble_4o-mini_Rx_dev1.parquet	2020	yes	yes
+run_4o-mini	10671479	kcat/Km	read as another number	rumble_4o-mini_dev1.parquet	624	yes	yes
+run_4o-mini	10671479	kcat	left unread	rumble_4o-mini_dev1.parquet	625	no	yes
+run_4o-mini	10671479	kcat/Km	read as another number	rumble_4o-mini_dev1.parquet	626	yes	yes
+run_4o-mini	10671479	kcat/Km	read as another number	rumble_4o-mini_dev1.parquet	627	yes	yes
+run_4o-mini	15210695	kcat/Km	read as another number	rumble_4o-mini_dev1.parquet	2410	yes	yes
+run_4o-mini	15210695	kcat/Km	read as another number	rumble_4o-mini_dev1.parquet	2411	yes	yes
+run_4o-mini_xG	10671479	kcat/Km	read as another number	rumble_4o-mini_xG_dev1.parquet	618	yes	yes
+run_4o-mini_xG	10671479	kcat	left unread	rumble_4o-mini_xG_dev1.parquet	619	no	yes
+run_4o-mini_xG	10671479	kcat/Km	read as another number	rumble_4o-mini_xG_dev1.parquet	620	yes	yes
+run_4o-mini_xG	10671479	kcat/Km	read as another number	rumble_4o-mini_xG_dev1.parquet	621	yes	yes
+run_4o-mini_xG	15210695	kcat/Km	read as another number	rumble_4o-mini_xG_dev1.parquet	2412	yes	yes
+run_4o-mini_xG	15210695	kcat/Km	read as another number	rumble_4o-mini_xG_dev1.parquet	2413	yes	yes
+run_4o-mini_xG	9202000	kcat	left unread	rumble_4o-mini_xG_dev1.parquet	2616;2617;2618	no	yes
+run_4o-mini_xG	9202000	Km	left unread	rumble_4o-mini_xG_dev1.parquet	2616	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2616	no	yes
+run_4o-mini_xG	9202000	kcat	left unread	rumble_4o-mini_xG_dev1.parquet	2616;2617;2618	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2617	no	yes
+run_4o-mini_xG	9202000	kcat	left unread	rumble_4o-mini_xG_dev1.parquet	2616;2617;2618	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2618	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2619	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2620	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2621	no	yes
+run_4o-mini_xG	9202000	kcat	left unread	rumble_4o-mini_xG_dev1.parquet	2622;2623;2624	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2622	no	yes
+run_4o-mini_xG	9202000	kcat	left unread	rumble_4o-mini_xG_dev1.parquet	2622;2623;2624	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2623	no	yes
+run_4o-mini_xG	9202000	kcat	left unread	rumble_4o-mini_xG_dev1.parquet	2622;2623;2624	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2624	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2625	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2626	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2627	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2628	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2629	no	yes
+run_4o-mini_xG	9202000	kcat/Km	left unread	rumble_4o-mini_xG_dev1.parquet	2630	no	yes
+run_RGF	10671479	kcat/Km	read as another number	rumble_RGF_dev1.parquet	981	yes	yes
+run_RGF	10671479	kcat/Km	read as another number	rumble_RGF_dev1.parquet	982	yes	yes
+run_RGF	10671479	kcat/Km	read as another number	rumble_RGF_dev1.parquet	983	yes	yes
+run_RGF	10671479	kcat/Km	read as another number	rumble_RGF_dev1.parquet	984	yes	yes
+run_RGF	10848966	kcat/Km	left unread	rumble_RGF_dev1.parquet	1271	no	yes
+run_RGF	10848966	kcat/Km	left unread	rumble_RGF_dev1.parquet	1272	no	yes
+run_RGF	10848966	kcat/Km	left unread	rumble_RGF_dev1.parquet	1273	no	yes
+run_RGF	10848966	kcat/Km	left unread	rumble_RGF_dev1.parquet	1274	no	yes
+run_RGF	10848966	kcat/Km	left unread	rumble_RGF_dev1.parquet	1275	no	yes
+run_RGF	10848966	kcat/Km	left unread	rumble_RGF_dev1.parquet	1276	no	yes
+run_RGF	10848966	kcat/Km	left unread	rumble_RGF_dev1.parquet	1277	no	yes
+run_RGF	10848966	kcat/Km	left unread	rumble_RGF_dev1.parquet	1278	no	yes
+run_RGF	15210695	kcat/Km	read as another number	rumble_RGF_dev1.parquet	3520	yes	yes
+run_RGF	15210695	kcat/Km	read as another number	rumble_RGF_dev1.parquet	3521	yes	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3842	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3843	no	yes
+run_RGF	9202000	kcat	left unread	rumble_RGF_dev1.parquet	3845;3846;3847	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3845	no	yes
+run_RGF	9202000	kcat	left unread	rumble_RGF_dev1.parquet	3845;3846;3847	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3846	no	yes
+run_RGF	9202000	kcat	left unread	rumble_RGF_dev1.parquet	3845;3846;3847	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3848	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3849	no	yes
+run_RGF	9202000	kcat	left unread	rumble_RGF_dev1.parquet	3851;3852;3853	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3851	no	yes
+run_RGF	9202000	kcat	left unread	rumble_RGF_dev1.parquet	3851;3852;3853	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3852	no	yes
+run_RGF	9202000	kcat	left unread	rumble_RGF_dev1.parquet	3851;3852;3853	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3854	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3855	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3857	no	yes
+run_RGF	9202000	kcat/Km	left unread	rumble_RGF_dev1.parquet	3858	no	yes
+run_RxF	10411640	kcat/Km	left unread	rumble_RxF_dev1.parquet	334	no	yes
+run_RxF	10411640	kcat/Km	left unread	rumble_RxF_dev1.parquet	335;337	no	yes
+run_RxF	10411640	kcat/Km	left unread	rumble_RxF_dev1.parquet	336	no	yes
+run_RxF	10411640	kcat/Km	left unread	rumble_RxF_dev1.parquet	335;337	no	yes
+run_RxF	15210695	kcat/Km	read as another number	rumble_RxF_dev1.parquet	3231;3236	yes	yes
+run_RxF	15210695	kcat/Km	read as another number	rumble_RxF_dev1.parquet	3231;3236	yes	yes
+run_RxF	15210695	kcat/Km	read as another number	rumble_RxF_dev1.parquet	3237	yes	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3473	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3474	no	yes
+run_RxF	9202000	kcat	left unread	rumble_RxF_dev1.parquet	3476;3477;3478	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3476	no	yes
+run_RxF	9202000	kcat	left unread	rumble_RxF_dev1.parquet	3476;3477;3478	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3477	no	yes
+run_RxF	9202000	kcat	left unread	rumble_RxF_dev1.parquet	3476;3477;3478	no	yes
+run_RxF	9202000	Km	left unread	rumble_RxF_dev1.parquet	3478	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3479	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3480	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3481	no	yes
+run_RxF	9202000	kcat	left unread	rumble_RxF_dev1.parquet	3482;3483;3484	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3482	no	yes
+run_RxF	9202000	kcat	left unread	rumble_RxF_dev1.parquet	3482;3483;3484	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3483	no	yes
+run_RxF	9202000	kcat	left unread	rumble_RxF_dev1.parquet	3482;3483;3484	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3484	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3485	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3486	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3487	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3488	no	yes
+run_RxF	9202000	kcat/Km	left unread	rumble_RxF_dev1.parquet	3489	no	yes
+run_gemini	10671479	kcat/Km	read as another number	rumble_gemini_dev1.parquet	260	yes	yes
+run_gemini	10671479	kcat/Km	read as another number	rumble_gemini_dev1.parquet	261	yes	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	278	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	279	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	280	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	281	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	282	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	283	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	284	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	285	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	286	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	287	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	288	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	289	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	290	no	yes
+run_gemini	10561608	kcat/Km	left unread	rumble_gemini_dev1.parquet	291	no	yes
+run_gemini	13678419	kcat	left unread	rumble_gemini_dev1.parquet	1581;1586;1589	no	yes
+run_gemini	13678419	Km	left unread	rumble_gemini_dev1.parquet	1581	no	yes
+run_gemini	13678419	kcat	left unread	rumble_gemini_dev1.parquet	1581;1586;1589	no	yes
+run_gemini	13678419	Km	left unread	rumble_gemini_dev1.parquet	1586	no	yes
+run_gemini	13678419	kcat	left unread	rumble_gemini_dev1.parquet	1581;1586;1589	no	yes
+run_gemini	13678419	Km	left unread	rumble_gemini_dev1.parquet	1589	no	yes
+run_sonnet37	10029307	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	4	yes	yes
+run_sonnet37	10029307	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	5	yes	yes
+run_sonnet37	10029307	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	6	yes	yes
+run_sonnet37	10029307	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	7	yes	yes
+run_sonnet37	10029307	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	9	yes	yes
+run_sonnet37	10029307	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	10	yes	yes
+run_sonnet37	10029307	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	12	yes	yes
+run_sonnet37	10671479	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	646	yes	yes
+run_sonnet37	10671479	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	647	yes	yes
+run_sonnet37	10671479	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	648	yes	yes
+run_sonnet37	10671479	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	649	yes	yes
+run_sonnet37	11298760	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	1314	yes	yes
+run_sonnet37	11298760	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	1315	yes	yes
+run_sonnet37	11298760	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	1319	yes	yes
+run_sonnet37	11298760	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	1323	yes	yes
+run_sonnet37	11298760	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	1325	yes	yes
+run_sonnet37	11298760	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	1329	yes	yes
+run_sonnet37	15210695	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	2611	yes	yes
+run_sonnet37	15210695	kcat/Km	read as another number	rumble_sonnet37_dev1.parquet	2612	yes	yes
+run_sonnet37	9202000	kcat	left unread	rumble_sonnet37_dev1.parquet	2834;2835;2836	no	yes
+run_sonnet37	9202000	Km	left unread	rumble_sonnet37_dev1.parquet	2834	no	yes
+run_sonnet37	9202000	kcat	left unread	rumble_sonnet37_dev1.parquet	2834;2835;2836	no	yes
+run_sonnet37	9202000	kcat	left unread	rumble_sonnet37_dev1.parquet	2834;2835;2836	no	yes
+run_sonnet37	9202000	kcat	left unread	rumble_sonnet37_dev1.parquet	2840;2841;2842	no	yes
+run_sonnet37	9202000	kcat	left unread	rumble_sonnet37_dev1.parquet	2840;2841;2842	no	yes
+run_sonnet37	9202000	kcat	left unread	rumble_sonnet37_dev1.parquet	2840;2841;2842	no	yes
+run_xGF	10411640	kcat/Km	left unread	rumble_xGF_dev1.parquet	360	no	yes
+run_xGF	10411640	kcat/Km	left unread	rumble_xGF_dev1.parquet	361;362	no	yes
+run_xGF	10411640	kcat/Km	left unread	rumble_xGF_dev1.parquet	361;362	no	yes
+run_xGF	10411640	kcat/Km	left unread	rumble_xGF_dev1.parquet	363	no	yes
+run_xGF	10671479	kcat/Km	read as another number	rumble_xGF_dev1.parquet	1036	yes	yes
+run_xGF	10671479	kcat/Km	read as another number	rumble_xGF_dev1.parquet	1037	yes	yes
+run_xGF	10671479	kcat/Km	read as another number	rumble_xGF_dev1.parquet	1038	yes	yes
+run_xGF	10671479	kcat/Km	read as another number	rumble_xGF_dev1.parquet	1039	yes	yes
+run_xGF	15210695	kcat/Km	read as another number	rumble_xGF_dev1.parquet	3584	yes	yes
+run_xGF	15210695	kcat/Km	read as another number	rumble_xGF_dev1.parquet	3585	yes	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3862	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3863	no	yes
+run_xGF	9202000	kcat	left unread	rumble_xGF_dev1.parquet	3865;3866;3867	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3865	no	yes
+run_xGF	9202000	kcat	left unread	rumble_xGF_dev1.parquet	3865;3866;3867	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3866	no	yes
+run_xGF	9202000	kcat	left unread	rumble_xGF_dev1.parquet	3865;3866;3867	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3867	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3868	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3869	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3870	no	yes
+run_xGF	9202000	kcat	left unread	rumble_xGF_dev1.parquet	3871;3872;3873	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3871	no	yes
+run_xGF	9202000	kcat	left unread	rumble_xGF_dev1.parquet	3871;3872;3873	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3872	no	yes
+run_xGF	9202000	kcat	left unread	rumble_xGF_dev1.parquet	3871;3872;3873	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3873	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3874	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3875	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3876	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3877	no	yes
+run_xGF	9202000	kcat/Km	left unread	rumble_xGF_dev1.parquet	3878	no	yes
+enzyextract_db	15210695	kcat/Km	read as another number	TheData.parquet	6458	yes	yes
+enzyextract_db	15210695	kcat/Km	read as another number	TheData.parquet	6459	yes	yes

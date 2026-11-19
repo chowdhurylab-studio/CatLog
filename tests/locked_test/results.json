@@ -1,0 +1,1752 @@
+{
+ "time": "2026-11-11 12:53:35 -0600",
+ "which": "locked",
+ "interim": false,
+ "triage": {
+  "time": "2026-11-11 11:58:38 -0600",
+  "run": "locked",
+  "seed": 20261109,
+  "target": 100,
+  "papers_listed": 119,
+  "papers_analysed": 83,
+  "papers_failed": {
+   "10518925": "refused (plain)",
+   "9305868": "catlog rule_broken",
+   "11675384": "refused (plain)",
+   "10446163": "catlog rule_broken",
+   "8807052": "refused (catlog)",
+   "10561613": "refused (catlog)",
+   "16503877": "refused (catlog)",
+   "11078532": "catlog rule_broken",
+   "15123660": "catlog rule_broken",
+   "15152005": "refused (plain)",
+   "11457449": "refused (plain)",
+   "12766158": "refused (catlog)",
+   "10518926": "refused (catlog)",
+   "10759850": "refused (catlog)",
+   "20656778": "refused (catlog)",
+   "14985330": "refused (catlog)",
+   "15123647": "refused (plain)",
+   "11955282": "catlog rule_broken",
+   "9733738": "refused (plain)",
+   "11733016": "refused (catlog)",
+   "10526176": "refused (catlog)",
+   "24074367": "refused (catlog)",
+   "20886866": "refused (plain)",
+   "12147691": "refused (plain)",
+   "12114510": "refused (catlog)",
+   "10491164": "refused (catlog)",
+   "11574477": "refused (catlog)",
+   "10480878": "catlog rule_broken",
+   "10651827": "refused (plain)",
+   "12888555": "refused (plain)",
+   "10777527": "refused (catlog)",
+   "12049631": "refused (catlog)",
+   "11943176": "refused (plain)",
+   "12419809": "refused (catlog)",
+   "11889053": "catlog rule_broken",
+   "10429198": "refused (plain)"
+  },
+  "left_out_by_reason": {
+   "refused (plain)": 12,
+   "catlog rule_broken": 7,
+   "refused (catlog)": 17
+  },
+  "papers_past_target": [],
+  "values": {
+   "plain": 1473,
+   "catlog": 1400
+  },
+  "catlog_rows": 1450,
+  "repeats_dropped": {
+   "catlog": 0,
+   "plain": 10
+  },
+  "plain_mass_rows_left_out": [],
+  "pairs": 1365,
+  "identity_suspect_pairs": 70,
+  "agreeing_pairs": 1295,
+  "agreeing_pairs_sampled": 500,
+  "unmatched": {
+   "plain": 108,
+   "catlog": 35
+  },
+  "claims": 1388,
+  "decoys": 105,
+  "decoy_kinds": {
+   "x60": 53,
+   "x1000": 52
+  },
+  "decoys_twin_visible": 8,
+  "decoy_bases": {
+   "agreeing_unsampled": 97,
+   "identity_suspect": 7,
+   "agreeing_sampled": 1
+  },
+  "chunks": 85,
+  "papers_with_claims": 79,
+  "members_by_kind": {
+   "catlog identity_suspect": 70,
+   "catlog matched_sample": 500,
+   "catlog unmatched": 35,
+   "decoy decoy": 105,
+   "plain identity_suspect": 70,
+   "plain matched_sample": 500,
+   "plain unmatched": 108
+  },
+  "real_claims_by_source": {
+   "plain": 678,
+   "catlog": 605
+  },
+  "details_empty_by_source": {
+   "plain": 0,
+   "catlog": 0
+  },
+  "set_rule": "the draw's order (locked_draw.txt, seed 20261109): its first 100 papers with a usable read from both sides",
+  "left_out_by_side": {
+   "plain": {
+    "10518925": "refused (plain)",
+    "11675384": "refused (plain)",
+    "15152005": "refused (plain)",
+    "11457449": "refused (plain)",
+    "15123647": "refused (plain)",
+    "9733738": "refused (plain)",
+    "20886866": "refused (plain)",
+    "12147691": "refused (plain)",
+    "10651827": "refused (plain)",
+    "12888555": "refused (plain)",
+    "11943176": "refused (plain)",
+    "10429198": "refused (plain)"
+   },
+   "catlog": {
+    "10518925": "refused (catlog)",
+    "9305868": "catlog rule_broken",
+    "11675384": "refused (catlog)",
+    "10446163": "catlog rule_broken",
+    "8807052": "refused (catlog)",
+    "10561613": "refused (catlog)",
+    "16503877": "refused (catlog)",
+    "11078532": "catlog rule_broken",
+    "15123660": "catlog rule_broken",
+    "15152005": "refused (catlog)",
+    "11457449": "refused (catlog)",
+    "12766158": "refused (catlog)",
+    "10518926": "refused (catlog)",
+    "10759850": "refused (catlog)",
+    "20656778": "refused (catlog)",
+    "14985330": "refused (catlog)",
+    "15123647": "refused (catlog)",
+    "11955282": "catlog rule_broken",
+    "9733738": "refused (catlog)",
+    "11733016": "refused (catlog)",
+    "10526176": "refused (catlog)",
+    "24074367": "refused (catlog)",
+    "20886866": "refused (catlog)",
+    "12147691": "refused (catlog)",
+    "12114510": "refused (catlog)",
+    "10491164": "refused (catlog)",
+    "11574477": "refused (catlog)",
+    "10480878": "catlog rule_broken",
+    "10651827": "refused (catlog)",
+    "12888555": "catlog failed",
+    "10777527": "refused (catlog)",
+    "12049631": "refused (catlog)",
+    "11943176": "catlog failed",
+    "12419809": "refused (catlog)",
+    "11889053": "catlog rule_broken",
+    "10429198": "catlog failed"
+   }
+  },
+  "left_out_before_the_set_was_full": [
+   "10518925",
+   "9305868",
+   "11675384",
+   "10446163",
+   "8807052",
+   "10561613",
+   "16503877",
+   "11078532",
+   "15123660",
+   "15152005",
+   "11457449",
+   "12766158",
+   "10518926",
+   "10759850",
+   "20656778",
+   "14985330",
+   "15123647",
+   "11955282",
+   "9733738",
+   "11733016",
+   "10526176",
+   "24074367",
+   "20886866",
+   "12147691",
+   "12114510",
+   "10491164",
+   "11574477",
+   "10480878",
+   "10651827",
+   "12888555",
+   "10777527",
+   "12049631",
+   "11943176",
+   "12419809",
+   "11889053",
+   "10429198"
+  ],
+  "left_out_after_the_set_was_full": [],
+  "left_out_operational": {},
+  "left_out_accepted": false,
+  "catlog_read_by_another_model": {
+   "10518925": [
+    "read-sonnet:10518925 claude-sonnet-5-5",
+    "verify-sonnet:10518925 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "11675384": [
+    "verify-sonnet:11675384 claude-sonnet-5-5"
+   ],
+   "8807052": [
+    "read-sonnet:8807052 claude-sonnet-5-5",
+    "verify-sonnet:8807052 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "10561613": [
+    "read-sonnet:10561613 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5"
+   ],
+   "16503877": [
+    "read-sonnet:16503877 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5"
+   ],
+   "15152005": [
+    "read-sonnet:15152005 claude-sonnet-5-5",
+    "verify-sonnet:15152005 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "11457449": [
+    "verify-sonnet:11457449 claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "12766158": [
+    "verify-sonnet:12766158 claude-sonnet-5-5",
+    "read-sonnet:12766158 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "10518926": [
+    "verify-sonnet:10518926 claude-sonnet-5-5",
+    "read-sonnet:10518926 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "10759850": [
+    "read-sonnet:10759850 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5"
+   ],
+   "20656778": [
+    "verify-sonnet:20656778 claude-sonnet-5-5",
+    "read-sonnet:20656778 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "14985330": [
+    "verify-sonnet:14985330 claude-sonnet-5-5",
+    "read-sonnet:14985330 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "15123647": [
+    "verify-sonnet:15123647 claude-sonnet-5-5",
+    "read-sonnet:15123647 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "9733738": [
+    "read-sonnet:9733738 claude-sonnet-5-5",
+    "verify-sonnet:9733738 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "11733016": [
+    "read-sonnet:11733016 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5"
+   ],
+   "24074367": [
+    "read-sonnet:24074367 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5"
+   ],
+   "20886866": [
+    "read-sonnet:20886866 claude-sonnet-5-5",
+    "verify-sonnet:20886866 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "12147691": [
+    "read-sonnet:12147691 claude-sonnet-5-5",
+    "verify-sonnet:12147691 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "12114510": [
+    "verify-sonnet:12114510 claude-sonnet-5-5",
+    "read-sonnet:12114510 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "10491164": [
+    "read-sonnet:10491164 claude-sonnet-5-5",
+    "verify-sonnet:10491164 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "11574477": [
+    "read-sonnet:11574477 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5"
+   ],
+   "10651827": [
+    "read-sonnet:10651827 claude-sonnet-5-5",
+    "verify-sonnet:10651827 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ],
+   "10777527": [
+    "read-sonnet:10777527 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5"
+   ],
+   "12049631": [
+    "verify.missed-sonnet:12049631 claude-sonnet-5-5",
+    "read-sonnet:12049631 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5"
+   ],
+   "12419809": [
+    "verify-sonnet:12419809 claude-sonnet-5-5",
+    "read-sonnet:12419809 claude-sonnet-5-5",
+    "reader_model claude-sonnet-5-5",
+    "verifier_model claude-sonnet-5-5"
+   ]
+  },
+  "inputs_compared": 83,
+  "kept_rows_stamps_checked": 1450,
+  "content_scans": {
+   "A0-locked": {
+    "time": "2026-11-11 11:56:17 -0600",
+    "sessions_scanned": 134,
+    "hits": 10
+   },
+   "A6-locked": {
+    "time": "2026-11-11 11:56:17 -0600",
+    "sessions_scanned": 374,
+    "hits": 27
+   }
+  },
+  "content_scan_hits_accepted": true
+ },
+ "papers_used": 83,
+ "left_out": {
+  "judge_session_refused_or_switched_whole_paper": [],
+  "claims_cannot_decide_by_a_stopped_judge_session": {},
+  "unjudged_interim": []
+ },
+ "per_source": {
+  "plain": {
+   "papers": 83,
+   "papers_with_values": 82,
+   "values": 1473,
+   "values_judged": 678,
+   "values_agreed_not_judged": 795,
+   "wrong": 15,
+   "cannot_decide": 0,
+   "wrong_per_1000": 10.18,
+   "papers_with_a_wrong_value": 4,
+   "papers_with_a_wrong_value_per_100": 4.8,
+   "papers_per_100_exact": [
+    1.3,
+    11.9
+   ],
+   "share_on_papers_with_values": 4.9,
+   "largest_paper_share_of_wrong": 0.4,
+   "sensitivity_cannot_decide_as_wrong_per_1000": 10.18,
+   "sensitivity_cap_200_per_1000": 10.18,
+   "sample": {
+    "wrong": 0,
+    "of": 500,
+    "exact_share": [
+     0.0,
+     0.007350610051907784
+    ]
+   },
+   "scaled_per_1000": 10.18,
+   "upper_limit_per_1000": 14.15,
+   "kinds": {
+    "wrong_metric": 9,
+    "not_measured_here": 6
+   },
+   "misses_supported_values_only_the_other_stored": 1,
+   "bootstrap": {
+    "per_1000_lo": 1.2445550715619167,
+    "per_1000_hi": 23.34638182421975,
+    "scaled_per_1000_lo": 1.2445550715619167,
+    "scaled_per_1000_hi": 23.34638182421975
+   }
+  },
+  "catlog": {
+   "papers": 83,
+   "papers_with_values": 82,
+   "values": 1400,
+   "values_judged": 605,
+   "values_agreed_not_judged": 795,
+   "wrong": 34,
+   "cannot_decide": 0,
+   "wrong_per_1000": 24.29,
+   "papers_with_a_wrong_value": 2,
+   "papers_with_a_wrong_value_per_100": 2.4,
+   "papers_per_100_exact": [
+    0.3,
+    8.4
+   ],
+   "share_on_papers_with_values": 2.4,
+   "largest_paper_share_of_wrong": 0.853,
+   "sensitivity_cannot_decide_as_wrong_per_1000": 24.29,
+   "sensitivity_cap_200_per_1000": 24.29,
+   "sample": {
+    "wrong": 0,
+    "of": 500,
+    "exact_share": [
+     0.0,
+     0.007350610051907784
+    ]
+   },
+   "scaled_per_1000": 24.29,
+   "upper_limit_per_1000": 28.46,
+   "kinds": {
+    "wrong_scale": 34
+   },
+   "misses_supported_values_only_the_other_stored": 87,
+   "bootstrap": {
+    "per_1000_lo": 0.0,
+    "per_1000_hi": 71.66463627718498,
+    "scaled_per_1000_lo": 0.0,
+    "scaled_per_1000_hi": 71.66463627718498
+   }
+  }
+ },
+ "by_reader_model": {
+  "claude-opus-5-5": {
+   "papers": 83,
+   "plain": {
+    "values": 1473,
+    "wrong": 15,
+    "wrong_per_1000": 10.18,
+    "papers_with_a_wrong_value": 4
+   },
+   "catlog": {
+    "values": 1400,
+    "wrong": 34,
+    "wrong_per_1000": 24.29,
+    "papers_with_a_wrong_value": 2
+   }
+  }
+ },
+ "papers_wrong_in_one_source_only": {
+  "plain": 4,
+  "catlog": 2
+ },
+ "plain_minus_catlog": {
+  "per_1000_lo": -63.15566870200841,
+  "per_1000_hi": 17.2389707556439,
+  "papers_per_100_lo": -3.614457831325301,
+  "papers_per_100_hi": 8.433734939759036,
+  "share_plain_higher": 0.3175,
+  "B": 10000
+ },
+ "matched_sample": {
+  "claims": 1000,
+  "final": {
+   "supported": 1000
+  }
+ },
+ "claims_final": {
+  "supported": 1234,
+  "wrong_metric": 9,
+  "wrong_scale": 34,
+  "not_measured_here": 6
+ },
+ "judges": {
+  "j1": {
+   "decoys_judged": 105,
+   "decoys_called_an_error": 105,
+   "real_claims_judged": 1283
+  },
+  "j2": {
+   "decoys_judged": 105,
+   "decoys_called_an_error": 105,
+   "real_claims_judged": 1283
+  },
+  "j3": {
+   "decoys_judged": 0,
+   "decoys_called_an_error": 0,
+   "real_claims_judged": 10
+  },
+  "kappa_real_claims": 0.893907319816095,
+  "kappa_with_decoys": 0.963480603675093,
+  "first_two_agree": 0.9927953890489913,
+  "first_two_agree_real": 0.9922057677318784,
+  "first_two_agree_disputed": 0.9646643109540636,
+  "decoys": 105,
+  "decoys_final_an_error": 105,
+  "gate_passed": true
+ },
+ "wrong": "[49 per-value entries left out here: the records are in the TSV files beside this file]",
+ "misses": {
+  "plain": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "catlog": "[87 per-value entries left out here: the records are in the TSV files beside this file]"
+ },
+ "restated_values_not_counted_as_misses": "[6 per-value entries left out here: the records are in the TSV files beside this file]",
+ "per_paper": {
+  "10848975": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "12205087": {
+   "plain": {
+    "values": 8,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 8,
+    "wrong": 0
+   }
+  },
+  "11468288": {
+   "plain": {
+    "values": 51,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 51,
+    "wrong": 0
+   }
+  },
+  "11298760": {
+   "plain": {
+    "values": 32,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 32,
+    "wrong": 0
+   }
+  },
+  "28743924": {
+   "plain": {
+    "values": 3,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 3,
+    "wrong": 0
+   }
+  },
+  "11535122": {
+   "plain": {
+    "values": 28,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 28,
+    "wrong": 0
+   }
+  },
+  "10029307": {
+   "plain": {
+    "values": 27,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 27,
+    "wrong": 0
+   }
+  },
+  "10561608": {
+   "plain": {
+    "values": 38,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 33,
+    "wrong": 0
+   }
+  },
+  "11707391": {
+   "plain": {
+    "values": 16,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 16,
+    "wrong": 0
+   }
+  },
+  "10491091": {
+   "plain": {
+    "values": 12,
+    "wrong": 2
+   },
+   "catlog": {
+    "values": 9,
+    "wrong": 0
+   }
+  },
+  "12379146": {
+   "plain": {
+    "values": 14,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 14,
+    "wrong": 0
+   }
+  },
+  "10998050": {
+   "plain": {
+    "values": 42,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 40,
+    "wrong": 0
+   }
+  },
+  "15136574": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "20561507": {
+   "plain": {
+    "values": 9,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 8,
+    "wrong": 0
+   }
+  },
+  "11382747": {
+   "plain": {
+    "values": 64,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 61,
+    "wrong": 0
+   }
+  },
+  "12047629": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 3,
+    "wrong": 0
+   }
+  },
+  "20670441": {
+   "plain": {
+    "values": 20,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 17,
+    "wrong": 0
+   }
+  },
+  "9973343": {
+   "plain": {
+    "values": 46,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 46,
+    "wrong": 29
+   }
+  },
+  "15371425": {
+   "plain": {
+    "values": 26,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 25,
+    "wrong": 0
+   }
+  },
+  "14976196": {
+   "plain": {
+    "values": 7,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 7,
+    "wrong": 0
+   }
+  },
+  "12023023": {
+   "plain": {
+    "values": 9,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 9,
+    "wrong": 0
+   }
+  },
+  "11513863": {
+   "plain": {
+    "values": 21,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 21,
+    "wrong": 0
+   }
+  },
+  "11278915": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "11589710": {
+   "plain": {
+    "values": 10,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 10,
+    "wrong": 0
+   }
+  },
+  "10514486": {
+   "plain": {
+    "values": 56,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 56,
+    "wrong": 0
+   }
+  },
+  "15247292": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 5,
+    "wrong": 0
+   }
+  },
+  "12351635": {
+   "plain": {
+    "values": 16,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 16,
+    "wrong": 0
+   }
+  },
+  "12741958": {
+   "plain": {
+    "values": 10,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 10,
+    "wrong": 0
+   }
+  },
+  "11172800": {
+   "plain": {
+    "values": 0,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 0,
+    "wrong": 0
+   }
+  },
+  "9761457": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "9359420": {
+   "plain": {
+    "values": 9,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 9,
+    "wrong": 0
+   }
+  },
+  "10447675": {
+   "plain": {
+    "values": 11,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 11,
+    "wrong": 5
+   }
+  },
+  "10671479": {
+   "plain": {
+    "values": 14,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 14,
+    "wrong": 0
+   }
+  },
+  "12962500": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "11336650": {
+   "plain": {
+    "values": 4,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 4,
+    "wrong": 0
+   }
+  },
+  "12493767": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 4,
+    "wrong": 0
+   }
+  },
+  "10714990": {
+   "plain": {
+    "values": 47,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 44,
+    "wrong": 0
+   }
+  },
+  "12297285": {
+   "plain": {
+    "values": 4,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 3,
+    "wrong": 0
+   }
+  },
+  "11470266": {
+   "plain": {
+    "values": 4,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 4,
+    "wrong": 0
+   }
+  },
+  "10806397": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "11502204": {
+   "plain": {
+    "values": 16,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 16,
+    "wrong": 0
+   }
+  },
+  "11016923": {
+   "plain": {
+    "values": 23,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 22,
+    "wrong": 0
+   }
+  },
+  "11106417": {
+   "plain": {
+    "values": 14,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 14,
+    "wrong": 0
+   }
+  },
+  "11172808": {
+   "plain": {
+    "values": 5,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 5,
+    "wrong": 0
+   }
+  },
+  "12095636": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "11248687": {
+   "plain": {
+    "values": 2,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 2,
+    "wrong": 0
+   }
+  },
+  "10564758": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "11279139": {
+   "plain": {
+    "values": 7,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 7,
+    "wrong": 0
+   }
+  },
+  "11322958": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "11733006": {
+   "plain": {
+    "values": 8,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 8,
+    "wrong": 0
+   }
+  },
+  "15288786": {
+   "plain": {
+    "values": 11,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 11,
+    "wrong": 0
+   }
+  },
+  "11415449": {
+   "plain": {
+    "values": 9,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 9,
+    "wrong": 0
+   }
+  },
+  "11488932": {
+   "plain": {
+    "values": 12,
+    "wrong": 6
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "12813039": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "25287957": {
+   "plain": {
+    "values": 10,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 10,
+    "wrong": 0
+   }
+  },
+  "10411640": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "1100398": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "8948426": {
+   "plain": {
+    "values": 9,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 9,
+    "wrong": 0
+   }
+  },
+  "15238222": {
+   "plain": {
+    "values": 4,
+    "wrong": 2
+   },
+   "catlog": {
+    "values": 2,
+    "wrong": 0
+   }
+  },
+  "9202000": {
+   "plain": {
+    "values": 44,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 44,
+    "wrong": 0
+   }
+  },
+  "11880657": {
+   "plain": {
+    "values": 33,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 33,
+    "wrong": 0
+   }
+  },
+  "9111016": {
+   "plain": {
+    "values": 13,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 13,
+    "wrong": 0
+   }
+  },
+  "11358525": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "9495750": {
+   "plain": {
+    "values": 60,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 60,
+    "wrong": 0
+   }
+  },
+  "13678419": {
+   "plain": {
+    "values": 36,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 36,
+    "wrong": 0
+   }
+  },
+  "12387887": {
+   "plain": {
+    "values": 8,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 8,
+    "wrong": 0
+   }
+  },
+  "12234492": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 28,
+    "wrong": 0
+   }
+  },
+  "15123417": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 30,
+    "wrong": 0
+   }
+  },
+  "10801893": {
+   "plain": {
+    "values": 15,
+    "wrong": 5
+   },
+   "catlog": {
+    "values": 10,
+    "wrong": 0
+   }
+  },
+  "10095764": {
+   "plain": {
+    "values": 47,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 29,
+    "wrong": 0
+   }
+  },
+  "11820932": {
+   "plain": {
+    "values": 7,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 7,
+    "wrong": 0
+   }
+  },
+  "15210695": {
+   "plain": {
+    "values": 46,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 46,
+    "wrong": 0
+   }
+  },
+  "12878037": {
+   "plain": {
+    "values": 4,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 4,
+    "wrong": 0
+   }
+  },
+  "10848966": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "14871895": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "9235932": {
+   "plain": {
+    "values": 5,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 5,
+    "wrong": 0
+   }
+  },
+  "14960587": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "10095793": {
+   "plain": {
+    "values": 2,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 2,
+    "wrong": 0
+   }
+  },
+  "11997034": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "12029084": {
+   "plain": {
+    "values": 20,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "12615324": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "15158713": {
+   "plain": {
+    "values": 5,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 5,
+    "wrong": 0
+   }
+  },
+  "14580998": {
+   "plain": {
+    "values": 25,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 22,
+    "wrong": 0
+   }
+  }
+ },
+ "locked": {
+  "set_rule": "the draw's order (locked_draw.txt, seed 20261109): its first 100 papers with a usable read from both sides",
+  "papers_laid_down": 119,
+  "papers_used": 83,
+  "left_out_before_the_set_was_full": {
+   "plain": {
+    "refused (plain)": 12
+   },
+   "catlog": {
+    "refused (catlog)": 26,
+    "catlog rule_broken": 7,
+    "catlog failed": 3
+   }
+  },
+  "left_out_operational_accepted": {},
+  "left_out_after_the_set_was_full": [],
+  "papers_past_target": [],
+  "catlog_models_kept_rows": {
+   "reader_model": {
+    "claude-opus-5-5": 1450
+   },
+   "verifier_model": {
+    "claude-opus-5-5": 1450
+   }
+  },
+  "catlog_one_model": true,
+  "catlog_read_by_another_model_left_out": [],
+  "catlog_read_by_another_model_after_the_set_was_full": [],
+  "plain_models": {
+   "claude-opus-5-5": 83
+  },
+  "decoys_caught_by_kind": {
+   "x1000": [
+    52,
+    52
+   ],
+   "x60": [
+    53,
+    53
+   ]
+  },
+  "decoys_caught_by_base": {
+   "agreeing_sampled": [
+    1,
+    1
+   ],
+   "agreeing_unsampled": [
+    97,
+    97
+   ],
+   "identity_suspect": [
+    7,
+    7
+   ]
+  },
+  "decoys_twin_visible_caught": [
+   8,
+   8
+  ],
+  "decoys_from_lone_claims_caught_outside_the_gate": [
+   0,
+   0
+  ],
+  "limits": "Read with care: a record's shape shows its source (CatLog's details join up to four fields: location, construct, conditions and metric note; the plain read's two: location and conditions); an agreeing value shows as two claims with one number, so a lone claim is a disputed value or a decoy; CatLog's side is its frozen first pass (reader, independent verifier, code conversion and checks: catlog.py add), not its catalogue (no audit, database check, sweep or re-read after it)."
+ },
+ "curation": {
+  "judged": false,
+  "curation_file": {
+   "name": "manual_curated_runeem_dataset.csv",
+   "sha256": "37b2ff4cde194521a1afa247dfd4c29bf9eebfc1d4cb9a566e10dfb03a7b68ca"
+  },
+  "papers_in_set": 83,
+  "papers_covered": 79,
+  "papers_covered_by_gold_set": {
+   "enzyextract": 79
+  },
+  "papers_not_covered_by_gold_set": {
+   "cosci": 4
+  },
+  "covered_papers_without_a_curation_row": 0,
+  "drawn_papers_covered": {
+   "drawn": 119,
+   "covered": 111,
+   "in_the_set": 79,
+   "left_out": 32,
+   "past_the_target": 0,
+   "not_laid_down": 0
+  },
+  "gold_values": {
+   "kcat": {
+    "scored": 382,
+    "unscored": 27
+   },
+   "Km": {
+    "scored": 686,
+    "unscored": 17
+   },
+   "kcat/Km": {
+    "scored": 360,
+    "unscored": 54
+   },
+   "all": {
+    "scored": 1428,
+    "unscored": 98
+   }
+  },
+  "match_rule": {
+   "relative": 0.015,
+   "floor": 5.000001e-07
+  },
+  "per_source": {
+   "plain": {
+    "kcat": {
+     "recall": {
+      "est": 0.7486910994764397,
+      "lo": 0.6155379896177442,
+      "hi": 0.8820224719101124,
+      "num": 286,
+      "den": 382,
+      "papers": 43
+     },
+     "precision": {
+      "est": 0.7647058823529411,
+      "lo": 0.6434063105620156,
+      "hi": 0.8825811890727725,
+      "num": 286,
+      "den": 374,
+      "papers": 46
+     },
+     "gold_n": 382,
+     "sys_n": 374,
+     "matched": 286,
+     "gold_left": 96,
+     "sys_left": 88
+    },
+    "Km": {
+     "recall": {
+      "est": 0.8236151603498543,
+      "lo": 0.7524970238095238,
+      "hi": 0.887388673338918,
+      "num": 565,
+      "den": 686,
+      "papers": 79
+     },
+     "precision": {
+      "est": 0.8828125,
+      "lo": 0.8292296849087893,
+      "hi": 0.9285714285714286,
+      "num": 565,
+      "den": 640,
+      "papers": 77
+     },
+     "gold_n": 686,
+     "sys_n": 640,
+     "matched": 565,
+     "gold_left": 121,
+     "sys_left": 75
+    },
+    "kcat/Km": {
+     "recall": {
+      "est": 0.7083333333333334,
+      "lo": 0.5831216468929152,
+      "hi": 0.819210034216599,
+      "num": 255,
+      "den": 360,
+      "papers": 46
+     },
+     "precision": {
+      "est": 0.6115107913669064,
+      "lo": 0.4486200068071413,
+      "hi": 0.7804234382695003,
+      "num": 255,
+      "den": 417,
+      "papers": 52
+     },
+     "gold_n": 360,
+     "sys_n": 417,
+     "matched": 255,
+     "gold_left": 105,
+     "sys_left": 162
+    },
+    "all": {
+     "recall": {
+      "est": 0.7745098039215687,
+      "lo": 0.7056238915269752,
+      "hi": 0.8442777335600496,
+      "num": 1106,
+      "den": 1428,
+      "papers": 79
+     },
+     "precision": {
+      "est": 0.7728860936408106,
+      "lo": 0.7022462101954984,
+      "hi": 0.8444459338695264,
+      "num": 1106,
+      "den": 1431,
+      "papers": 78
+     },
+     "gold_n": 1428,
+     "sys_n": 1431,
+     "matched": 1106,
+     "gold_left": 322,
+     "sys_left": 325
+    }
+   },
+   "catlog": {
+    "kcat": {
+     "recall": {
+      "est": 0.7015706806282722,
+      "lo": 0.5749360433199913,
+      "hi": 0.8309859154929577,
+      "num": 268,
+      "den": 382,
+      "papers": 43
+     },
+     "precision": {
+      "est": 0.7282608695652174,
+      "lo": 0.594784903021066,
+      "hi": 0.8603900224141341,
+      "num": 268,
+      "den": 368,
+      "papers": 46
+     },
+     "gold_n": 382,
+     "sys_n": 368,
+     "matched": 268,
+     "gold_left": 114,
+     "sys_left": 100
+    },
+    "Km": {
+     "recall": {
+      "est": 0.7959183673469388,
+      "lo": 0.7208975633752696,
+      "hi": 0.8655138063649274,
+      "num": 546,
+      "den": 686,
+      "papers": 79
+     },
+     "precision": {
+      "est": 0.899505766062603,
+      "lo": 0.8447401287499368,
+      "hi": 0.9450181262036932,
+      "num": 546,
+      "den": 607,
+      "papers": 77
+     },
+     "gold_n": 686,
+     "sys_n": 607,
+     "matched": 546,
+     "gold_left": 140,
+     "sys_left": 61
+    },
+    "kcat/Km": {
+     "recall": {
+      "est": 0.7055555555555556,
+      "lo": 0.5876608061749571,
+      "hi": 0.8105263157894737,
+      "num": 254,
+      "den": 360,
+      "papers": 46
+     },
+     "precision": {
+      "est": 0.6563307493540051,
+      "lo": 0.49755996573386635,
+      "hi": 0.817739009959306,
+      "num": 254,
+      "den": 387,
+      "papers": 51
+     },
+     "gold_n": 360,
+     "sys_n": 387,
+     "matched": 254,
+     "gold_left": 106,
+     "sys_left": 133
+    },
+    "all": {
+     "recall": {
+      "est": 0.7478991596638656,
+      "lo": 0.6794158296564008,
+      "hi": 0.815017077006241,
+      "num": 1068,
+      "den": 1428,
+      "papers": 79
+     },
+     "precision": {
+      "est": 0.7841409691629956,
+      "lo": 0.7148729378455378,
+      "hi": 0.853099770814232,
+      "num": 1068,
+      "den": 1362,
+      "papers": 78
+     },
+     "gold_n": 1428,
+     "sys_n": 1362,
+     "matched": 1068,
+     "gold_left": 360,
+     "sys_left": 294
+    }
+   }
+  },
+  "catlog_minus_plain": {
+   "kcat": {
+    "recall": {
+     "est": -0.04712041884816753,
+     "lo": -0.10585192142975386,
+     "hi": -0.008901418713676171,
+     "papers": 43,
+     "resamples_without_a_share": 0
+    },
+    "precision": {
+     "est": -0.03644501278772372,
+     "lo": -0.08633954530968489,
+     "hi": -0.0020046500150760695,
+     "papers": 46,
+     "resamples_without_a_share": 0
+    }
+   },
+   "Km": {
+    "recall": {
+     "est": -0.0276967930029155,
+     "lo": -0.0573781971805115,
+     "hi": -0.007246376811594235,
+     "papers": 79,
+     "resamples_without_a_share": 0
+    },
+    "precision": {
+     "est": 0.016693266062603018,
+     "lo": 0.0017173266399316519,
+     "hi": 0.0352142040383942,
+     "papers": 77,
+     "resamples_without_a_share": 0
+    }
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": -0.002777777777777768,
+     "lo": -0.03903903903903905,
+     "hi": 0.04913650833542761,
+     "papers": 46,
+     "resamples_without_a_share": 0
+    },
+    "precision": {
+     "est": 0.0448199579870987,
+     "lo": -0.0037683301709827226,
+     "hi": 0.11684966568199208,
+     "papers": 52,
+     "resamples_without_a_share": 0
+    }
+   },
+   "all": {
+    "recall": {
+     "est": -0.026610644257703098,
+     "lo": -0.04707810407081705,
+     "hi": -0.010729421996705185,
+     "papers": 79,
+     "resamples_without_a_share": 0
+    },
+    "precision": {
+     "est": 0.01125487552218496,
+     "lo": -0.006994421594454075,
+     "hi": 0.035405185145550785,
+     "papers": 78,
+     "resamples_without_a_share": 0
+    }
+   }
+  },
+  "gold_matched_by": {
+   "both": 1055,
+   "plain_only": 51,
+   "catlog_only": 13,
+   "neither": 309
+  },
+  "similar_description_other_number": {
+   "plain": 54,
+   "catlog": 67
+  },
+  "curation_values_otherwise_unmatched": {
+   "plain": 268,
+   "catlog": 293
+  },
+  "source_values_otherwise_unmatched": {
+   "plain": 271,
+   "catlog": 227
+  },
+  "similar_description_kinds": {
+   "plain": {
+    "same_variant_same_substrate_words": 51,
+    "same_variant_some_substrate_words": 3,
+    "other": 0
+   },
+   "catlog": {
+    "same_variant_same_substrate_words": 58,
+    "same_variant_some_substrate_words": 1,
+    "other": 8
+   }
+  },
+  "bootstrap": {
+   "B": 10000,
+   "seed": 20261031
+  },
+  "code": {
+   "used": true,
+   "triage_time": "2026-11-11 11:58:38 -0600",
+   "first_commit": "546f5588f2926d142beb23980799be80068e8520",
+   "first_commit_time": "2026-11-11T04:03:06-06:00",
+   "commit_at_triage": "546f5588f2926d142beb23980799be80068e8520",
+   "kit_head": "f3e2a20e1290f68c6ee6677e1cf3ab0fd3d3d338",
+   "file_differs_from_head": false
+  }
+ }
+}

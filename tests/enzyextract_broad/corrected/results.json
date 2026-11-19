@@ -1,0 +1,3897 @@
+{
+ "what": "The broad test scored again with the scoring errors found after the result fixed (CORRECTIONS.md). The registered",
+ "second_agent": {
+  "values": 546,
+  "same_verdict": 544,
+  "same_wrong_number_call": 546
+ },
+ "what_ifs_post_hoc": {
+  "registered": {
+   "12723605: its 128 kcat/Km counted right": {
+    "values": 128,
+    "printed_here (primary)": {
+     "papers": 300,
+     "papers_with_a_wrong_number": {
+      "catlog": 1,
+      "enzyextract": 80,
+      "discordant_ee_only": 79,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 3.308722450212111e-24
+     },
+     "recall": {
+      "catlog": 0.8786468934767859,
+      "enzyextract": 0.8549966075409519,
+      "diff": 0.02365028593583407,
+      "lo": -0.04610858024316352,
+      "hi": 0.09283857565144554
+     },
+     "precision": {
+      "catlog": 0.9953881629515757,
+      "enzyextract": 0.9102259828707048,
+      "diff": 0.08516218008087095,
+      "lo": 0.06271472692958181,
+      "hi": 0.10933961568730417
+     },
+     "totals": {
+      "ref": 10317,
+      "c_held": 9065,
+      "c_n": 9107,
+      "e_held": 8821,
+      "e_n": 9691,
+      "c_wrong_numbers": 1,
+      "e_wrong_numbers": 792
+     },
+     "catlog_not_right": 42,
+     "catlog_missed": 1252,
+     "enzyextract_not_right": 870,
+     "enzyextract_missed": 1496
+    },
+    "measured_here": {
+     "papers": 300,
+     "papers_with_a_wrong_number": {
+      "catlog": 1,
+      "enzyextract": 80,
+      "discordant_ee_only": 79,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 3.308722450212111e-24
+     },
+     "recall": {
+      "catlog": 0.9344397484795381,
+      "enzyextract": 0.8457890939078445,
+      "diff": 0.08865065457169363,
+      "lo": 0.02649682392555646,
+      "hi": 0.15169630900145178
+     },
+     "precision": {
+      "catlog": 0.9953881629515757,
+      "enzyextract": 0.7810566396953832,
+      "diff": 0.21433152325619254,
+      "lo": 0.16387447992711274,
+      "hi": 0.26946146557210426
+     },
+     "totals": {
+      "ref": 9701,
+      "c_held": 9065,
+      "c_n": 9107,
+      "e_held": 8205,
+      "e_n": 10505,
+      "c_wrong_numbers": 1,
+      "e_wrong_numbers": 792
+     },
+     "catlog_not_right": 42,
+     "catlog_missed": 636,
+     "enzyextract_not_right": 2300,
+     "enzyextract_missed": 1496
+    }
+   },
+   "without 12723605": {
+    "printed_here (primary)": {
+     "papers": 299,
+     "papers_with_a_wrong_number": {
+      "catlog": 1,
+      "enzyextract": 79,
+      "discordant_ee_only": 78,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 6.617444900424222e-24
+     },
+     "recall": {
+      "catlog": 0.8743224252158202,
+      "enzyextract": 0.8747239510138526,
+      "diff": -0.0004015257980324316,
+      "lo": -0.057540608398734025,
+      "hi": 0.05446349704625627
+     },
+     "precision": {
+      "catlog": 0.9985096870342772,
+      "enzyextract": 0.9168771043771043,
+      "diff": 0.08163258265717288,
+      "lo": 0.05993941665478391,
+      "hi": 0.10518977546533716
+     },
+     "totals": {
+      "ref": 9962,
+      "c_held": 8710,
+      "c_n": 8723,
+      "e_held": 8714,
+      "e_n": 9504,
+      "c_wrong_numbers": 1,
+      "e_wrong_numbers": 789
+     },
+     "catlog_not_right": 13,
+     "catlog_missed": 1252,
+     "enzyextract_not_right": 790,
+     "enzyextract_missed": 1248
+    },
+    "printed_here, misprint corrected": {
+     "papers": 299,
+     "papers_with_a_wrong_number": {
+      "catlog": 1,
+      "enzyextract": 79,
+      "discordant_ee_only": 78,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 6.617444900424222e-24
+     },
+     "recall": {
+      "catlog": 0.8758918701638027,
+      "enzyextract": 0.8739825143201688,
+      "diff": 0.001909355843633831,
+      "lo": -0.05517634832624526,
+      "hi": 0.057015456173086114
+     },
+     "precision": {
+      "catlog": 0.9991975237876877,
+      "enzyextract": 0.9150883838383839,
+      "diff": 0.0841091399493038,
+      "lo": 0.06235072948559908,
+      "hi": 0.1077288583524456
+     },
+     "totals": {
+      "ref": 9951,
+      "c_held": 8716,
+      "c_n": 8723,
+      "e_held": 8697,
+      "e_n": 9504,
+      "c_wrong_numbers": 1,
+      "e_wrong_numbers": 789
+     },
+     "catlog_not_right": 7,
+     "catlog_missed": 1235,
+     "enzyextract_not_right": 807,
+     "enzyextract_missed": 1254
+    }
+   },
+   "EnzyExtract repeats with no listing keeping its own verdict: one listing each counted right": {
+    "repeat_values_in_such_groups": 97,
+    "listings_counted_right": 10,
+    "printed_here (primary)": {
+     "papers": 300,
+     "papers_with_a_wrong_number": {
+      "catlog": 2,
+      "enzyextract": 80,
+      "discordant_ee_only": 78,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 6.617444900424222e-24
+     },
+     "recall": {
+      "catlog": 0.8762623786645749,
+      "enzyextract": 0.8658692028630258,
+      "diff": 0.010393175801549082,
+      "lo": -0.0508543897488311,
+      "hi": 0.06819051411482853
+     },
+     "precision": {
+      "catlog": 0.9813330405182826,
+      "enzyextract": 0.9103185238635192,
+      "diff": 0.07101451665476344,
+      "lo": 0.041758984799988304,
+      "hi": 0.1002632788851089
+     },
+     "totals": {
+      "ref": 10199,
+      "c_held": 8937,
+      "c_n": 9107,
+      "e_held": 8831,
+      "e_n": 9701,
+      "c_wrong_numbers": 129,
+      "e_wrong_numbers": 792
+     },
+     "catlog_not_right": 170,
+     "catlog_missed": 1262,
+     "enzyextract_not_right": 870,
+     "enzyextract_missed": 1368
+    }
+   },
+   "EnzyExtract unread bounds, not-detected, relative and per-mass cells counted as wrong numbers": {
+    "cells": 91,
+    "by_kind": {
+     "bound": 30,
+     "not detected": 9,
+     "percent or relative": 49,
+     "per mass or activity": 3
+    },
+    "papers_with_such_cells": 22,
+    "of_them_without_another_wrong_number": 15,
+    "papers_with_a_wrong_number": {
+     "catlog": 2,
+     "enzyextract": 95,
+     "discordant_ee_only": 93,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 2.0194839173657902e-28
+    },
+    "note": "recall and precision unchanged: these cells are not values"
+   }
+  },
+  "corrected": {
+   "12723605: its 128 kcat/Km counted right": {
+    "values": 128,
+    "printed_here (primary)": {
+     "papers": 300,
+     "papers_with_a_wrong_number": {
+      "catlog": 1,
+      "enzyextract": 78,
+      "discordant_ee_only": 77,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 1.3234889800848443e-23
+     },
+     "recall": {
+      "catlog": 0.9022593809097244,
+      "enzyextract": 0.8518960883845924,
+      "diff": 0.05036329252513194,
+      "lo": -0.01772012675281146,
+      "hi": 0.11929996280877825
+     },
+     "precision": {
+      "catlog": 0.9953881629515757,
+      "enzyextract": 0.9087916755149713,
+      "diff": 0.08659648743660442,
+      "lo": 0.06344757496292862,
+      "hi": 0.11150002714593767
+     },
+     "totals": {
+      "ref": 10047,
+      "c_held": 9065,
+      "c_n": 9107,
+      "e_held": 8559,
+      "e_n": 9418,
+      "c_wrong_numbers": 1,
+      "e_wrong_numbers": 781
+     },
+     "catlog_not_right": 42,
+     "catlog_missed": 982,
+     "enzyextract_not_right": 859,
+     "enzyextract_missed": 1488
+    },
+    "measured_here": {
+     "papers": 300,
+     "papers_with_a_wrong_number": {
+      "catlog": 1,
+      "enzyextract": 78,
+      "discordant_ee_only": 77,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 1.3234889800848443e-23
+     },
+     "recall": {
+      "catlog": 0.9611918142296682,
+      "enzyextract": 0.8422224578517654,
+      "diff": 0.11896935637790274,
+      "lo": 0.05851999151577592,
+      "hi": 0.1802530628187697
+     },
+     "precision": {
+      "catlog": 0.9953881629515757,
+      "enzyextract": 0.7762900703674745,
+      "diff": 0.21909809258410118,
+      "lo": 0.16762575493693158,
+      "hi": 0.2756031920278773
+     },
+     "totals": {
+      "ref": 9431,
+      "c_held": 9065,
+      "c_n": 9107,
+      "e_held": 7943,
+      "e_n": 10232,
+      "c_wrong_numbers": 1,
+      "e_wrong_numbers": 781
+     },
+     "catlog_not_right": 42,
+     "catlog_missed": 366,
+     "enzyextract_not_right": 2289,
+     "enzyextract_missed": 1488
+    }
+   },
+   "without 12723605": {
+    "printed_here (primary)": {
+     "papers": 299,
+     "papers_with_a_wrong_number": {
+      "catlog": 1,
+      "enzyextract": 77,
+      "discordant_ee_only": 76,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 2.6469779601696886e-23
+     },
+     "recall": {
+      "catlog": 0.8986793231531159,
+      "enzyextract": 0.8720594304581097,
+      "diff": 0.026619892695006198,
+      "lo": -0.029691622259858975,
+      "hi": 0.08021498097325082
+     },
+     "precision": {
+      "catlog": 0.9985096870342772,
+      "enzyextract": 0.9156104430722565,
+      "diff": 0.08289924396202075,
+      "lo": 0.06075359381722868,
+      "hi": 0.10728677674769636
+     },
+     "totals": {
+      "ref": 9692,
+      "c_held": 8710,
+      "c_n": 8723,
+      "e_held": 8452,
+      "e_n": 9231,
+      "c_wrong_numbers": 1,
+      "e_wrong_numbers": 778
+     },
+     "catlog_not_right": 13,
+     "catlog_missed": 982,
+     "enzyextract_not_right": 779,
+     "enzyextract_missed": 1240
+    },
+    "printed_here, misprint corrected": {
+     "papers": 299,
+     "papers_with_a_wrong_number": {
+      "catlog": 1,
+      "enzyextract": 77,
+      "discordant_ee_only": 76,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 2.6469779601696886e-23
+     },
+     "recall": {
+      "catlog": 0.9003202148538374,
+      "enzyextract": 0.871294287780188,
+      "diff": 0.02902592707364937,
+      "lo": -0.027390471144450677,
+      "hi": 0.08265805290259526
+     },
+     "precision": {
+      "catlog": 0.9991975237876877,
+      "enzyextract": 0.9137688224461055,
+      "diff": 0.0854287013415822,
+      "lo": 0.06290721456065226,
+      "hi": 0.10983267822684821
+     },
+     "totals": {
+      "ref": 9681,
+      "c_held": 8716,
+      "c_n": 8723,
+      "e_held": 8435,
+      "e_n": 9231,
+      "c_wrong_numbers": 1,
+      "e_wrong_numbers": 778
+     },
+     "catlog_not_right": 7,
+     "catlog_missed": 965,
+     "enzyextract_not_right": 796,
+     "enzyextract_missed": 1246
+    }
+   },
+   "EnzyExtract repeats with no listing keeping its own verdict: one listing each counted right": {
+    "repeat_values_in_such_groups": 97,
+    "listings_counted_right": 10,
+    "printed_here (primary)": {
+     "papers": 300,
+     "papers_with_a_wrong_number": {
+      "catlog": 2,
+      "enzyextract": 78,
+      "discordant_ee_only": 76,
+      "discordant_catlog_only": 0,
+      "sign_test_p": 2.6469779601696886e-23
+     },
+     "recall": {
+      "catlog": 0.9000906435693423,
+      "enzyextract": 0.8630274952160338,
+      "diff": 0.037063148353308484,
+      "lo": -0.02304387726294225,
+      "hi": 0.09412046146201491
+     },
+     "precision": {
+      "catlog": 0.9813330405182826,
+      "enzyextract": 0.9088884174798473,
+      "diff": 0.07244462303843535,
+      "lo": 0.04289502952000227,
+      "hi": 0.10210660997707634
+     },
+     "totals": {
+      "ref": 9929,
+      "c_held": 8937,
+      "c_n": 9107,
+      "e_held": 8569,
+      "e_n": 9428,
+      "c_wrong_numbers": 129,
+      "e_wrong_numbers": 781
+     },
+     "catlog_not_right": 170,
+     "catlog_missed": 992,
+     "enzyextract_not_right": 859,
+     "enzyextract_missed": 1360
+    }
+   },
+   "EnzyExtract unread bounds, not-detected, relative and per-mass cells counted as wrong numbers": {
+    "cells": 91,
+    "by_kind": {
+     "bound": 30,
+     "not detected": 9,
+     "percent or relative": 49,
+     "per mass or activity": 3
+    },
+    "papers_with_such_cells": 22,
+    "of_them_without_another_wrong_number": 16,
+    "papers_with_a_wrong_number": {
+     "catlog": 2,
+     "enzyextract": 94,
+     "discordant_ee_only": 92,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 4.0389678347315804e-28
+    },
+    "note": "recall and precision unchanged: these cells are not values"
+   }
+  }
+ },
+ "unread_cells_of_a_kind_the_prompt_calls_not_this_metric": {
+  "8042993": "[6 per-value entries left out here: the records are in the TSV files beside this file]",
+  "11278904": "[2 per-value entries left out here: the records are in the TSV files beside this file]",
+  "11747444": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "12181314": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "12732097": "[6 per-value entries left out here: the records are in the TSV files beside this file]",
+  "12834356": "[3 per-value entries left out here: the records are in the TSV files beside this file]",
+  "15178494": "[4 per-value entries left out here: the records are in the TSV files beside this file]",
+  "15301545": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "15628881": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "15677479": "[27 per-value entries left out here: the records are in the TSV files beside this file]",
+  "16430697": "[2 per-value entries left out here: the records are in the TSV files beside this file]",
+  "17603473": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "18986982": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "19857201": "[3 per-value entries left out here: the records are in the TSV files beside this file]",
+  "22482720": "[2 per-value entries left out here: the records are in the TSV files beside this file]",
+  "23050701": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "24802409": "[2 per-value entries left out here: the records are in the TSV files beside this file]",
+  "25288804": "[17 per-value entries left out here: the records are in the TSV files beside this file]",
+  "27871372": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "29848548": "[5 per-value entries left out here: the records are in the TSV files beside this file]",
+  "32107312": "[1 per-value entries left out here: the records are in the TSV files beside this file]",
+  "38424450": "[3 per-value entries left out here: the records are in the TSV files beside this file]"
+ },
+ "F5_strings": "[11 per-value entries left out here: the records are in the TSV files beside this file]",
+ "runs": {
+  "registered": {
+   "notes": {
+    "F5 values now agreed": 0
+   },
+   "rules": {
+    "printed_here (primary)": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 80,
+       "discordant_ee_only": 78,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 6.617444900424222e-24
+      },
+      "recall": {
+       "catlog": 0.8771223868878202,
+       "enzyextract": 0.8657375601138483,
+       "diff": 0.011384826773971901,
+       "lo": -0.04939657478149481,
+       "hi": 0.0688847413788171
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.9102259828707048,
+       "diff": 0.07110705764757785,
+       "lo": 0.0417923608411426,
+       "hi": 0.10045808666181363
+      },
+      "totals": {
+       "ref": 10189,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 8821,
+       "e_n": 9691,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 792
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 1252,
+      "enzyextract_not_right": 870,
+      "enzyextract_missed": 1368
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8961836135575126,
+       "enzyextract": 0.8609554310114759,
+       "diff": 0.03522818254603677,
+       "lo": -0.04507192481721281,
+       "hi": 0.12010624037797944
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.9138810198300283,
+       "diff": 0.08314985902982919,
+       "lo": 0.03765180779003539,
+       "hi": 0.13770204376791986
+      },
+      "totals": {
+       "ref": 3747,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 3226,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 389,
+      "enzyextract_not_right": 304,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.8480325644504749,
+       "enzyextract": 0.9207598371777477,
+       "diff": -0.07272727272727275,
+       "lo": -0.132390797807866,
+       "hi": -0.017286984361209064
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.9582038972041796,
+       "diff": 0.03228738647252405,
+       "lo": 0.005084903398474162,
+       "hi": 0.05895523478587994
+      },
+      "totals": {
+       "ref": 3685,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 3393,
+       "e_n": 3541,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 560,
+      "enzyextract_not_right": 148,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 53,
+       "discordant_ee_only": 53,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 6.106226635438361e-15
+      },
+      "recall": {
+       "catlog": 0.8900979325353645,
+       "enzyextract": 0.7986942328618063,
+       "diff": 0.09140369967355821,
+       "lo": 0.012594382919210854,
+       "hi": 0.1692436088141643
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.8404580152671756,
+       "diff": 0.1092323872096046,
+       "lo": -0.006272466726222112,
+       "hi": 0.19962059077901334
+      },
+      "totals": {
+       "ref": 2757,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2202,
+       "e_n": 2620,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 417
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 303,
+      "enzyextract_not_right": 418,
+      "enzyextract_missed": 555
+     }
+    },
+    "measured_here": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 80,
+       "discordant_ee_only": 78,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 6.617444900424222e-24
+      },
+      "recall": {
+       "catlog": 0.9335631463491069,
+       "enzyextract": 0.8570980883735506,
+       "diff": 0.07646505797555625,
+       "lo": 0.024165171415909112,
+       "hi": 0.12741427817830137
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.7810566396953832,
+       "diff": 0.20027640082289944,
+       "lo": 0.1505238076814727,
+       "hi": 0.2569775127498352
+      },
+      "totals": {
+       "ref": 9573,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 8205,
+       "e_n": 10505,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 792
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 636,
+      "enzyextract_not_right": 2300,
+      "enzyextract_missed": 1368
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9564226716035318,
+       "enzyextract": 0.8516092281401311,
+       "diff": 0.10481344346340071,
+       "lo": 0.03243061925382368,
+       "hi": 0.18413263561238447
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.749185667752443,
+       "diff": 0.24784521110741453,
+       "lo": 0.1752766877738283,
+       "hi": 0.32274709708569577
+      },
+      "totals": {
+       "ref": 3511,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 2990,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 153,
+      "enzyextract_not_right": 1001,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.9079023823358513,
+       "enzyextract": 0.9151656013945381,
+       "diff": -0.007263219058686765,
+       "lo": -0.05680860252108011,
+       "hi": 0.040267175370014334
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.8291655698868123,
+       "diff": 0.16132571378989136,
+       "lo": 0.10469828200653095,
+       "hi": 0.22847066322157802
+      },
+      "totals": {
+       "ref": 3442,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 3150,
+       "e_n": 3799,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 317,
+      "enzyextract_not_right": 649,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 53,
+       "discordant_ee_only": 53,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 6.106226635438361e-15
+      },
+      "recall": {
+       "catlog": 0.9366412213740458,
+       "enzyextract": 0.7881679389312977,
+       "diff": 0.14847328244274816,
+       "lo": 0.07419421692335255,
+       "hi": 0.22218673050615592
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.7605893186003683,
+       "diff": 0.1891010838764119,
+       "lo": 0.07006099889229542,
+       "hi": 0.2895883329009016
+      },
+      "totals": {
+       "ref": 2620,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2065,
+       "e_n": 2715,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 417
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 166,
+      "enzyextract_not_right": 650,
+      "enzyextract_missed": 555
+     }
+    },
+    "printed_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 80,
+       "discordant_ee_only": 78,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 6.617444900424222e-24
+      },
+      "recall": {
+       "catlog": 0.8709169618260527,
+       "enzyextract": 0.8737701692247147,
+       "diff": -0.0028532073986620166,
+       "lo": -0.059865239149213566,
+       "hi": 0.052157648656237086
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.916417294396863,
+       "diff": 0.05558226638056096,
+       "lo": -0.008497213770578231,
+       "hi": 0.1022199945190994
+      },
+      "totals": {
+       "ref": 10164,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 8881,
+       "e_n": 9691,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 792
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 1312,
+      "enzyextract_not_right": 810,
+      "enzyextract_missed": 1283
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8784844384303112,
+       "enzyextract": 0.8893098782138025,
+       "diff": -0.010825439783491264,
+       "lo": -0.08320994417648057,
+       "hi": 0.05722475609561098
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.9308781869688385,
+       "diff": 0.03289853512142282,
+       "lo": -0.05022815364547839,
+       "hi": 0.094931122511129
+      },
+      "totals": {
+       "ref": 3695,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3286,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 449,
+      "enzyextract_not_right": 244,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.8490312163616792,
+       "enzyextract": 0.9133476856835306,
+       "diff": -0.06431646932185142,
+       "lo": -0.12625790820508287,
+       "hi": -0.006681564777489594
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.9584863033041514,
+       "diff": 0.04151369669584859,
+       "lo": 0.024024765716168302,
+       "hi": 0.06220661454217512
+      },
+      "totals": {
+       "ref": 3716,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 3394,
+       "e_n": 3541,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 561,
+      "enzyextract_not_right": 147,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 53,
+       "discordant_ee_only": 53,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 6.106226635438361e-15
+      },
+      "recall": {
+       "catlog": 0.890301489284417,
+       "enzyextract": 0.7994914638576098,
+       "diff": 0.09081002542680716,
+       "lo": 0.012113133491638109,
+       "hi": 0.16885230917228025
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.8400763358778626,
+       "diff": 0.10845307588684328,
+       "lo": -0.006773397301635741,
+       "hi": 0.19888884468661425
+      },
+      "totals": {
+       "ref": 2753,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 2201,
+       "e_n": 2620,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 417
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 302,
+      "enzyextract_not_right": 419,
+      "enzyextract_missed": 552
+     }
+    },
+    "measured_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 80,
+       "discordant_ee_only": 78,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 6.617444900424222e-24
+      },
+      "recall": {
+       "catlog": 0.9271051529116046,
+       "enzyextract": 0.8656263091746963,
+       "diff": 0.06147884373690826,
+       "lo": 0.011721472875849126,
+       "hi": 0.11075865611119161
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.7867682056163732,
+       "diff": 0.18523135516105083,
+       "lo": 0.11512898189371226,
+       "hi": 0.2540738333142706
+      },
+      "totals": {
+       "ref": 9548,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 8265,
+       "e_n": 10505,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 792
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 696,
+      "enzyextract_not_right": 2240,
+      "enzyextract_missed": 1283
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9384215091066782,
+       "enzyextract": 0.8817577334489737,
+       "diff": 0.05666377565770453,
+       "lo": -0.013649672141408074,
+       "hi": 0.11935951271344654
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.7642194938611877,
+       "diff": 0.19955722822907362,
+       "lo": 0.11265704136928698,
+       "hi": 0.28288885874977543
+      },
+      "totals": {
+       "ref": 3459,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3050,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 213,
+      "enzyextract_not_right": 941,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.9084365102217103,
+       "enzyextract": 0.9072847682119205,
+       "diff": 0.0011517420097898468,
+       "lo": -0.05133935207989935,
+       "hi": 0.0491856798605414
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.8294287970518558,
+       "diff": 0.1705712029481442,
+       "lo": 0.11445226586875357,
+       "hi": 0.23623171378986635
+      },
+      "totals": {
+       "ref": 3473,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 3151,
+       "e_n": 3799,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 318,
+      "enzyextract_not_right": 648,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 53,
+       "discordant_ee_only": 53,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 6.106226635438361e-15
+      },
+      "recall": {
+       "catlog": 0.9369266055045872,
+       "enzyextract": 0.7889908256880734,
+       "diff": 0.14793577981651373,
+       "lo": 0.07382503223791718,
+       "hi": 0.22126086821885324
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.7602209944751381,
+       "diff": 0.1883084172895677,
+       "lo": 0.06998029851343789,
+       "hi": 0.28811727845051677
+      },
+      "totals": {
+       "ref": 2616,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 2064,
+       "e_n": 2715,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 417
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 165,
+      "enzyextract_not_right": 651,
+      "enzyextract_missed": 552
+     }
+    }
+   }
+  },
+  "F5 only": {
+   "notes": {
+    "F5 values now agreed": 8,
+    "F5 values read again": 11
+   },
+   "rules": {
+    "printed_here (primary)": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.8771223868878202,
+       "enzyextract": 0.8665227205810188,
+       "diff": 0.010599666306801425,
+       "lo": -0.05016236689070112,
+       "hi": 0.06854572999105929
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.9110514910741926,
+       "diff": 0.07028154944409004,
+       "lo": 0.04097245080286699,
+       "hi": 0.0994528580684099
+      },
+      "totals": {
+       "ref": 10189,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 8829,
+       "e_n": 9691,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 784
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 1252,
+      "enzyextract_not_right": 862,
+      "enzyextract_missed": 1360
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8961836135575126,
+       "enzyextract": 0.8609554310114759,
+       "diff": 0.03522818254603677,
+       "lo": -0.04507192481721281,
+       "hi": 0.12010624037797944
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.9138810198300283,
+       "diff": 0.08314985902982919,
+       "lo": 0.03765180779003539,
+       "hi": 0.13770204376791986
+      },
+      "totals": {
+       "ref": 3747,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 3226,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 389,
+      "enzyextract_not_right": 304,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.8480325644504749,
+       "enzyextract": 0.9207598371777477,
+       "diff": -0.07272727272727275,
+       "lo": -0.132390797807866,
+       "hi": -0.017286984361209064
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.9582038972041796,
+       "diff": 0.03228738647252405,
+       "lo": 0.005084903398474162,
+       "hi": 0.05895523478587994
+      },
+      "totals": {
+       "ref": 3685,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 3393,
+       "e_n": 3541,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 560,
+      "enzyextract_not_right": 148,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.8900979325353645,
+       "enzyextract": 0.8015959376133478,
+       "diff": 0.08850199492201671,
+       "lo": 0.009917634972919039,
+       "hi": 0.16655204059203801
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.8435114503816794,
+       "diff": 0.10617895209510075,
+       "lo": -0.0092080899092854,
+       "hi": 0.196878464304164
+      },
+      "totals": {
+       "ref": 2757,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2210,
+       "e_n": 2620,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 409
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 303,
+      "enzyextract_not_right": 410,
+      "enzyextract_missed": 547
+     }
+    },
+    "measured_here": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.9335631463491069,
+       "enzyextract": 0.8579337720672725,
+       "diff": 0.07562937428183436,
+       "lo": 0.023325869945632047,
+       "hi": 0.1266230369319488
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.7818181818181819,
+       "diff": 0.19951485870010077,
+       "lo": 0.14987536154622735,
+       "hi": 0.25617575148326105
+      },
+      "totals": {
+       "ref": 9573,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 8213,
+       "e_n": 10505,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 784
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 636,
+      "enzyextract_not_right": 2292,
+      "enzyextract_missed": 1360
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9564226716035318,
+       "enzyextract": 0.8516092281401311,
+       "diff": 0.10481344346340071,
+       "lo": 0.03243061925382368,
+       "hi": 0.18413263561238447
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.749185667752443,
+       "diff": 0.24784521110741453,
+       "lo": 0.1752766877738283,
+       "hi": 0.32274709708569577
+      },
+      "totals": {
+       "ref": 3511,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 2990,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 153,
+      "enzyextract_not_right": 1001,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.9079023823358513,
+       "enzyextract": 0.9151656013945381,
+       "diff": -0.007263219058686765,
+       "lo": -0.05680860252108011,
+       "hi": 0.040267175370014334
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.8291655698868123,
+       "diff": 0.16132571378989136,
+       "lo": 0.10469828200653095,
+       "hi": 0.22847066322157802
+      },
+      "totals": {
+       "ref": 3442,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 3150,
+       "e_n": 3799,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 317,
+      "enzyextract_not_right": 649,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9366412213740458,
+       "enzyextract": 0.7912213740458015,
+       "diff": 0.1454198473282443,
+       "lo": 0.07116081782238559,
+       "hi": 0.21842823688330046
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.7635359116022099,
+       "diff": 0.18615449087457026,
+       "lo": 0.06840324236898807,
+       "hi": 0.2869303031766858
+      },
+      "totals": {
+       "ref": 2620,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2073,
+       "e_n": 2715,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 409
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 166,
+      "enzyextract_not_right": 642,
+      "enzyextract_missed": 547
+     }
+    },
+    "printed_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.8709169618260527,
+       "enzyextract": 0.8745572609208973,
+       "diff": -0.0036402990948445346,
+       "lo": -0.06065230931262276,
+       "hi": 0.0514060841996101
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.9172428026003508,
+       "diff": 0.05475675817707315,
+       "lo": -0.009275415975707019,
+       "hi": 0.10104712127217924
+      },
+      "totals": {
+       "ref": 10164,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 8889,
+       "e_n": 9691,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 784
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 1312,
+      "enzyextract_not_right": 802,
+      "enzyextract_missed": 1275
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8784844384303112,
+       "enzyextract": 0.8893098782138025,
+       "diff": -0.010825439783491264,
+       "lo": -0.08320994417648057,
+       "hi": 0.05722475609561098
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.9308781869688385,
+       "diff": 0.03289853512142282,
+       "lo": -0.05022815364547839,
+       "hi": 0.094931122511129
+      },
+      "totals": {
+       "ref": 3695,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3286,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 449,
+      "enzyextract_not_right": 244,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.8490312163616792,
+       "enzyextract": 0.9133476856835306,
+       "diff": -0.06431646932185142,
+       "lo": -0.12625790820508287,
+       "hi": -0.006681564777489594
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.9584863033041514,
+       "diff": 0.04151369669584859,
+       "lo": 0.024024765716168302,
+       "hi": 0.06220661454217512
+      },
+      "totals": {
+       "ref": 3716,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 3394,
+       "e_n": 3541,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 561,
+      "enzyextract_not_right": 147,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.890301489284417,
+       "enzyextract": 0.8023973846712678,
+       "diff": 0.08790410461314924,
+       "lo": 0.009246042495849751,
+       "hi": 0.16593404621622415
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.8431297709923664,
+       "diff": 0.10539964077233943,
+       "lo": -0.009886084322632925,
+       "hi": 0.1956040345702782
+      },
+      "totals": {
+       "ref": 2753,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 2209,
+       "e_n": 2620,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 409
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 302,
+      "enzyextract_not_right": 411,
+      "enzyextract_missed": 544
+     }
+    },
+    "measured_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.9271051529116046,
+       "enzyextract": 0.86646418098031,
+       "diff": 0.060640971931294585,
+       "lo": 0.010736472685678162,
+       "hi": 0.11009754198059712
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.7875297477391718,
+       "diff": 0.18446981303825216,
+       "lo": 0.11447583584685937,
+       "hi": 0.2534312446399284
+      },
+      "totals": {
+       "ref": 9548,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 8273,
+       "e_n": 10505,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 784
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 696,
+      "enzyextract_not_right": 2232,
+      "enzyextract_missed": 1275
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9384215091066782,
+       "enzyextract": 0.8817577334489737,
+       "diff": 0.05666377565770453,
+       "lo": -0.013649672141408074,
+       "hi": 0.11935951271344654
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.7642194938611877,
+       "diff": 0.19955722822907362,
+       "lo": 0.11265704136928698,
+       "hi": 0.28288885874977543
+      },
+      "totals": {
+       "ref": 3459,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3050,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 213,
+      "enzyextract_not_right": 941,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.9084365102217103,
+       "enzyextract": 0.9072847682119205,
+       "diff": 0.0011517420097898468,
+       "lo": -0.05133935207989935,
+       "hi": 0.0491856798605414
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.8294287970518558,
+       "diff": 0.1705712029481442,
+       "lo": 0.11445226586875357,
+       "hi": 0.23623171378986635
+      },
+      "totals": {
+       "ref": 3473,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 3151,
+       "e_n": 3799,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 318,
+      "enzyextract_not_right": 648,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9369266055045872,
+       "enzyextract": 0.7920489296636085,
+       "diff": 0.14487767584097866,
+       "lo": 0.07065801482536783,
+       "hi": 0.217605100643158
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.7631675874769798,
+       "diff": 0.18536182428772607,
+       "lo": 0.06799633353617927,
+       "hi": 0.2856318451448452
+      },
+      "totals": {
+       "ref": 2616,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 2072,
+       "e_n": 2715,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 409
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 165,
+      "enzyextract_not_right": 643,
+      "enzyextract_missed": 544
+     }
+    }
+   }
+  },
+  "F2 only": {
+   "notes": {
+    "F5 values now agreed": 0,
+    "F2 EnzyExtract values out of scope": 273,
+    "F2 of them judged right (primary rule)": 270
+   },
+   "rules": {
+    "printed_here (primary)": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.9009980844843231,
+       "enzyextract": 0.8620828712571832,
+       "diff": 0.038915213227139867,
+       "lo": -0.020409782297605317,
+       "hi": 0.09539969655513426
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.907942238267148,
+       "diff": 0.07339080225113459,
+       "lo": 0.043855085067402655,
+       "hi": 0.10300822595938573
+      },
+      "totals": {
+       "ref": 9919,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 8551,
+       "e_n": 9418,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 789
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 982,
+      "enzyextract_not_right": 867,
+      "enzyextract_missed": 1368
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8961836135575126,
+       "enzyextract": 0.8609554310114759,
+       "diff": 0.03522818254603677,
+       "lo": -0.04507192481721281,
+       "hi": 0.12010624037797944
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.9138810198300283,
+       "diff": 0.08314985902982919,
+       "lo": 0.03765180779003539,
+       "hi": 0.13770204376791986
+      },
+      "totals": {
+       "ref": 3747,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 3226,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 389,
+      "enzyextract_not_right": 304,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 32,
+       "discordant_ee_only": 32,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 4.656612873077393e-10
+      },
+      "recall": {
+       "catlog": 0.8979885057471264,
+       "enzyextract": 0.9160919540229885,
+       "diff": -0.018103448275862077,
+       "lo": -0.075981136662068,
+       "hi": 0.03563782460587296
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.9559220389805098,
+       "diff": 0.034569244696193935,
+       "lo": 0.0065944393889989985,
+       "hi": 0.06255748089620251
+      },
+      "totals": {
+       "ref": 3480,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 3188,
+       "e_n": 3335,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 146
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 355,
+      "enzyextract_not_right": 147,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9115898959881129,
+       "enzyextract": 0.7938335809806835,
+       "diff": 0.11775631500742945,
+       "lo": 0.04009721921514905,
+       "hi": 0.19417900540657834
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.8370544457500979,
+       "diff": 0.11263595672668225,
+       "lo": -0.0029470115706096084,
+       "hi": 0.2038594409102781
+      },
+      "totals": {
+       "ref": 2692,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2137,
+       "e_n": 2553,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 415
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 238,
+      "enzyextract_not_right": 416,
+      "enzyextract_missed": 555
+     }
+    },
+    "measured_here": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.9606578523057079,
+       "enzyextract": 0.852950661077072,
+       "diff": 0.10770719122863592,
+       "lo": 0.057024150445985675,
+       "hi": 0.15709762112409215
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.7755082095387021,
+       "diff": 0.2058248309795805,
+       "lo": 0.15477958921469126,
+       "hi": 0.2641026242665613
+      },
+      "totals": {
+       "ref": 9303,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 7935,
+       "e_n": 10232,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 789
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 366,
+      "enzyextract_not_right": 2297,
+      "enzyextract_missed": 1368
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9564226716035318,
+       "enzyextract": 0.8516092281401311,
+       "diff": 0.10481344346340071,
+       "lo": 0.03243061925382368,
+       "hi": 0.18413263561238447
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.749185667752443,
+       "diff": 0.24784521110741453,
+       "lo": 0.1752766877738283,
+       "hi": 0.32274709708569577
+      },
+      "totals": {
+       "ref": 3511,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 2990,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 153,
+      "enzyextract_not_right": 1001,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 32,
+       "discordant_ee_only": 32,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 4.656612873077393e-10
+      },
+      "recall": {
+       "catlog": 0.965400061785604,
+       "enzyextract": 0.9097930182267532,
+       "diff": 0.05560704355885082,
+       "lo": 0.010792504335080715,
+       "hi": 0.09931931400571661
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.8196493181185639,
+       "diff": 0.1708419655581398,
+       "lo": 0.1112158860570703,
+       "hi": 0.24161508593161368
+      },
+      "totals": {
+       "ref": 3237,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 2945,
+       "e_n": 3593,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 146
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 112,
+      "enzyextract_not_right": 648,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9604696673189824,
+       "enzyextract": 0.7827788649706457,
+       "diff": 0.17769080234833667,
+       "lo": 0.10445024994532877,
+       "hi": 0.24951683899674446
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.7552870090634441,
+       "diff": 0.194403393413336,
+       "lo": 0.07475819494236609,
+       "hi": 0.2959605402613981
+      },
+      "totals": {
+       "ref": 2555,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2000,
+       "e_n": 2648,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 415
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 101,
+      "enzyextract_not_right": 648,
+      "enzyextract_missed": 555
+     }
+    },
+    "printed_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.8946836466545381,
+       "enzyextract": 0.8703254497675359,
+       "diff": 0.024358196887002248,
+       "lo": -0.03291288791570205,
+       "hi": 0.07886264124133098
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.9143130176258228,
+       "diff": 0.057686543151601155,
+       "lo": -0.006884846197972238,
+       "hi": 0.1047670330809927
+      },
+      "totals": {
+       "ref": 9894,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 8611,
+       "e_n": 9418,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 789
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 1042,
+      "enzyextract_not_right": 807,
+      "enzyextract_missed": 1283
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8784844384303112,
+       "enzyextract": 0.8893098782138025,
+       "diff": -0.010825439783491264,
+       "lo": -0.08320994417648057,
+       "hi": 0.05722475609561098
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.9308781869688385,
+       "diff": 0.03289853512142282,
+       "lo": -0.05022815364547839,
+       "hi": 0.094931122511129
+      },
+      "totals": {
+       "ref": 3695,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3286,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 449,
+      "enzyextract_not_right": 244,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 32,
+       "discordant_ee_only": 32,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 4.656612873077393e-10
+      },
+      "recall": {
+       "catlog": 0.8986043862147536,
+       "enzyextract": 0.9082882369695243,
+       "diff": -0.00968385075477074,
+       "lo": -0.06925035618016555,
+       "hi": 0.04562017060934155
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.9562218890554722,
+       "diff": 0.04377811094452777,
+       "lo": 0.02508817777824219,
+       "hi": 0.06604645086697766
+      },
+      "totals": {
+       "ref": 3511,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 3189,
+       "e_n": 3335,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 146
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 356,
+      "enzyextract_not_right": 146,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9118303571428571,
+       "enzyextract": 0.7946428571428571,
+       "diff": 0.1171875,
+       "lo": 0.04006090908026587,
+       "hi": 0.1934732772378893
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.836662749706228,
+       "diff": 0.11186666205847784,
+       "lo": -0.003820820460579014,
+       "hi": 0.20300491887495667
+      },
+      "totals": {
+       "ref": 2688,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 2136,
+       "e_n": 2553,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 415
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 237,
+      "enzyextract_not_right": 417,
+      "enzyextract_missed": 552
+     }
+    },
+    "measured_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.9540849320974348,
+       "enzyextract": 0.8617158870446217,
+       "diff": 0.09236904505281318,
+       "lo": 0.04272982730494157,
+       "hi": 0.14113419967421612
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.7813721657544958,
+       "diff": 0.19062739502292825,
+       "lo": 0.11934025343638639,
+       "hi": 0.26134321895636914
+      },
+      "totals": {
+       "ref": 9278,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 7995,
+       "e_n": 10232,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 789
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 426,
+      "enzyextract_not_right": 2237,
+      "enzyextract_missed": 1283
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9384215091066782,
+       "enzyextract": 0.8817577334489737,
+       "diff": 0.05666377565770453,
+       "lo": -0.013649672141408074,
+       "hi": 0.11935951271344654
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.7642194938611877,
+       "diff": 0.19955722822907362,
+       "lo": 0.11265704136928698,
+       "hi": 0.28288885874977543
+      },
+      "totals": {
+       "ref": 3459,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3050,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 213,
+      "enzyextract_not_right": 941,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 32,
+       "discordant_ee_only": 32,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 4.656612873077393e-10
+      },
+      "recall": {
+       "catlog": 0.965422276621787,
+       "enzyextract": 0.901468788249694,
+       "diff": 0.06395348837209303,
+       "lo": 0.01708903140868573,
+       "hi": 0.10820869271006753
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.8199276370720846,
+       "diff": 0.1800723629279154,
+       "lo": 0.12076381648159794,
+       "hi": 0.2487625322423431
+      },
+      "totals": {
+       "ref": 3268,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 2946,
+       "e_n": 3593,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 146
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 113,
+      "enzyextract_not_right": 647,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9607996863974911,
+       "enzyextract": 0.7836142689141513,
+       "diff": 0.17718541748333982,
+       "lo": 0.10388536433444845,
+       "hi": 0.24893297240914042
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.7549093655589124,
+       "diff": 0.19362004620579343,
+       "lo": 0.07443172939584579,
+       "hi": 0.2946155571582109
+      },
+      "totals": {
+       "ref": 2551,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 1999,
+       "e_n": 2648,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 415
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 100,
+      "enzyextract_not_right": 649,
+      "enzyextract_missed": 552
+     }
+    }
+   }
+  },
+  "corrected (F5 and F2)": {
+   "notes": {
+    "F5 values now agreed": 8,
+    "F2 EnzyExtract values out of scope": 273,
+    "F2 of them judged right (primary rule)": 270,
+    "F5 values read again": 11
+   },
+   "rules": {
+    "printed_here (primary)": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 78,
+       "discordant_ee_only": 76,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.6469779601696886e-23
+      },
+      "recall": {
+       "catlog": 0.9009980844843231,
+       "enzyextract": 0.8628894041738079,
+       "diff": 0.038108680310515175,
+       "lo": -0.02124620060790277,
+       "hi": 0.09445437111691203
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.9087916755149713,
+       "diff": 0.07254136500331132,
+       "lo": 0.042997206193034126,
+       "hi": 0.1022513811028761
+      },
+      "totals": {
+       "ref": 9919,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 8559,
+       "e_n": 9418,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 781
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 982,
+      "enzyextract_not_right": 859,
+      "enzyextract_missed": 1360
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8961836135575126,
+       "enzyextract": 0.8609554310114759,
+       "diff": 0.03522818254603677,
+       "lo": -0.04507192481721281,
+       "hi": 0.12010624037797944
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.9138810198300283,
+       "diff": 0.08314985902982919,
+       "lo": 0.03765180779003539,
+       "hi": 0.13770204376791986
+      },
+      "totals": {
+       "ref": 3747,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 3226,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 389,
+      "enzyextract_not_right": 304,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 32,
+       "discordant_ee_only": 32,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 4.656612873077393e-10
+      },
+      "recall": {
+       "catlog": 0.8979885057471264,
+       "enzyextract": 0.9160919540229885,
+       "diff": -0.018103448275862077,
+       "lo": -0.075981136662068,
+       "hi": 0.03563782460587296
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.9559220389805098,
+       "diff": 0.034569244696193935,
+       "lo": 0.0065944393889989985,
+       "hi": 0.06255748089620251
+      },
+      "totals": {
+       "ref": 3480,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 3188,
+       "e_n": 3335,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 146
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 355,
+      "enzyextract_not_right": 147,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 51,
+       "discordant_ee_only": 51,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.353672812205332e-14
+      },
+      "recall": {
+       "catlog": 0.9115898959881129,
+       "enzyextract": 0.7968053491827637,
+       "diff": 0.11478454680534922,
+       "lo": 0.037275903501200316,
+       "hi": 0.1906099645179656
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.8401880141010576,
+       "diff": 0.10950238837572257,
+       "lo": -0.006710045371052606,
+       "hi": 0.2008718944484194
+      },
+      "totals": {
+       "ref": 2692,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2145,
+       "e_n": 2553,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 407
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 238,
+      "enzyextract_not_right": 408,
+      "enzyextract_missed": 547
+     }
+    },
+    "measured_here": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 78,
+       "discordant_ee_only": 76,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.6469779601696886e-23
+      },
+      "recall": {
+       "catlog": 0.9606578523057079,
+       "enzyextract": 0.8538105987315919,
+       "diff": 0.10684725357411595,
+       "lo": 0.05602635793246534,
+       "hi": 0.15633492573478716
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.7762900703674745,
+       "diff": 0.20504297015080808,
+       "lo": 0.1539214028245045,
+       "hi": 0.2632973634646217
+      },
+      "totals": {
+       "ref": 9303,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 7943,
+       "e_n": 10232,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 781
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 366,
+      "enzyextract_not_right": 2289,
+      "enzyextract_missed": 1360
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9564226716035318,
+       "enzyextract": 0.8516092281401311,
+       "diff": 0.10481344346340071,
+       "lo": 0.03243061925382368,
+       "hi": 0.18413263561238447
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.749185667752443,
+       "diff": 0.24784521110741453,
+       "lo": 0.1752766877738283,
+       "hi": 0.32274709708569577
+      },
+      "totals": {
+       "ref": 3511,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 2990,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 153,
+      "enzyextract_not_right": 1001,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 32,
+       "discordant_ee_only": 32,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 4.656612873077393e-10
+      },
+      "recall": {
+       "catlog": 0.965400061785604,
+       "enzyextract": 0.9097930182267532,
+       "diff": 0.05560704355885082,
+       "lo": 0.010792504335080715,
+       "hi": 0.09931931400571661
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.8196493181185639,
+       "diff": 0.1708419655581398,
+       "lo": 0.1112158860570703,
+       "hi": 0.24161508593161368
+      },
+      "totals": {
+       "ref": 3237,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 2945,
+       "e_n": 3593,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 146
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 112,
+      "enzyextract_not_right": 648,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 51,
+       "discordant_ee_only": 51,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.353672812205332e-14
+      },
+      "recall": {
+       "catlog": 0.9604696673189824,
+       "enzyextract": 0.7859099804305284,
+       "diff": 0.17455968688845402,
+       "lo": 0.10116715719672563,
+       "hi": 0.24558063866574503
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.7583081570996979,
+       "diff": 0.19138224537708226,
+       "lo": 0.07237487371075536,
+       "hi": 0.29350507036064466
+      },
+      "totals": {
+       "ref": 2555,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2008,
+       "e_n": 2648,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 407
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 101,
+      "enzyextract_not_right": 640,
+      "enzyextract_missed": 547
+     }
+    },
+    "printed_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 78,
+       "discordant_ee_only": 76,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.6469779601696886e-23
+      },
+      "recall": {
+       "catlog": 0.8946836466545381,
+       "enzyextract": 0.8711340206185567,
+       "diff": 0.02354962603598143,
+       "lo": -0.03345667596641908,
+       "hi": 0.07831161606860446
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.9151624548736462,
+       "diff": 0.056837105903777774,
+       "lo": -0.007588287507820877,
+       "hi": 0.10379748057767064
+      },
+      "totals": {
+       "ref": 9894,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 8619,
+       "e_n": 9418,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 781
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 1042,
+      "enzyextract_not_right": 799,
+      "enzyextract_missed": 1275
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8784844384303112,
+       "enzyextract": 0.8893098782138025,
+       "diff": -0.010825439783491264,
+       "lo": -0.08320994417648057,
+       "hi": 0.05722475609561098
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.9308781869688385,
+       "diff": 0.03289853512142282,
+       "lo": -0.05022815364547839,
+       "hi": 0.094931122511129
+      },
+      "totals": {
+       "ref": 3695,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3286,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 449,
+      "enzyextract_not_right": 244,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 32,
+       "discordant_ee_only": 32,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 4.656612873077393e-10
+      },
+      "recall": {
+       "catlog": 0.8986043862147536,
+       "enzyextract": 0.9082882369695243,
+       "diff": -0.00968385075477074,
+       "lo": -0.06925035618016555,
+       "hi": 0.04562017060934155
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.9562218890554722,
+       "diff": 0.04377811094452777,
+       "lo": 0.02508817777824219,
+       "hi": 0.06604645086697766
+      },
+      "totals": {
+       "ref": 3511,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 3189,
+       "e_n": 3335,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 146
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 356,
+      "enzyextract_not_right": 146,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 51,
+       "discordant_ee_only": 51,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.353672812205332e-14
+      },
+      "recall": {
+       "catlog": 0.9118303571428571,
+       "enzyextract": 0.7976190476190477,
+       "diff": 0.11421130952380942,
+       "lo": 0.037142994883874715,
+       "hi": 0.19040781098196077
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.8397963180571876,
+       "diff": 0.10873309370751827,
+       "lo": -0.007350744120179248,
+       "hi": 0.19963165061286434
+      },
+      "totals": {
+       "ref": 2688,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 2144,
+       "e_n": 2553,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 407
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 237,
+      "enzyextract_not_right": 409,
+      "enzyextract_missed": 544
+     }
+    },
+    "measured_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 78,
+       "discordant_ee_only": 76,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.6469779601696886e-23
+      },
+      "recall": {
+       "catlog": 0.9540849320974348,
+       "enzyextract": 0.862578141840914,
+       "diff": 0.09150679025652086,
+       "lo": 0.041866459086569996,
+       "hi": 0.13989159837672718
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.7821540265832682,
+       "diff": 0.18984553419415584,
+       "lo": 0.1186042414306682,
+       "hi": 0.2600498365191974
+      },
+      "totals": {
+       "ref": 9278,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 8003,
+       "e_n": 10232,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 781
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 426,
+      "enzyextract_not_right": 2229,
+      "enzyextract_missed": 1275
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9384215091066782,
+       "enzyextract": 0.8817577334489737,
+       "diff": 0.05666377565770453,
+       "lo": -0.013649672141408074,
+       "hi": 0.11935951271344654
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.7642194938611877,
+       "diff": 0.19955722822907362,
+       "lo": 0.11265704136928698,
+       "hi": 0.28288885874977543
+      },
+      "totals": {
+       "ref": 3459,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3050,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 213,
+      "enzyextract_not_right": 941,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 32,
+       "discordant_ee_only": 32,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 4.656612873077393e-10
+      },
+      "recall": {
+       "catlog": 0.965422276621787,
+       "enzyextract": 0.901468788249694,
+       "diff": 0.06395348837209303,
+       "lo": 0.01708903140868573,
+       "hi": 0.10820869271006753
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.8199276370720846,
+       "diff": 0.1800723629279154,
+       "lo": 0.12076381648159794,
+       "hi": 0.2487625322423431
+      },
+      "totals": {
+       "ref": 3268,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 2946,
+       "e_n": 3593,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 146
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 113,
+      "enzyextract_not_right": 647,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 51,
+       "discordant_ee_only": 51,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.353672812205332e-14
+      },
+      "recall": {
+       "catlog": 0.9607996863974911,
+       "enzyextract": 0.786750294002352,
+       "diff": 0.17404939239513917,
+       "lo": 0.10092459408205635,
+       "hi": 0.24480689740927386
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.7579305135951662,
+       "diff": 0.19059889816953968,
+       "lo": 0.07185338230640553,
+       "hi": 0.29221534454377013
+      },
+      "totals": {
+       "ref": 2551,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 2007,
+       "e_n": 2648,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 407
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 100,
+      "enzyextract_not_right": 641,
+      "enzyextract_missed": 544
+     }
+    }
+   }
+  },
+  "F5 and F2 as the audit defined it (check)": {
+   "notes": {
+    "F5 values now agreed": 8,
+    "F2 EnzyExtract values out of scope": 270,
+    "F2 of them judged right (primary rule)": 270,
+    "F5 values read again": 11
+   },
+   "rules": {
+    "printed_here (primary)": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.9009980844843231,
+       "enzyextract": 0.8628894041738079,
+       "diff": 0.038108680310515175,
+       "lo": -0.02124620060790277,
+       "hi": 0.09445437111691203
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.9085022821356544,
+       "diff": 0.0728307583826282,
+       "lo": 0.04318137446954092,
+       "hi": 0.10255808816211637
+      },
+      "totals": {
+       "ref": 9919,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 8559,
+       "e_n": 9421,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 784
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 982,
+      "enzyextract_not_right": 862,
+      "enzyextract_missed": 1360
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8961836135575126,
+       "enzyextract": 0.8609554310114759,
+       "diff": 0.03522818254603677,
+       "lo": -0.04507192481721281,
+       "hi": 0.12010624037797944
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.9138810198300283,
+       "diff": 0.08314985902982919,
+       "lo": 0.03765180779003539,
+       "hi": 0.13770204376791986
+      },
+      "totals": {
+       "ref": 3747,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 3226,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 389,
+      "enzyextract_not_right": 304,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.8979885057471264,
+       "enzyextract": 0.9160919540229885,
+       "diff": -0.018103448275862077,
+       "lo": -0.075981136662068,
+       "hi": 0.03563782460587296
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.9556354916067147,
+       "diff": 0.03485579206998901,
+       "lo": 0.0067781168676514306,
+       "hi": 0.06284869499886876
+      },
+      "totals": {
+       "ref": 3480,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 3188,
+       "e_n": 3336,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 355,
+      "enzyextract_not_right": 148,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9115898959881129,
+       "enzyextract": 0.7968053491827637,
+       "diff": 0.11478454680534922,
+       "lo": 0.037275903501200316,
+       "hi": 0.1906099645179656
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.8395303326810176,
+       "diff": 0.11016006979576254,
+       "lo": -0.005997147266213837,
+       "hi": 0.20169992409231183
+      },
+      "totals": {
+       "ref": 2692,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2145,
+       "e_n": 2555,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 409
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 238,
+      "enzyextract_not_right": 410,
+      "enzyextract_missed": 547
+     }
+    },
+    "measured_here": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.960554600171969,
+       "enzyextract": 0.8538263112639725,
+       "diff": 0.10672828890799657,
+       "lo": 0.05591870810677672,
+       "hi": 0.15624121701338609
+      },
+      "precision": {
+       "catlog": 0.9813330405182826,
+       "enzyextract": 0.7761602344894968,
+       "diff": 0.20517280602878585,
+       "lo": 0.15420602345113668,
+       "hi": 0.26330121697951014
+      },
+      "totals": {
+       "ref": 9304,
+       "c_held": 8937,
+       "c_n": 9107,
+       "e_held": 7944,
+       "e_n": 10235,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 784
+      },
+      "catlog_not_right": 170,
+      "catlog_missed": 367,
+      "enzyextract_not_right": 2291,
+      "enzyextract_missed": 1360
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9564226716035318,
+       "enzyextract": 0.8516092281401311,
+       "diff": 0.10481344346340071,
+       "lo": 0.03243061925382368,
+       "hi": 0.18413263561238447
+      },
+      "precision": {
+       "catlog": 0.9970308788598575,
+       "enzyextract": 0.749185667752443,
+       "diff": 0.24784521110741453,
+       "lo": 0.1752766877738283,
+       "hi": 0.32274709708569577
+      },
+      "totals": {
+       "ref": 3511,
+       "c_held": 3358,
+       "c_n": 3368,
+       "e_held": 2990,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 10,
+      "catlog_missed": 153,
+      "enzyextract_not_right": 1001,
+      "enzyextract_missed": 521
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.9651019147621989,
+       "enzyextract": 0.9098208770846201,
+       "diff": 0.05528103767757875,
+       "lo": 0.01039362501975759,
+       "hi": 0.09900108416298674
+      },
+      "precision": {
+       "catlog": 0.9904912836767037,
+       "enzyextract": 0.8196994991652755,
+       "diff": 0.17079178451142818,
+       "lo": 0.11107623815681676,
+       "hi": 0.2413882889834991
+      },
+      "totals": {
+       "ref": 3238,
+       "c_held": 3125,
+       "c_n": 3155,
+       "e_held": 2946,
+       "e_n": 3594,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 30,
+      "catlog_missed": 113,
+      "enzyextract_not_right": 648,
+      "enzyextract_missed": 292
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9604696673189824,
+       "enzyextract": 0.7859099804305284,
+       "diff": 0.17455968688845402,
+       "lo": 0.10116715719672563,
+       "hi": 0.24558063866574503
+      },
+      "precision": {
+       "catlog": 0.9496904024767802,
+       "enzyextract": 0.7577358490566037,
+       "diff": 0.19195455342017642,
+       "lo": 0.07284406332823132,
+       "hi": 0.2941830512021564
+      },
+      "totals": {
+       "ref": 2555,
+       "c_held": 2454,
+       "c_n": 2584,
+       "e_held": 2008,
+       "e_n": 2650,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 409
+      },
+      "catlog_not_right": 130,
+      "catlog_missed": 101,
+      "enzyextract_not_right": 642,
+      "enzyextract_missed": 547
+     }
+    },
+    "printed_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.8946836466545381,
+       "enzyextract": 0.8711340206185567,
+       "diff": 0.02354962603598143,
+       "lo": -0.03345667596641908,
+       "hi": 0.07831161606860446
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.9148710327990659,
+       "diff": 0.0571285279783581,
+       "lo": -0.007303422228888678,
+       "hi": 0.1040104263423658
+      },
+      "totals": {
+       "ref": 9894,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 8619,
+       "e_n": 9421,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 784
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 1042,
+      "enzyextract_not_right": 802,
+      "enzyextract_missed": 1275
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.8784844384303112,
+       "enzyextract": 0.8893098782138025,
+       "diff": -0.010825439783491264,
+       "lo": -0.08320994417648057,
+       "hi": 0.05722475609561098
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.9308781869688385,
+       "diff": 0.03289853512142282,
+       "lo": -0.05022815364547839,
+       "hi": 0.094931122511129
+      },
+      "totals": {
+       "ref": 3695,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3286,
+       "e_n": 3530,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 449,
+      "enzyextract_not_right": 244,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.8986043862147536,
+       "enzyextract": 0.9082882369695243,
+       "diff": -0.00968385075477074,
+       "lo": -0.06925035618016555,
+       "hi": 0.04562017060934155
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.9559352517985612,
+       "diff": 0.0440647482014388,
+       "lo": 0.025374256038781292,
+       "hi": 0.06627921266696309
+      },
+      "totals": {
+       "ref": 3511,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 3189,
+       "e_n": 3336,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 356,
+      "enzyextract_not_right": 147,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9118303571428571,
+       "enzyextract": 0.7976190476190477,
+       "diff": 0.11421130952380942,
+       "lo": 0.037142994883874715,
+       "hi": 0.19040781098196077
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.8391389432485323,
+       "diff": 0.10939046851617351,
+       "lo": -0.0066097204473053945,
+       "hi": 0.20049689363435388
+      },
+      "totals": {
+       "ref": 2688,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 2144,
+       "e_n": 2555,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 409
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 237,
+      "enzyextract_not_right": 411,
+      "enzyextract_missed": 544
+     }
+    },
+    "measured_here, misprint corrected": {
+     "all": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 2,
+       "enzyextract": 79,
+       "discordant_ee_only": 77,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 1.3234889800848443e-23
+      },
+      "recall": {
+       "catlog": 0.953982110141179,
+       "enzyextract": 0.8625929518267055,
+       "diff": 0.09138915831447347,
+       "lo": 0.04177322010156754,
+       "hi": 0.13984428853793943
+      },
+      "precision": {
+       "catlog": 0.971999560777424,
+       "enzyextract": 0.7820224719101123,
+       "diff": 0.18997708886731168,
+       "lo": 0.11880499027188941,
+       "hi": 0.26040821158083005
+      },
+      "totals": {
+       "ref": 9279,
+       "c_held": 8852,
+       "c_n": 9107,
+       "e_held": 8004,
+       "e_n": 10235,
+       "c_wrong_numbers": 129,
+       "e_wrong_numbers": 784
+      },
+      "catlog_not_right": 255,
+      "catlog_missed": 427,
+      "enzyextract_not_right": 2231,
+      "enzyextract_missed": 1275
+     },
+     "kcat": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 27,
+       "discordant_ee_only": 27,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 2.1606683731079102e-07
+      },
+      "recall": {
+       "catlog": 0.9384215091066782,
+       "enzyextract": 0.8817577334489737,
+       "diff": 0.05666377565770453,
+       "lo": -0.013649672141408074,
+       "hi": 0.11935951271344654
+      },
+      "precision": {
+       "catlog": 0.9637767220902613,
+       "enzyextract": 0.7642194938611877,
+       "diff": 0.19955722822907362,
+       "lo": 0.11265704136928698,
+       "hi": 0.28288885874977543
+      },
+      "totals": {
+       "ref": 3459,
+       "c_held": 3246,
+       "c_n": 3368,
+       "e_held": 3050,
+       "e_n": 3991,
+       "c_wrong_numbers": 1,
+       "e_wrong_numbers": 228
+      },
+      "catlog_not_right": 122,
+      "catlog_missed": 213,
+      "enzyextract_not_right": 941,
+      "enzyextract_missed": 409
+     },
+     "Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 0,
+       "enzyextract": 33,
+       "discordant_ee_only": 33,
+       "discordant_catlog_only": 0,
+       "sign_test_p": 2.3283064365386963e-10
+      },
+      "recall": {
+       "catlog": 0.9651269501376568,
+       "enzyextract": 0.9014989293361885,
+       "diff": 0.06362802080146834,
+       "lo": 0.016728608988845095,
+       "hi": 0.1078836421381988
+      },
+      "precision": {
+       "catlog": 1.0,
+       "enzyextract": 0.8199777406789093,
+       "diff": 0.18002225932109073,
+       "lo": 0.12061065970269837,
+       "hi": 0.2486592884128519
+      },
+      "totals": {
+       "ref": 3269,
+       "c_held": 3155,
+       "c_n": 3155,
+       "e_held": 2947,
+       "e_n": 3594,
+       "c_wrong_numbers": 0,
+       "e_wrong_numbers": 147
+      },
+      "catlog_not_right": 0,
+      "catlog_missed": 114,
+      "enzyextract_not_right": 647,
+      "enzyextract_missed": 322
+     },
+     "kcat/Km": {
+      "papers": 300,
+      "papers_with_a_wrong_number": {
+       "catlog": 1,
+       "enzyextract": 52,
+       "discordant_ee_only": 52,
+       "discordant_catlog_only": 1,
+       "sign_test_p": 1.199040866595169e-14
+      },
+      "recall": {
+       "catlog": 0.9607996863974911,
+       "enzyextract": 0.786750294002352,
+       "diff": 0.17404939239513917,
+       "lo": 0.10092459408205635,
+       "hi": 0.24480689740927386
+      },
+      "precision": {
+       "catlog": 0.9485294117647058,
+       "enzyextract": 0.7573584905660378,
+       "diff": 0.19117092119866808,
+       "lo": 0.07229366079451809,
+       "hi": 0.29269296323844013
+      },
+      "totals": {
+       "ref": 2551,
+       "c_held": 2451,
+       "c_n": 2584,
+       "e_held": 2007,
+       "e_n": 2650,
+       "c_wrong_numbers": 128,
+       "e_wrong_numbers": 409
+      },
+      "catlog_not_right": 133,
+      "catlog_missed": 100,
+      "enzyextract_not_right": 643,
+      "enzyextract_missed": 544
+     }
+    }
+   }
+  }
+ },
+ "registered_secondaries_F13": {
+  "papers": {
+   "pdf": 187,
+   "xml_only": 113
+  },
+  "registered": {
+   "pdf_papers": {
+    "papers": 187,
+    "papers_with_a_wrong_number": {
+     "catlog": 2,
+     "enzyextract": 54,
+     "discordant_ee_only": 52,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 4.440892098500626e-16
+    },
+    "recall": {
+     "catlog": 0.882495247969587,
+     "enzyextract": 0.8531190599619838,
+     "diff": 0.02937618800760322,
+     "lo": -0.047862961340164975,
+     "hi": 0.10373517229799058
+    },
+    "precision": {
+     "catlog": 0.9683352294273796,
+     "enzyextract": 0.8932513117423557,
+     "diff": 0.07508391768502387,
+     "lo": 0.030531891678202257,
+     "hi": 0.12125217817555187
+    },
+    "totals": {
+     "ref": 5787,
+     "c_held": 5107,
+     "c_n": 5274,
+     "e_held": 4937,
+     "e_n": 5527,
+     "c_wrong_numbers": 129,
+     "e_wrong_numbers": 512
+    },
+    "catlog_not_right": 167,
+    "catlog_missed": 680,
+    "enzyextract_not_right": 590,
+    "enzyextract_missed": 850
+   },
+   "xml_only_papers": {
+    "papers": 113,
+    "papers_with_a_wrong_number": {
+     "catlog": 0,
+     "enzyextract": 26,
+     "discordant_ee_only": 26,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 2.9802322387695312e-08
+    },
+    "recall": {
+     "catlog": 0.8700590640617901,
+     "enzyextract": 0.8823262153566561,
+     "diff": -0.012267151294865997,
+     "lo": -0.10802746082116524,
+     "hi": 0.07642676999072726
+    },
+    "precision": {
+     "catlog": 0.9992173232454996,
+     "enzyextract": 0.9327569644572526,
+     "diff": 0.06646035878824696,
+     "lo": 0.039251073179961744,
+     "hi": 0.09706471751071835
+    },
+    "totals": {
+     "ref": 4402,
+     "c_held": 3830,
+     "c_n": 3833,
+     "e_held": 3884,
+     "e_n": 4164,
+     "c_wrong_numbers": 0,
+     "e_wrong_numbers": 280
+    },
+    "catlog_not_right": 3,
+    "catlog_missed": 572,
+    "enzyextract_not_right": 280,
+    "enzyextract_missed": 518
+   },
+   "enzyextract_values_by_how_read": {
+    "catlog_units": {
+     "agreed": 7248,
+     "as_printed_but_misprint": 18,
+     "corrected_misprint": 78,
+     "credited_to_earlier_work": 605,
+     "measured_here_at_this_scale": 606,
+     "measured_here_other_scale": 392,
+     "not_found_in_paper": 93,
+     "not_this_metric": 261,
+     "repeat_of_one_printed_value": 811,
+     "values": 10112,
+     "wrong_numbers": 746
+    },
+    "catlog_units_after_notation_fix": {
+     "agreed": 255,
+     "credited_to_earlier_work": 9,
+     "measured_here_at_this_scale": 1,
+     "measured_here_other_scale": 2,
+     "not_found_in_paper": 2,
+     "not_this_metric": 3,
+     "repeat_of_one_printed_value": 3,
+     "values": 275,
+     "wrong_numbers": 7
+    },
+    "database_number": {
+     "agreed": 66,
+     "credited_to_earlier_work": 2,
+     "measured_here_at_this_scale": 11,
+     "measured_here_other_scale": 33,
+     "not_this_metric": 6,
+     "values": 118,
+     "wrong_numbers": 39
+    }
+   }
+  },
+  "corrected": {
+   "pdf_papers": {
+    "papers": 187,
+    "papers_with_a_wrong_number": {
+     "catlog": 2,
+     "enzyextract": 52,
+     "discordant_ee_only": 50,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 1.7763568394002505e-15
+    },
+    "recall": {
+     "catlog": 0.9100142551674982,
+     "enzyextract": 0.8499643620812545,
+     "diff": 0.060049893086243755,
+     "lo": -0.01626840075626968,
+     "hi": 0.13343488019263947
+    },
+    "precision": {
+     "catlog": 0.9683352294273796,
+     "enzyextract": 0.8917554683118339,
+     "diff": 0.07657976111554565,
+     "lo": 0.03198067113334077,
+     "hi": 0.12314366273874294
+    },
+    "totals": {
+     "ref": 5612,
+     "c_held": 5107,
+     "c_n": 5274,
+     "e_held": 4770,
+     "e_n": 5349,
+     "c_wrong_numbers": 129,
+     "e_wrong_numbers": 501
+    },
+    "catlog_not_right": 167,
+    "catlog_missed": 505,
+    "enzyextract_not_right": 579,
+    "enzyextract_missed": 842
+   },
+   "xml_only_papers": {
+    "papers": 113,
+    "papers_with_a_wrong_number": {
+     "catlog": 0,
+     "enzyextract": 26,
+     "discordant_ee_only": 26,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 2.9802322387695312e-08
+    },
+    "recall": {
+     "catlog": 0.889250058045043,
+     "enzyextract": 0.8797306710006966,
+     "diff": 0.009519387044346406,
+     "lo": -0.08625789347713146,
+     "hi": 0.09665801342357908
+    },
+    "precision": {
+     "catlog": 0.9992173232454996,
+     "enzyextract": 0.931187023838781,
+     "diff": 0.06803029940671856,
+     "lo": 0.04034803344823052,
+     "hi": 0.09906068248511797
+    },
+    "totals": {
+     "ref": 4307,
+     "c_held": 3830,
+     "c_n": 3833,
+     "e_held": 3789,
+     "e_n": 4069,
+     "c_wrong_numbers": 0,
+     "e_wrong_numbers": 280
+    },
+    "catlog_not_right": 3,
+    "catlog_missed": 477,
+    "enzyextract_not_right": 280,
+    "enzyextract_missed": 518
+   },
+   "enzyextract_values_by_how_read": {
+    "catlog_units": {
+     "agreed": 7256,
+     "as_printed_but_misprint": 18,
+     "corrected_misprint": 78,
+     "credited_to_earlier_work": 605,
+     "measured_here_at_this_scale": 339,
+     "measured_here_other_scale": 384,
+     "not_found_in_paper": 93,
+     "not_this_metric": 259,
+     "out of scope": 269,
+     "repeat_of_one_printed_value": 811,
+     "values": 10112,
+     "wrong_numbers": 736
+    },
+    "catlog_units_after_notation_fix": {
+     "agreed": 255,
+     "credited_to_earlier_work": 9,
+     "measured_here_at_this_scale": 1,
+     "measured_here_other_scale": 1,
+     "not_found_in_paper": 2,
+     "not_this_metric": 3,
+     "out of scope": 1,
+     "repeat_of_one_printed_value": 3,
+     "values": 275,
+     "wrong_numbers": 6
+    },
+    "database_number": {
+     "agreed": 66,
+     "credited_to_earlier_work": 2,
+     "measured_here_at_this_scale": 8,
+     "measured_here_other_scale": 33,
+     "not_this_metric": 6,
+     "out of scope": 3,
+     "values": 118,
+     "wrong_numbers": 39
+    }
+   }
+  }
+ },
+ "post_hoc_without_12723605_F4": {
+  "registered": {
+   "printed_here (primary)": {
+    "papers": 299,
+    "papers_with_a_wrong_number": {
+     "catlog": 1,
+     "enzyextract": 79,
+     "discordant_ee_only": 78,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 6.617444900424222e-24
+    },
+    "recall": {
+     "catlog": 0.8743224252158202,
+     "enzyextract": 0.8747239510138526,
+     "diff": -0.0004015257980324316,
+     "lo": -0.057540608398734025,
+     "hi": 0.05446349704625627
+    },
+    "precision": {
+     "catlog": 0.9985096870342772,
+     "enzyextract": 0.9168771043771043,
+     "diff": 0.08163258265717288,
+     "lo": 0.05993941665478391,
+     "hi": 0.10518977546533716
+    },
+    "totals": {
+     "ref": 9962,
+     "c_held": 8710,
+     "c_n": 8723,
+     "e_held": 8714,
+     "e_n": 9504,
+     "c_wrong_numbers": 1,
+     "e_wrong_numbers": 789
+    },
+    "catlog_not_right": 13,
+    "catlog_missed": 1252,
+    "enzyextract_not_right": 790,
+    "enzyextract_missed": 1248
+   },
+   "printed_here, misprint corrected": {
+    "papers": 299,
+    "papers_with_a_wrong_number": {
+     "catlog": 1,
+     "enzyextract": 79,
+     "discordant_ee_only": 78,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 6.617444900424222e-24
+    },
+    "recall": {
+     "catlog": 0.8758918701638027,
+     "enzyextract": 0.8739825143201688,
+     "diff": 0.001909355843633831,
+     "lo": -0.05517634832624526,
+     "hi": 0.057015456173086114
+    },
+    "precision": {
+     "catlog": 0.9991975237876877,
+     "enzyextract": 0.9150883838383839,
+     "diff": 0.0841091399493038,
+     "lo": 0.06235072948559908,
+     "hi": 0.1077288583524456
+    },
+    "totals": {
+     "ref": 9951,
+     "c_held": 8716,
+     "c_n": 8723,
+     "e_held": 8697,
+     "e_n": 9504,
+     "c_wrong_numbers": 1,
+     "e_wrong_numbers": 789
+    },
+    "catlog_not_right": 7,
+    "catlog_missed": 1235,
+    "enzyextract_not_right": 807,
+    "enzyextract_missed": 1254
+   }
+  },
+  "corrected": {
+   "printed_here (primary)": {
+    "papers": 299,
+    "papers_with_a_wrong_number": {
+     "catlog": 1,
+     "enzyextract": 77,
+     "discordant_ee_only": 76,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 2.6469779601696886e-23
+    },
+    "recall": {
+     "catlog": 0.8986793231531159,
+     "enzyextract": 0.8720594304581097,
+     "diff": 0.026619892695006198,
+     "lo": -0.029691622259858975,
+     "hi": 0.08021498097325082
+    },
+    "precision": {
+     "catlog": 0.9985096870342772,
+     "enzyextract": 0.9156104430722565,
+     "diff": 0.08289924396202075,
+     "lo": 0.06075359381722868,
+     "hi": 0.10728677674769636
+    },
+    "totals": {
+     "ref": 9692,
+     "c_held": 8710,
+     "c_n": 8723,
+     "e_held": 8452,
+     "e_n": 9231,
+     "c_wrong_numbers": 1,
+     "e_wrong_numbers": 778
+    },
+    "catlog_not_right": 13,
+    "catlog_missed": 982,
+    "enzyextract_not_right": 779,
+    "enzyextract_missed": 1240
+   },
+   "printed_here, misprint corrected": {
+    "papers": 299,
+    "papers_with_a_wrong_number": {
+     "catlog": 1,
+     "enzyextract": 77,
+     "discordant_ee_only": 76,
+     "discordant_catlog_only": 0,
+     "sign_test_p": 2.6469779601696886e-23
+    },
+    "recall": {
+     "catlog": 0.9003202148538374,
+     "enzyextract": 0.871294287780188,
+     "diff": 0.02902592707364937,
+     "lo": -0.027390471144450677,
+     "hi": 0.08265805290259526
+    },
+    "precision": {
+     "catlog": 0.9991975237876877,
+     "enzyextract": 0.9137688224461055,
+     "diff": 0.0854287013415822,
+     "lo": 0.06290721456065226,
+     "hi": 0.10983267822684821
+    },
+    "totals": {
+     "ref": 9681,
+     "c_held": 8716,
+     "c_n": 8723,
+     "e_held": 8435,
+     "e_n": 9231,
+     "c_wrong_numbers": 1,
+     "e_wrong_numbers": 778
+    },
+    "catlog_not_right": 7,
+    "catlog_missed": 965,
+    "enzyextract_not_right": 796,
+    "enzyextract_missed": 1246
+   }
+  }
+ },
+ "reproduces_run_results_json_with_switches_off": true
+}

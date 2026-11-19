@@ -1,0 +1,120 @@
+order	pmid	analysed	left_out	catlog_read_twice
+1	10518925	no	refused (plain)	no
+2	9305868	no	catlog rule_broken	no
+3	11675384	no	refused (plain)	no
+4	10848975	yes		no
+5	12205087	yes		no
+6	10446163	no	catlog rule_broken	no
+7	11468288	yes		no
+8	11298760	yes		no
+9	28743924	yes		no
+10	8807052	no	refused (catlog)	no
+11	11535122	yes		no
+12	10029307	yes		no
+13	10561608	yes		no
+14	11707391	yes		no
+15	10561613	no	refused (catlog)	no
+16	16503877	no	refused (catlog)	no
+17	10491091	yes		no
+18	11078532	no	catlog rule_broken	no
+19	12379146	yes		no
+20	10998050	yes		no
+21	15123660	no	catlog rule_broken	no
+22	15136574	yes		no
+23	20561507	yes		no
+24	11382747	yes		no
+25	15152005	no	refused (plain)	no
+26	12047629	yes		no
+27	20670441	yes		no
+28	11457449	no	refused (plain)	no
+29	12766158	no	refused (catlog)	no
+30	9973343	yes		no
+31	10518926	no	refused (catlog)	yes
+32	15371425	yes		yes
+33	10759850	no	refused (catlog)	yes
+34	14976196	yes		yes
+35	12023023	yes		yes
+36	11513863	yes		no
+37	20656778	no	refused (catlog)	no
+38	14985330	no	refused (catlog)	yes
+39	15123647	no	refused (plain)	no
+40	11278915	yes		no
+41	11589710	yes		no
+42	10514486	yes		no
+43	15247292	yes		no
+44	12351635	yes		no
+45	11955282	no	catlog rule_broken	no
+46	12741958	yes		no
+47	11172800	yes		no
+48	9761457	yes		no
+49	9359420	yes		no
+50	10447675	yes		no
+51	10671479	yes		no
+52	12962500	yes		no
+53	11336650	yes		no
+54	12493767	yes		no
+55	10714990	yes		no
+56	12297285	yes		no
+57	11470266	yes		no
+58	10806397	yes		no
+59	11502204	yes		no
+60	11016923	yes		no
+61	9733738	no	refused (plain)	yes
+62	11106417	yes		yes
+63	11733016	no	refused (catlog)	yes
+64	11172808	yes		yes
+65	12095636	yes		yes
+66	11248687	yes		yes
+67	10564758	yes		yes
+68	11279139	yes		yes
+69	10526176	no	refused (catlog)	yes
+70	11322958	yes		yes
+71	24074367	no	refused (catlog)	yes
+72	11733006	yes		yes
+73	15288786	yes		yes
+74	11415449	yes		yes
+75	11488932	yes		yes
+76	12813039	yes		yes
+77	25287957	yes		yes
+78	10411640	yes		yes
+79	1100398	yes		yes
+80	8948426	yes		yes
+81	15238222	yes		yes
+82	9202000	yes		yes
+83	11880657	yes		yes
+84	9111016	yes		yes
+85	11358525	yes		yes
+86	9495750	yes		yes
+87	20886866	no	refused (plain)	yes
+88	13678419	yes		yes
+89	12147691	no	refused (plain)	yes
+90	12114510	no	refused (catlog)	yes
+91	12387887	yes		no
+92	12234492	yes		no
+93	15123417	yes		no
+94	10801893	yes		no
+95	10491164	no	refused (catlog)	no
+96	11574477	no	refused (catlog)	no
+97	10095764	yes		no
+98	11820932	yes		no
+99	10480878	no	catlog rule_broken	no
+100	10651827	no	refused (plain)	no
+101	12888555	no	refused (plain)	no
+102	10777527	no	refused (catlog)	no
+103	12049631	no	refused (catlog)	no
+104	11943176	no	refused (plain)	no
+105	15210695	yes		no
+106	12878037	yes		no
+107	10848966	yes		no
+108	14871895	yes		no
+109	9235932	yes		no
+110	14960587	yes		no
+111	10095793	yes		yes
+112	11997034	yes		yes
+113	12029084	yes		yes
+114	12615324	yes		yes
+115	15158713	yes		yes
+116	14580998	yes		no
+117	12419809	no	refused (catlog)	no
+118	11889053	no	catlog rule_broken	no
+119	10429198	no	refused (plain)	no

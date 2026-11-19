@@ -1,0 +1,128 @@
+{
+ "interim": false,
+ "papers_used": 147,
+ "papers_in_first_only": [
+  "19737010",
+  "31095809",
+  "35546366"
+ ],
+ "rates_on_the_same_papers": {
+  "plain": {
+   "first_per_1000": 13.91,
+   "second_per_1000": 9.27,
+   "difference_ci": [
+    -9.76,
+    -0.86
+   ],
+   "share_second_lower": 0.9984
+  },
+  "catlog": {
+   "first_per_1000": 3.42,
+   "second_per_1000": 1.37,
+   "difference_ci": [
+    -6.5,
+    2.39
+   ],
+   "share_second_lower": 0.8246
+  }
+ },
+ "scaled_per_1000": {
+  "plain": [
+   22.25,
+   10.36
+  ],
+  "catlog": [
+   13.11,
+   1.37
+  ]
+ },
+ "papers_with_a_wrong_value": {
+  "plain": [
+   11,
+   5
+  ],
+  "catlog": [
+   6,
+   1
+  ]
+ },
+ "decoys_caught_by_kind": {
+  "x1000": [
+   74,
+   74
+  ],
+  "x60": [
+   97,
+   97
+  ]
+ },
+ "decoys_twin_visible_caught": [
+  9,
+  9
+ ],
+ "plain": {
+  "agreeing sample": {
+   "error -> error": 1,
+   "error -> supported": 7,
+   "supported -> cannot_decide": 2,
+   "supported -> supported": 731
+  },
+  "disputed": {
+   "error -> error": 41,
+   "error -> supported": 14,
+   "supported -> cannot_decide": 18,
+   "supported -> supported": 217
+  },
+  "first_errors_by_first_decision": {
+   "2-0": {
+    "error": 42,
+    "supported": 14
+   },
+   "third judge": {
+    "supported": 7
+   }
+  },
+  "from_former_shared_claims": {
+   "supported -> supported": 86
+  },
+  "new_errors_items": []
+ },
+ "catlog": {
+  "agreeing sample": {
+   "error -> supported": 9,
+   "supported -> cannot_decide": 2,
+   "supported -> supported": 730
+  },
+  "disputed": {
+   "cannot_decide -> cannot_decide": 3,
+   "error -> supported": 6,
+   "supported -> cannot_decide": 16,
+   "supported -> error": 6,
+   "supported -> supported": 119
+  },
+  "first_errors_by_first_decision": {
+   "2-0": {
+    "supported": 14
+   },
+   "third judge": {
+    "supported": 1
+   }
+  },
+  "from_former_shared_claims": {
+   "supported -> supported": 86
+  },
+  "by_details_parts": {
+   "three or more parts": {
+    "supported -> supported": 827,
+    "supported -> error": 6,
+    "error -> supported": 15,
+    "cannot_decide -> cannot_decide": 3,
+    "supported -> cannot_decide": 18
+   },
+   "fewer parts": {
+    "supported -> supported": 22
+   }
+  },
+  "new_errors_items": "[6 per-value entries left out here: the records are in the TSV files beside this file]"
+ }
+}

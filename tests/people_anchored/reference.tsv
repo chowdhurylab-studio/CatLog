@@ -1,0 +1,1618 @@
+pmid	metric	reference	database	category	held_by_catlog	held_by_enzyextract
+1590768	Km	confirmed	brenda		catlog:7e37fc36d2512d1c	TheData.parquet row 175203
+1590768	Km	confirmed	brenda		catlog:f1cecaf08266fa74	TheData.parquet row 175207
+1590768	Km	confirmed	brenda		catlog:9eac2ddfed53db2a	TheData.parquet row 175204
+1590768	Km	confirmed	brenda		catlog:64cc81146a84b375	TheData.parquet row 175177
+1590768	Km	confirmed	brenda		catlog:733bd70e6f2ea305	TheData.parquet row 175201
+1590768	Km	confirmed	brenda		catlog:ce7ef51b5a7ab537	TheData.parquet row 175206
+1935983	Km	confirmed	brenda		catlog:749bac24fbe32191	
+7737980	Km	confirmed	brenda		catlog:38719e5c75ec7d49	TheData.parquet row 108405
+7737980	kcat	confirmed	brenda		catlog:21ed1ec50218e6f1	TheData.parquet row 108405
+7737980	Km	confirmed	brenda		catlog:ed9c47d7ae796721	TheData.parquet row 108387
+7747971	Km	confirmed	uniprot		catlog:26acd55f636c8d11	TheData.parquet row 150670
+8843167	kcat	confirmed	oed		catlog:9d79535601fecb45	TheData.parquet row 149430
+8843167	Km	confirmed	oed		catlog:d354e803ef2415ad	TheData.parquet row 149430
+8843167	kcat	confirmed	sabio_rk			
+8843167	Km	confirmed	sabio_rk			
+8843167	kcat/Km	confirmed	sabio_rk		catlog:870020f47ad29941	TheData.parquet row 149430
+8843167	kcat	confirmed	oed		catlog:5ee3bde5b4ce9dc1	TheData.parquet row 149429
+8843167	Km	confirmed	oed		catlog:7b2d813df1718688	TheData.parquet row 149429
+9252109	Km	confirmed	brenda		catlog:683fd7273c6b0250	TheData.parquet row 23620
+9268334	Km	confirmed	uniprot		catlog:dda85ccf528c3a2f	
+9268334	Km	confirmed	uniprot		catlog:6e893e95cffa5f75	TheData.parquet row 23624
+9307017	kcat	confirmed	brenda		catlog:521ff9028eadcba6	TheData.parquet row 128262
+9307017	Km	confirmed	brenda		catlog:ad776b52ca7a4578	TheData.parquet row 128262
+9307017	kcat/Km	confirmed	brenda		catlog:986c36b84ae45fd9	TheData.parquet row 128262
+9307017	kcat	confirmed	brenda		catlog:09eff58494b2a222	TheData.parquet row 128260
+9307017	Km	confirmed	brenda		catlog:e83580b92a7c08e2	TheData.parquet row 128260
+9307017	kcat/Km	confirmed	brenda		catlog:6329e06f3542d709	TheData.parquet row 128260
+9546178	kcat	confirmed	oed		catlog:be160b3c07eee9cd	TheData.parquet row 105422
+9546178	Km	confirmed	oed		catlog:5ea12f8a205462cf	TheData.parquet row 105422
+9546178	kcat	confirmed	oed		catlog:f3be58bb43358d94	TheData.parquet row 105424
+9546178	Km	confirmed	oed		catlog:253b1c8025c3bfc7	TheData.parquet row 105424
+9546178	kcat/Km	confirmed	oed		catlog:7bbb6117e0df7702	TheData.parquet row 105424
+9546178	kcat	confirmed	oed		catlog:f06a2e7c3c2c9e8b	TheData.parquet row 105423
+9546178	Km	confirmed	oed		catlog:6a2076bde391b871	TheData.parquet row 105423
+9546178	kcat/Km	confirmed	oed		catlog:196194581afbc371	TheData.parquet row 105423
+9546178	kcat	confirmed	oed		catlog:3f21f2c378534514	TheData.parquet row 105425
+9546178	Km	confirmed	oed		catlog:a1ce5962a6f3f94e	TheData.parquet row 105425
+9546178	kcat/Km	confirmed	oed		catlog:bbfeadf332f27027	TheData.parquet row 105425
+9791114	kcat	confirmed	brenda		catlog:6bd98a3de8a1f6e6	TheData.parquet row 105490
+9791114	Km	confirmed	brenda		catlog:86f9b012dd3e35b5	TheData.parquet row 105490
+9791114	kcat/Km	confirmed	brenda		catlog:2da13a395ea36485	TheData.parquet row 105490
+9791114	kcat	confirmed	brenda		catlog:c08ef5a839bf38c5	TheData.parquet row 105493
+9791114	Km	confirmed	brenda		catlog:cc6203ddd7bda61e	TheData.parquet row 105493
+9791114	kcat/Km	confirmed	brenda		catlog:17a718e72fb04070	TheData.parquet row 105493
+9791114	Km	confirmed	brenda		catlog:812c79bbae8dd5fc	TheData.parquet row 105494
+9791114	kcat	confirmed	brenda		catlog:9335b38bc4d1eaf2	TheData.parquet row 105498
+9791114	Km	confirmed	brenda		catlog:0f390ef473b99c7f	TheData.parquet row 105498
+9791114	kcat/Km	confirmed	brenda		catlog:653baf7efd9089ad	TheData.parquet row 105491
+9791114	kcat	confirmed	brenda		catlog:bf2b0b5eee4a4cdc	TheData.parquet row 105491
+9791114	Km	confirmed	brenda		catlog:e8774165ce3aa264	TheData.parquet row 105491
+9791114	kcat/Km	confirmed	brenda		catlog:37e5b69c75bddd27	TheData.parquet row 105497
+9791114	kcat	confirmed	brenda		catlog:2a521f8adf659ff6	TheData.parquet row 105497
+9791114	Km	confirmed	brenda		catlog:919ff9f64911b9d4	TheData.parquet row 105497
+9791114	kcat/Km	confirmed	brenda		catlog:ac498e24754a8781	TheData.parquet row 105498
+9791114	kcat	confirmed	brenda		catlog:580116af74385dc0	TheData.parquet row 105492
+9791114	Km	confirmed	brenda		catlog:e2d57b6b13ad66a7	TheData.parquet row 105492
+9791114	kcat	confirmed	brenda		catlog:6fd1a9dc251b5e4a	TheData.parquet row 105501
+9791114	Km	confirmed	brenda		catlog:1155c0d76fa9df55	TheData.parquet row 105501
+9791114	kcat/Km	confirmed	brenda		catlog:42ff3e02cea26aa6	TheData.parquet row 105501
+9827548	kcat	confirmed	brenda		catlog:e29f0fd0c3a78e12	TheData.parquet row 149712
+9827548	Km	confirmed	brenda		catlog:c97339ce3069f78b	TheData.parquet row 149712
+9827548	kcat/Km	confirmed	brenda		catlog:b29c2883a6a65a49	TheData.parquet row 149712
+9827548	kcat	confirmed	brenda		catlog:025639832c6f3bac	TheData.parquet row 149711
+9827548	Km	confirmed	brenda		catlog:f1637ba6025a79b9	TheData.parquet row 149711
+9827548	kcat/Km	confirmed	brenda		catlog:9a6a8b0a7da78643	TheData.parquet row 149711
+10998348	Km	confirmed	uniprot		catlog:38f57dc3f1eb7554	
+10998348	Km	confirmed	uniprot		catlog:9dfd05376a0fd5e6	TheData.parquet row 109337
+10998348	Km	confirmed	uniprot		catlog:7e13affa37839243	TheData.parquet row 109335
+10998348	Km	confirmed	uniprot		catlog:19b23d0dfde92cd4	TheData.parquet row 109336
+10998348	Km	confirmed	uniprot		catlog:fa5de74669212253	TheData.parquet row 109345
+10998348	Km	confirmed	uniprot		catlog:e3830aae181ad94a	TheData.parquet row 109344
+10998348	Km	confirmed	uniprot		catlog:17028fe119d8df75	TheData.parquet row 109339
+10998348	kcat	confirmed	oed		catlog:27b5b1136e4b463f	TheData.parquet row 109339
+10998348	Km	confirmed	oed			
+10998348	Km	confirmed	uniprot		catlog:972d8fc3dfcc5cd6	
+10998348	Km	confirmed	uniprot		catlog:34e328d04b4f0c6b	
+10998348	Km	confirmed	uniprot		catlog:606ba6968086a56b	TheData.parquet row 109326
+11305920	kcat	confirmed	oed		catlog:96af55ea60f4442f	
+11305920	Km	confirmed	oed		catlog:edec4179bb1a180b	
+11305920	kcat	confirmed	oed		catlog:a75a98d1189bb632	
+11305920	Km	confirmed	oed		catlog:632137cf10448e6b	
+11305920	kcat	confirmed	oed		catlog:c35be8860b764260	
+11305920	Km	confirmed	oed		catlog:7f976e767e414798	
+11940569	Km	confirmed	uniprot		catlog:800627a301a7a32e	TheData.parquet row 2962
+11940569	Km	confirmed	uniprot		catlog:b0adfa866f2d9743	TheData.parquet row 2958
+12021281	kcat	confirmed	oed		catlog:8c7e5f3e1d5ff53b	TheData.parquet row 106437
+12021281	Km	confirmed	oed		catlog:ab1124dd068db2fd	TheData.parquet row 106427
+12021281	kcat/Km	confirmed	oed		catlog:f06b66225c3054c5	TheData.parquet row 106437
+12021281	kcat	confirmed	oed		catlog:0131c2b7c3cae594	TheData.parquet row 106435
+12021281	Km	confirmed	oed		catlog:6b2c1e9de5522cce	TheData.parquet row 106435
+12021281	kcat/Km	confirmed	oed		catlog:cf7b9ad4a137eb9d	TheData.parquet row 106435
+12021281	kcat	confirmed	oed		catlog:f5c3ef82d392e263	TheData.parquet row 106430
+12021281	Km	confirmed	oed		catlog:9582ba151cc30fe4	TheData.parquet row 106430
+12021281	kcat/Km	confirmed	oed		catlog:16ff57d83810c0e6	TheData.parquet row 106430
+12193607	kcat	confirmed	oed		catlog:59818589cc582695	TheData.parquet row 106506
+12193607	Km	confirmed	oed		catlog:2ed8775ca627cc2f	TheData.parquet row 106506
+12193607	kcat/Km	confirmed	oed		catlog:ac86abc3fcaadcd4	TheData.parquet row 106506
+12193607	kcat	confirmed	oed			
+12193607	Km	confirmed	oed		catlog:535db495e067ac42	
+12193607	kcat/Km	confirmed	oed		catlog:be8ea31b8311f6b4	
+12535615	kcat	confirmed	oed		catlog:a04048cf8804d62e	
+12535615	Km	confirmed	oed		catlog:ea02076394de98f2	TheData.parquet row 3913
+12535615	kcat	confirmed	oed		catlog:fdf13a86f75e3cf0	TheData.parquet row 3915
+12535615	Km	confirmed	oed		catlog:847a90337c145074	TheData.parquet row 3915
+12535615	kcat	confirmed	oed		catlog:6d2a1803095a7774	TheData.parquet row 3917
+12535615	Km	confirmed	oed		catlog:93b8700ef947e05a	TheData.parquet row 3917
+12535615	kcat	confirmed	oed		catlog:e9fb97b91f9a08d4	TheData.parquet row 3913
+12535615	Km	confirmed	oed		catlog:2dad4476044e6539	
+12535615	kcat	confirmed	oed		catlog:cfb2295798f5ddc2	TheData.parquet row 3919
+12535615	Km	confirmed	oed		catlog:804bc3f3e5b3f516	TheData.parquet row 3919
+14730138	kcat	confirmed	brenda		catlog:4651fcf60be22da0	TheData.parquet row 136057
+14730138	Km	confirmed	brenda		catlog:54b781e5cfa7601d	TheData.parquet row 136057
+14730138	kcat/Km	confirmed	brenda		catlog:e2c34588a8242470	
+14730138	kcat	confirmed	brenda		catlog:842099f08b208c94	TheData.parquet row 136050
+14730138	Km	confirmed	brenda		catlog:931617a28dc9cb26	TheData.parquet row 136050
+14730138	kcat/Km	confirmed	brenda		catlog:fd07f25bd52966a2	
+14730138	kcat	confirmed	brenda		catlog:eeba4f424c14d0ca	TheData.parquet row 136051
+14730138	Km	confirmed	brenda		catlog:773e5c0467cf718a	TheData.parquet row 136051
+14730138	kcat/Km	confirmed	brenda		catlog:5b668180a5fe7621	
+14730138	kcat	confirmed	brenda		catlog:7677c2ecd7b85bd2	TheData.parquet row 136052
+14730138	Km	confirmed	brenda		catlog:0c624e81f4341727	TheData.parquet row 136052
+14730138	kcat/Km	confirmed	brenda		catlog:a997cd8ddcc23be7	
+14730138	kcat	confirmed	brenda		catlog:3b090410cc9a4c3c	TheData.parquet row 136055
+14730138	Km	confirmed	brenda		catlog:f6f86782ea6adcc7	TheData.parquet row 136055
+14730138	kcat/Km	confirmed	brenda		catlog:0379af5cd7e1ba3c	
+14730138	kcat	confirmed	brenda		catlog:b4249024c011925e	TheData.parquet row 136054
+14730138	Km	confirmed	brenda		catlog:378d3c855a9f1eb9	TheData.parquet row 136054
+14730138	kcat/Km	confirmed	brenda		catlog:0346efaf5efd5f8c	
+14734559	kcat	confirmed	oed		catlog:72e7af2aff58241b	TheData.parquet row 5838
+14734559	Km	confirmed	oed		catlog:d6784e2be0c5f9a1	TheData.parquet row 5838
+14734559	kcat/Km	confirmed	oed		catlog:24793d76488c2442	TheData.parquet row 5838
+14734559	kcat	confirmed	oed		catlog:d1282aba5804991d	TheData.parquet row 5834
+14734559	Km	confirmed	oed		catlog:87fd24c663eb6d5a	TheData.parquet row 5834
+14734559	kcat/Km	confirmed	oed		catlog:e179baaaf6fb1c6f	TheData.parquet row 5834
+14734559	kcat	confirmed	oed		catlog:4a55f6310cdb7e02	TheData.parquet row 5836
+14734559	Km	confirmed	oed		catlog:2a838200de61a5ee	TheData.parquet row 5836
+14734559	kcat/Km	confirmed	oed		catlog:a673ed95bb84a84b	TheData.parquet row 5836
+14734559	kcat	confirmed	oed		catlog:b79b31de18399fa2	TheData.parquet row 5840
+14734559	Km	confirmed	oed		catlog:b2105c7df49eea33	TheData.parquet row 5840
+14734559	kcat/Km	confirmed	oed		catlog:04ad80f8010cd953	TheData.parquet row 5840
+14734559	kcat	confirmed	oed		catlog:3befbb234a084106	TheData.parquet row 5844
+14734559	Km	confirmed	oed		catlog:59383fb667efffcf	TheData.parquet row 5844
+14734559	kcat/Km	confirmed	oed		catlog:78e3dbfebe008586	TheData.parquet row 5844
+14734559	kcat	confirmed	oed		catlog:aea81b6a9ca9439a	TheData.parquet row 5848
+14734559	Km	confirmed	oed		catlog:ea538b6a07e74d51	TheData.parquet row 5848
+14734559	kcat/Km	confirmed	oed		catlog:aa65ffcc697cd29f	TheData.parquet row 5848
+14734559	kcat	confirmed	oed		catlog:d530856e8cbc38fe	TheData.parquet row 5842
+14734559	Km	confirmed	oed		catlog:568cbdaaeb48a59f	TheData.parquet row 5842
+14734559	kcat/Km	confirmed	oed		catlog:dbaa46313ddc7e1b	TheData.parquet row 5842
+14734559	kcat	confirmed	oed		catlog:07dfa3f802c3acbf	TheData.parquet row 5846
+14734559	Km	confirmed	oed		catlog:2ad5406d4d197bb5	TheData.parquet row 5846
+14734559	kcat/Km	confirmed	oed		catlog:fbea3efde75a0a81	TheData.parquet row 5846
+14745009	kcat	confirmed	oed		catlog:fa21d3baa57d47b0	TheData.parquet row 161008
+14745009	Km	confirmed	oed		catlog:bfa8a6bdc1d723c0	TheData.parquet row 161008
+14745009	kcat	confirmed	oed		catlog:9db221b88694a615	TheData.parquet row 161021
+14745009	Km	confirmed	oed		catlog:946576d8fc1b4ff4	TheData.parquet row 161021
+14745009	kcat	confirmed	oed		catlog:369935108befbde8	TheData.parquet row 161023
+14745009	Km	confirmed	oed		catlog:03c14fd25cedfba9	TheData.parquet row 161023
+14745009	kcat	confirmed	oed		catlog:dc71feb1904ddeca	TheData.parquet row 161018
+14745009	Km	confirmed	oed		catlog:bc27d4070d83af5b	TheData.parquet row 161018
+14745009	kcat	confirmed	sabio_rk		catlog:a92ae8ef8e84322b	TheData.parquet row 161004
+14745009	Km	confirmed	sabio_rk		catlog:aa20f82f7989537d	TheData.parquet row 161004
+14745009	kcat	confirmed	oed		catlog:286e9dda6771c288	TheData.parquet row 161033
+14745009	Km	confirmed	oed		catlog:ac040760e5216eb6	TheData.parquet row 161033
+14745009	kcat	confirmed	sabio_rk		catlog:d031e97121d433e7	TheData.parquet row 161019
+14745009	Km	confirmed	sabio_rk		catlog:b1d94678e9b5196b	TheData.parquet row 161019
+14745009	kcat	confirmed	oed		catlog:c114b3898a65dd29	TheData.parquet row 161031
+14745009	Km	confirmed	oed		catlog:7623b4a4da9561a4	TheData.parquet row 161031
+14745009	kcat	confirmed	oed		catlog:9c4f1fbb5ba09430	TheData.parquet row 161026
+14745009	Km	confirmed	oed		catlog:dfc5daf12eb7f12f	TheData.parquet row 161026
+14745009	kcat/Km	confirmed	oed		catlog:3b748702ac64f118	
+14745009	kcat	confirmed	sabio_rk		catlog:bcbd1c637e31feb9	TheData.parquet row 161009
+14745009	Km	confirmed	sabio_rk		catlog:99fac70fbe254f8a	TheData.parquet row 161009
+14745009	kcat	confirmed	oed		catlog:83f66016aeb65830	TheData.parquet row 161016
+14745009	Km	confirmed	oed		catlog:d66f35fa1c55928d	TheData.parquet row 161016
+15139852	kcat	confirmed	sabio_rk		catlog:8b1bf11d490deb46	TheData.parquet row 110807
+15139852	Km	confirmed	sabio_rk		catlog:b6f06591a70540db	TheData.parquet row 110807
+15139852	kcat	confirmed	sabio_rk			TheData.parquet row 110808
+15139852	Km	confirmed	sabio_rk			TheData.parquet row 110808
+15139852	kcat	confirmed	oed			
+15139852	Km	confirmed	oed			
+15139852	kcat	confirmed	oed			
+15139852	Km	confirmed	oed			
+15139852	kcat	confirmed	sabio_rk			
+15139852	Km	confirmed	sabio_rk			
+15169773	kcat	confirmed	oed		catlog:bf74420cba47c570	TheData.parquet row 6348
+15169773	Km	confirmed	oed		catlog:e50924f5aa179a9e	TheData.parquet row 6348
+15169773	kcat	confirmed	oed		catlog:142700a6623c1f6d	TheData.parquet row 6383
+15169773	Km	confirmed	oed		catlog:7e484943ac97f71f	TheData.parquet row 6383
+15226311	kcat	confirmed	brenda		catlog:6f56eb7dc4c15cd5	TheData.parquet row 6488
+15226311	Km	confirmed	brenda		catlog:4895440e52b9288c	TheData.parquet row 6488
+15226311	kcat	confirmed	brenda		catlog:30411e076972aba9	TheData.parquet row 6489
+15226311	Km	confirmed	brenda		catlog:8fb62d480cad6a64	TheData.parquet row 6489
+15328606	kcat	confirmed	brenda		catlog:e2a18361c14e6087	TheData.parquet row 135149
+15328606	Km	confirmed	brenda		catlog:b8184b15cf9a897a	TheData.parquet row 135149
+15328606	kcat/Km	confirmed	brenda		catlog:3e68cf2e5b9dba39	TheData.parquet row 135149
+15328606	kcat	confirmed	brenda		catlog:cf3bd915a86b0b3a	TheData.parquet row 135165
+15328606	Km	confirmed	brenda		catlog:ec0f27b2f1eebf8b	TheData.parquet row 135165
+15328606	kcat/Km	confirmed	brenda		catlog:ba49cb106d1ac081	TheData.parquet row 135165
+15328606	kcat	confirmed	brenda		catlog:bbbdabeefe4d78da	TheData.parquet row 135160
+15328606	Km	confirmed	brenda		catlog:686fa65f43aa60e6	TheData.parquet row 135160
+15328606	kcat/Km	confirmed	brenda		catlog:d78abf7977a610f5	TheData.parquet row 135160
+15328606	kcat	confirmed	brenda		catlog:2ccd3f538fa55aea	TheData.parquet row 135169
+15328606	Km	confirmed	brenda		catlog:5169554fc4191a28	TheData.parquet row 135169
+15328606	kcat/Km	confirmed	brenda		catlog:6ba9f19a7c040d2f	TheData.parquet row 135169
+15328606	kcat	confirmed	brenda		catlog:3db68476ea8548f4	TheData.parquet row 135158
+15328606	Km	confirmed	brenda		catlog:db041c02bd02eff9	TheData.parquet row 135158
+15328606	kcat/Km	confirmed	brenda		catlog:361c1d7950711ebb	TheData.parquet row 135158
+15328606	kcat	confirmed	brenda		catlog:b14f2f42417c6b06	TheData.parquet row 135156
+15328606	Km	confirmed	brenda		catlog:4b30cdcef32e8875	TheData.parquet row 135156
+15328606	kcat/Km	confirmed	brenda		catlog:8f3782993b8e3b38	TheData.parquet row 135156
+15328606	kcat	confirmed	brenda		catlog:097b30b0ceacbfa2	TheData.parquet row 135171
+15328606	Km	confirmed	brenda		catlog:e997c9a58c20cff6	TheData.parquet row 135171
+15328606	kcat/Km	confirmed	brenda		catlog:86c372764df61d1a	TheData.parquet row 135171
+15556614	Km	confirmed	uniprot		catlog:bf00e649a75409c4	TheData.parquet row 111116
+15556614	Km	confirmed	uniprot		catlog:194ce8baae4ae0f6	TheData.parquet row 111117
+15556614	Km	confirmed	uniprot		catlog:e7ffa4577cf6026a	TheData.parquet row 111110
+15556614	Km	confirmed	uniprot		catlog:2c68eda83b26b565	TheData.parquet row 111112
+15556614	Km	confirmed	uniprot		catlog:813ae5ee364daea3	TheData.parquet row 111118
+15556614	Km	confirmed	uniprot		catlog:128c31b7329e6c85	TheData.parquet row 111109
+15556614	Km	confirmed	uniprot		catlog:56b4eb2b43130192	TheData.parquet row 111119
+15556614	Km	confirmed	uniprot		catlog:f256e44e7db62eda	TheData.parquet row 111111
+15556614	Km	confirmed	uniprot		catlog:8d03d1535109e4ff	TheData.parquet row 111113
+15556614	Km	confirmed	uniprot		catlog:e7a9eb0d2c608235	TheData.parquet row 111115
+15556614	Km	confirmed	uniprot		catlog:e94c23de9abe4577	TheData.parquet row 111108
+15556614	Km	confirmed	uniprot		catlog:bd3ed4d1bda2c8ee	TheData.parquet row 111120
+15556614	Km	confirmed	uniprot		catlog:cc72f394509cf3bc	TheData.parquet row 111114
+15878881	kcat	confirmed	oed		catlog:9699f30df1081696	TheData.parquet row 106915
+15878881	Km	confirmed	oed		catlog:8c5b9509de9ef49d	TheData.parquet row 106915
+15878881	kcat/Km	confirmed	oed		catlog:92bbe0336c263376	TheData.parquet row 106915
+15878881	kcat	confirmed	oed		catlog:07d62374803bd80f	TheData.parquet row 106913
+15878881	Km	confirmed	oed		catlog:f81d970bf7c5a97c	TheData.parquet row 106913
+15878881	kcat/Km	confirmed	oed		catlog:0c1db2762a12d590	TheData.parquet row 106913
+15878881	Km	confirmed	uniprot			
+15878881	kcat	confirmed	oed		catlog:54420e7b21dbdca8	TheData.parquet row 106912
+15878881	Km	confirmed	oed		catlog:b03054ee8b892bd6	TheData.parquet row 106912
+15878881	kcat/Km	confirmed	oed		catlog:8c2cb045ae7b7072	TheData.parquet row 106912
+15878881	kcat	confirmed	oed		catlog:79d706ed348fc3f0	TheData.parquet row 106914
+15878881	Km	confirmed	oed		catlog:9bbdef703acb5a32	TheData.parquet row 106914
+15878881	kcat/Km	confirmed	oed		catlog:5eedb5940ef1708e	TheData.parquet row 106914
+16127048	kcat	confirmed	oed		catlog:bdf7641784f16fe4	TheData.parquet row 111454
+16127048	Km	confirmed	oed		catlog:f8fc22e3c2b2c3d1	TheData.parquet row 111454
+16127048	kcat/Km	confirmed	oed		catlog:831b327508d96ea5	TheData.parquet row 111454
+16127048	kcat	confirmed	oed		catlog:5475e71509147601	TheData.parquet row 111450
+16127048	Km	confirmed	oed		catlog:4e0503b9d837c308	TheData.parquet row 111455
+16127048	kcat	confirmed	oed		catlog:d58286c534aecf00	TheData.parquet row 111453
+16127048	Km	confirmed	oed		catlog:b4b795dcdbec3c76	TheData.parquet row 111453
+16127048	kcat/Km	confirmed	oed		catlog:00a8587dd6aadea7	TheData.parquet row 111453
+16215233	Km	confirmed	uniprot		catlog:64f501e9f85d3821	TheData.parquet row 8349
+16215233	kcat	confirmed	oed		catlog:6c598561f7297573	TheData.parquet row 8358
+16215233	Km	confirmed	oed		catlog:7e232e2e085c291a	TheData.parquet row 8361
+16215233	Km	confirmed	uniprot		catlog:de1e118050111ec4	TheData.parquet row 8355
+16215233	Km	confirmed	uniprot		catlog:3c58255582b9ca96	TheData.parquet row 8364
+16215233	kcat	confirmed	oed		catlog:662722a77b05beec	TheData.parquet row 8375
+16215233	Km	confirmed	oed		catlog:8bdee4b8b98ee492	
+16215233	kcat/Km	confirmed	oed		catlog:0227eed14f989221	
+16215233	kcat	confirmed	oed			TheData.parquet row 8361
+16215233	Km	confirmed	oed		catlog:40dee2655f303e48	TheData.parquet row 8358
+16215233	Km	confirmed	uniprot		catlog:c3543767d33897b0	TheData.parquet row 8352
+16215233	Km	confirmed	uniprot		catlog:ceb72d8b087d1865	TheData.parquet row 8370
+16215233	Km	confirmed	uniprot			
+16458304	kcat	confirmed	oed		catlog:9b7d63c64ef24740	TheData.parquet row 144673
+16458304	Km	confirmed	oed		catlog:a2b8464568a078fe	TheData.parquet row 144673
+16458304	kcat/Km	confirmed	oed		catlog:71b884de353533a1	TheData.parquet row 144673
+16458304	kcat	confirmed	oed		catlog:7330e463ffcdc34c	TheData.parquet row 144679
+16458304	Km	confirmed	oed		catlog:77bb84e6ef1aa257	TheData.parquet row 144679
+16458304	kcat/Km	confirmed	oed		catlog:f254d80d581d3b28	TheData.parquet row 144679
+16458304	kcat	confirmed	oed		catlog:b1d0d7e67c335bd5	TheData.parquet row 144675
+16458304	Km	confirmed	oed		catlog:d82dfeb560a92b1e	TheData.parquet row 144675
+16458304	kcat/Km	confirmed	oed		catlog:c2f9f4735f0bb00c	TheData.parquet row 144675
+16458304	kcat	confirmed	oed		catlog:28f41a771ddfdcf3	TheData.parquet row 144677
+16458304	Km	confirmed	oed		catlog:42d0fac1101d6454	TheData.parquet row 144677
+16458304	kcat	confirmed	oed		catlog:e531c21fb477c3bc	TheData.parquet row 144676
+16458304	Km	confirmed	oed		catlog:1aa535e5ad002697	TheData.parquet row 144676
+16458304	kcat/Km	confirmed	oed		catlog:29a3f7628fdd92c2	TheData.parquet row 144676
+16458304	kcat	confirmed	oed		catlog:4433382960ac9521	TheData.parquet row 144680
+16458304	Km	confirmed	oed		catlog:2eacdc52f4c2a8cb	TheData.parquet row 144680
+16458304	kcat/Km	confirmed	oed		catlog:b23dcb1db8ed21e5	TheData.parquet row 144680
+16515533	kcat	confirmed	oed		catlog:0f4b72e830151a59	TheData.parquet row 112045
+16515533	Km	confirmed	oed		catlog:363660d26ac3282f	TheData.parquet row 112045
+16515533	kcat/Km	confirmed	oed		catlog:b14140bd6447a354	TheData.parquet row 112045
+16515533	kcat	confirmed	oed		catlog:73368c32ac599c30	TheData.parquet row 112051
+16515533	Km	confirmed	oed		catlog:8965258bf873c0f3	TheData.parquet row 112051
+16515533	kcat/Km	confirmed	oed		catlog:a7ce569ce0641e57	TheData.parquet row 112051
+16515533	kcat	confirmed	oed		catlog:d417dff1e4d979a0	TheData.parquet row 112053
+16515533	Km	confirmed	oed		catlog:c01e805d32a980a6	TheData.parquet row 112053
+16515533	kcat/Km	confirmed	oed		catlog:1f2bb115d1bdc901	TheData.parquet row 112053
+16515533	kcat	confirmed	oed		catlog:ffe73211357ca0c1	TheData.parquet row 112044
+16515533	Km	confirmed	oed		catlog:870c88fd4ae410aa	TheData.parquet row 112044
+16515533	kcat/Km	confirmed	oed		catlog:4fde80a3864efd47	TheData.parquet row 112044
+16515533	kcat	confirmed	oed		catlog:0ddd1b21ecb91b55	TheData.parquet row 112049
+16515533	Km	confirmed	oed		catlog:68e31603bf13b537	TheData.parquet row 112049
+16515533	kcat/Km	confirmed	oed		catlog:0bc8b8a3dfc0924a	TheData.parquet row 112049
+16515533	kcat	confirmed	oed		catlog:05e1c014b4a66cd2	TheData.parquet row 112052
+16515533	Km	confirmed	oed		catlog:23887fd97e38e703	TheData.parquet row 112052
+16515533	kcat/Km	confirmed	oed		catlog:c346f1359f23180c	TheData.parquet row 112052
+16768442	kcat	confirmed	sabio_rk		catlog:aabe2e6c61503ee1	TheData.parquet row 112290
+16768442	Km	confirmed	sabio_rk		catlog:293bf771d068d8d3	TheData.parquet row 112290
+16768442	kcat/Km	confirmed	sabio_rk		catlog:91fd0dff498134a8	TheData.parquet row 112290
+16768442	kcat	confirmed	sabio_rk		catlog:eecb0db90de0c0e8	TheData.parquet row 112289
+16768442	Km	confirmed	sabio_rk		catlog:081a6d0c7a70ddf9	TheData.parquet row 112294
+16768442	kcat	confirmed	sabio_rk		catlog:764ddd1fe362922b	TheData.parquet row 112291
+16768442	Km	confirmed	sabio_rk		catlog:338e6341fee4f513	TheData.parquet row 112291
+16768442	kcat/Km	confirmed	sabio_rk		catlog:784748d65b65c342	TheData.parquet row 112291
+16768442	kcat	confirmed	sabio_rk		catlog:213c28b71c10e87f	TheData.parquet row 112288
+16768442	Km	confirmed	sabio_rk		catlog:7e9f099b89affc73	TheData.parquet row 112296
+16768442	kcat	confirmed	sabio_rk		catlog:0be79a00eaa73fc3	TheData.parquet row 112297
+16768442	Km	confirmed	sabio_rk		catlog:694cb7de006aac9d	TheData.parquet row 112297
+16768442	kcat/Km	confirmed	sabio_rk		catlog:e820539229e9871f	TheData.parquet row 112297
+16768442	kcat	confirmed	sabio_rk		catlog:8225931f5911c6df	TheData.parquet row 112295
+16768442	Km	confirmed	sabio_rk		catlog:e6a7d0cf1bf99d13	TheData.parquet row 112298
+16930134	kcat	confirmed	oed		catlog:9894cb4f71ab9c2a	TheData.parquet row 144789
+16930134	Km	confirmed	oed		catlog:ddbc18a7aab2208b	TheData.parquet row 144789
+16930134	kcat	confirmed	oed		catlog:7f5f7d99830fdd6f	TheData.parquet row 144801
+16930134	Km	confirmed	oed		catlog:7df98c14848faec6	TheData.parquet row 144801
+16930134	Km	confirmed	brenda		catlog:400738a064a1e5fa	TheData.parquet row 144790
+16930134	Km	confirmed	uniprot			
+16930134	Km	confirmed	uniprot		catlog:ce1473ae5bb75570	TheData.parquet row 144797
+16930134	Km	confirmed	uniprot			TheData.parquet row 144799
+16930134	Km	confirmed	brenda		catlog:b887265a8471162a	TheData.parquet row 144788
+16930134	Km	confirmed	brenda		catlog:740a13d42497789c	
+16930134	kcat	confirmed	oed		catlog:522e7c29e5f5a193	TheData.parquet row 144791
+16930134	Km	confirmed	oed		catlog:8dcd3541ce6998d0	TheData.parquet row 144791
+16930134	Km	confirmed	brenda		catlog:aa2cf518759920fc	TheData.parquet row 144798
+16930134	kcat	confirmed	oed		catlog:960c2ddc0aba7641	TheData.parquet row 144798
+16930134	Km	confirmed	oed			
+16930134	Km	confirmed	brenda			
+16930134	Km	confirmed	uniprot		catlog:42094ba6dfb1cedd	TheData.parquet row 144795
+16930134	kcat	confirmed	oed		catlog:ec5cd5a065049038	TheData.parquet row 144788
+16930134	Km	confirmed	oed			
+16930134	kcat	confirmed	oed		catlog:8bb6d3ea1977a246	TheData.parquet row 144794
+16930134	Km	confirmed	oed		catlog:deb0bf1abeb3e9a2	TheData.parquet row 144792
+16930134	kcat	confirmed	oed		catlog:f377f8c939f28e4d	TheData.parquet row 144797
+16930134	Km	confirmed	oed			
+16930134	kcat	confirmed	oed		catlog:2f0da35487eb610b	TheData.parquet row 144795
+16930134	Km	confirmed	oed			
+16930134	kcat	confirmed	oed		catlog:36c71c1ec8be65c8	TheData.parquet row 144796
+16930134	Km	confirmed	oed		catlog:1962fb726c0ab0f7	TheData.parquet row 144796
+16930134	kcat	confirmed	oed		catlog:c0e3f693ba1d78d5	TheData.parquet row 144793
+16930134	Km	confirmed	oed		catlog:5f136c51ce271aaf	TheData.parquet row 144793
+16930134	Km	confirmed	brenda		catlog:e1a7f7cf01fb5c20	
+16930134	Km	confirmed	brenda		catlog:5bd60197666ced97	TheData.parquet row 144794
+16930134	Km	confirmed	brenda		catlog:37fb743a16bf4748	TheData.parquet row 144805
+16930134	Km	confirmed	brenda			
+16930134	kcat	confirmed	oed		catlog:2cd1a77c566ffdc1	TheData.parquet row 144799
+16930134	Km	confirmed	oed			
+17140416	Km	confirmed	uniprot		catlog:3743450391e5d4fe	TheData.parquet row 144887
+17140416	kcat	confirmed	oed		catlog:b64532f64fdc46c7	TheData.parquet row 144883
+17140416	Km	confirmed	oed		catlog:4b3745642e14585d	TheData.parquet row 144883
+17140416	Km	confirmed	uniprot		catlog:a7885669903d0789	TheData.parquet row 144890
+17185227	kcat	confirmed	brenda		catlog:7d8588a37d2484a1	TheData.parquet row 134082
+17185227	Km	confirmed	brenda		catlog:d2ee963f8d3fccd2	
+17185227	kcat	confirmed	oed		catlog:df3deb9549dc67ab	TheData.parquet row 134075
+17185227	Km	confirmed	oed		catlog:83ec8f4cc4bd7593	
+17185227	kcat	confirmed	brenda			
+17185227	Km	confirmed	brenda			
+17202142	kcat	confirmed	oed		catlog:f5987967b94b342c	TheData.parquet row 107267
+17202142	Km	confirmed	oed		catlog:041862fd53391950	TheData.parquet row 107267
+17202142	kcat	confirmed	oed		catlog:dca1ff81ca8cc39e	TheData.parquet row 107264
+17202142	Km	confirmed	oed		catlog:2772fceca8378d28	TheData.parquet row 107264
+17202142	kcat	confirmed	oed		catlog:db506d5aeb3ab268	TheData.parquet row 107260
+17202142	Km	confirmed	oed			
+17202142	kcat	confirmed	oed		catlog:e612e1c64f026473	
+17202142	Km	confirmed	oed		catlog:3abe7215b12deca6	
+17202142	kcat	confirmed	oed		catlog:99eda4d3587ab2e7	TheData.parquet row 107263
+17202142	Km	confirmed	oed		catlog:0467cecfb653a39b	TheData.parquet row 107263
+17202142	kcat	confirmed	oed		catlog:4cb244837fa70369	TheData.parquet row 107265
+17202142	Km	confirmed	oed		catlog:756ad2ae8dfe6a19	TheData.parquet row 107265
+17202142	kcat	confirmed	oed		catlog:54966fd1da2d1ae6	
+17202142	Km	confirmed	oed		catlog:ddb7260344f3ab5e	
+17202142	kcat	confirmed	oed		catlog:1e053775a1b126ce	
+17202142	Km	confirmed	oed		catlog:1e3d09f8d3a6ef12	
+17202142	kcat	confirmed	oed		catlog:100dc3ae54d538b0	TheData.parquet row 107259
+17202142	Km	confirmed	oed			
+17202142	kcat	confirmed	oed		catlog:ec7b2f8f088b64dc	TheData.parquet row 107257
+17202142	Km	confirmed	oed		catlog:ca091c8afeb64981	
+17202142	kcat	confirmed	oed		catlog:ed2df052cf53f31a	TheData.parquet row 107266
+17202142	Km	confirmed	oed		catlog:9db9eea44ae58de2	TheData.parquet row 107266
+17202142	kcat	confirmed	oed		catlog:ea61b4a4dbf26922	
+17202142	Km	confirmed	oed		catlog:fb586051268dff47	
+17202142	kcat	confirmed	oed		catlog:5e7f768525efdede	
+17202142	Km	confirmed	oed		catlog:5821cff32b4239b9	
+17202142	kcat	confirmed	oed		catlog:7219d55cf141a602	TheData.parquet row 107256
+17202142	Km	confirmed	oed			
+17202142	kcat	confirmed	oed		catlog:a51557f0a508e91f	TheData.parquet row 107262
+17202142	Km	confirmed	oed		catlog:2664b92b74b60918	TheData.parquet row 107262
+17261518	Km	confirmed	brenda		catlog:2c139740f3ed6a7d	
+17261518	Km	confirmed	brenda		catlog:562ec690adbaa224	
+17344335	Km	confirmed	uniprot			
+17344335	Km	confirmed	uniprot		catlog:acfd89fa04b5e28f	TheData.parquet row 113208
+17344335	Km	confirmed	uniprot			
+17344335	Km	confirmed	uniprot			
+17344335	Km	confirmed	uniprot		catlog:efeb4284fa954072	TheData.parquet row 113210
+17344335	Km	confirmed	uniprot			
+17344335	Km	confirmed	uniprot		catlog:0eb13237aa751863	TheData.parquet row 113206
+17344335	Km	confirmed	uniprot			
+17344335	Km	confirmed	uniprot		catlog:e328d500fd0aca4d	TheData.parquet row 113204
+17344335	Km	confirmed	uniprot			
+17419730	kcat	confirmed	oed		catlog:df897c103480b703	TheData.parquet row 144973
+17419730	Km	confirmed	oed		catlog:8b9d3f2c0451c7ae	TheData.parquet row 144973
+17419730	kcat/Km	confirmed	oed		catlog:616f7df33e759a41	TheData.parquet row 144973
+17419730	kcat	confirmed	oed		catlog:9386d6c39eb615e3	TheData.parquet row 144969
+17419730	Km	confirmed	oed		catlog:47292056a1dcaa7b	TheData.parquet row 144969
+17419730	kcat	confirmed	brenda			
+17419730	Km	confirmed	brenda			TheData.parquet row 144970
+17419730	kcat/Km	confirmed	brenda			
+17419730	kcat	confirmed	brenda			
+17419730	Km	confirmed	brenda			
+17426028	kcat	confirmed	oed		catlog:fdaa3254e0e2a8cf	TheData.parquet row 47983
+17426028	Km	confirmed	oed		catlog:0e67d2ae4d1130bb	TheData.parquet row 47983
+17426028	kcat/Km	confirmed	oed		catlog:ac7ed0c2a3907ec8	TheData.parquet row 47983
+17426028	kcat	confirmed	oed		catlog:767a480af8b2d8ba	
+17426028	Km	confirmed	oed		catlog:b3278688880bacb9	
+17426028	kcat/Km	confirmed	oed		catlog:f87339a8ffb7c34e	TheData.parquet row 47953
+17426028	kcat	confirmed	oed		catlog:780386fcc87848ad	TheData.parquet row 47963
+17426028	Km	confirmed	oed		catlog:fda23a46f08e9638	TheData.parquet row 47963
+17426028	kcat/Km	confirmed	oed		catlog:59cb81126143aa7a	TheData.parquet row 47963
+17426028	kcat	confirmed	oed		catlog:3961ae3dd26405be	TheData.parquet row 47971
+17426028	Km	confirmed	oed		catlog:e8270bc0e9a5f102	TheData.parquet row 47971
+17426028	kcat/Km	confirmed	oed		catlog:f317c874cba40ca7	TheData.parquet row 47971
+17426028	kcat	confirmed	oed		catlog:d0eaff4e8ff538b0	
+17426028	Km	confirmed	oed		catlog:1302b08a31e06555	
+17426028	kcat/Km	confirmed	oed		catlog:52e761d63c17269e	
+17426028	kcat	confirmed	oed		catlog:7957eadee0ad0517	TheData.parquet row 47979
+17426028	Km	confirmed	oed		catlog:9aa115d074a29568	TheData.parquet row 47979
+17426028	kcat/Km	confirmed	oed		catlog:306b6b6499837497	TheData.parquet row 47979
+17426028	kcat	confirmed	oed		catlog:d6c506f6b1aaf253	
+17426028	Km	confirmed	oed		catlog:34a951c4d36a6337	
+17426028	kcat/Km	confirmed	oed		catlog:30d1fd9d699aca02	
+17557829	Km	confirmed	uniprot		catlog:49a269797e647818	TheData.parquet row 113381
+17557829	Km	confirmed	uniprot		catlog:b0070c8c24e55e72	TheData.parquet row 113383
+17557829	Km	confirmed	uniprot			
+17950253	kcat	confirmed	sabio_rk		catlog:d6b19f479a92a0cf	TheData.parquet row 113897
+17950253	Km	confirmed	sabio_rk		catlog:a43390fb403507d3	TheData.parquet row 113897
+17950253	kcat	confirmed	oed		catlog:8dae1a0b5228b546	TheData.parquet row 113896
+17950253	Km	confirmed	oed		catlog:5fc32da17d912b0b	TheData.parquet row 113896
+17950253	kcat/Km	confirmed	oed		catlog:a674d060105881c0	TheData.parquet row 113896
+17950253	kcat	confirmed	sabio_rk			
+17950253	Km	confirmed	sabio_rk			
+17950253	kcat	confirmed	brenda		catlog:e6df750f03c61b1c	TheData.parquet row 113901
+17950253	Km	confirmed	brenda		catlog:f33767a69a7b3330	TheData.parquet row 113901
+17950253	kcat/Km	confirmed	brenda		catlog:36be5c0774efee08	TheData.parquet row 113901
+17950253	kcat	confirmed	oed			
+17950253	Km	confirmed	oed			
+17950253	kcat/Km	confirmed	oed			
+18190525	kcat	confirmed	oed		catlog:1ff38916fd446e36	TheData.parquet row 145209
+18190525	Km	confirmed	oed		catlog:165570d0fdefa870	TheData.parquet row 145209
+18190525	kcat	confirmed	oed		catlog:2b055d9407569e19	TheData.parquet row 145211
+18190525	Km	confirmed	oed		catlog:7d8dd4a08c00c177	TheData.parquet row 145211
+18190525	kcat	confirmed	oed		catlog:66df83d5c480c0f8	TheData.parquet row 145213
+18190525	Km	confirmed	oed		catlog:12829eb8c658a028	TheData.parquet row 145213
+18190525	kcat	confirmed	oed		catlog:b826f0b173b28358	TheData.parquet row 145212
+18190525	Km	confirmed	oed		catlog:41733817b65203dd	TheData.parquet row 145212
+18190525	kcat	confirmed	oed		catlog:7e8af84a55e975cf	TheData.parquet row 145210
+18190525	Km	confirmed	oed		catlog:38fae9437780131f	TheData.parquet row 145210
+18208524	Km	confirmed	uniprot		catlog:b97e83d92ae8bcab	TheData.parquet row 145242
+18208524	Km	confirmed	uniprot		catlog:f877522bc5206406	TheData.parquet row 145243
+18452897	Km	confirmed	uniprot		catlog:46150007caf13e43	
+18452897	kcat	confirmed	brenda		catlog:4f0b7ea16351d664	TheData.parquet row 137579
+18452897	Km	confirmed	brenda		catlog:ae1780df8882c7f3	TheData.parquet row 137579
+18452897	kcat/Km	confirmed	brenda		catlog:6fed4342176920ff	
+18452897	Km	confirmed	uniprot		catlog:1bbc209f6993375d	TheData.parquet row 137580
+18452897	Km	confirmed	uniprot		catlog:7eae4d67a8b9ebde	
+18452897	Km	confirmed	uniprot			
+18452897	Km	confirmed	brenda			
+18495659	kcat	confirmed	brenda		catlog:2ad44c36eb931365	TheData.parquet row 12212
+18495659	Km	confirmed	brenda		catlog:0f86c9962359be9a	TheData.parquet row 12212
+18495659	kcat	confirmed	oed		catlog:bcbfa77bd4e2e540	TheData.parquet row 12210
+18495659	Km	confirmed	oed		catlog:e0cca0847596cea0	TheData.parquet row 12210
+18495659	kcat	confirmed	brenda			
+18495659	Km	confirmed	brenda			
+18495659	kcat	confirmed	oed		catlog:1b885b9b1807e3a7	TheData.parquet row 12209
+18495659	Km	confirmed	oed		catlog:f8488ee4d0660fc8	TheData.parquet row 12209
+18495659	kcat	confirmed	brenda			
+18495659	Km	confirmed	brenda			
+18495659	kcat	confirmed	oed		catlog:3af63d4c32970317	TheData.parquet row 12211
+18495659	Km	confirmed	oed		catlog:592855f2f6d7d374	TheData.parquet row 12211
+18495659	kcat	confirmed	oed		catlog:aaa5f6ee7d9c48c0	TheData.parquet row 12213
+18495659	Km	confirmed	oed		catlog:81b73d094ae6202a	TheData.parquet row 12213
+18495659	kcat	confirmed	brenda			
+18495659	Km	confirmed	brenda			
+18495659	kcat	confirmed	brenda			
+18495659	Km	confirmed	brenda			
+18495659	kcat	confirmed	oed			
+18495659	Km	confirmed	oed			
+18826943	Km	confirmed	uniprot		catlog:30a36c55e1563e04	TheData.parquet row 12719
+18826943	Km	confirmed	uniprot			
+18826943	Km	confirmed	uniprot			
+18826943	Km	confirmed	uniprot			
+18984592	kcat	confirmed	oed		catlog:e0faf3f8c41562ac	TheData.parquet row 12861
+18984592	Km	confirmed	oed		catlog:9de1d24ed0b7307e	TheData.parquet row 12861
+18984592	kcat/Km	confirmed	oed		catlog:4bfc5bd438e400c2	
+18984592	kcat	confirmed	oed		catlog:5ba4b2166634a68a	TheData.parquet row 12863
+18984592	Km	confirmed	oed		catlog:a82fd4aa794f04ff	TheData.parquet row 12863
+18984592	kcat/Km	confirmed	oed		catlog:eb8ccf958b47338b	
+19218247	Km	confirmed	uniprot		catlog:0e70f12ec40b428f	TheData.parquet row 52348
+19218247	Km	confirmed	uniprot			
+19218247	Km	confirmed	uniprot			
+19728741	kcat	confirmed	brenda		catlog:0de1e7766ee19cbf	TheData.parquet row 116568
+19728741	Km	confirmed	brenda			
+19728741	kcat/Km	confirmed	brenda			
+19728741	kcat	confirmed	brenda		catlog:d71ae6bccdbd21e6	TheData.parquet row 116570
+19728741	Km	confirmed	brenda			
+19728741	kcat/Km	confirmed	brenda			
+19728741	kcat	confirmed	brenda		catlog:f47e29fe8463f9ab	TheData.parquet row 116571
+19728741	Km	confirmed	brenda			
+19728741	kcat/Km	confirmed	brenda			
+20057057	Km	confirmed	uniprot		catlog:0797f3a1f3bf1d71	TheData.parquet row 116993
+20057057	Km	confirmed	uniprot		catlog:ef284e0dbc04c1fb	TheData.parquet row 116992
+20057057	Km	confirmed	uniprot		catlog:39fc631325f714f5	TheData.parquet row 116994
+20057057	Km	confirmed	uniprot		catlog:7637b9d5ee6b1e20	TheData.parquet row 116995
+20124004	kcat	confirmed	oed		catlog:a34c38d78c40b8e5	TheData.parquet row 204225
+20124004	Km	confirmed	oed		catlog:47212654f1a0df19	TheData.parquet row 204225
+20124004	kcat/Km	confirmed	oed		catlog:dbd3bdad3ac39dd4	TheData.parquet row 117094
+20124004	kcat	confirmed	oed		catlog:5fcc66cb67c46f54	TheData.parquet row 117117
+20124004	Km	confirmed	oed		catlog:0807a83264f92813	TheData.parquet row 117117
+20124004	kcat/Km	confirmed	oed		catlog:7292b29b40e0b0f2	TheData.parquet row 117117
+20124004	kcat	confirmed	oed		catlog:4431a8ad7b69d7d3	TheData.parquet row 117114
+20124004	Km	confirmed	oed		catlog:56eb7c42629a0251	TheData.parquet row 117114
+20124004	kcat/Km	confirmed	oed		catlog:e0cb24cb744cf4e6	TheData.parquet row 117114
+20124004	kcat	confirmed	oed		catlog:4804b835a2af10d6	TheData.parquet row 117095
+20124004	Km	confirmed	oed		catlog:8ec348540eaae162	TheData.parquet row 117095
+20124004	kcat/Km	confirmed	oed		catlog:18c7e94c1337ddfd	TheData.parquet row 117095
+20124004	kcat	confirmed	oed		catlog:b6171d28f1c46522	TheData.parquet row 117097
+20124004	Km	confirmed	oed		catlog:aa5de621c91c0ba5	TheData.parquet row 117097
+20124004	kcat	confirmed	oed		catlog:fca18ebe22348df3	TheData.parquet row 117111
+20124004	Km	confirmed	oed		catlog:c2f2ee8869454294	TheData.parquet row 117111
+20124004	kcat/Km	confirmed	oed		catlog:beb2fbecd7aa4f28	TheData.parquet row 117111
+20124004	kcat	confirmed	oed		catlog:fc6f830d91c9d704	TheData.parquet row 117106
+20124004	Km	confirmed	oed		catlog:be854692d90bf00b	TheData.parquet row 117106
+20124004	kcat/Km	confirmed	oed		catlog:fdb37f0a9841c97b	TheData.parquet row 117106
+20124004	kcat	confirmed	oed			
+20124004	Km	confirmed	oed			
+20124004	kcat/Km	confirmed	oed			TheData.parquet row 204225
+20124004	kcat	confirmed	oed			
+20124004	Km	confirmed	oed			
+20124004	kcat/Km	confirmed	oed			
+20124004	kcat	confirmed	oed		catlog:e68a8df7f300f4eb	TheData.parquet row 117103
+20124004	Km	confirmed	oed		catlog:ba38ff8d2ca28991	TheData.parquet row 117103
+20124004	kcat/Km	confirmed	oed		catlog:35b53b734ef2126c	TheData.parquet row 117103
+20124004	kcat	confirmed	oed		catlog:b1ee2fe197c2fe05	TheData.parquet row 117092
+20124004	Km	confirmed	oed		catlog:6ff4f42f7e24226f	TheData.parquet row 117092
+20124004	kcat/Km	confirmed	oed		catlog:aef7d9c9495f63a1	TheData.parquet row 117092
+20124004	kcat	confirmed	oed			
+20124004	Km	confirmed	oed			
+20124004	kcat/Km	confirmed	oed			
+20124004	kcat	confirmed	oed			
+20124004	Km	confirmed	oed			
+20124004	kcat/Km	confirmed	oed			
+20302306	kcat	confirmed	oed		catlog:22fc446457967a60	
+20302306	Km	confirmed	oed		catlog:07439b82a326473c	TheData.parquet row 117273
+20302306	kcat/Km	confirmed	oed		catlog:c3b7bf483cebef70	TheData.parquet row 117273
+20302306	kcat	confirmed	oed		catlog:8b1274514da9b16c	TheData.parquet row 117265
+20302306	Km	confirmed	oed		catlog:1e11ffc6a6c2785b	TheData.parquet row 117265
+20302306	kcat/Km	confirmed	oed		catlog:8051df485a9d4812	TheData.parquet row 117265
+20302306	kcat	confirmed	oed		catlog:da7e32fddde878c0	TheData.parquet row 117270
+20302306	Km	confirmed	oed		catlog:5ae053199efa707e	TheData.parquet row 117270
+20302306	kcat/Km	confirmed	oed		catlog:2a7289d8d21c1cf6	TheData.parquet row 117270
+20302306	kcat	confirmed	oed		catlog:ccb530b7f9787fd5	TheData.parquet row 117264
+20302306	Km	confirmed	oed		catlog:44f887629a06d0dd	TheData.parquet row 117264
+20302306	kcat	confirmed	oed		catlog:d0fe6dbd16ac1c72	
+20302306	Km	confirmed	oed		catlog:8d7514af8351a953	TheData.parquet row 117274
+20302306	kcat/Km	confirmed	oed		catlog:b74640a553799026	TheData.parquet row 117274
+20522910	kcat	confirmed	oed		catlog:21910900fa193bec	
+20522910	Km	confirmed	oed		catlog:4653b0d7e659c072	
+20522910	kcat/Km	confirmed	oed		catlog:c6f3d5f259ff5307	
+20522910	kcat	confirmed	oed			
+20522910	Km	confirmed	oed		catlog:c1ccf24a70c21144	
+20522910	kcat/Km	confirmed	oed			
+20528921	kcat	confirmed	oed		catlog:7acb75de1475a2e1	TheData.parquet row 146152
+20528921	Km	confirmed	oed		catlog:4c943748d3b27581	TheData.parquet row 146152
+20528921	kcat/Km	confirmed	oed		catlog:438e69199cf5c25e	TheData.parquet row 146152
+20630076	kcat	confirmed	brenda		catlog:fb9e6a701a9c8a55	TheData.parquet row 117601
+20630076	Km	confirmed	brenda		catlog:971df82c688abc81	TheData.parquet row 117599
+20630076	kcat/Km	confirmed	brenda		catlog:5e1ad2e6dd4bd34b	TheData.parquet row 117601
+20630076	kcat	confirmed	oed		catlog:c22fe4ee211177bb	TheData.parquet row 117608
+20630076	Km	confirmed	oed		catlog:d7d0b4570d1888ce	TheData.parquet row 117608
+20630076	kcat/Km	confirmed	oed		catlog:7d30156ffebe35d8	TheData.parquet row 117608
+20630076	kcat	confirmed	oed		catlog:583cb9608d7cf4c2	TheData.parquet row 117600
+20630076	Km	confirmed	oed		catlog:7ffa754f4faa2e63	TheData.parquet row 117600
+20630076	kcat/Km	confirmed	oed		catlog:2ebee7d81b2e0dcb	TheData.parquet row 117600
+20630076	kcat	confirmed	brenda		catlog:413f71496a915ec8	TheData.parquet row 117611
+20630076	Km	confirmed	brenda		catlog:329a88646b08b053	TheData.parquet row 117611
+20630076	kcat/Km	confirmed	brenda		catlog:ff08b15d185cb103	TheData.parquet row 117611
+20630076	kcat	confirmed	oed		catlog:a648bf6c4fb9e61a	TheData.parquet row 117612
+20630076	Km	confirmed	oed		catlog:94edd27a55399804	TheData.parquet row 117612
+20630076	kcat/Km	confirmed	oed		catlog:fe0af4c37fd361c8	TheData.parquet row 117612
+20630076	kcat	confirmed	brenda		catlog:e3bb6efbe58c9249	TheData.parquet row 117610
+20630076	Km	confirmed	brenda		catlog:1da7bb98bd25498c	TheData.parquet row 117610
+20630076	kcat/Km	confirmed	brenda		catlog:ae34e0d0d99aeb91	TheData.parquet row 117610
+20630076	kcat	confirmed	brenda			
+20630076	Km	confirmed	brenda			
+20630076	kcat/Km	confirmed	brenda			
+20630076	kcat	confirmed	oed			
+20630076	Km	confirmed	oed		catlog:7bd7d23faf6b9ed4	TheData.parquet row 117601
+20630076	kcat/Km	confirmed	oed			
+20630076	kcat	confirmed	oed			
+20630076	Km	confirmed	oed			
+20630076	kcat/Km	confirmed	oed			
+20630076	kcat	confirmed	oed		catlog:eb528e43a51df7c8	TheData.parquet row 117599
+20630076	Km	confirmed	oed			
+20630076	kcat/Km	confirmed	oed		catlog:b307c58da316fee5	TheData.parquet row 117599
+20630076	kcat	confirmed	oed		catlog:ca5d4dd31f331af2	TheData.parquet row 117609
+20630076	Km	confirmed	oed		catlog:dacbbee3eee7ec1e	TheData.parquet row 117609
+20630076	kcat/Km	confirmed	oed		catlog:16a0625f5727ec86	TheData.parquet row 117609
+20630076	kcat	confirmed	oed			
+20630076	Km	confirmed	oed			
+20630076	kcat/Km	confirmed	oed			
+20630076	kcat	confirmed	brenda			
+20630076	Km	confirmed	brenda			
+20630076	kcat/Km	confirmed	brenda			
+20690587	Km	confirmed	uniprot		catlog:d2f6fce74f52b346	TheData.parquet row 195918
+20690587	Km	confirmed	uniprot		catlog:1d0a12f14622845b	TheData.parquet row 195919
+20926389	kcat	confirmed	uniprot		catlog:16f11fcfd484bc0a	TheData.parquet row 15615
+20926389	Km	confirmed	uniprot		catlog:bc1a4f61ad24cfb4	TheData.parquet row 15615
+20926389	kcat/Km	confirmed	uniprot		catlog:179a839efe3492c7	TheData.parquet row 15615
+20926389	kcat	confirmed	uniprot		catlog:4b292cdf20f3713e	TheData.parquet row 15613
+20926389	Km	confirmed	uniprot		catlog:d1f7ac43b08f96c8	TheData.parquet row 15613
+21041509	kcat	confirmed	oed		catlog:b9939df5120a21b2	TheData.parquet row 118026
+21041509	Km	confirmed	oed		catlog:31867580caf539a2	TheData.parquet row 118026
+21041509	kcat/Km	confirmed	oed		catlog:812837021a72253f	TheData.parquet row 118026
+21041509	kcat	confirmed	oed		catlog:0493bac38fefef0b	
+21041509	Km	confirmed	oed		catlog:ad8640f36c593c69	TheData.parquet row 118027
+21041509	kcat/Km	confirmed	oed		catlog:5222d5cf9a17ec20	TheData.parquet row 118025
+21041509	kcat	confirmed	oed		catlog:bf303042552d4ed5	TheData.parquet row 118036
+21041509	Km	confirmed	oed		catlog:1e0e4483018b6c3d	TheData.parquet row 118036
+21041509	kcat/Km	confirmed	oed		catlog:29e7df597545f91d	TheData.parquet row 118036
+21041509	kcat	confirmed	oed		catlog:33b870b6563f8ffa	TheData.parquet row 118011
+21041509	Km	confirmed	oed		catlog:f21e6ed4324e9ba6	TheData.parquet row 118011
+21041509	kcat/Km	confirmed	oed		catlog:6b990d3e91c9b2c8	TheData.parquet row 118011
+21041509	kcat	confirmed	oed		catlog:20d4169b6eb95ad5	TheData.parquet row 118024
+21041509	Km	confirmed	oed		catlog:11d24ecec27fbacc	TheData.parquet row 118024
+21041509	kcat/Km	confirmed	oed		catlog:501db104c1d56e44	TheData.parquet row 118024
+21041509	kcat	confirmed	oed		catlog:29e0b62a0fce5adb	TheData.parquet row 118032
+21041509	Km	confirmed	oed		catlog:b45debce1cb5c2e1	TheData.parquet row 118022
+21041509	kcat/Km	confirmed	oed		catlog:5ca74cbd17e8e9ef	TheData.parquet row 118019
+21041509	kcat	confirmed	oed		catlog:8268f3a6e4963c74	TheData.parquet row 118016
+21041509	Km	confirmed	oed		catlog:5ecf8940b585473d	TheData.parquet row 118016
+21041509	kcat/Km	confirmed	oed		catlog:9873345e7af370b1	TheData.parquet row 118016
+21041509	kcat	confirmed	oed		catlog:c3224e659e02b884	TheData.parquet row 118034
+21041509	Km	confirmed	oed		catlog:c446030883e739a8	TheData.parquet row 118034
+21041509	kcat/Km	confirmed	oed		catlog:e61155140e924b2f	TheData.parquet row 118034
+21149620	kcat	confirmed	oed		catlog:3edfef4c0bfbd371	TheData.parquet row 118160
+21149620	Km	confirmed	oed		catlog:fee2c177a763a441	TheData.parquet row 118160
+21149620	kcat/Km	confirmed	oed		catlog:c1babcdfc809e346	TheData.parquet row 118160
+21149620	kcat	confirmed	oed		catlog:0fba1dc83442caf6	TheData.parquet row 118157
+21149620	Km	confirmed	oed		catlog:1148eed21c938984	TheData.parquet row 118157
+21149620	kcat/Km	confirmed	oed		catlog:bce0c82e05476aaf	TheData.parquet row 118157
+21378189	kcat	confirmed	oed		catlog:5c3db46504e00223	TheData.parquet row 103889
+21378189	Km	confirmed	oed		catlog:a4a29f72c81e7763	TheData.parquet row 103890
+21378189	kcat/Km	confirmed	oed		catlog:342c60ad63bd07d5	TheData.parquet row 103890
+21378189	kcat	confirmed	oed		catlog:7885de3e2f16050f	TheData.parquet row 103895
+21378189	Km	confirmed	oed		catlog:19f7775066b3ed80	TheData.parquet row 103895
+21378189	kcat/Km	confirmed	oed		catlog:1adcb1cd4a36d0fd	TheData.parquet row 103895
+21378189	kcat	confirmed	oed		catlog:05cbcb1a4b3f3afc	TheData.parquet row 103893
+21378189	Km	confirmed	oed		catlog:72b355a39b653d7c	TheData.parquet row 103893
+21378189	kcat/Km	confirmed	oed		catlog:384ef7fa9e5bd3a0	TheData.parquet row 103893
+21378189	kcat	confirmed	oed		catlog:c77b18b2bfff2514	TheData.parquet row 103894
+21378189	Km	confirmed	oed		catlog:808ce1f98be738a4	TheData.parquet row 103894
+21378189	kcat/Km	confirmed	oed		catlog:5baccd933766a496	TheData.parquet row 103894
+21378189	kcat	confirmed	oed		catlog:674fa1e7914be74a	TheData.parquet row 103891
+21378189	Km	confirmed	oed		catlog:0e87284594ab62c6	TheData.parquet row 103891
+21378189	kcat/Km	confirmed	oed		catlog:fc216c455f0b0fc0	TheData.parquet row 103891
+21378189	kcat	confirmed	oed		catlog:c613c6c733c7b869	TheData.parquet row 103892
+21378189	Km	confirmed	oed		catlog:fe18000a5ad2f552	TheData.parquet row 103892
+21378189	kcat/Km	confirmed	oed		catlog:d6ac79a0aee41ce9	TheData.parquet row 103892
+21958314	kcat	confirmed	oed		catlog:58d21e2154d7ce69	TheData.parquet row 119241
+21958314	Km	confirmed	oed		catlog:d8ad46d63a85e40a	TheData.parquet row 119241
+21958314	kcat/Km	confirmed	oed		catlog:a593414fa826d811	TheData.parquet row 119241
+21958314	kcat	confirmed	oed		catlog:4fd479df400920af	TheData.parquet row 119245
+21958314	Km	confirmed	oed		catlog:27437208c1f96354	TheData.parquet row 119245
+21958314	kcat/Km	confirmed	oed		catlog:53a647fba1e6a47e	TheData.parquet row 119245
+21958314	kcat	confirmed	oed		catlog:d9b697cc1b3dc581	TheData.parquet row 119238
+21958314	Km	confirmed	oed		catlog:948302b64ad1b26d	TheData.parquet row 119238
+21958314	kcat/Km	confirmed	oed		catlog:b7c3fa90f57b808f	TheData.parquet row 119238
+21958314	kcat	confirmed	oed		catlog:12c14f1df9167f15	TheData.parquet row 119243
+21958314	Km	confirmed	oed		catlog:efd4dedfab0e8098	TheData.parquet row 119243
+21958314	kcat/Km	confirmed	oed		catlog:10c76f22532f99f3	TheData.parquet row 119243
+21958314	kcat	confirmed	oed		catlog:9c45b91c0c2b6c0f	TheData.parquet row 119237
+21958314	Km	confirmed	oed		catlog:540a33dbed7c3545	TheData.parquet row 119237
+21958314	kcat/Km	confirmed	oed		catlog:86689e61df7e7217	TheData.parquet row 119237
+21958314	kcat	confirmed	oed		catlog:ca77f54e525dfdac	TheData.parquet row 119244
+21958314	Km	confirmed	oed		catlog:b208851596367f00	TheData.parquet row 119244
+21958314	kcat/Km	confirmed	oed		catlog:08c50c3fc99eb8d0	TheData.parquet row 119244
+21958314	kcat	confirmed	oed		catlog:7d5d45c5ce8e4ffa	TheData.parquet row 119246
+21958314	Km	confirmed	oed		catlog:558a9d68376774f2	TheData.parquet row 119246
+21958314	kcat/Km	confirmed	oed		catlog:49d111a6c006f4ab	TheData.parquet row 119246
+21958314	kcat	confirmed	oed		catlog:324a6f28daa88382	TheData.parquet row 119239
+21958314	Km	confirmed	oed		catlog:1e2110f1634df221	TheData.parquet row 119239
+21958314	kcat/Km	confirmed	oed		catlog:a40a50b8c35183b7	TheData.parquet row 119239
+21958314	kcat	confirmed	oed		catlog:b33e3382fe7e55f5	TheData.parquet row 119240
+21958314	Km	confirmed	oed		catlog:7ca1a3134fa68554	
+21958314	kcat/Km	confirmed	oed		catlog:d4ce1de0c7b0b974	TheData.parquet row 119240
+21958314	kcat	confirmed	oed		catlog:6cd99d75415f4577	TheData.parquet row 119242
+21958314	Km	confirmed	oed		catlog:3efc128790fa946f	TheData.parquet row 119242
+21958314	kcat/Km	confirmed	oed		catlog:3f013d8f9ebb9d1c	TheData.parquet row 119242
+21958314	kcat	confirmed	oed		catlog:c5b0ea4f3d45f2da	TheData.parquet row 119247
+21958314	Km	confirmed	oed		catlog:7c259f9565b88dce	TheData.parquet row 119247
+21958314	kcat/Km	confirmed	oed		catlog:cd1f1edf952c1db6	TheData.parquet row 119247
+22128181	kcat	confirmed	oed		catlog:f296f12f1bc21f2d	TheData.parquet row 107953
+22128181	Km	confirmed	oed		catlog:ff768dd76072a69e	TheData.parquet row 107953
+22128181	Km	confirmed	uniprot		catlog:113a91853304c93f	TheData.parquet row 107952
+22128181	Km	confirmed	uniprot		catlog:3021f820b4386d28	TheData.parquet row 107956
+22128181	kcat	confirmed	brenda		catlog:1aa72fd5d1930e91	TheData.parquet row 107955
+22128181	Km	confirmed	brenda			
+22231860	kcat	confirmed	oed			TheData.parquet row 119548
+22231860	Km	confirmed	oed			TheData.parquet row 119548
+22231860	kcat/Km	confirmed	oed			TheData.parquet row 119548
+22231860	kcat	confirmed	oed		catlog:2b8e6916b56dd5bf	TheData.parquet row 119543
+22231860	Km	confirmed	oed		catlog:1942913c9999ff29	TheData.parquet row 119543
+22231860	kcat/Km	confirmed	oed		catlog:776eedd9170266b9	TheData.parquet row 119543
+22231860	kcat	confirmed	oed		catlog:8d7ebc815bdb4887	TheData.parquet row 119549
+22231860	Km	confirmed	oed		catlog:ab3dcaeaf1743918	TheData.parquet row 119549
+22231860	kcat/Km	confirmed	oed		catlog:48ca15c18e2f622c	TheData.parquet row 119549
+22231860	kcat	confirmed	oed			TheData.parquet row 119550
+22231860	Km	confirmed	oed			TheData.parquet row 119550
+22231860	kcat/Km	confirmed	oed			TheData.parquet row 119550
+22231860	kcat	confirmed	brenda		catlog:b414c30ecaa7181c	TheData.parquet row 119545
+22231860	Km	confirmed	brenda		catlog:2e4a311e73c4d353	TheData.parquet row 119545
+22231860	kcat/Km	confirmed	brenda		catlog:e09b80ad12b5320b	TheData.parquet row 119545
+22231860	kcat	confirmed	brenda		catlog:68e6997bf482f937	TheData.parquet row 119541
+22231860	Km	confirmed	brenda		catlog:33f02c0609edaf2d	TheData.parquet row 119541
+22231860	kcat/Km	confirmed	brenda		catlog:5a586d40ecfb966b	TheData.parquet row 119541
+22231860	kcat	confirmed	oed			TheData.parquet row 119552
+22231860	Km	confirmed	oed			TheData.parquet row 119552
+22231860	kcat/Km	confirmed	oed			TheData.parquet row 119552
+22231860	kcat	confirmed	oed			TheData.parquet row 119546
+22231860	Km	confirmed	oed			TheData.parquet row 119546
+22231860	kcat/Km	confirmed	oed			TheData.parquet row 119546
+22231860	kcat	confirmed	oed		catlog:d8c2d1b246d04f44	TheData.parquet row 119547
+22231860	Km	confirmed	oed		catlog:dac1f2a3bc728e76	TheData.parquet row 119547
+22231860	kcat/Km	confirmed	oed		catlog:d5302a4da7b0e973	TheData.parquet row 119547
+22231860	kcat	confirmed	oed			TheData.parquet row 119542
+22231860	Km	confirmed	oed			TheData.parquet row 119542
+22231860	kcat/Km	confirmed	oed			TheData.parquet row 119542
+22231860	kcat	confirmed	brenda			
+22231860	Km	confirmed	brenda			
+22231860	kcat/Km	confirmed	brenda			
+22231860	kcat	confirmed	brenda			
+22231860	Km	confirmed	brenda			
+22231860	kcat/Km	confirmed	brenda			
+22231860	kcat	confirmed	oed			
+22231860	Km	confirmed	oed			
+22231860	kcat/Km	confirmed	oed			
+22231860	kcat	confirmed	oed			TheData.parquet row 119544
+22231860	Km	confirmed	oed			TheData.parquet row 119544
+22231860	kcat/Km	confirmed	oed			TheData.parquet row 119544
+22238597	kcat	confirmed	oed		catlog:90e732f69816b712	TheData.parquet row 119573
+22238597	Km	confirmed	oed		catlog:a4ea43843131b7c9	TheData.parquet row 119573
+22238597	kcat/Km	confirmed	oed		catlog:715d6b270818119e	TheData.parquet row 119573
+22238597	kcat	confirmed	oed		catlog:e1980ff88fe7d773	TheData.parquet row 119574
+22238597	Km	confirmed	oed		catlog:aa9eb976d149f184	TheData.parquet row 119574
+22238597	kcat/Km	confirmed	oed		catlog:d39cca848d83f611	TheData.parquet row 119574
+22238597	kcat	confirmed	oed		catlog:d1497d6995cb8906	TheData.parquet row 119571
+22238597	Km	confirmed	oed		catlog:03c9c5b19137826e	TheData.parquet row 119571
+22238597	kcat/Km	confirmed	oed		catlog:88434789f0a21f53	TheData.parquet row 119571
+22238597	kcat	confirmed	oed		catlog:76572cde456dd9fa	TheData.parquet row 119570
+22238597	Km	confirmed	oed		catlog:fd985b5b5f4adb90	TheData.parquet row 119570
+22238597	kcat/Km	confirmed	oed		catlog:43fb7a253fbef3d3	TheData.parquet row 119570
+22238597	kcat	confirmed	oed		catlog:73de4cdcbcc61ebc	TheData.parquet row 119563
+22238597	Km	confirmed	oed		catlog:b2c9c420b8adc6aa	
+22238597	kcat/Km	confirmed	oed		catlog:35cbf26da4955a68	TheData.parquet row 119563
+22238597	kcat	confirmed	oed		catlog:0e608c3889ea1ccd	TheData.parquet row 119566
+22238597	Km	confirmed	oed		catlog:e209ffed006324a0	TheData.parquet row 119566
+22238597	kcat/Km	confirmed	oed		catlog:a019d6023815b172	TheData.parquet row 119566
+22290947	kcat	confirmed	oed		catlog:09ad486172932ba1	TheData.parquet row 104018
+22290947	Km	confirmed	oed		catlog:125b4012c6098a4a	TheData.parquet row 104015
+22290947	kcat/Km	confirmed	oed		catlog:98bb5da45e500a7e	TheData.parquet row 104018
+22290947	kcat	confirmed	oed		catlog:bf7571207a7f01b2	TheData.parquet row 104022
+22290947	Km	confirmed	oed		catlog:010e3e4fc6369d20	TheData.parquet row 104022
+22290947	kcat/Km	confirmed	oed		catlog:b3bfaa1881dbd544	TheData.parquet row 104022
+22290947	kcat	confirmed	oed		catlog:87ab331afd2e5f57	TheData.parquet row 104005
+22290947	Km	confirmed	oed		catlog:42f8ed8bd8290d89	TheData.parquet row 104005
+22290947	kcat/Km	confirmed	oed		catlog:24c18ff108465a71	TheData.parquet row 104005
+22290947	kcat	confirmed	oed		catlog:5e9706ccf24f25d9	TheData.parquet row 104019
+22290947	Km	confirmed	oed		catlog:b48ad664f7a00f25	TheData.parquet row 104019
+22290947	kcat/Km	confirmed	oed		catlog:f0d1ea5bdc228c91	TheData.parquet row 104019
+22290947	kcat	confirmed	oed		catlog:486b81b6843b7312	TheData.parquet row 104007
+22290947	Km	confirmed	oed		catlog:d95261c71146e482	TheData.parquet row 104008
+22290947	kcat/Km	confirmed	oed		catlog:63ee2b2d7bef8395	TheData.parquet row 104008
+22290947	kcat	confirmed	oed		catlog:0c76ae31935bd3ef	TheData.parquet row 104010
+22290947	Km	confirmed	oed		catlog:dee71ea099ad6f65	TheData.parquet row 104009
+22290947	kcat/Km	confirmed	oed		catlog:ddcade397852f393	TheData.parquet row 104010
+22290947	kcat	confirmed	oed			
+22290947	Km	confirmed	oed			
+22290947	kcat/Km	confirmed	oed			
+22290947	kcat	confirmed	oed			TheData.parquet row 104008
+22290947	Km	confirmed	oed			
+22290947	kcat/Km	confirmed	oed			
+22290947	kcat	confirmed	oed		catlog:ea2c99a7146bb6df	TheData.parquet row 104015
+22290947	Km	confirmed	oed		catlog:96379232a17559d9	TheData.parquet row 104017
+22290947	kcat/Km	confirmed	oed		catlog:36787dbbc68c014c	TheData.parquet row 104015
+22290947	kcat	confirmed	oed			
+22290947	Km	confirmed	oed			TheData.parquet row 104018
+22290947	kcat/Km	confirmed	oed			
+22290947	kcat	confirmed	oed			
+22290947	Km	confirmed	oed			
+22290947	kcat/Km	confirmed	oed			
+22290947	kcat	confirmed	oed		catlog:cb36e69a94bb8e60	TheData.parquet row 104013
+22290947	Km	confirmed	oed		catlog:18cf7ade2921467b	TheData.parquet row 104013
+22290947	kcat/Km	confirmed	oed		catlog:b02bc601e978d09d	TheData.parquet row 104013
+22290947	kcat	confirmed	oed			
+22290947	Km	confirmed	oed			
+22290947	kcat/Km	confirmed	oed			
+22290947	kcat	confirmed	oed			
+22290947	Km	confirmed	oed			TheData.parquet row 104010
+22290947	kcat/Km	confirmed	oed			
+22290947	kcat	confirmed	oed			
+22290947	Km	confirmed	oed			
+22290947	kcat/Km	confirmed	oed			
+22357344	kcat	confirmed	brenda		catlog:5cef7402ef357316	TheData.parquet row 16965
+22357344	Km	confirmed	brenda		catlog:3188f68b9d0b3d58	TheData.parquet row 16965
+22357344	kcat/Km	confirmed	brenda		catlog:9a3633a2260165e8	TheData.parquet row 16965
+22357344	kcat	confirmed	oed		catlog:26ddee1eee2b973a	TheData.parquet row 16966
+22357344	Km	confirmed	oed		catlog:0c672dfdd1c18dd5	TheData.parquet row 16966
+22357344	kcat/Km	confirmed	oed		catlog:bd7fde64f2a8bbeb	TheData.parquet row 16966
+22357344	kcat	confirmed	oed			
+22357344	Km	confirmed	oed			
+22357344	kcat/Km	confirmed	oed			
+22357344	kcat	confirmed	brenda		catlog:d2febe2eed7f7ded	TheData.parquet row 16968
+22357344	Km	confirmed	brenda			
+22357344	kcat/Km	confirmed	brenda			
+22741921	kcat	confirmed	brenda		catlog:521c3431ade3cb46	TheData.parquet row 119790
+22741921	Km	confirmed	brenda		catlog:fd82073ad7df2899	TheData.parquet row 119790
+22741921	kcat/Km	confirmed	brenda		catlog:32acb097c747ebd7	TheData.parquet row 119790
+22741921	kcat	confirmed	oed			
+22741921	Km	confirmed	oed			
+22741921	kcat/Km	confirmed	oed			
+22742413	kcat	confirmed	brenda		catlog:70e239f9d555c737	TheData.parquet row 119803
+22742413	Km	confirmed	brenda		catlog:40eb8414c560e79e	TheData.parquet row 119803
+22742413	kcat	confirmed	brenda		catlog:8a2ee5e9b86d3f83	TheData.parquet row 119798
+22742413	Km	confirmed	brenda		catlog:270eeeaf3662f89d	TheData.parquet row 119798
+22742413	kcat	confirmed	brenda		catlog:acddac444a39f78c	TheData.parquet row 119805
+22742413	Km	confirmed	brenda		catlog:b074c2208f561d8b	TheData.parquet row 119805
+22742413	kcat	confirmed	brenda		catlog:3bca9524eb74119a	TheData.parquet row 119796
+22742413	Km	confirmed	brenda		catlog:3a271705d3adaf5d	TheData.parquet row 119796
+22742413	kcat/Km	confirmed	brenda		catlog:cbeba1f82380b610	TheData.parquet row 119796
+22742413	kcat	confirmed	brenda		catlog:23e10647829e2e3f	TheData.parquet row 119807
+22742413	Km	confirmed	brenda		catlog:27be840c84b8ff56	TheData.parquet row 119807
+22742413	kcat	confirmed	brenda		catlog:7787c8bab819f550	TheData.parquet row 119795
+22742413	Km	confirmed	brenda		catlog:123ca8fde2756cbf	TheData.parquet row 119795
+22742413	kcat	confirmed	brenda		catlog:7d1ddbed811b2bbd	TheData.parquet row 119797
+22742413	Km	confirmed	brenda		catlog:3bf49037aa419d4d	TheData.parquet row 119797
+22742413	kcat	confirmed	brenda		catlog:59a8fb574b9a52c4	TheData.parquet row 119800
+22742413	Km	confirmed	brenda		catlog:c2b06649a25342a3	TheData.parquet row 119799
+22742413	kcat	confirmed	brenda		catlog:e9e3e15ec1767271	TheData.parquet row 119799
+22742413	Km	confirmed	brenda		catlog:838a6c460258fb2f	TheData.parquet row 119800
+22742413	kcat	confirmed	brenda		catlog:35e3edf0748ed2fa	TheData.parquet row 119806
+22742413	Km	confirmed	brenda		catlog:15816ac3adf8523e	TheData.parquet row 119806
+22742413	kcat	confirmed	brenda		catlog:ff1484c11e93fdbd	TheData.parquet row 119804
+22742413	Km	confirmed	brenda		catlog:1e1b4fb1530df87b	TheData.parquet row 119804
+23285009	kcat	confirmed	oed		catlog:733c695afb147779	TheData.parquet row 227733
+23285009	Km	confirmed	oed		catlog:3b9431cd09b0caeb	TheData.parquet row 227733
+23285009	kcat/Km	confirmed	oed		catlog:f9a115e110a3d9bb	
+23285009	kcat	confirmed	oed		catlog:f04ce32a25dd3e85	TheData.parquet row 227731
+23285009	Km	confirmed	oed		catlog:8e57991874fc6e89	TheData.parquet row 227731
+23285009	kcat/Km	confirmed	oed		catlog:3465855025640c7a	
+23285009	kcat	confirmed	oed		catlog:ce043564c961cffa	TheData.parquet row 227732
+23285009	Km	confirmed	oed		catlog:70e53626207cc9bd	TheData.parquet row 227732
+23285009	kcat/Km	confirmed	oed		catlog:b41df6d7fe4a5502	
+23676275	kcat	confirmed	oed		catlog:c21d54f2d9539ab9	TheData.parquet row 129333
+23676275	Km	confirmed	oed		catlog:a428709453cf06a0	TheData.parquet row 129333
+23676275	kcat/Km	confirmed	oed		catlog:9862c3062df7cb0b	TheData.parquet row 129333
+23676275	kcat	confirmed	oed		catlog:197cdf51dbadd219	TheData.parquet row 129330
+23676275	Km	confirmed	oed		catlog:771f2b038ce09061	TheData.parquet row 129330
+23676275	kcat/Km	confirmed	oed		catlog:fa734e442a58e713	TheData.parquet row 129330
+23686719	kcat	confirmed	oed		catlog:e07937913be8ffd7	TheData.parquet row 129628
+23686719	Km	confirmed	oed		catlog:e2fd5599220750d0	TheData.parquet row 129628
+23686719	kcat/Km	confirmed	oed		catlog:625dd853a405588a	TheData.parquet row 129628
+23686719	kcat	confirmed	oed		catlog:541e6e46737a30e9	TheData.parquet row 129620
+23686719	Km	confirmed	oed		catlog:0c789a6fe894c30b	TheData.parquet row 129620
+23686719	kcat/Km	confirmed	oed		catlog:add59c6873082bcc	TheData.parquet row 129620
+24086372	kcat	confirmed	brenda		catlog:09227d0f546765c3	TheData.parquet row 121403
+24086372	Km	confirmed	brenda		catlog:7897481f140e7572	TheData.parquet row 121403
+24086372	kcat/Km	confirmed	brenda		catlog:d136088bca82627f	TheData.parquet row 121403
+24086372	kcat	confirmed	oed		catlog:f50e674c571a2521	TheData.parquet row 121406
+24086372	Km	confirmed	oed		catlog:dec02b2960cd836e	
+24086372	kcat/Km	confirmed	oed		catlog:228da34c240d79a7	
+24086372	kcat	confirmed	oed			
+24086372	Km	confirmed	oed			
+24086372	kcat/Km	confirmed	oed			
+24086372	kcat	confirmed	brenda		catlog:99fb8dc4352692ea	TheData.parquet row 121407
+24086372	Km	confirmed	brenda		catlog:cf4b44a9d8ae7f55	TheData.parquet row 121407
+24086372	kcat/Km	confirmed	brenda		catlog:50c4748f8cad4eb2	TheData.parquet row 121407
+24086372	kcat	confirmed	brenda			
+24086372	Km	confirmed	brenda			
+24086372	kcat/Km	confirmed	brenda			
+24141127	kcat	confirmed	oed		catlog:7e7644c59449b5da	TheData.parquet row 104498
+24141127	Km	confirmed	oed		catlog:06db919e7439c906	TheData.parquet row 104498
+24141127	kcat/Km	confirmed	oed		catlog:f4909044edd98545	TheData.parquet row 104498
+24141127	kcat	confirmed	oed		catlog:8413fc16171eb482	TheData.parquet row 104504
+24141127	Km	confirmed	oed		catlog:12b18b95101971e9	TheData.parquet row 104504
+24141127	kcat/Km	confirmed	oed		catlog:01966a4dbf66a6c6	TheData.parquet row 104504
+24141127	kcat	confirmed	oed		catlog:807b8edbaf8b10f9	TheData.parquet row 104502
+24141127	Km	confirmed	oed		catlog:3f13afc3d81ab4dc	TheData.parquet row 104502
+24141127	kcat/Km	confirmed	oed		catlog:99e57c9861d36cc0	TheData.parquet row 104502
+24141127	kcat	confirmed	oed		catlog:0e7ff132ceee6455	TheData.parquet row 104503
+24141127	Km	confirmed	oed		catlog:f8c6fdf0eda51cb3	TheData.parquet row 104503
+24141127	kcat/Km	confirmed	oed		catlog:b16870eb19b33907	TheData.parquet row 104503
+24141127	kcat	confirmed	oed		catlog:5ad8b197ccdd9521	TheData.parquet row 104497
+24141127	Km	confirmed	oed		catlog:1cc2b4be216b9c9d	TheData.parquet row 104497
+24141127	kcat/Km	confirmed	oed		catlog:611873fd23783fa3	TheData.parquet row 104497
+24141127	kcat	confirmed	oed		catlog:e191ee2325018fc4	TheData.parquet row 104499
+24141127	Km	confirmed	oed		catlog:7ec510039f9e2f04	TheData.parquet row 104499
+24141127	kcat/Km	confirmed	oed		catlog:c66348bc2a8cc23a	TheData.parquet row 104499
+24141127	kcat	confirmed	oed		catlog:25232b59ead9f963	TheData.parquet row 104500
+24141127	Km	confirmed	oed		catlog:18b8052554df8b32	TheData.parquet row 104500
+24141127	kcat/Km	confirmed	oed		catlog:957ecb02fb09d406	TheData.parquet row 104500
+24271187	Km	confirmed	uniprot		catlog:fed1e92ea41f17cf	TheData.parquet row 104542
+24271187	Km	confirmed	uniprot		catlog:44cfc8ac696fa2c9	TheData.parquet row 104546
+24271187	Km	confirmed	uniprot		catlog:c1e166cf1a4aaac7	TheData.parquet row 104536
+24271187	Km	confirmed	uniprot		catlog:b6606da51e23db14	TheData.parquet row 104543
+24271187	Km	confirmed	uniprot		catlog:3137ca1136309a1c	TheData.parquet row 104540
+24271187	Km	confirmed	uniprot		catlog:96375574b98a2f16	TheData.parquet row 104541
+24271187	Km	confirmed	uniprot		catlog:73743aa224ca2832	TheData.parquet row 104547
+24271187	Km	confirmed	uniprot		catlog:908d0e0e460e808f	TheData.parquet row 104544
+24271187	Km	confirmed	uniprot		catlog:df2352ab6cde17c0	TheData.parquet row 104548
+24292439	kcat	confirmed	brenda		catlog:b1d7e483c3161ed3	TheData.parquet row 121599
+24292439	Km	confirmed	brenda		catlog:e989d1730a577bc8	TheData.parquet row 121599
+24509923	kcat	confirmed	oed		catlog:5065fe9ce1a2c269	
+24509923	Km	confirmed	oed		catlog:a45680c3095faea6	TheData.parquet row 104625
+24509923	kcat/Km	confirmed	oed		catlog:75b61f7118d97b6a	
+24509923	kcat	confirmed	oed		catlog:65afd819d9f647a1	
+24509923	Km	confirmed	oed		catlog:543deb57ba73edb5	TheData.parquet row 104621
+24509923	kcat/Km	confirmed	oed		catlog:7b24ba837e1fb1d9	
+24509923	kcat	confirmed	oed		catlog:2f9fd0e887f4b560	
+24509923	Km	confirmed	oed		catlog:147c2a764b51739f	
+24509923	kcat/Km	confirmed	oed		catlog:f98d04ecfa53569f	
+24509923	kcat	confirmed	brenda		catlog:c4a0f6f655a03dc7	
+24509923	Km	confirmed	brenda		catlog:3186f47e4c05496f	TheData.parquet row 104624
+24509923	kcat/Km	confirmed	brenda		catlog:1cdabb3a2ef14411	
+24509923	kcat	confirmed	oed		catlog:8a3b804c48357b88	
+24509923	Km	confirmed	oed		catlog:17d9eaf5effe4312	TheData.parquet row 104626
+24509923	kcat/Km	confirmed	oed		catlog:d5cfbeab94c7b5d4	
+24509923	kcat	confirmed	brenda			
+24509923	Km	confirmed	brenda			TheData.parquet row 104622
+24509923	kcat/Km	confirmed	brenda			
+24509923	kcat	confirmed	brenda			
+24509923	Km	confirmed	brenda			
+24509923	kcat/Km	confirmed	brenda			
+24509923	kcat	confirmed	brenda			
+24509923	Km	confirmed	brenda			
+24509923	kcat/Km	confirmed	brenda			
+24509923	kcat	confirmed	oed			
+24509923	Km	confirmed	oed			
+24509923	kcat/Km	confirmed	oed			
+24509923	kcat	confirmed	brenda			
+24509923	Km	confirmed	brenda			
+24509923	kcat/Km	confirmed	brenda			
+24586552	kcat	confirmed	brenda		catlog:cdc5318c9bcf0e46	TheData.parquet row 121885
+24586552	Km	confirmed	brenda		catlog:59881da25d9f8ded	TheData.parquet row 121885
+24586552	kcat	confirmed	brenda		catlog:640a4e37d3f3cbac	TheData.parquet row 121888
+24586552	Km	confirmed	brenda		catlog:6d9c1ac95936e8e0	TheData.parquet row 121888
+24586552	kcat	confirmed	oed			
+24586552	Km	confirmed	oed			
+24586552	kcat/Km	confirmed	oed		catlog:6be01fb88d116527	TheData.parquet row 121885
+24586552	kcat	confirmed	brenda		catlog:16d925f5e35f8c4e	TheData.parquet row 121887
+24586552	Km	confirmed	brenda		catlog:fad1bed2ff523e57	TheData.parquet row 121887
+24586552	kcat	confirmed	brenda		catlog:7414aa6b970603fe	TheData.parquet row 121882
+24586552	Km	confirmed	brenda		catlog:4ef0f26293953e8d	TheData.parquet row 121882
+24586552	kcat	confirmed	brenda		catlog:9e60732c649d06cd	TheData.parquet row 121878
+24586552	Km	confirmed	brenda		catlog:d99027e5814568e6	TheData.parquet row 121878
+24586552	kcat	confirmed	oed			
+24586552	Km	confirmed	oed			
+24586552	kcat/Km	confirmed	oed		catlog:241027539474fa9b	TheData.parquet row 121878
+24586552	kcat	confirmed	oed		catlog:5b17805e4861487e	TheData.parquet row 121884
+24586552	Km	confirmed	oed		catlog:76efaf9350e47713	TheData.parquet row 121884
+24586552	kcat/Km	confirmed	oed		catlog:3d1d06d0ed8e95b2	TheData.parquet row 121884
+24586552	kcat	confirmed	oed			
+24586552	Km	confirmed	oed			
+24586552	kcat/Km	confirmed	oed		catlog:964c05f2a195b3d7	TheData.parquet row 121887
+24586552	kcat	confirmed	brenda			
+24586552	Km	confirmed	brenda			
+24714029	Km	confirmed	brenda		catlog:510389cc93b80a21	TheData.parquet row 122064
+24714029	Km	confirmed	brenda		catlog:5ef526c70b4542e7	TheData.parquet row 122062
+24970179	kcat	confirmed	oed		catlog:37545478b660a52e	TheData.parquet row 122297
+24970179	Km	confirmed	oed		catlog:c65966afafd98f7f	TheData.parquet row 122297
+24970179	kcat/Km	confirmed	oed		catlog:a81532c55c435add	TheData.parquet row 122297
+24970179	kcat	confirmed	oed		catlog:330c9ea8aca75da6	TheData.parquet row 122286
+24970179	Km	confirmed	oed		catlog:8d501ebc1a6407e0	TheData.parquet row 122286
+24970179	kcat/Km	confirmed	oed		catlog:53624f56ba99a749	TheData.parquet row 122286
+24970179	kcat	confirmed	oed		catlog:caf7634a4ff6c01c	TheData.parquet row 122293
+24970179	Km	confirmed	oed		catlog:3cc9fd6043c9e2e8	TheData.parquet row 122293
+24970179	kcat/Km	confirmed	oed		catlog:7dff9d1f8af8656a	TheData.parquet row 122293
+24970179	kcat	confirmed	oed		catlog:2f38281fcd0854d2	TheData.parquet row 122291
+24970179	Km	confirmed	oed		catlog:98132941f31ed05f	TheData.parquet row 122291
+24970179	kcat/Km	confirmed	oed		catlog:6defce758b4caf92	TheData.parquet row 122291
+24970179	kcat	confirmed	oed		catlog:00b4946b20c21988	TheData.parquet row 122299
+24970179	Km	confirmed	oed		catlog:77c0215560c949df	TheData.parquet row 122299
+24970179	kcat/Km	confirmed	oed		catlog:cce3dd686a891366	TheData.parquet row 122299
+24970179	kcat	confirmed	oed		catlog:ecdf8eaabc4ff446	TheData.parquet row 122298
+24970179	Km	confirmed	oed		catlog:862812980c1f9233	TheData.parquet row 122298
+24970179	kcat/Km	confirmed	oed		catlog:61a915472886b8f4	TheData.parquet row 122298
+24970179	kcat	confirmed	oed		catlog:592f140435e981df	TheData.parquet row 122295
+24970179	Km	confirmed	oed		catlog:e6d922904627ccae	TheData.parquet row 122295
+24970179	kcat/Km	confirmed	oed		catlog:387b7bea16649dfa	TheData.parquet row 122294
+24970179	kcat	confirmed	oed		catlog:738daa2ee6aa76e0	TheData.parquet row 122301
+24970179	Km	confirmed	oed		catlog:aab751d5b6865e23	TheData.parquet row 122301
+24970179	kcat	confirmed	oed		catlog:0b6557a8b547f498	TheData.parquet row 122296
+24970179	Km	confirmed	oed		catlog:de139aad51ae40b8	TheData.parquet row 122296
+24970179	kcat/Km	confirmed	oed		catlog:1a9b8f2fb1558fd5	TheData.parquet row 122296
+24970179	kcat	confirmed	oed		catlog:d182e5629cd363e8	TheData.parquet row 122300
+24970179	Km	confirmed	oed		catlog:831117796bc62119	TheData.parquet row 122300
+24970179	kcat	confirmed	oed		catlog:3c89010bacbd33a2	TheData.parquet row 122292
+24970179	Km	confirmed	oed		catlog:50596789903590d6	TheData.parquet row 122292
+24970179	kcat/Km	confirmed	oed		catlog:37137d067b1048e3	TheData.parquet row 122288
+24970179	kcat	confirmed	oed		catlog:3f71965223680794	TheData.parquet row 122287
+24970179	Km	confirmed	oed		catlog:a5fbeb532113522a	TheData.parquet row 122287
+24970179	kcat/Km	confirmed	oed		catlog:54e2a1852f716f64	TheData.parquet row 122287
+24970179	kcat	confirmed	oed		catlog:3cd8f7150a805821	TheData.parquet row 122290
+24970179	Km	confirmed	oed		catlog:2dca7adf291a0068	TheData.parquet row 122290
+24970179	kcat/Km	confirmed	oed		catlog:71e13be6661946a8	TheData.parquet row 122290
+24970179	kcat	confirmed	oed		catlog:f44fa5e5d7e262d7	TheData.parquet row 122288
+24970179	Km	confirmed	oed		catlog:b1db8a33ead0433f	TheData.parquet row 122288
+24970179	kcat/Km	confirmed	oed		catlog:2d45d63131af0621	TheData.parquet row 122292
+25072253	kcat	confirmed	uniprot		catlog:bf0f7b2c1968033d	TheData.parquet row 122401
+25072253	Km	confirmed	uniprot		catlog:11a3cf396066d352	TheData.parquet row 122401
+25072253	kcat/Km	confirmed	uniprot		catlog:3f2f1b925c64f00e	
+25217016	Km	confirmed	uniprot		catlog:73f65c8f6570d38c	TheData.parquet row 104779
+25217016	kcat	confirmed	oed		catlog:a6b55dfa61aba801	TheData.parquet row 104778
+25217016	Km	confirmed	oed		catlog:f7d7d313df4ec721	TheData.parquet row 104778
+25217016	kcat/Km	confirmed	oed		catlog:ce1362ea9c98f2f2	TheData.parquet row 104778
+25217016	Km	confirmed	uniprot		catlog:abda8ef1cf4c0dd8	TheData.parquet row 104777
+25217016	Km	confirmed	uniprot			
+25217016	Km	confirmed	uniprot		catlog:51e87753b15a3303	TheData.parquet row 104776
+25217016	kcat	confirmed	oed		catlog:39bfae7782513a7d	TheData.parquet row 104777
+25217016	Km	confirmed	oed			
+25217016	kcat/Km	confirmed	oed		catlog:0d4bee554ea46496	TheData.parquet row 104777
+25217016	kcat	confirmed	oed		catlog:ca94059af711a471	TheData.parquet row 104779
+25217016	Km	confirmed	oed			
+25217016	kcat/Km	confirmed	oed		catlog:dfa7e566e5b1e38d	TheData.parquet row 104779
+25217016	kcat	confirmed	oed		catlog:3a37cd5c936c4d28	TheData.parquet row 104776
+25217016	Km	confirmed	oed			
+25217016	kcat/Km	confirmed	oed		catlog:3c6da312fc669b9a	TheData.parquet row 104776
+25217016	kcat	confirmed	oed		catlog:e26addb4f9879697	TheData.parquet row 104780
+25217016	Km	confirmed	oed		catlog:d7c0b1d1dc79516a	TheData.parquet row 104780
+25217016	kcat/Km	confirmed	oed		catlog:fd771c5fb31a250d	TheData.parquet row 104780
+25217016	Km	confirmed	uniprot			
+25577493	Km	confirmed	uniprot		catlog:ead6c78d54d120f9	TheData.parquet row 19725
+25577493	Km	confirmed	uniprot		catlog:0fd454213d3fae4a	TheData.parquet row 19719
+25577493	Km	confirmed	uniprot		catlog:3bb5b0daaebec3c1	TheData.parquet row 19723
+25577493	Km	confirmed	uniprot		catlog:3fb26335ce169e18	TheData.parquet row 19721
+25577493	Km	confirmed	uniprot		catlog:2760dde329f0c38a	TheData.parquet row 19729
+25577493	Km	confirmed	uniprot		catlog:f051ff9bdd754bac	TheData.parquet row 19731
+25752240	kcat	confirmed	oed		catlog:e496129dfbc768e8	TheData.parquet row 210624
+25752240	Km	confirmed	oed		catlog:b51a5e76108499d3	TheData.parquet row 210624
+25752240	kcat/Km	confirmed	oed		catlog:8614eb78fd9178b7	TheData.parquet row 210624
+25752240	kcat	confirmed	oed		catlog:aee84ac8d807229f	TheData.parquet row 210612
+25752240	Km	confirmed	oed		catlog:79278ea418584f78	TheData.parquet row 210612
+25752240	kcat/Km	confirmed	oed		catlog:6a15cbba9a66121c	TheData.parquet row 210612
+25775177	kcat	confirmed	oed		catlog:4daa220ce3b20e06	TheData.parquet row 122908
+25775177	Km	confirmed	oed		catlog:bd759a8110a0d0ad	TheData.parquet row 122908
+25775177	kcat/Km	confirmed	oed		catlog:8f03355934873cd2	
+25775177	kcat	confirmed	oed		catlog:3fc7f00e8420c7f0	TheData.parquet row 122905
+25775177	Km	confirmed	oed		catlog:d3402b2489f06996	TheData.parquet row 122905
+25775177	kcat/Km	confirmed	oed		catlog:689a0344b8b5083c	
+25775177	kcat	confirmed	brenda		catlog:6f822f6a5c0b92e8	TheData.parquet row 122909
+25775177	Km	confirmed	brenda		catlog:a66b1cf069a8f6ca	TheData.parquet row 122909
+25775177	kcat/Km	confirmed	brenda		catlog:97e30a4697be8bc1	
+25775177	kcat	confirmed	brenda		catlog:811b5fad21c6883e	TheData.parquet row 122910
+25775177	Km	confirmed	brenda		catlog:37c2d48bdf286811	TheData.parquet row 122910
+25775177	kcat/Km	confirmed	brenda		catlog:800e45702944105f	
+25775177	kcat	confirmed	oed			
+25775177	Km	confirmed	oed			
+25775177	kcat/Km	confirmed	oed			
+25775177	kcat	confirmed	oed			
+25775177	Km	confirmed	oed			
+25775177	kcat/Km	confirmed	oed			
+25775177	kcat	confirmed	oed		catlog:dca02e2a5064e9af	TheData.parquet row 122907
+25775177	Km	confirmed	oed		catlog:9daf08debfa61715	TheData.parquet row 122907
+25775177	kcat/Km	confirmed	oed		catlog:3cb6629a8fb0f1a4	
+25775177	kcat	confirmed	oed		catlog:93756ec1560c0d12	TheData.parquet row 122904
+25775177	Km	confirmed	oed		catlog:f477a749e2428e21	TheData.parquet row 122904
+25775177	kcat/Km	confirmed	oed		catlog:ecc3c64dc9c6f6ed	
+25775177	kcat	confirmed	oed		catlog:e939c6285ca8fc9d	TheData.parquet row 122906
+25775177	Km	confirmed	oed		catlog:5a001cc14838aec6	TheData.parquet row 122906
+25775177	kcat/Km	confirmed	oed		catlog:d10b239b5bf00770	
+25775177	kcat	confirmed	oed		catlog:da8f9d56902a786c	TheData.parquet row 122903
+25775177	Km	confirmed	oed		catlog:edaa1f13ea30fcef	TheData.parquet row 122903
+25775177	kcat/Km	confirmed	oed		catlog:65b743d9b83a054b	
+25788979	kcat	confirmed	oed		catlog:23f2966b3b2814a8	TheData.parquet row 122983
+25788979	Km	confirmed	oed		catlog:f8aca74690cda4bc	TheData.parquet row 122983
+25788979	kcat/Km	confirmed	oed		catlog:760461159da6c717	TheData.parquet row 122983
+25788979	kcat	confirmed	oed		catlog:eeb59b774e8a2586	TheData.parquet row 122973
+25788979	Km	confirmed	oed		catlog:8361a158c0606d9e	TheData.parquet row 122973
+25788979	kcat/Km	confirmed	oed		catlog:6d5d0f4a4f235322	TheData.parquet row 122973
+25788979	kcat	confirmed	oed		catlog:bed4bfcf0322db28	TheData.parquet row 122971
+25788979	Km	confirmed	oed		catlog:3a11817de57941a4	TheData.parquet row 122971
+25788979	kcat/Km	confirmed	oed		catlog:acd7af364c576114	TheData.parquet row 122971
+25788979	kcat	confirmed	oed		catlog:b24d2d195df44b8a	TheData.parquet row 122977
+25788979	Km	confirmed	oed		catlog:c8bf02c0b94245fd	TheData.parquet row 122977
+25788979	kcat/Km	confirmed	oed		catlog:8e6c34e2f4d0fd6c	TheData.parquet row 122977
+25788979	kcat	confirmed	oed		catlog:aaf4001e46e7845c	TheData.parquet row 122972
+25788979	Km	confirmed	oed		catlog:0a0766e59c693d43	TheData.parquet row 122972
+25788979	kcat/Km	confirmed	oed		catlog:99023a0c01dd4d42	TheData.parquet row 122972
+26271440	kcat	confirmed	oed		catlog:87e9bcc0b62ede8d	TheData.parquet row 20308
+26271440	Km	confirmed	oed		catlog:0c6738e7515b2c2a	TheData.parquet row 20307
+26271440	kcat/Km	confirmed	oed		catlog:c1c375e094ae2a4c	TheData.parquet row 20308
+26271440	kcat	confirmed	oed		catlog:b9e6150ac19dc255	TheData.parquet row 20322
+26271440	Km	confirmed	oed		catlog:66074e4c787a4541	TheData.parquet row 20322
+26271440	kcat/Km	confirmed	oed		catlog:799f6a9789f82bf4	TheData.parquet row 20322
+26271440	kcat	confirmed	oed		catlog:d6892557cbec8127	TheData.parquet row 20313
+26271440	Km	confirmed	oed		catlog:aeab260f19b083d4	TheData.parquet row 20313
+26271440	kcat/Km	confirmed	oed		catlog:0a17a2c376bd29bb	TheData.parquet row 20313
+26271440	kcat	confirmed	oed		catlog:901d952f09a09834	TheData.parquet row 20321
+26271440	Km	confirmed	oed		catlog:9359a89578c6436c	TheData.parquet row 20321
+26271440	kcat/Km	confirmed	oed		catlog:3926d787bbe3b1d9	TheData.parquet row 20321
+26271440	kcat	confirmed	oed		catlog:84d6d3769dbfe945	TheData.parquet row 20323
+26271440	Km	confirmed	oed		catlog:230ee372cba43d91	TheData.parquet row 20308
+26271440	kcat/Km	confirmed	oed		catlog:0185f620c0ce0a60	TheData.parquet row 20323
+26271440	kcat	confirmed	oed		catlog:2add170384093df0	TheData.parquet row 20327
+26271440	Km	confirmed	oed		catlog:f8d1acacf348098d	TheData.parquet row 20327
+26271440	kcat/Km	confirmed	oed		catlog:db472d8b8e55ed5b	TheData.parquet row 20327
+26518347	kcat	confirmed	oed		catlog:9ef3d15d2f2d7c6d	TheData.parquet row 123422
+26518347	Km	confirmed	oed		catlog:f9582e67df589d12	TheData.parquet row 123422
+26518347	kcat/Km	confirmed	oed		catlog:8e3ca410f626cd64	TheData.parquet row 123422
+26616098	kcat	confirmed	oed		catlog:acb537a77062072a	TheData.parquet row 20480
+26616098	Km	confirmed	oed		catlog:27c6a4f9ccaaeaaf	TheData.parquet row 20480
+26616098	kcat/Km	confirmed	oed		catlog:6cc7f1722da2236d	TheData.parquet row 20480
+26616098	kcat	confirmed	oed		catlog:5f76216a08aee890	TheData.parquet row 20487
+26616098	Km	confirmed	oed		catlog:23c2a38b662f45b2	TheData.parquet row 20487
+26616098	kcat/Km	confirmed	oed		catlog:0cefb1f25c7913bd	TheData.parquet row 20487
+26616098	kcat	confirmed	oed		catlog:4f958eeef386628c	TheData.parquet row 20485
+26616098	Km	confirmed	oed		catlog:876a10b28ec5fb72	TheData.parquet row 20485
+26616098	kcat/Km	confirmed	oed		catlog:84e07c8aa0e0c54e	TheData.parquet row 20485
+26616098	kcat	confirmed	oed		catlog:e6399083ce734633	TheData.parquet row 20478
+26616098	Km	confirmed	oed		catlog:9a6aa0133e98c7f3	TheData.parquet row 20478
+26616098	kcat/Km	confirmed	oed		catlog:f8e67fe1e3a3e704	TheData.parquet row 20478
+26616098	kcat	confirmed	oed		catlog:93a80401b56bc681	TheData.parquet row 20479
+26616098	Km	confirmed	oed		catlog:eef58e5f13048670	TheData.parquet row 20479
+26616098	kcat/Km	confirmed	oed		catlog:e4a36f5bac24ea4d	TheData.parquet row 20479
+26616098	kcat	confirmed	oed		catlog:07eb53354bcbc2fc	TheData.parquet row 20486
+26616098	Km	confirmed	oed		catlog:41934bbe91fc4a10	TheData.parquet row 20486
+26616098	kcat/Km	confirmed	oed		catlog:0ea1b2ea0bdb8ce3	TheData.parquet row 20486
+26616098	kcat	confirmed	oed		catlog:7d20ea054453b9bd	TheData.parquet row 20482
+26616098	Km	confirmed	oed		catlog:1c329730c64cc1d6	TheData.parquet row 20482
+26616098	kcat/Km	confirmed	oed		catlog:a35d0ff3fb7746ba	TheData.parquet row 20482
+26616098	kcat	confirmed	oed		catlog:dbeb9c4710cf7d00	TheData.parquet row 20484
+26616098	Km	confirmed	oed		catlog:2f2d7d0d41dcb7b3	TheData.parquet row 20484
+26616098	kcat/Km	confirmed	oed		catlog:c011eb59d65ea45c	TheData.parquet row 20484
+26616098	kcat	confirmed	oed		catlog:abcfdcf5c4e98cb9	TheData.parquet row 20477
+26616098	Km	confirmed	oed		catlog:0fc55b49531ff9a9	TheData.parquet row 20477
+26616098	kcat/Km	confirmed	oed		catlog:a37670df89842f8a	TheData.parquet row 20477
+26616098	kcat	confirmed	oed		catlog:53c53b112c2f1540	TheData.parquet row 20483
+26616098	Km	confirmed	oed		catlog:ae9206b51b28bccc	TheData.parquet row 20483
+26616098	kcat/Km	confirmed	oed		catlog:5415d3d7123d3fcc	TheData.parquet row 20483
+26616098	kcat	confirmed	oed		catlog:d6a6f1c093bfe500	TheData.parquet row 20481
+26616098	Km	confirmed	oed		catlog:953ea435c342acf0	TheData.parquet row 20481
+26616098	kcat/Km	confirmed	oed		catlog:9cc22ca0b1ccc0c2	TheData.parquet row 20481
+26621798	kcat	confirmed	oed		catlog:804807edcdb8ccf5	TheData.parquet row 123504
+26621798	Km	confirmed	oed		catlog:b20446bd2bc41694	TheData.parquet row 123504
+26621798	kcat/Km	confirmed	oed		catlog:e4c55fce6e5bd43e	TheData.parquet row 123505
+26621798	kcat	confirmed	oed		catlog:2573646ffc28d959	TheData.parquet row 123501
+26621798	Km	confirmed	oed		catlog:f8f579e3c057ffdb	TheData.parquet row 123501
+26621798	kcat/Km	confirmed	oed		catlog:9665664b770fe369	
+26621798	kcat	confirmed	oed		catlog:8160e1db2e4118d2	TheData.parquet row 123494
+26621798	Km	confirmed	oed		catlog:9530af83cf606c79	TheData.parquet row 123494
+26621798	kcat	confirmed	oed		catlog:00f18ad96337255e	TheData.parquet row 123503
+26621798	Km	confirmed	oed		catlog:a0c545fa5a375f87	TheData.parquet row 123503
+26621798	kcat/Km	confirmed	oed		catlog:146cd298b4edd8ad	
+26621798	kcat	confirmed	oed		catlog:da73b29a45d98514	TheData.parquet row 123498
+26621798	Km	confirmed	oed		catlog:ebb3ba65ed617ae4	TheData.parquet row 123498
+26621798	kcat/Km	confirmed	oed		catlog:eba010e2fc47a09f	TheData.parquet row 123499
+26621798	kcat	confirmed	oed		catlog:3498c855aa10a5ff	TheData.parquet row 123492
+26621798	Km	confirmed	oed		catlog:0f2c195a0c8b2084	TheData.parquet row 123495
+26621798	kcat/Km	confirmed	oed		catlog:45cacf7306fe6eb0	
+26621798	kcat	confirmed	oed		catlog:593109d724bd3b3d	TheData.parquet row 123499
+26621798	Km	confirmed	oed		catlog:d2e3213afe7be24c	TheData.parquet row 123499
+26621798	kcat/Km	confirmed	oed		catlog:2d78faff9efda116	
+26621798	kcat	confirmed	oed		catlog:6dca1d5bc16f9a34	TheData.parquet row 123496
+26621798	Km	confirmed	oed		catlog:fb48e43b3b5d622a	TheData.parquet row 123496
+26621798	kcat/Km	confirmed	oed		catlog:e99ccb4386b13eac	TheData.parquet row 123497
+26650892	kcat	confirmed	oed		catlog:4c88be2baba8bc62	TheData.parquet row 123517
+26650892	Km	confirmed	oed		catlog:2e694ca7dfa966e7	TheData.parquet row 123517
+26650892	kcat/Km	confirmed	oed		catlog:f65b6fbaa18e5e1d	TheData.parquet row 123517
+26650892	kcat	confirmed	oed		catlog:b805337cc2dccd6b	TheData.parquet row 123518
+26650892	Km	confirmed	oed		catlog:f9c4ed0fb7e17916	TheData.parquet row 123518
+26650892	kcat/Km	confirmed	oed		catlog:59c6d0d6f2fe4dc3	TheData.parquet row 123518
+26833751	kcat	confirmed	oed		catlog:0e8467ef227cb33f	TheData.parquet row 147446
+26833751	Km	confirmed	oed		catlog:ee9b40ff7e1e8425	TheData.parquet row 147446
+26833751	kcat/Km	confirmed	oed		catlog:43122f298ec6a557	TheData.parquet row 147446
+26833751	kcat	confirmed	oed		catlog:782a5d334954c1b4	TheData.parquet row 147449
+26833751	Km	confirmed	oed		catlog:97bcbd8db8764b25	TheData.parquet row 147449
+26833751	kcat/Km	confirmed	oed		catlog:0cf79058d880615e	TheData.parquet row 147449
+26833751	kcat	confirmed	oed		catlog:2034f979fa1550c3	TheData.parquet row 147448
+26833751	Km	confirmed	oed		catlog:f92861b238c654ba	TheData.parquet row 147448
+26833751	kcat/Km	confirmed	oed		catlog:12d7fd1085e4e7d9	TheData.parquet row 147448
+26886583	kcat	confirmed	oed		catlog:f703787e7030e954	TheData.parquet row 123720
+26886583	Km	confirmed	oed		catlog:ae92299829532e71	TheData.parquet row 123720
+26886583	kcat/Km	confirmed	oed		catlog:bfd9818ba3e59ff1	TheData.parquet row 123720
+26886583	kcat	confirmed	oed		catlog:1214ba634485c8aa	TheData.parquet row 123726
+26886583	Km	confirmed	oed		catlog:081f2230ec2c6125	TheData.parquet row 123726
+26886583	kcat/Km	confirmed	oed		catlog:b4c4b24c643c4172	TheData.parquet row 123726
+26886583	kcat	confirmed	oed		catlog:84dbc6ec95760f3a	TheData.parquet row 123717
+26886583	Km	confirmed	oed		catlog:a654dc174fe1dd12	TheData.parquet row 123717
+26886583	kcat/Km	confirmed	oed		catlog:2ff1b6d4d6f4fd51	TheData.parquet row 123717
+26886583	kcat	confirmed	oed		catlog:7c32e1a1ee6d288f	TheData.parquet row 123721
+26886583	Km	confirmed	oed		catlog:37e9d5bd7c7bf399	TheData.parquet row 123721
+26886583	kcat/Km	confirmed	oed		catlog:5395decfb4e608ab	TheData.parquet row 123721
+26886583	kcat	confirmed	oed		catlog:dd7053b101995ef0	TheData.parquet row 123727
+26886583	Km	confirmed	oed		catlog:ebe183514325f858	TheData.parquet row 123727
+26886583	kcat/Km	confirmed	oed		catlog:3b2244e83c9bed25	TheData.parquet row 123727
+26886583	kcat	confirmed	oed		catlog:7ade9c5e177faa89	TheData.parquet row 123719
+26886583	Km	confirmed	oed		catlog:7e5ffd1bee28f37e	TheData.parquet row 123719
+26886583	kcat/Km	confirmed	oed		catlog:989f211306a6bc83	TheData.parquet row 123719
+26886583	kcat	confirmed	oed		catlog:302150c1aca00bcb	TheData.parquet row 123722
+26886583	Km	confirmed	oed		catlog:458d24406ab5b83d	TheData.parquet row 123722
+26886583	kcat/Km	confirmed	oed		catlog:ab6e69a976a4686e	TheData.parquet row 123722
+26886583	kcat	confirmed	oed		catlog:4b71ce5766f92750	TheData.parquet row 123718
+26886583	Km	confirmed	oed		catlog:fb6a1b1be6afa946	TheData.parquet row 123718
+26886583	kcat/Km	confirmed	oed		catlog:f108db2e92adb283	TheData.parquet row 123718
+26886583	kcat	confirmed	oed		catlog:2ad164e560c2f2fc	TheData.parquet row 123716
+26886583	Km	confirmed	oed		catlog:f02f3827aead2020	TheData.parquet row 123716
+26886583	kcat/Km	confirmed	oed		catlog:b5af5bb09434f793	TheData.parquet row 123716
+26886583	kcat	confirmed	oed		catlog:acc004898dd1a2f1	TheData.parquet row 123725
+26886583	Km	confirmed	oed		catlog:77810387156b6271	TheData.parquet row 123725
+26886583	kcat/Km	confirmed	oed		catlog:d1df78c833096c60	TheData.parquet row 123725
+26886583	kcat	confirmed	oed		catlog:c871ab610990ad9f	TheData.parquet row 123715
+26886583	Km	confirmed	oed		catlog:a1cbaea71cafa510	TheData.parquet row 123715
+26886583	kcat/Km	confirmed	oed		catlog:21c5a10aa1baf928	TheData.parquet row 123715
+26899032	kcat	confirmed	oed		catlog:c6fbb295da92869c	TheData.parquet row 123734
+26899032	Km	confirmed	oed		catlog:b5f72257277ada47	TheData.parquet row 123734
+26899032	kcat/Km	confirmed	oed		catlog:fa987b1916f2dd21	TheData.parquet row 123734
+26899032	kcat	confirmed	oed		catlog:be665d92bad390e8	TheData.parquet row 123735
+26899032	Km	confirmed	oed		catlog:55fb26a4a598c73a	TheData.parquet row 123735
+26899032	kcat/Km	confirmed	oed		catlog:49a413cb4b7b25e1	TheData.parquet row 123735
+26899032	kcat	confirmed	oed		catlog:9849c6ddf4d2c017	TheData.parquet row 123738
+26899032	Km	confirmed	oed		catlog:af186854931396da	TheData.parquet row 123738
+26899032	kcat/Km	confirmed	oed		catlog:8d8463cfe3aae8b1	TheData.parquet row 123738
+26927087	kcat	confirmed	oed		catlog:4e70703130d4dfec	TheData.parquet row 123752
+26927087	Km	confirmed	oed		catlog:0a00dc25f63ef2e3	TheData.parquet row 123752
+26927087	kcat/Km	confirmed	oed		catlog:efd723c25186ddc8	
+26999093	kcat	confirmed	oed		catlog:b6a07cf93632bd80	TheData.parquet row 123819
+26999093	Km	confirmed	oed		catlog:d04f582e91c495b5	TheData.parquet row 123819
+26999093	kcat/Km	confirmed	oed		catlog:58c6fae845b7fd41	TheData.parquet row 123819
+27107124	kcat	confirmed	brenda		catlog:7ffde435268eecf4	TheData.parquet row 123962
+27107124	Km	confirmed	brenda		catlog:88f9987b6aa918cb	TheData.parquet row 123962
+27107124	kcat	confirmed	oed		catlog:1e8e89a29bfdfbe9	TheData.parquet row 123957
+27107124	Km	confirmed	oed		catlog:9db631e14f75c333	TheData.parquet row 123957
+27107124	kcat	confirmed	oed			
+27107124	Km	confirmed	oed		catlog:cc813737f5ae658d	TheData.parquet row 123960
+27107124	kcat	confirmed	oed		catlog:9a0cb2593897d310	TheData.parquet row 123959
+27107124	Km	confirmed	oed		catlog:d6b99a6a0764a700	TheData.parquet row 123959
+27107124	kcat	confirmed	brenda			
+27107124	Km	confirmed	brenda		catlog:5e195df665db1710	TheData.parquet row 123961
+27107124	kcat	confirmed	oed		catlog:87dd8e5fa13df0a8	TheData.parquet row 123958
+27107124	Km	confirmed	oed		catlog:5e1b6a15fbe0ac62	TheData.parquet row 123958
+27107124	kcat	confirmed	brenda			
+27107124	Km	confirmed	brenda			
+27107124	kcat	confirmed	brenda			
+27107124	Km	confirmed	brenda			
+27136302	kcat	confirmed	oed		catlog:3cad242e5a94ad77	TheData.parquet row 123971
+27136302	Km	confirmed	oed		catlog:424da44dd6515d54	TheData.parquet row 123971
+27136302	kcat/Km	confirmed	oed		catlog:d5824507650c0aa4	TheData.parquet row 123971
+27136302	kcat	confirmed	oed		catlog:a23b57aac1c10c17	TheData.parquet row 123972
+27136302	Km	confirmed	oed		catlog:e640e1b21c7310cb	TheData.parquet row 123972
+27136302	kcat/Km	confirmed	oed		catlog:b7f607eba1304bbd	TheData.parquet row 123972
+27136302	kcat	confirmed	oed		catlog:b195b95fb5e9cdea	TheData.parquet row 123973
+27136302	Km	confirmed	oed		catlog:5d5c443e44222c49	TheData.parquet row 123973
+27136302	kcat/Km	confirmed	oed		catlog:c1d34d99fe5166cf	TheData.parquet row 123973
+27136302	kcat	confirmed	brenda			TheData.parquet row 123977
+27136302	Km	confirmed	brenda			TheData.parquet row 123977
+27136302	kcat/Km	confirmed	brenda			TheData.parquet row 123977
+27537621	kcat	confirmed	oed		catlog:3eb4043368bacfe2	TheData.parquet row 124206
+27537621	Km	confirmed	oed		catlog:fcfdf25feb7f7932	TheData.parquet row 124204
+27537621	kcat/Km	confirmed	oed			
+27805055	kcat	confirmed	oed		catlog:552bb11d5a242132	TheData.parquet row 124406
+27805055	Km	confirmed	oed		catlog:606175c841b5a450	TheData.parquet row 124406
+27805055	kcat	confirmed	oed		catlog:0a95e17e718b10ff	TheData.parquet row 124407
+27805055	Km	confirmed	oed		catlog:c8f2f0d64ba5da2f	TheData.parquet row 124407
+27805055	kcat/Km	confirmed	oed		catlog:b4a1eac964066396	TheData.parquet row 124407
+28423051	kcat	confirmed	brenda		catlog:464136f307a56d8e	TheData.parquet row 124992
+28423051	Km	confirmed	brenda		catlog:725d65dc93604893	TheData.parquet row 124992
+28423051	kcat/Km	confirmed	brenda		catlog:c3e2c57719b5e41a	TheData.parquet row 124992
+28423051	Km	confirmed	brenda		catlog:ba92414aea72f0cf	
+28439850	kcat	confirmed	oed		catlog:0990c037c029ff1d	TheData.parquet row 165180
+28439850	Km	confirmed	oed		catlog:14b7cacad76fa8c2	TheData.parquet row 165180
+28439850	kcat	confirmed	oed		catlog:404efa724850e5fb	TheData.parquet row 165181
+28439850	Km	confirmed	oed		catlog:aba32ef90acacc52	TheData.parquet row 165181
+28439850	kcat	confirmed	oed		catlog:7f089252771ee72a	TheData.parquet row 165182
+28439850	Km	confirmed	oed		catlog:4218d81f32eeb480	TheData.parquet row 165182
+28749584	kcat	confirmed	oed		catlog:a12e0d74c6015799	TheData.parquet row 147926
+28749584	Km	confirmed	oed		catlog:a33f763faf580902	TheData.parquet row 147926
+28749584	kcat/Km	confirmed	oed		catlog:afedd30b9d4a2030	TheData.parquet row 147926
+28749584	kcat	confirmed	oed		catlog:d57d84c2c80c6d90	TheData.parquet row 147936
+28749584	Km	confirmed	oed		catlog:f131e5212dca78e0	TheData.parquet row 147936
+28749584	kcat/Km	confirmed	oed		catlog:c4ab44149218ad31	TheData.parquet row 147936
+28749584	kcat	confirmed	oed		catlog:8c6cb0e463f3272d	TheData.parquet row 147930
+28749584	Km	confirmed	oed		catlog:a342bc291c8387aa	TheData.parquet row 147930
+28749584	kcat/Km	confirmed	oed		catlog:1aabe028ffe2813a	TheData.parquet row 147930
+28749584	kcat	confirmed	oed		catlog:af2f677bfb953944	TheData.parquet row 147928
+28749584	Km	confirmed	oed		catlog:807baefd408d9dbc	TheData.parquet row 147928
+28749584	kcat/Km	confirmed	oed		catlog:9ecd4de1fcda449f	TheData.parquet row 147928
+28847921	kcat	confirmed	oed		catlog:c2dc08ed36e8f3dd	TheData.parquet row 105096
+28847921	Km	confirmed	oed		catlog:339f2a6e4eec1c07	TheData.parquet row 105096
+28847921	kcat	confirmed	oed		catlog:d02061d893e47646	TheData.parquet row 105098
+28847921	Km	confirmed	oed		catlog:250b8e694dc2e63e	TheData.parquet row 105098
+28847921	kcat	confirmed	oed		catlog:e19c6903de369425	TheData.parquet row 105106
+28847921	Km	confirmed	oed		catlog:7beb95f9d6fde065	TheData.parquet row 105106
+28847921	kcat	confirmed	oed		catlog:02d8baa90a79c3ec	TheData.parquet row 105100
+28847921	Km	confirmed	oed		catlog:57ae2532786c627c	TheData.parquet row 105100
+28847921	kcat	confirmed	oed		catlog:5de1eb4a787fea9b	TheData.parquet row 105102
+28847921	Km	confirmed	oed		catlog:b5c331c2fd9c4f5f	TheData.parquet row 105102
+28855911	kcat	confirmed	brenda		catlog:a5dd9227b10ce376	TheData.parquet row 125325
+28855911	Km	confirmed	brenda		catlog:9cdd66b9d06f03d4	TheData.parquet row 125325
+28855911	kcat/Km	confirmed	brenda		catlog:7216c5ea6b74dc89	TheData.parquet row 125325
+28855911	kcat	confirmed	brenda		catlog:64288810bb5ac08c	TheData.parquet row 125320
+28855911	Km	confirmed	brenda		catlog:a7b2e7bb4216134f	TheData.parquet row 125320
+28855911	kcat/Km	confirmed	brenda		catlog:021621b172434df0	TheData.parquet row 125320
+28855911	kcat	confirmed	brenda			TheData.parquet row 125323
+28855911	Km	confirmed	brenda			TheData.parquet row 125323
+28855911	kcat/Km	confirmed	brenda			TheData.parquet row 125323
+28855911	kcat	confirmed	brenda			TheData.parquet row 125322
+28855911	Km	confirmed	brenda			TheData.parquet row 125322
+28855911	kcat/Km	confirmed	brenda			TheData.parquet row 125322
+28855911	Km	confirmed	uniprot			TheData.parquet row 125321
+28855911	kcat	confirmed	brenda			TheData.parquet row 125328
+28855911	Km	confirmed	brenda			TheData.parquet row 125328
+28855911	kcat/Km	confirmed	brenda			TheData.parquet row 125328
+28960770	kcat	confirmed	oed		catlog:d1a2a7bb62514459	TheData.parquet row 132365
+28960770	Km	confirmed	oed		catlog:8fb63ac90e42b1e4	TheData.parquet row 132365
+28960770	kcat/Km	confirmed	oed		catlog:fb123079d1ba1570	TheData.parquet row 132365
+28960770	kcat	confirmed	oed		catlog:cae1f929dfff483c	TheData.parquet row 132362
+28960770	Km	confirmed	oed		catlog:35af107f3b30b2d3	TheData.parquet row 132362
+28960770	kcat/Km	confirmed	oed		catlog:73c2e74dd5716d5a	TheData.parquet row 132362
+28960770	kcat	confirmed	oed		catlog:975cda99773aec64	TheData.parquet row 132367
+28960770	Km	confirmed	oed		catlog:16abdea21c0c114c	TheData.parquet row 132367
+28960770	kcat/Km	confirmed	oed		catlog:075b2c7aa5d6a729	TheData.parquet row 132367
+28960770	kcat	confirmed	oed		catlog:8854d83e84099aa0	TheData.parquet row 132361
+28960770	Km	confirmed	oed		catlog:4b09a2b6f6a59ce8	TheData.parquet row 132361
+28960770	kcat/Km	confirmed	oed		catlog:0b66284d592147c6	TheData.parquet row 132361
+28960770	kcat	confirmed	oed		catlog:8da493ba34ed2392	TheData.parquet row 132359
+28960770	Km	confirmed	oed		catlog:daeb04df0dc9dc62	TheData.parquet row 132359
+28960770	kcat	confirmed	oed		catlog:bb21051fef1fccb3	TheData.parquet row 132366
+28960770	Km	confirmed	oed		catlog:ea1fd6e44d8feba5	TheData.parquet row 132366
+28960770	kcat/Km	confirmed	oed		catlog:fa88aa9da9ea0659	TheData.parquet row 132366
+28960770	kcat	confirmed	oed		catlog:5b31dc3ea32c88ac	TheData.parquet row 132364
+28960770	Km	confirmed	oed		catlog:9e45430b2ea1e3f4	TheData.parquet row 132364
+28960770	kcat/Km	confirmed	oed		catlog:6f73251ffbcd6f44	TheData.parquet row 132364
+28960770	kcat	confirmed	oed		catlog:a99412eddb84709a	TheData.parquet row 132368
+28960770	Km	confirmed	oed		catlog:29a6cbefa3ec5295	TheData.parquet row 132368
+28960770	kcat/Km	confirmed	oed		catlog:6bf2c2a6776cc75c	TheData.parquet row 132368
+29180806	kcat	confirmed	brenda		catlog:d05249ec94fc1f4b	TheData.parquet row 129181
+29180806	Km	confirmed	brenda		catlog:2524eb69fee9eb80	TheData.parquet row 129181
+29180806	kcat/Km	confirmed	brenda		catlog:33b86fb9d87a29db	TheData.parquet row 129181
+29180806	kcat	confirmed	brenda		catlog:b9b3350f3d178a0d	TheData.parquet row 129178
+29180806	Km	confirmed	brenda		catlog:e4a02c3952ece373	TheData.parquet row 129178
+29180806	kcat/Km	confirmed	brenda		catlog:0a03a798fdcf3ed7	TheData.parquet row 129178
+29180806	kcat	confirmed	brenda		catlog:103e1c1c11627dd8	TheData.parquet row 129172
+29180806	Km	confirmed	brenda		catlog:b53a32e55284dc99	TheData.parquet row 129172
+29180806	kcat/Km	confirmed	brenda		catlog:e5ad81a69cc4ba9c	TheData.parquet row 129172
+29180806	kcat	confirmed	brenda		catlog:e90bd121ff87a1d3	TheData.parquet row 129175
+29180806	Km	confirmed	brenda		catlog:714f0e139c56d0a1	TheData.parquet row 129175
+29180806	kcat/Km	confirmed	brenda		catlog:ef4c8f7ed215ff73	TheData.parquet row 129175
+29180806	kcat	confirmed	brenda		catlog:505142b0519d878d	TheData.parquet row 129184
+29180806	Km	confirmed	brenda		catlog:00a3534e5e12cd67	TheData.parquet row 129184
+29180806	kcat/Km	confirmed	brenda		catlog:5afa4e1eb7e02146	TheData.parquet row 129184
+29293526	kcat	confirmed	oed		catlog:5cb7edc8b09bcf0a	TheData.parquet row 165543
+29293526	Km	confirmed	oed		catlog:857d02fa429ed53d	TheData.parquet row 165543
+29293526	kcat/Km	confirmed	oed		catlog:feaaa1a3c269416a	TheData.parquet row 165543
+29293526	kcat	confirmed	oed		catlog:48a1641f805c8f9d	TheData.parquet row 165553
+29293526	Km	confirmed	oed		catlog:2a08b44b500d363b	TheData.parquet row 165553
+29293526	kcat/Km	confirmed	oed		catlog:500a850fe5e8800e	TheData.parquet row 165553
+29293526	kcat	confirmed	oed		catlog:b6bb7ae4a951f0ee	TheData.parquet row 165555
+29293526	Km	confirmed	oed		catlog:a139c6891c0a5b05	TheData.parquet row 165548
+29293526	kcat	confirmed	oed		catlog:afe69d416665e51a	TheData.parquet row 165545
+29293526	Km	confirmed	oed		catlog:52c8760188d4f785	TheData.parquet row 165545
+29293526	kcat/Km	confirmed	oed		catlog:a2e2b80843d61b59	TheData.parquet row 165545
+29293526	kcat	confirmed	oed		catlog:a1869ecdc5723e76	TheData.parquet row 165551
+29293526	Km	confirmed	oed		catlog:7bd77bfa10cd05f1	TheData.parquet row 165551
+29293526	kcat	confirmed	oed		catlog:6e3d4e31c6df68a2	TheData.parquet row 165547
+29293526	Km	confirmed	oed		catlog:97f50ff3b35f389c	TheData.parquet row 165547
+29293526	kcat/Km	confirmed	oed		catlog:7f245269927f4aea	TheData.parquet row 165547
+29293526	kcat	confirmed	oed		catlog:2e9cc0243d3730e4	TheData.parquet row 165549
+29293526	Km	confirmed	oed		catlog:0e150972cbd517c1	TheData.parquet row 165549
+29293526	kcat/Km	confirmed	oed		catlog:825a2fac91e46df9	TheData.parquet row 165549
+29511608	kcat	confirmed	brenda		catlog:dea3ecc8f15bf851	TheData.parquet row 148042
+29511608	Km	confirmed	brenda		catlog:55af7538ed4e9be8	TheData.parquet row 148042
+29511608	kcat/Km	confirmed	brenda		catlog:b851a3e8ad5679af	TheData.parquet row 148042
+29511608	kcat	confirmed	oed		catlog:ff7c43560d64a5b4	TheData.parquet row 148043
+29511608	Km	confirmed	oed		catlog:48e33bd826e7fdd2	TheData.parquet row 148043
+29511608	kcat/Km	confirmed	oed		catlog:d31ab7fb9a5b61f3	TheData.parquet row 148043
+29511608	kcat	confirmed	oed		catlog:7d0b05c0620b5ca5	TheData.parquet row 148044
+29511608	Km	confirmed	oed		catlog:88dd14be787b93c3	TheData.parquet row 148044
+29511608	kcat/Km	confirmed	oed		catlog:d30a35efa02925aa	TheData.parquet row 148044
+29511608	kcat	confirmed	brenda			
+29511608	Km	confirmed	brenda			
+29511608	kcat/Km	confirmed	brenda			
+29511608	kcat	confirmed	oed		catlog:0ef189a4e0edc1a9	TheData.parquet row 148047
+29511608	Km	confirmed	oed		catlog:4233b40a32a098e3	TheData.parquet row 148047
+29511608	kcat/Km	confirmed	oed		catlog:bc7311118c023cf8	TheData.parquet row 148047
+29511608	kcat	confirmed	brenda		catlog:fca3ec6d2ffc5200	TheData.parquet row 148046
+29511608	Km	confirmed	brenda		catlog:b4922fcf7ca801ca	TheData.parquet row 148046
+29511608	kcat/Km	confirmed	brenda		catlog:c913d748a69cd1a3	TheData.parquet row 148046
+29511608	kcat	confirmed	oed		catlog:d0b5b1d0eaf2a1c5	TheData.parquet row 148045
+29511608	Km	confirmed	oed		catlog:944f67174cc19a64	TheData.parquet row 148045
+29511608	kcat/Km	confirmed	oed		catlog:e182f45b593a3ab4	TheData.parquet row 148045
+29511608	kcat	confirmed	oed		catlog:35ce8016de19c0f4	TheData.parquet row 148059
+29511608	Km	confirmed	oed			
+29511608	kcat/Km	confirmed	oed			
+29511608	kcat	confirmed	oed			
+29511608	Km	confirmed	oed			
+29511608	kcat/Km	confirmed	oed			
+29618515	kcat	confirmed	oed		catlog:03e60069ed5df904	TheData.parquet row 21843
+29618515	Km	confirmed	oed		catlog:8789993ef4696614	TheData.parquet row 21843
+29618515	kcat/Km	confirmed	oed		catlog:b55b9683f237f50a	TheData.parquet row 21843
+29618515	kcat	confirmed	brenda		catlog:ab110425388fd008	TheData.parquet row 21849
+29618515	Km	confirmed	brenda		catlog:445a643d8ba8d64c	TheData.parquet row 21849
+29618515	kcat/Km	confirmed	brenda		catlog:8df4f65c1a393d0e	TheData.parquet row 21849
+29618515	kcat	confirmed	brenda		catlog:66acc6c5f04e10bb	TheData.parquet row 21847
+29618515	Km	confirmed	brenda		catlog:444294ebcd30d6c7	TheData.parquet row 21847
+29618515	kcat/Km	confirmed	brenda		catlog:db2d5eae95c8d54c	TheData.parquet row 21847
+29618515	kcat	confirmed	brenda		catlog:c7e3c67fd6c05ca8	
+29618515	kcat	confirmed	oed			
+29618515	Km	confirmed	oed			
+29618515	kcat/Km	confirmed	oed			
+29618515	kcat	confirmed	oed			
+29618515	Km	confirmed	oed			
+29618515	kcat/Km	confirmed	oed			
+29618515	kcat	confirmed	brenda			
+29618515	Km	confirmed	brenda			
+29618515	kcat/Km	confirmed	brenda			
+29697194	kcat	confirmed	oed		catlog:2c077089789b2bb6	
+29697194	Km	confirmed	oed		catlog:93110fa7cf9aab07	TheData.parquet row 148078
+29697194	kcat/Km	confirmed	oed		catlog:96ddcc6524492b93	
+29697194	kcat	confirmed	oed		catlog:2bafc081947522a0	
+29697194	Km	confirmed	oed		catlog:9291b5af9f1a6fd7	TheData.parquet row 148075
+29697194	kcat/Km	confirmed	oed		catlog:43c438839b61e467	
+29697194	kcat	confirmed	oed		catlog:37c7d2d124d31953	TheData.parquet row 148072
+29697194	Km	confirmed	oed		catlog:6bb73a34c5257e6c	TheData.parquet row 148072
+29697194	kcat/Km	confirmed	oed		catlog:743b6d0df002b3f6	
+29785669	kcat	confirmed	oed		catlog:87371401519ca48e	TheData.parquet row 135758
+29785669	Km	confirmed	oed		catlog:faf71264d2a60b19	TheData.parquet row 135758
+29785669	kcat/Km	confirmed	oed		catlog:4ff5bac67c2d1c92	TheData.parquet row 135758
+29785669	kcat	confirmed	oed		catlog:fd52ae822558f3a0	TheData.parquet row 135764
+29785669	Km	confirmed	oed		catlog:d2883e3f188b6eae	TheData.parquet row 135764
+29785669	kcat/Km	confirmed	oed		catlog:c4f2858507787f4d	TheData.parquet row 135764
+29785669	kcat	confirmed	oed		catlog:029f90ef2fa9685a	TheData.parquet row 135761
+29785669	Km	confirmed	oed		catlog:101ba308d8bc762e	TheData.parquet row 135761
+29785669	kcat/Km	confirmed	oed		catlog:f8ff7d5416313832	TheData.parquet row 135761
+29785669	kcat	confirmed	oed		catlog:95ecbdd436663049	TheData.parquet row 135752
+29785669	Km	confirmed	oed		catlog:7d17b7d70a73ce40	TheData.parquet row 135752
+29785669	kcat/Km	confirmed	oed		catlog:6777efe7b872f34d	TheData.parquet row 135752
+29785669	kcat	confirmed	oed		catlog:ac8cb0a917b799d3	TheData.parquet row 135755
+29785669	Km	confirmed	oed		catlog:26854df3f2280f3f	TheData.parquet row 135755
+29785669	kcat/Km	confirmed	oed		catlog:81c826bbe3354deb	TheData.parquet row 135755
+29785669	kcat	confirmed	oed		catlog:55cdc4ceeb4def9a	TheData.parquet row 135776
+29785669	Km	confirmed	oed		catlog:ac8a0dae5c59ce7d	TheData.parquet row 135776
+29785669	kcat/Km	confirmed	oed		catlog:a8ef30811a98499d	TheData.parquet row 135776
+29959872	kcat	confirmed	oed		catlog:60606a311f304a2a	TheData.parquet row 148178
+29959872	Km	confirmed	oed		catlog:41befbe20d9fb626	TheData.parquet row 148178
+29959872	kcat	confirmed	oed		catlog:f39c6225f9a983c7	TheData.parquet row 148176
+29959872	Km	confirmed	oed		catlog:62042d37951b9db9	TheData.parquet row 148176
+29959872	kcat	confirmed	oed		catlog:4b63e7bd414cd191	TheData.parquet row 148185
+29959872	Km	confirmed	oed		catlog:0123b43bc2207008	TheData.parquet row 148185
+29995887	kcat	confirmed	oed		catlog:cad9a558ab851f06	TheData.parquet row 126095
+29995887	Km	confirmed	oed			TheData.parquet row 126095
+29995887	kcat/Km	confirmed	oed			TheData.parquet row 126095
+29995887	kcat	confirmed	oed		catlog:4e45a166f05a3823	TheData.parquet row 126096
+29995887	Km	confirmed	oed		catlog:82c114e2ec976d73	TheData.parquet row 126096
+29995887	kcat/Km	confirmed	oed		catlog:16a851ebe94b34b5	TheData.parquet row 126096
+30580036	kcat	confirmed	oed		catlog:48a4cf82a23908af	TheData.parquet row 22292
+30580036	Km	confirmed	oed		catlog:3125b843543c05cc	TheData.parquet row 22292
+30580036	kcat/Km	confirmed	oed		catlog:03196d189580c9fd	TheData.parquet row 22292
+30580036	kcat	confirmed	oed		catlog:9773bdc008a4ee7d	TheData.parquet row 22295
+30580036	Km	confirmed	oed		catlog:4e82e1f2ba791afa	TheData.parquet row 22295
+30580036	kcat/Km	confirmed	oed		catlog:a47072228a71638b	TheData.parquet row 22295
+30580036	kcat	confirmed	oed		catlog:074249d009f806a3	TheData.parquet row 22305
+30580036	Km	confirmed	oed		catlog:762bb20e1ed300a9	TheData.parquet row 22305
+30580036	kcat/Km	confirmed	oed		catlog:7c33a864dd8e3a66	TheData.parquet row 22305
+30580036	kcat	confirmed	oed		catlog:a33101f264594dfa	TheData.parquet row 22296
+30580036	Km	confirmed	oed		catlog:34f8c0d0bec43bd4	TheData.parquet row 22296
+30580036	kcat/Km	confirmed	oed		catlog:e313a0e066dd5ec1	TheData.parquet row 22296
+30580036	kcat	confirmed	oed		catlog:b009b537a5b37524	TheData.parquet row 22298
+30580036	Km	confirmed	oed		catlog:6e1f524114d8f6bd	TheData.parquet row 22298
+30580036	kcat/Km	confirmed	oed		catlog:f55b5484eac907b5	TheData.parquet row 22298
+30580036	kcat	confirmed	oed		catlog:ebf1d5e029837683	TheData.parquet row 22299
+30580036	Km	confirmed	oed		catlog:694a1bb69fc1af3b	TheData.parquet row 22299
+30580036	kcat/Km	confirmed	oed		catlog:33038832860d941a	TheData.parquet row 22299
+30580036	kcat	confirmed	oed		catlog:8566a8fa379dbb08	TheData.parquet row 22293
+30580036	Km	confirmed	oed		catlog:03ef6d4ac7c72ae9	TheData.parquet row 22293
+30580036	kcat/Km	confirmed	oed		catlog:4d22f3bdad4baad3	TheData.parquet row 22293
+30580036	kcat	confirmed	oed		catlog:0fa86b5ccff3cb18	TheData.parquet row 22304
+30580036	Km	confirmed	oed		catlog:bd95ae51fdcef311	TheData.parquet row 22304
+30580036	kcat/Km	confirmed	oed		catlog:e6af4af17faece41	TheData.parquet row 22304
+30580036	kcat	confirmed	oed		catlog:e2de0f1b0b12bb60	TheData.parquet row 22303
+30580036	Km	confirmed	oed		catlog:4c4babd84e389d6c	TheData.parquet row 22303
+30580036	kcat/Km	confirmed	oed		catlog:92ffe463830b8384	TheData.parquet row 22303
+30964606	kcat	confirmed	oed		catlog:c97aef8730cb1831	TheData.parquet row 179649
+30964606	Km	confirmed	oed		catlog:03400525bbd9ae76	TheData.parquet row 179649
+30964606	kcat/Km	confirmed	oed		catlog:9f73537bcaf15f47	TheData.parquet row 179649
+30964606	kcat	confirmed	oed		catlog:72be3effa4f83b35	TheData.parquet row 179647
+30964606	Km	confirmed	oed		catlog:7e570a18c3cb5db3	TheData.parquet row 179647
+30964606	kcat/Km	confirmed	oed		catlog:587ac7bfdf85f2c4	TheData.parquet row 179647
+30964606	kcat	confirmed	oed		catlog:babbdd6923f27912	TheData.parquet row 179648
+30964606	Km	confirmed	oed		catlog:598e43ee54d94ccd	TheData.parquet row 179648
+30964606	kcat/Km	confirmed	oed		catlog:4cfb98f77a26632a	TheData.parquet row 179648
+30964606	kcat	confirmed	oed		catlog:cf2694096d5bdfd0	TheData.parquet row 179650
+30964606	Km	confirmed	oed		catlog:f016efcccfaa4a09	TheData.parquet row 179650
+30964606	kcat/Km	confirmed	oed		catlog:f433dcbd0332fa0f	
+31235877	Km	confirmed	brenda		catlog:c2a773d3b7316bfe	TheData.parquet row 130771
+31488549	Km	confirmed	uniprot		catlog:ec7d9365c15d5fa7	TheData.parquet row 76771
+31488549	Km	confirmed	uniprot		catlog:9b58d838662ebacb	TheData.parquet row 76761
+31488549	Km	confirmed	uniprot		catlog:16db1ee0fadefc67	TheData.parquet row 76767
+31912947	kcat	confirmed	brenda		catlog:ce3217d13d5a548d	TheData.parquet row 148588
+31912947	Km	confirmed	brenda		catlog:8d8454d0acfe83f0	
+31912947	kcat/Km	confirmed	brenda		catlog:92da4dbeae056738	TheData.parquet row 148588
+31912947	kcat	confirmed	brenda		catlog:0c1322b778de15c8	TheData.parquet row 148594
+31912947	Km	confirmed	brenda		catlog:1f04f3baa7be881f	
+31912947	kcat/Km	confirmed	brenda		catlog:3b826ca0895bc62a	TheData.parquet row 148594
+31912947	kcat	confirmed	brenda		catlog:8932591a9d6bcc1a	TheData.parquet row 148592
+31912947	Km	confirmed	brenda		catlog:9787da0daf135566	
+31912947	kcat/Km	confirmed	brenda		catlog:4b04a7504eb24e89	TheData.parquet row 148592
+31912947	kcat	confirmed	brenda		catlog:ac30b3873c36211c	TheData.parquet row 148587
+31912947	Km	confirmed	brenda		catlog:df3e3852cbce1c62	
+31912947	kcat/Km	confirmed	brenda		catlog:73b509b3ae2701a5	TheData.parquet row 148587
+31912947	kcat	confirmed	brenda		catlog:43752222d7b9ac4c	TheData.parquet row 148590
+31912947	Km	confirmed	brenda		catlog:cb6bc1ecc56c0a4d	
+31912947	kcat	confirmed	brenda		catlog:44b4842d2cb48944	TheData.parquet row 148593
+31912947	Km	confirmed	brenda		catlog:30836e471c9c4303	
+31912947	kcat/Km	confirmed	brenda		catlog:af099ae4f33d2547	TheData.parquet row 148593
+31912947	kcat	confirmed	brenda		catlog:6ae990a160541fe3	TheData.parquet row 148591
+31912947	Km	confirmed	brenda		catlog:fe44798c94235519	
+31912947	kcat/Km	confirmed	brenda		catlog:3ef5969b712d7d60	TheData.parquet row 148591
+32296684	Km	confirmed	brenda		catlog:d7a84d120fdf9670	TheData.parquet row 127064
+32296684	kcat	confirmed	brenda		catlog:26dec0de60ae462e	TheData.parquet row 127066
+32296684	Km	confirmed	brenda		catlog:7e1b36322af2a874	TheData.parquet row 127066
+32296684	kcat/Km	confirmed	brenda		catlog:aa3398963eee4a44	TheData.parquet row 127066
+32296684	Km	confirmed	brenda			
+32296684	Km	confirmed	brenda		catlog:c5c5e657fffafecd	TheData.parquet row 127067
+32296684	kcat	confirmed	brenda		catlog:755c43dc19228ce7	TheData.parquet row 127067
+32296684	Km	confirmed	brenda			
+32296684	kcat/Km	confirmed	brenda		catlog:136224b883b82eaa	TheData.parquet row 127067
+32296684	kcat	confirmed	brenda		catlog:53e4871d9b087374	TheData.parquet row 127065
+32296684	Km	confirmed	brenda		catlog:54198941420803f8	TheData.parquet row 127065
+32296684	kcat/Km	confirmed	brenda		catlog:c1f4eb88e05ab68c	TheData.parquet row 127065
+32296684	kcat	confirmed	brenda		catlog:f13e6c9679fd684b	TheData.parquet row 127064
+32296684	Km	confirmed	brenda			
+32296684	kcat/Km	confirmed	brenda		catlog:1de595f165e64246	TheData.parquet row 127064
+33020946	kcat	confirmed	oed		catlog:dbd0d2d1c48d1acc	TheData.parquet row 148700
+33020946	Km	confirmed	oed		catlog:1bf8f399e98660e6	
+33020946	kcat/Km	confirmed	oed		catlog:c64a1b436bf15962	TheData.parquet row 148700
+33020946	kcat	confirmed	oed		catlog:e3b86cbfeb94095a	TheData.parquet row 148697
+33020946	Km	confirmed	oed		catlog:a9d81f02923659f0	
+33020946	kcat/Km	confirmed	oed		catlog:a962ab650a4a836e	TheData.parquet row 148697
+33020946	kcat	confirmed	oed		catlog:e93e107ab761fafe	TheData.parquet row 148699
+33020946	Km	confirmed	oed		catlog:41624ca223e11e87	
+33020946	kcat/Km	confirmed	oed		catlog:2dd83080c93e40ce	TheData.parquet row 148699
+33020946	kcat	confirmed	oed		catlog:22c8f54b6f0d56e6	TheData.parquet row 148698
+33020946	Km	confirmed	oed		catlog:24cc3f756fd268aa	
+33807684	kcat	confirmed	oed		catlog:3db4087887b7ca23	TheData.parquet row 127317
+33807684	Km	confirmed	oed		catlog:44a0e56a6f8a1d15	TheData.parquet row 127313
+33807684	kcat/Km	confirmed	oed		catlog:fcdb39a5070bee18	TheData.parquet row 127317
+33807684	kcat	confirmed	brenda		catlog:ef27ead008ca327f	TheData.parquet row 127315
+33807684	Km	confirmed	brenda		catlog:a36d94963bcef386	TheData.parquet row 127315
+33807684	kcat/Km	confirmed	brenda		catlog:c3f1dc9e8c5d3e36	TheData.parquet row 127315
+33807684	kcat	confirmed	oed		catlog:5a1ce68ae0b4581a	TheData.parquet row 127309
+33807684	Km	confirmed	oed		catlog:b6fa6959c2c8498c	TheData.parquet row 127309
+33807684	kcat/Km	confirmed	oed		catlog:d72b481d151d9fb1	TheData.parquet row 127309
+33807684	kcat	confirmed	brenda			
+33807684	Km	confirmed	brenda		catlog:e3b423bf51344f8e	TheData.parquet row 127317
+33807684	kcat/Km	confirmed	brenda			
+33807684	kcat	confirmed	brenda		catlog:cca3099349bcbb56	TheData.parquet row 127305
+33807684	Km	confirmed	brenda		catlog:caa51dd680d6ef2f	TheData.parquet row 127305
+33807684	kcat	confirmed	oed		catlog:8a94f76c49d384e7	TheData.parquet row 127311
+33807684	Km	confirmed	oed		catlog:b014af9133099bd4	TheData.parquet row 127311
+33807684	kcat/Km	confirmed	oed		catlog:bd37abea59602376	TheData.parquet row 127311
+33807684	kcat	confirmed	brenda			
+33807684	Km	confirmed	brenda			
+33807684	kcat/Km	confirmed	brenda			
+33807684	kcat	confirmed	oed			
+33807684	Km	confirmed	oed			
+33807684	kcat/Km	confirmed	oed			
+34059116	kcat	confirmed	oed		catlog:bab7a87d47dd76ee	TheData.parquet row 127415
+34059116	Km	confirmed	oed		catlog:f0698ec25a10e9c0	TheData.parquet row 127415
+34059116	kcat/Km	confirmed	oed		catlog:37a9681f4c900920	TheData.parquet row 127415
+34059116	kcat	confirmed	oed		catlog:50d10ace6681566a	TheData.parquet row 127424
+34059116	Km	confirmed	oed		catlog:e42b2499fd24ef7c	TheData.parquet row 127424
+34059116	kcat/Km	confirmed	oed		catlog:c2a57d0a49adfadb	TheData.parquet row 127424
+34059116	kcat	confirmed	oed		catlog:db0c50a46d03844f	
+34059116	Km	confirmed	oed		catlog:c25ceb43074ba52c	
+34059116	kcat/Km	confirmed	oed		catlog:51f0a3a1afddb1d1	
+34059116	kcat	confirmed	oed		catlog:5dabebdc87914a7a	TheData.parquet row 127416
+34059116	Km	confirmed	oed		catlog:80c0be08c1b5e501	TheData.parquet row 127416
+34059116	kcat/Km	confirmed	oed		catlog:201fd36b1d97dfd9	TheData.parquet row 127416
+34059116	kcat	confirmed	oed		catlog:137d8a36a89e8f2d	TheData.parquet row 127405
+34059116	Km	confirmed	oed		catlog:90a2a6053dea4c9d	TheData.parquet row 127405
+34059116	kcat/Km	confirmed	oed		catlog:6ea99de23f9c2c3a	TheData.parquet row 127405
+34059116	kcat	confirmed	oed		catlog:aaf3a25902e800a9	TheData.parquet row 127414
+34059116	Km	confirmed	oed		catlog:3b888daa9df2dcda	TheData.parquet row 127414
+34059116	kcat/Km	confirmed	oed		catlog:011b021a98e0f672	TheData.parquet row 127414
+34059116	kcat	confirmed	oed		catlog:ffbd69dd264aa684	
+34059116	Km	confirmed	oed		catlog:e8f46bb2ff6fc929	TheData.parquet row 127406
+34059116	kcat/Km	confirmed	oed		catlog:3cd021cd292b60ce	TheData.parquet row 127417
+34059116	kcat	confirmed	oed		catlog:6003ca4214a5e41d	TheData.parquet row 127413
+34059116	Km	confirmed	oed		catlog:748f762eabd3f139	TheData.parquet row 127413
+34059116	kcat/Km	confirmed	oed		catlog:477772a87c0227e6	TheData.parquet row 127413
+34059116	kcat	confirmed	oed		catlog:43e4c21fbf22deaa	TheData.parquet row 127411
+34059116	Km	confirmed	oed		catlog:7b50a6b90da94abe	TheData.parquet row 127411
+34059116	kcat/Km	confirmed	oed		catlog:e12625fa18a3087a	TheData.parquet row 127411
+34059116	kcat	confirmed	oed		catlog:b2d201df4058be2b	TheData.parquet row 127420
+34059116	Km	confirmed	oed		catlog:7b73dbef5e9a4cc4	TheData.parquet row 127420
+34059116	kcat/Km	confirmed	oed		catlog:ce1d54b3dfa4939e	TheData.parquet row 127420
+34059116	kcat	confirmed	oed		catlog:f06615d347a50599	
+34059116	Km	confirmed	oed		catlog:f76b585361ce36a4	TheData.parquet row 127407
+34059116	kcat/Km	confirmed	oed		catlog:e41467b7734d9f37	
+34059116	kcat	confirmed	oed		catlog:591cfb1c09b0a8c1	TheData.parquet row 127422
+34059116	Km	confirmed	oed		catlog:a8ceb48c5eb6ef92	TheData.parquet row 127422
+34059116	kcat/Km	confirmed	oed		catlog:72c4bfeddbcdd5ad	TheData.parquet row 127422
+34200865	kcat	confirmed	oed		catlog:f63c4595bed978f5	TheData.parquet row 127549
+34200865	Km	confirmed	oed		catlog:3d4776e96033f370	TheData.parquet row 127549
+34200865	kcat/Km	confirmed	oed		catlog:aa2b99357527b945	TheData.parquet row 127549
+34200865	kcat	confirmed	oed		catlog:fca0e3804e784c15	TheData.parquet row 127548
+34200865	Km	confirmed	oed		catlog:b51ed5f1126dab81	TheData.parquet row 127548
+34200865	kcat/Km	confirmed	oed		catlog:03835ddf3a6b3252	TheData.parquet row 127548
+34200865	kcat	confirmed	oed		catlog:eaee7b5ac9aa36ef	TheData.parquet row 127550
+34200865	Km	confirmed	oed		catlog:f221420e4bc9196e	TheData.parquet row 127550

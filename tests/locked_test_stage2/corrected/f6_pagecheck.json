@@ -1,0 +1,88 @@
+{
+ "registered": {
+  "all": {
+   "papers": 79,
+   "rgf": 17,
+   "catlog": 0,
+   "rgf_only": 17,
+   "catlog_only": 0,
+   "sign_test_p": 1.52587890625e-05
+  },
+  "without_finetuning_papers": {
+   "papers": 64,
+   "rgf": 11,
+   "catlog": 0,
+   "rgf_only": 11,
+   "catlog_only": 0,
+   "sign_test_p": 0.0009765625
+  },
+  "finetuning_papers_only": {
+   "papers": 15,
+   "rgf": 6,
+   "catlog": 0,
+   "rgf_only": 6,
+   "catlog_only": 0,
+   "sign_test_p": 0.03125
+  },
+  "finetuning_papers": [
+   "10029307",
+   "10514486",
+   "10564758",
+   "10671479",
+   "10714990",
+   "10801893",
+   "11278915",
+   "11279139",
+   "11322958",
+   "11336650",
+   "11382747",
+   "11415449",
+   "11707391",
+   "11820932",
+   "11880657"
+  ]
+ },
+ "misreads": {
+  "all": {
+   "papers": 79,
+   "rgf": 17,
+   "catlog": 0,
+   "rgf_only": 17,
+   "catlog_only": 0,
+   "sign_test_p": 1.52587890625e-05
+  },
+  "without_finetuning_papers": {
+   "papers": 64,
+   "rgf": 11,
+   "catlog": 0,
+   "rgf_only": 11,
+   "catlog_only": 0,
+   "sign_test_p": 0.0009765625
+  },
+  "finetuning_papers_only": {
+   "papers": 15,
+   "rgf": 6,
+   "catlog": 0,
+   "rgf_only": 6,
+   "catlog_only": 0,
+   "sign_test_p": 0.03125
+  },
+  "finetuning_papers": [
+   "10029307",
+   "10514486",
+   "10564758",
+   "10671479",
+   "10714990",
+   "10801893",
+   "11278915",
+   "11279139",
+   "11322958",
+   "11336650",
+   "11382747",
+   "11415449",
+   "11707391",
+   "11820932",
+   "11880657"
+  ]
+ }
+}

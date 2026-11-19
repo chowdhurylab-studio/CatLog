@@ -3,8 +3,10 @@
 The scripts that ran and scored the paper's two tests, computed its statistics and built its figures, Extended Data
 items and tables. They read the catalogue frozen for the paper (the authors keep it as a git tag of their working
 folder, with copies of its export; the main README's "Versions" names the tag) and the tests' records: every reading of
-both sides, every judge's verdict and the audit of every session. Neither is in this repository, so these scripts show
-how each result was made; to run one again, it needs those inputs.
+both sides, every judge's verdict and the audit of every session. The catalogue is not in this repository, and the
+tests' records are in `../tests/` as tables (each side's values, every claim, verdict and planted error; not the
+sessions' audits or transcripts) rather than the files these scripts read, so these scripts show how each result was
+made; to run one again, it needs those inputs.
 
 The scripts ran in two folders: the authors' working copy of CatLog, with its data (`<the CatLog folder>` here), and
 the folder the tests ran in (`<the kit folder>`; its `code/` is CatLog's code on the tests' branch, with the tests'

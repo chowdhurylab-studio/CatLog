@@ -1,0 +1,66 @@
+{
+ "tag": "paper-catalog-freeze-20261116",
+ "seed": 20261118,
+ "database_papers_known_to_catlog": 15004,
+ "frame": 3245,
+ "left_out": {
+  "CatLog status todo": 9634,
+  "CatLog status needs_browser": 1313,
+  "CatLog status wrong_paper": 4,
+  "hard cases (paper/evidence/hard_cases_20261102)": 13,
+  "CatLog status incomplete": 6,
+  "people's review of CatLog values (human_review/first_compare.tsv at the tag)": 101,
+  "CatLog status needs_supplement": 141,
+  "no original file on disk": 304,
+  "Co-Scientist gold set (CatLog development)": 71,
+  "test kit: development 165, held-out 374, people 100": 45,
+  "random test (paper/evidence/random_papers_20261104)": 80,
+  "the pilot (PLAN.md)": 5,
+  "locked test held-out (sources/holdout_locked.txt at the tag)": 13,
+  "EnzyExtract's 384-paper benchmark (its SI)": 27,
+  "CatLog status no_text": 2
+ },
+ "original_on_disk": {
+  "pdf": 1990,
+  "els.xml": 720,
+  "jats.xml": 535
+ },
+ "text_source": {
+  "local": 1375,
+  "elsevier_api": 777,
+  "europepmc": 426,
+  "downloaded": 422,
+  "pmc_cloud": 149,
+  "openalex_oa": 82,
+  "pubmed_linkout": 14
+ },
+ "catlog_values": 99953,
+ "ee_values": 112024,
+ "agreed": 83475,
+ "catlog_disputed": 16478,
+ "ee_disputed": 28549,
+ "ee_unreadable_cells": 3083,
+ "ee_values_from_the_database_number": 602,
+ "papers_with_no_dispute": 1192,
+ "disputed_per_paper": {
+  "median": 4,
+  "mean": 13.88,
+  "quartiles": [
+   0.0,
+   4.0,
+   18.0
+  ]
+ },
+ "pilot": [
+  "9355750",
+  "10764809",
+  "18823127",
+  "15659395",
+  "28286729"
+ ],
+ "inputs_sha256": {
+  "TheData.parquet": "903023a9ec5366a4a560c1e11b5f6dca9ef5a27a6686ef633e7297866126290b",
+  "catlog_wide.jsonl": "e544a0d626682dcc20e34937be6148ef9bafb0e0052fc9936e1b131356553acf",
+  "thedata.tsv": "42e4905634ffed7a9fcbfa615a0eaff86ab39acd07038a81986b1655a11a1241"
+ }
+}

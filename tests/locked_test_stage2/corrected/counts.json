@@ -1,0 +1,92 @@
+{
+ "registered": {
+  "curation_cells": 1526,
+  "curation_scored": 1428,
+  "curation_unscored": 98,
+  "by_metric": {
+   "kcat": 382,
+   "Km": 686,
+   "kcat/Km": 360
+  },
+  "curation_scored_without_misprint_papers": 1397,
+  "unread_per_run": {
+   "4o-05": 110,
+   "4o-mini_Rx": 49,
+   "4o-mini": 66,
+   "4o-mini_xG": 61,
+   "RGF": 123,
+   "RxF": 97,
+   "gemini": 255,
+   "sonnet37": 98,
+   "xGF": 129
+  },
+  "unread_range": [
+   49,
+   255
+  ],
+  "pagecheck_agreed_by_all_three": 923,
+  "pagecheck_disputed": {
+   "curation": 505,
+   "catlog": 287,
+   "rgf": 263
+  }
+ },
+ "misreads": {
+  "curation_cells": 1526,
+  "curation_scored": 1428,
+  "curation_unscored": 98,
+  "by_metric": {
+   "kcat": 382,
+   "Km": 686,
+   "kcat/Km": 360
+  },
+  "curation_scored_without_misprint_papers": 1397,
+  "unread_per_run": {
+   "4o-05": 110,
+   "4o-mini_Rx": 49,
+   "4o-mini": 66,
+   "4o-mini_xG": 61,
+   "RGF": 123,
+   "RxF": 97,
+   "gemini": 255,
+   "sonnet37": 98,
+   "xGF": 129
+  },
+  "unread_range": [
+   49,
+   255
+  ],
+  "pagecheck_agreed_by_all_three": 927,
+  "pagecheck_disputed": {
+   "curation": 501,
+   "catlog": 272,
+   "rgf": 260
+  }
+ },
+ "written": {
+  "curation_cells": 1526,
+  "curation_scored": 1477,
+  "curation_unscored": 49,
+  "by_metric": {
+   "kcat": 407,
+   "Km": 689,
+   "kcat/Km": 381
+  },
+  "curation_scored_without_misprint_papers": 1446,
+  "unread_per_run": {
+   "4o-05": 108,
+   "4o-mini_Rx": 48,
+   "4o-mini": 65,
+   "4o-mini_xG": 38,
+   "RGF": 97,
+   "RxF": 71,
+   "gemini": 235,
+   "sonnet37": 91,
+   "xGF": 103
+  },
+  "unread_range": [
+   38,
+   235
+  ]
+ }
+}

@@ -1,0 +1,5155 @@
+{
+ "plan": "CHECK_PLAN.md",
+ "papers": 79,
+ "papers_checked": 63,
+ "papers_with_a_dispute": 63,
+ "part1": 33,
+ "part1_checked": 33,
+ "part2": 30,
+ "part2_checked": 30,
+ "values_checked": {
+  "curation": 505,
+  "catlog": 287,
+  "rgf": 263
+ },
+ "verdicts": {
+  "curation": {
+   "measured_here_at_this_scale": 175,
+   "measured_here_other_scale": 90,
+   "repeat_of_one_printed_value": 81,
+   "credited_to_earlier_work": 135,
+   "as_printed_but_misprint": 12,
+   "not_this_metric": 8,
+   "not_found_in_paper": 4
+  },
+  "catlog": {
+   "measured_here_at_this_scale": 248,
+   "corrected_misprint": 38,
+   "as_printed_but_misprint": 1
+  },
+  "rgf": {
+   "measured_here_other_scale": 100,
+   "measured_here_at_this_scale": 64,
+   "not_found_in_paper": 8,
+   "as_printed_but_misprint": 8,
+   "corrected_misprint": 7,
+   "not_this_metric": 22,
+   "credited_to_earlier_work": 20,
+   "repeat_of_one_printed_value": 34
+  }
+ },
+ "verdicts_by_metric": {
+  "curation": {
+   "kcat": {
+    "repeat_of_one_printed_value": 42,
+    "credited_to_earlier_work": 33,
+    "as_printed_but_misprint": 12,
+    "measured_here_at_this_scale": 36,
+    "measured_here_other_scale": 21
+   },
+   "Km": {
+    "measured_here_at_this_scale": 89,
+    "measured_here_other_scale": 15,
+    "credited_to_earlier_work": 72,
+    "repeat_of_one_printed_value": 25,
+    "not_this_metric": 7,
+    "not_found_in_paper": 4
+   },
+   "kcat/Km": {
+    "measured_here_at_this_scale": 50,
+    "credited_to_earlier_work": 30,
+    "measured_here_other_scale": 54,
+    "not_this_metric": 1,
+    "repeat_of_one_printed_value": 14
+   }
+  },
+  "catlog": {
+   "kcat": {
+    "measured_here_at_this_scale": 80,
+    "corrected_misprint": 20
+   },
+   "Km": {
+    "measured_here_at_this_scale": 56
+   },
+   "kcat/Km": {
+    "measured_here_at_this_scale": 112,
+    "corrected_misprint": 18,
+    "as_printed_but_misprint": 1
+   }
+  },
+  "rgf": {
+   "kcat": {
+    "as_printed_but_misprint": 7,
+    "measured_here_at_this_scale": 7,
+    "not_this_metric": 7,
+    "measured_here_other_scale": 33,
+    "repeat_of_one_printed_value": 29,
+    "not_found_in_paper": 3
+   },
+   "Km": {
+    "measured_here_other_scale": 33,
+    "measured_here_at_this_scale": 27,
+    "not_found_in_paper": 4,
+    "not_this_metric": 15,
+    "credited_to_earlier_work": 19,
+    "repeat_of_one_printed_value": 4
+   },
+   "kcat/Km": {
+    "measured_here_other_scale": 34,
+    "measured_here_at_this_scale": 30,
+    "not_found_in_paper": 1,
+    "corrected_misprint": 7,
+    "credited_to_earlier_work": 1,
+    "repeat_of_one_printed_value": 1,
+    "as_printed_but_misprint": 1
+   }
+  }
+ },
+ "values_without_a_verdict_counted_cannot_decide": {},
+ "reference": {
+  "kcat": {
+   "values": {
+    "as_printed": 374,
+    "corrected": 376
+   },
+   "curation_values": 382,
+   "complete": true,
+   "papers_with_a_dispute": 33,
+   "checked": 33
+  },
+  "Km": {
+   "values": {
+    "as_printed": 615,
+    "corrected": 615
+   },
+   "curation_values": 686,
+   "complete": true,
+   "papers_with_a_dispute": 53,
+   "checked": 53
+  },
+  "kcat/Km": {
+   "values": {
+    "as_printed": 378,
+    "corrected": 394
+   },
+   "curation_values": 360,
+   "complete": true,
+   "papers_with_a_dispute": 39,
+   "checked": 39
+  }
+ },
+ "reference_from": {
+  "as_printed": {
+   "curation": 1110,
+   "catlog": 244,
+   "rgf": 13
+  },
+  "corrected": {
+   "curation": 1098,
+   "catlog": 281,
+   "rgf": 6
+  }
+ },
+ "views": {
+  "as_printed": {
+   "sources": {
+    "catlog": {
+     "kcat": {
+      "recall": {
+       "est": 0.9224598930481284,
+       "lo": 0.8401159101640893,
+       "hi": 0.9815683321842834,
+       "num": 345,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.9426229508196722,
+       "lo": 0.8480225386160437,
+       "hi": 1.0,
+       "num": 345,
+       "den": 366,
+       "papers": 46
+      },
+      "gold_n": 374,
+      "sys_n": 366,
+      "matched": 345
+     },
+     "Km": {
+      "recall": {
+       "est": 0.9609756097560975,
+       "lo": 0.9269042725955078,
+       "hi": 0.9863034422730192,
+       "num": 591,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.9916107382550335,
+       "lo": 0.979093375302283,
+       "hi": 1.0,
+       "num": 591,
+       "den": 596,
+       "papers": 77
+      },
+      "gold_n": 615,
+      "sys_n": 596,
+      "matched": 591
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.9682539682539683,
+       "lo": 0.938460591133005,
+       "hi": 0.9923273657289002,
+       "num": 366,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.953125,
+       "lo": 0.8885672085026571,
+       "hi": 1.0,
+       "num": 366,
+       "den": 384,
+       "papers": 51
+      },
+      "gold_n": 378,
+      "sys_n": 384,
+      "matched": 366
+     },
+     "all": {
+      "recall": {
+       "est": 0.9524506217995611,
+       "lo": 0.9231986717501829,
+       "hi": 0.9761276467029644,
+       "num": 1302,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.9673105497771174,
+       "lo": 0.9247378455787175,
+       "hi": 0.9975550495643979,
+       "num": 1302,
+       "den": 1346,
+       "papers": 78
+      },
+      "gold_n": 1367,
+      "sys_n": 1346,
+      "matched": 1302
+     },
+     "papers_with_values": 78
+    },
+    "plain": {
+     "kcat": {
+      "recall": {
+       "est": 0.9786096256684492,
+       "lo": 0.9516616314199395,
+       "hi": 0.9973262032085561,
+       "num": 366,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.9838709677419355,
+       "lo": 0.967032967032967,
+       "hi": 0.9973192140614472,
+       "num": 366,
+       "den": 372,
+       "papers": 46
+      },
+      "gold_n": 374,
+      "sys_n": 372,
+      "matched": 366
+     },
+     "Km": {
+      "recall": {
+       "est": 0.9804878048780488,
+       "lo": 0.9667772772193953,
+       "hi": 0.9921259842519685,
+       "num": 603,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.9601910828025477,
+       "lo": 0.9344524952838278,
+       "hi": 0.9812412067099567,
+       "num": 603,
+       "den": 628,
+       "papers": 77
+      },
+      "gold_n": 615,
+      "sys_n": 628,
+      "matched": 603
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.9603174603174603,
+       "lo": 0.9112622937576994,
+       "hi": 0.994594958840242,
+       "num": 363,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.8832116788321168,
+       "lo": 0.7707824474939525,
+       "hi": 0.9864137343404569,
+       "num": 363,
+       "den": 411,
+       "papers": 52
+      },
+      "gold_n": 378,
+      "sys_n": 411,
+      "matched": 363
+     },
+     "all": {
+      "recall": {
+       "est": 0.9743964886613021,
+       "lo": 0.9561401727307709,
+       "hi": 0.9891170497030197,
+       "num": 1332,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.9440113394755493,
+       "lo": 0.9041510673234812,
+       "hi": 0.9781696626472074,
+       "num": 1332,
+       "den": 1411,
+       "papers": 78
+      },
+      "gold_n": 1367,
+      "sys_n": 1411,
+      "matched": 1332
+     },
+     "papers_with_values": 78
+    },
+    "run_4o-05": {
+     "kcat": {
+      "recall": {
+       "est": 0.7272727272727273,
+       "lo": 0.5955460232350313,
+       "hi": 0.8557733050847457,
+       "num": 272,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6585956416464891,
+       "lo": 0.5252148104030177,
+       "hi": 0.7995232166836105,
+       "num": 272,
+       "den": 413,
+       "papers": 45
+      },
+      "gold_n": 374,
+      "sys_n": 413,
+      "matched": 272
+     },
+     "Km": {
+      "recall": {
+       "est": 0.8113821138211382,
+       "lo": 0.7222177848775293,
+       "hi": 0.8886987023262262,
+       "num": 499,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7338235294117647,
+       "lo": 0.639530118185284,
+       "hi": 0.8201550387596899,
+       "num": 499,
+       "den": 680,
+       "papers": 75
+      },
+      "gold_n": 615,
+      "sys_n": 680,
+      "matched": 499
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6825396825396826,
+       "lo": 0.5309262441135293,
+       "hi": 0.8239440924274252,
+       "num": 258,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.7226890756302521,
+       "lo": 0.596875,
+       "hi": 0.8318840579710145,
+       "num": 258,
+       "den": 357,
+       "papers": 47
+      },
+      "gold_n": 378,
+      "sys_n": 357,
+      "matched": 258
+     },
+     "all": {
+      "recall": {
+       "est": 0.7527432333577176,
+       "lo": 0.671730294238608,
+       "hi": 0.826566024550987,
+       "num": 1029,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.7096551724137931,
+       "lo": 0.6338910404924099,
+       "hi": 0.7824660060755099,
+       "num": 1029,
+       "den": 1450,
+       "papers": 78
+      },
+      "gold_n": 1367,
+      "sys_n": 1450,
+      "matched": 1029
+     },
+     "papers_with_values": 78
+    },
+    "run_4o-mini_Rx": {
+     "kcat": {
+      "recall": {
+       "est": 0.4893048128342246,
+       "lo": 0.37354293412597434,
+       "hi": 0.6321881338742393,
+       "num": 183,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.580952380952381,
+       "lo": 0.45091891556438174,
+       "hi": 0.7229384489043783,
+       "num": 183,
+       "den": 315,
+       "papers": 51
+      },
+      "gold_n": 374,
+      "sys_n": 315,
+      "matched": 183
+     },
+     "Km": {
+      "recall": {
+       "est": 0.5333333333333333,
+       "lo": 0.4552466208621368,
+       "hi": 0.6178582185886403,
+       "num": 328,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.8138957816377171,
+       "lo": 0.7394731944625832,
+       "hi": 0.8801977512999758,
+       "num": 328,
+       "den": 403,
+       "papers": 75
+      },
+      "gold_n": 615,
+      "sys_n": 403,
+      "matched": 328
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.3492063492063492,
+       "lo": 0.24586156345338564,
+       "hi": 0.47091546778661425,
+       "num": 132,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.40615384615384614,
+       "lo": 0.27499811178247735,
+       "hi": 0.5484949832775919,
+       "num": 132,
+       "den": 325,
+       "papers": 57
+      },
+      "gold_n": 378,
+      "sys_n": 325,
+      "matched": 132
+     },
+     "all": {
+      "recall": {
+       "est": 0.4703730797366496,
+       "lo": 0.39507840102817865,
+       "hi": 0.5538630802731396,
+       "num": 643,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.6164908916586769,
+       "lo": 0.5381304398888208,
+       "hi": 0.7012444196360261,
+       "num": 643,
+       "den": 1043,
+       "papers": 78
+      },
+      "gold_n": 1367,
+      "sys_n": 1043,
+      "matched": 643
+     },
+     "papers_with_values": 78
+    },
+    "run_4o-mini": {
+     "kcat": {
+      "recall": {
+       "est": 0.6363636363636364,
+       "lo": 0.5088574449951072,
+       "hi": 0.7706441025900959,
+       "num": 238,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6263157894736842,
+       "lo": 0.4861868015642178,
+       "hi": 0.7677067369463924,
+       "num": 238,
+       "den": 380,
+       "papers": 50
+      },
+      "gold_n": 374,
+      "sys_n": 380,
+      "matched": 238
+     },
+     "Km": {
+      "recall": {
+       "est": 0.71869918699187,
+       "lo": 0.6282051282051282,
+       "hi": 0.8043515871821875,
+       "num": 442,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.778169014084507,
+       "lo": 0.6942898167653723,
+       "hi": 0.8524272687432578,
+       "num": 442,
+       "den": 568,
+       "papers": 78
+      },
+      "gold_n": 615,
+      "sys_n": 568,
+      "matched": 442
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.5502645502645502,
+       "lo": 0.4168731585706731,
+       "hi": 0.6891025641025641,
+       "num": 208,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.5306122448979592,
+       "lo": 0.39193066460396886,
+       "hi": 0.6699545477629373,
+       "num": 208,
+       "den": 392,
+       "papers": 57
+      },
+      "gold_n": 378,
+      "sys_n": 392,
+      "matched": 208
+     },
+     "all": {
+      "recall": {
+       "est": 0.6495976591075348,
+       "lo": 0.5663237995436081,
+       "hi": 0.733384405199701,
+       "num": 888,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.6626865671641791,
+       "lo": 0.5843498924200599,
+       "hi": 0.7407422891118542,
+       "num": 888,
+       "den": 1340,
+       "papers": 79
+      },
+      "gold_n": 1367,
+      "sys_n": 1340,
+      "matched": 888
+     },
+     "papers_with_values": 79
+    },
+    "run_4o-mini_xG": {
+     "kcat": {
+      "recall": {
+       "est": 0.6256684491978609,
+       "lo": 0.5,
+       "hi": 0.7619115841178877,
+       "num": 234,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6685714285714286,
+       "lo": 0.5357977207977208,
+       "hi": 0.7967523452157598,
+       "num": 234,
+       "den": 350,
+       "papers": 50
+      },
+      "gold_n": 374,
+      "sys_n": 350,
+      "matched": 234
+     },
+     "Km": {
+      "recall": {
+       "est": 0.5300813008130081,
+       "lo": 0.43224681476841464,
+       "hi": 0.6292787410502314,
+       "num": 326,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.6059479553903345,
+       "lo": 0.4961367070062722,
+       "hi": 0.7105284312066339,
+       "num": 326,
+       "den": 538,
+       "papers": 77
+      },
+      "gold_n": 615,
+      "sys_n": 538,
+      "matched": 326
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.47883597883597884,
+       "lo": 0.3416429895207337,
+       "hi": 0.6319275932155249,
+       "num": 181,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.47757255936675463,
+       "lo": 0.3399014778325123,
+       "hi": 0.6184217422487035,
+       "num": 181,
+       "den": 379,
+       "papers": 58
+      },
+      "gold_n": 378,
+      "sys_n": 379,
+      "matched": 181
+     },
+     "all": {
+      "recall": {
+       "est": 0.5420629114850036,
+       "lo": 0.45454545454545453,
+       "hi": 0.6337664035912443,
+       "num": 741,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.584846093133386,
+       "lo": 0.5,
+       "hi": 0.6723900670697147,
+       "num": 741,
+       "den": 1267,
+       "papers": 78
+      },
+      "gold_n": 1367,
+      "sys_n": 1267,
+      "matched": 741
+     },
+     "papers_with_values": 78
+    },
+    "run_RGF": {
+     "kcat": {
+      "recall": {
+       "est": 0.7085561497326203,
+       "lo": 0.5760750265111347,
+       "hi": 0.8333425720620842,
+       "num": 265,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6220657276995305,
+       "lo": 0.4923068432671082,
+       "hi": 0.7763166350967392,
+       "num": 265,
+       "den": 426,
+       "papers": 42
+      },
+      "gold_n": 374,
+      "sys_n": 426,
+      "matched": 265
+     },
+     "Km": {
+      "recall": {
+       "est": 0.8357723577235773,
+       "lo": 0.7550636842300419,
+       "hi": 0.904194087073378,
+       "num": 514,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7764350453172205,
+       "lo": 0.6917071747814737,
+       "hi": 0.8539139506252835,
+       "num": 514,
+       "den": 662,
+       "papers": 74
+      },
+      "gold_n": 615,
+      "sys_n": 662,
+      "matched": 514
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6455026455026455,
+       "lo": 0.499972885032538,
+       "hi": 0.7848534409515717,
+       "num": 244,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.7072463768115942,
+       "lo": 0.577555431599498,
+       "hi": 0.8226239311564477,
+       "num": 244,
+       "den": 345,
+       "papers": 46
+      },
+      "gold_n": 378,
+      "sys_n": 345,
+      "matched": 244
+     },
+     "all": {
+      "recall": {
+       "est": 0.7483540599853694,
+       "lo": 0.6820722904546435,
+       "hi": 0.8114241136195471,
+       "num": 1023,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.7138869504535938,
+       "lo": 0.64,
+       "hi": 0.7871514985711892,
+       "num": 1023,
+       "den": 1433,
+       "papers": 77
+      },
+      "gold_n": 1367,
+      "sys_n": 1433,
+      "matched": 1023
+     },
+     "papers_with_values": 77
+    },
+    "run_RxF": {
+     "kcat": {
+      "recall": {
+       "est": 0.6016042780748663,
+       "lo": 0.4558769197334106,
+       "hi": 0.7398137242466523,
+       "num": 225,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.7009345794392523,
+       "lo": 0.5746741132002327,
+       "hi": 0.8121429524232991,
+       "num": 225,
+       "den": 321,
+       "papers": 41
+      },
+      "gold_n": 374,
+      "sys_n": 321,
+      "matched": 225
+     },
+     "Km": {
+      "recall": {
+       "est": 0.7609756097560976,
+       "lo": 0.6843853820598007,
+       "hi": 0.834077144502015,
+       "num": 468,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7918781725888325,
+       "lo": 0.70867296404989,
+       "hi": 0.8667993066193006,
+       "num": 468,
+       "den": 591,
+       "papers": 76
+      },
+      "gold_n": 615,
+      "sys_n": 591,
+      "matched": 468
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.5158730158730159,
+       "lo": 0.36801668814602456,
+       "hi": 0.6677861781333501,
+       "num": 195,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.5668604651162791,
+       "lo": 0.4137848143236074,
+       "hi": 0.7215215531987683,
+       "num": 195,
+       "den": 344,
+       "papers": 47
+      },
+      "gold_n": 378,
+      "sys_n": 344,
+      "matched": 195
+     },
+     "all": {
+      "recall": {
+       "est": 0.6495976591075348,
+       "lo": 0.5695864867208463,
+       "hi": 0.7322850807442173,
+       "num": 888,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.7070063694267515,
+       "lo": 0.6354465534472138,
+       "hi": 0.7765590146445543,
+       "num": 888,
+       "den": 1256,
+       "papers": 79
+      },
+      "gold_n": 1367,
+      "sys_n": 1256,
+      "matched": 888
+     },
+     "papers_with_values": 79
+    },
+    "run_gemini": {
+     "kcat": {
+      "recall": {
+       "est": 0.6684491978609626,
+       "lo": 0.5175202156334232,
+       "hi": 0.8062700706486833,
+       "num": 250,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.7246376811594203,
+       "lo": 0.591712680883473,
+       "hi": 0.8427388487278236,
+       "num": 250,
+       "den": 345,
+       "papers": 41
+      },
+      "gold_n": 374,
+      "sys_n": 345,
+      "matched": 250
+     },
+     "Km": {
+      "recall": {
+       "est": 0.7609756097560976,
+       "lo": 0.6671349663784822,
+       "hi": 0.8473795438827552,
+       "num": 468,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7244582043343654,
+       "lo": 0.6389763965807036,
+       "hi": 0.805371555277412,
+       "num": 468,
+       "den": 646,
+       "papers": 74
+      },
+      "gold_n": 615,
+      "sys_n": 646,
+      "matched": 468
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.2751322751322751,
+       "lo": 0.1641394412878788,
+       "hi": 0.4163827908829577,
+       "num": 104,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.5652173913043478,
+       "lo": 0.42168674698795183,
+       "hi": 0.7102311537506208,
+       "num": 104,
+       "den": 184,
+       "papers": 31
+      },
+      "gold_n": 378,
+      "sys_n": 184,
+      "matched": 104
+     },
+     "all": {
+      "recall": {
+       "est": 0.6013167520117044,
+       "lo": 0.5271942431767415,
+       "hi": 0.679262298326446,
+       "num": 822,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.6995744680851064,
+       "lo": 0.6286945662418555,
+       "hi": 0.7665852765714389,
+       "num": 822,
+       "den": 1175,
+       "papers": 76
+      },
+      "gold_n": 1367,
+      "sys_n": 1175,
+      "matched": 822
+     },
+     "papers_with_values": 76
+    },
+    "run_sonnet37": {
+     "kcat": {
+      "recall": {
+       "est": 0.713903743315508,
+       "lo": 0.585912914558288,
+       "hi": 0.8493622448979591,
+       "num": 267,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.7478991596638656,
+       "lo": 0.6253155984798697,
+       "hi": 0.8681022923478197,
+       "num": 267,
+       "den": 357,
+       "papers": 44
+      },
+      "gold_n": 374,
+      "sys_n": 357,
+      "matched": 267
+     },
+     "Km": {
+      "recall": {
+       "est": 0.8390243902439024,
+       "lo": 0.7549190606475148,
+       "hi": 0.9115345831943593,
+       "num": 516,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.8805460750853242,
+       "lo": 0.8022583348854536,
+       "hi": 0.9445439109315221,
+       "num": 516,
+       "den": 586,
+       "papers": 73
+      },
+      "gold_n": 615,
+      "sys_n": 586,
+      "matched": 516
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6904761904761905,
+       "lo": 0.5548939849574147,
+       "hi": 0.8244541604795688,
+       "num": 261,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.7676470588235295,
+       "lo": 0.6366269962697442,
+       "hi": 0.8825652597467146,
+       "num": 261,
+       "den": 340,
+       "papers": 48
+      },
+      "gold_n": 378,
+      "sys_n": 340,
+      "matched": 261
+     },
+     "all": {
+      "recall": {
+       "est": 0.7637161667885881,
+       "lo": 0.6735416333850379,
+       "hi": 0.8468911727370374,
+       "num": 1044,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.813717848791894,
+       "lo": 0.7428571428571429,
+       "hi": 0.8794647990866079,
+       "num": 1044,
+       "den": 1283,
+       "papers": 75
+      },
+      "gold_n": 1367,
+      "sys_n": 1283,
+      "matched": 1044
+     },
+     "papers_with_values": 75
+    },
+    "run_xGF": {
+     "kcat": {
+      "recall": {
+       "est": 0.7085561497326203,
+       "lo": 0.5732975881236625,
+       "hi": 0.8380468202266884,
+       "num": 265,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6309523809523809,
+       "lo": 0.48314127936670076,
+       "hi": 0.7937860387908439,
+       "num": 265,
+       "den": 420,
+       "papers": 44
+      },
+      "gold_n": 374,
+      "sys_n": 420,
+      "matched": 265
+     },
+     "Km": {
+      "recall": {
+       "est": 0.6959349593495935,
+       "lo": 0.5883283158813264,
+       "hi": 0.7958301431433742,
+       "num": 428,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.6123032904148784,
+       "lo": 0.5093236916596426,
+       "hi": 0.7125748502994012,
+       "num": 428,
+       "den": 699,
+       "papers": 77
+      },
+      "gold_n": 615,
+      "sys_n": 699,
+      "matched": 428
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.5740740740740741,
+       "lo": 0.42388642461653,
+       "hi": 0.7287081370727281,
+       "num": 217,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.6289855072463768,
+       "lo": 0.46170738045738047,
+       "hi": 0.7961180508317358,
+       "num": 217,
+       "den": 345,
+       "papers": 45
+      },
+      "gold_n": 378,
+      "sys_n": 345,
+      "matched": 217
+     },
+     "all": {
+      "recall": {
+       "est": 0.6656912948061449,
+       "lo": 0.5768918679669917,
+       "hi": 0.7501849008446597,
+       "num": 910,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.6215846994535519,
+       "lo": 0.5251062371348526,
+       "hi": 0.7208369163387478,
+       "num": 910,
+       "den": 1464,
+       "papers": 79
+      },
+      "gold_n": 1367,
+      "sys_n": 1464,
+      "matched": 910
+     },
+     "papers_with_values": 79
+    },
+    "enzyextract_db": {
+     "kcat": {
+      "recall": {
+       "est": 0.36363636363636365,
+       "lo": 0.21443357597816198,
+       "hi": 0.5212282662692497,
+       "num": 136,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.7351351351351352,
+       "lo": 0.5849039574960834,
+       "hi": 0.9256198347107438,
+       "num": 136,
+       "den": 185,
+       "papers": 20
+      },
+      "gold_n": 374,
+      "sys_n": 185,
+      "matched": 136
+     },
+     "Km": {
+      "recall": {
+       "est": 0.1967479674796748,
+       "lo": 0.101007784264665,
+       "hi": 0.307586970613656,
+       "num": 121,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7333333333333333,
+       "lo": 0.5901639344262295,
+       "hi": 0.8720045112781954,
+       "num": 121,
+       "den": 165,
+       "papers": 20
+      },
+      "gold_n": 615,
+      "sys_n": 165,
+      "matched": 121
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.15608465608465608,
+       "lo": 0.06284084356207266,
+       "hi": 0.2711463320191495,
+       "num": 59,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.6344086021505376,
+       "lo": 0.38372093023255816,
+       "hi": 0.8617021276595744,
+       "num": 59,
+       "den": 93,
+       "papers": 13
+      },
+      "gold_n": 378,
+      "sys_n": 93,
+      "matched": 59
+     },
+     "all": {
+      "recall": {
+       "est": 0.23116313094367227,
+       "lo": 0.13114639778677092,
+       "hi": 0.34322951020785336,
+       "num": 316,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.7133182844243793,
+       "lo": 0.6056329068558935,
+       "hi": 0.8459533217999706,
+       "num": 316,
+       "den": 443,
+       "papers": 20
+      },
+      "gold_n": 1367,
+      "sys_n": 443,
+      "matched": 316
+     },
+     "papers_with_values": 20
+    },
+    "brenda": {
+     "kcat": {
+      "recall": {
+       "est": 0.06951871657754011,
+       "lo": 0.019851116625310174,
+       "hi": 0.13823762502119,
+       "num": 26,
+       "den": 374,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6842105263157895,
+       "lo": 0.38636363636363635,
+       "hi": 0.9743749999999998,
+       "num": 26,
+       "den": 38,
+       "papers": 8
+      },
+      "gold_n": 374,
+      "sys_n": 38,
+      "matched": 26
+     },
+     "Km": {
+      "recall": {
+       "est": 0.6455284552845528,
+       "lo": 0.5624011323938775,
+       "hi": 0.7256810464577866,
+       "num": 397,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.8593073593073594,
+       "lo": 0.7834519464720195,
+       "hi": 0.9201794145194586,
+       "num": 397,
+       "den": 462,
+       "papers": 78
+      },
+      "gold_n": 615,
+      "sys_n": 462,
+      "matched": 397
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.03439153439153439,
+       "lo": 0.0,
+       "hi": 0.0873792647315746,
+       "num": 13,
+       "den": 378,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.8125,
+       "lo": 0.5,
+       "hi": 1.0,
+       "num": 13,
+       "den": 16,
+       "papers": 3
+      },
+      "gold_n": 378,
+      "sys_n": 16,
+      "matched": 13
+     },
+     "all": {
+      "recall": {
+       "est": 0.31894659839063644,
+       "lo": 0.2716430715365324,
+       "hi": 0.37490319698173147,
+       "num": 436,
+       "den": 1367,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.8449612403100775,
+       "lo": 0.7722747325135739,
+       "hi": 0.908185034425531,
+       "num": 436,
+       "den": 516,
+       "papers": 78
+      },
+      "gold_n": 1367,
+      "sys_n": 516,
+      "matched": 436
+     },
+     "papers_with_values": 78
+    }
+   },
+   "catlog_minus": {
+    "plain": {
+     "kcat": {
+      "recall": {
+       "est": -0.05614973262032086,
+       "lo": -0.13846347607052892,
+       "hi": -0.0028009248392094205,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": -0.04124801692226332,
+       "lo": -0.1255491375106419,
+       "hi": 0.013592562329768673,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": -0.019512195121951237,
+       "lo": -0.052032520325203224,
+       "hi": 0.0,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.03141965545248582,
+       "lo": 0.012730917376524143,
+       "hi": 0.05539076154831927,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.007936507936507908,
+       "lo": -0.02465837984102825,
+       "hi": 0.05571382534226278,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.06991332116788318,
+       "lo": 0.009041029687131375,
+       "hi": 0.1622368215005235,
+       "papers": 52,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": -0.021945866861741048,
+       "lo": -0.04181972888664852,
+       "hi": -0.006446198033567033,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.02329921030156812,
+       "lo": -0.0021207339987019207,
+       "hi": 0.05459415616555982,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_4o-05": {
+     "kcat": {
+      "recall": {
+       "est": 0.19518716577540107,
+       "lo": 0.029494199776814764,
+       "hi": 0.3512228081740276,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2840273091731831,
+       "lo": 0.10394055148261507,
+       "hi": 0.44355628566210026,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.1495934959349593,
+       "lo": 0.0636821311218902,
+       "hi": 0.24548309090018613,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2577872088432689,
+       "lo": 0.17127665155188251,
+       "hi": 0.35131750248823057,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.2857142857142857,
+       "lo": 0.13968895935785156,
+       "hi": 0.4444444444444444,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2304359243697479,
+       "lo": 0.10371824497388969,
+       "hi": 0.375,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.19970738844184344,
+       "lo": 0.11768653090967975,
+       "hi": 0.2861945969668571,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.25765537736332433,
+       "lo": 0.17183913628240013,
+       "hi": 0.3447398064550017,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_4o-mini_Rx": {
+     "kcat": {
+      "recall": {
+       "est": 0.43315508021390375,
+       "lo": 0.26006813909774434,
+       "hi": 0.5748794930728468,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3616705698672912,
+       "lo": 0.18389403337674307,
+       "hi": 0.5212039984281364,
+       "papers": 53,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.4276422764227642,
+       "lo": 0.3370979492955732,
+       "hi": 0.5135542769162775,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.1777149566173164,
+       "lo": 0.10914251023942832,
+       "hi": 0.25505871699399646,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6190476190476191,
+       "lo": 0.482453560371517,
+       "hi": 0.7354497354497355,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.5469711538461539,
+       "lo": 0.3987921717431266,
+       "hi": 0.6887686006206097,
+       "papers": 63,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.4820775420629115,
+       "lo": 0.3911305650079301,
+       "hi": 0.5641831219735292,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3508196581184405,
+       "lo": 0.2577788060445526,
+       "hi": 0.43894626703173273,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_4o-mini": {
+     "kcat": {
+      "recall": {
+       "est": 0.286096256684492,
+       "lo": 0.11084237225911955,
+       "hi": 0.4441628886986507,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.316307161345988,
+       "lo": 0.12901415146258363,
+       "hi": 0.4865278572285469,
+       "papers": 52,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.24227642276422756,
+       "lo": 0.14896593336477382,
+       "hi": 0.3375914598540146,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.21344172417052654,
+       "lo": 0.14011870511312544,
+       "hi": 0.2973687459484352,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.417989417989418,
+       "lo": 0.27527718328280126,
+       "hi": 0.5538483965014577,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.4225127551020408,
+       "lo": 0.27618248137423673,
+       "hi": 0.570696417967411,
+       "papers": 58,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.30285296269202633,
+       "lo": 0.21028327134620303,
+       "hi": 0.39471989139507857,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3046239826129383,
+       "lo": 0.21736494874427337,
+       "hi": 0.3933292869046887,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_4o-mini_xG": {
+     "kcat": {
+      "recall": {
+       "est": 0.29679144385026746,
+       "lo": 0.12269641796952313,
+       "hi": 0.45433293452805207,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2740515222482436,
+       "lo": 0.10966628650147749,
+       "hi": 0.43835412413201225,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.43089430894308944,
+       "lo": 0.3272681425203039,
+       "hi": 0.5320430504088289,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.385662782864699,
+       "lo": 0.28054608070343123,
+       "hi": 0.4950130452044822,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.4894179894179894,
+       "lo": 0.32923275960840725,
+       "hi": 0.6330092422080015,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.47555244063324537,
+       "lo": 0.33804653625061626,
+       "hi": 0.6196004554025687,
+       "papers": 60,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.41038771031455745,
+       "lo": 0.310218764756416,
+       "hi": 0.5060757839180763,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3824644566437314,
+       "lo": 0.28971548782406353,
+       "hi": 0.4748457881975611,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_RGF": {
+     "kcat": {
+      "recall": {
+       "est": 0.2139037433155081,
+       "lo": 0.05032370919747231,
+       "hi": 0.37446136019457565,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3205572231201417,
+       "lo": 0.12492320636762473,
+       "hi": 0.4810991300406665,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.12520325203252025,
+       "lo": 0.05067366473616472,
+       "hi": 0.20911998043571975,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.21517569293781302,
+       "lo": 0.13761948296781062,
+       "hi": 0.3002177849582297,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.3227513227513228,
+       "lo": 0.1750566310799756,
+       "hi": 0.47745655536347914,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2458786231884058,
+       "lo": 0.11322842635379587,
+       "hi": 0.39655172413793105,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.20409656181419167,
+       "lo": 0.1315784470682409,
+       "hi": 0.27877911250746956,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.25342359932352354,
+       "lo": 0.17237098801312611,
+       "hi": 0.3344316372222811,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_RxF": {
+     "kcat": {
+      "recall": {
+       "est": 0.3208556149732621,
+       "lo": 0.14429488463721657,
+       "hi": 0.4914815103601648,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.24168837138041988,
+       "lo": 0.08560824207985512,
+       "hi": 0.391980695105455,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.19999999999999996,
+       "lo": 0.12603517843851605,
+       "hi": 0.2782106948804156,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.199732565666201,
+       "lo": 0.12400459323329388,
+       "hi": 0.28360287901108394,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.45238095238095233,
+       "lo": 0.296509260662071,
+       "hi": 0.6030420090113966,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3862645348837209,
+       "lo": 0.2160761714896843,
+       "hi": 0.5605905731483292,
+       "papers": 53,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.30285296269202633,
+       "lo": 0.21412608103314124,
+       "hi": 0.38940613681770103,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.26030418035036584,
+       "lo": 0.17804583193195567,
+       "hi": 0.3414852727445051,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_gemini": {
+     "kcat": {
+      "recall": {
+       "est": 0.2540106951871658,
+       "lo": 0.12311461151913417,
+       "hi": 0.4014097357869847,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2179852696602519,
+       "lo": 0.0677717786628329,
+       "hi": 0.3729624553333242,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.19999999999999996,
+       "lo": 0.10526315789473684,
+       "hi": 0.30000000000000004,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2671525339206682,
+       "lo": 0.18471544857227598,
+       "hi": 0.3529413516955771,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6931216931216931,
+       "lo": 0.5558904154695951,
+       "hi": 0.8013551837930549,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3879076086956522,
+       "lo": 0.23756402255087222,
+       "hi": 0.5445059859979963,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.35113386978785666,
+       "lo": 0.2706053975200583,
+       "hi": 0.427536610847258,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.267736081692011,
+       "lo": 0.18820760028685446,
+       "hi": 0.3463744392454159,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_sonnet37": {
+     "kcat": {
+      "recall": {
+       "est": 0.20855614973262038,
+       "lo": 0.03609724876713618,
+       "hi": 0.35678852698701324,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.19472379115580662,
+       "lo": 0.02935343800500515,
+       "hi": 0.3397307368178269,
+       "papers": 47,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.12195121951219512,
+       "lo": 0.04152162506002145,
+       "hi": 0.20847940528334735,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.11106466316970931,
+       "lo": 0.048801124896716924,
+       "hi": 0.19083870397886218,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.2777777777777778,
+       "lo": 0.14245115041436093,
+       "hi": 0.41304706163401805,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.18547794117647054,
+       "lo": 0.049377897100055516,
+       "hi": 0.33114413009440197,
+       "papers": 53,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.18873445501097297,
+       "lo": 0.1015742200948436,
+       "hi": 0.28037207890356974,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.15359270098522337,
+       "lo": 0.07829084248135729,
+       "hi": 0.2323583442888029,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_xGF": {
+     "kcat": {
+      "recall": {
+       "est": 0.2139037433155081,
+       "lo": 0.04599561474149667,
+       "hi": 0.3775634644101541,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.31167056986729125,
+       "lo": 0.10769130075651018,
+       "hi": 0.4861563763134925,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.26504065040650404,
+       "lo": 0.15969956555251902,
+       "hi": 0.3780526891807379,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.37930744784015513,
+       "lo": 0.2791577306304014,
+       "hi": 0.4815034681027551,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.3941798941798942,
+       "lo": 0.23248526997005695,
+       "hi": 0.5489133677492996,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3241394927536232,
+       "lo": 0.14356559624642745,
+       "hi": 0.5091327560525848,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.2867593269934162,
+       "lo": 0.19449866125274815,
+       "hi": 0.38284675486104947,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3457258503235655,
+       "lo": 0.2379091359706897,
+       "hi": 0.4520199784523028,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "enzyextract_db": {
+     "kcat": {
+      "recall": {
+       "est": 0.5588235294117647,
+       "lo": 0.3965912127852905,
+       "hi": 0.7147249557376375,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.207487815684537,
+       "lo": -0.026975558242522537,
+       "hi": 0.3799049012880836,
+       "papers": 47,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.7642276422764227,
+       "lo": 0.653264948596192,
+       "hi": 0.8630154792146435,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.25827740492170026,
+       "lo": 0.1196257990180679,
+       "hi": 0.39948858019536465,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.8121693121693122,
+       "lo": 0.6871910862206566,
+       "hi": 0.9148951768889998,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3187163978494624,
+       "lo": 0.06867026148174783,
+       "hi": 0.5898248799917599,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.7212874908558888,
+       "lo": 0.6080314449542051,
+       "hi": 0.8248846348884381,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2539922653527381,
+       "lo": 0.11087597810547346,
+       "hi": 0.3684420395999486,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "brenda": {
+     "kcat": {
+      "recall": {
+       "est": 0.8529411764705883,
+       "lo": 0.7438265228037955,
+       "hi": 0.9370484261501211,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2584124245038827,
+       "lo": -0.06688636961292407,
+       "hi": 0.5983914979757086,
+       "papers": 46,
+       "resamples_without_a_share": 3
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.3154471544715447,
+       "lo": 0.22647919268950104,
+       "hi": 0.4050240096038415,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.1323033789476742,
+       "lo": 0.07048527833962066,
+       "hi": 0.20750233195687956,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.9338624338624338,
+       "lo": 0.8768328445747801,
+       "hi": 0.9778326828868905,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.140625,
+       "lo": -0.09239281687429535,
+       "hi": 0.4747779713252038,
+       "papers": 51,
+       "resamples_without_a_share": 471
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.6335040234089246,
+       "lo": 0.5726966005063188,
+       "hi": 0.6837679091332797,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.12234930946703992,
+       "lo": 0.043411920615763135,
+       "hi": 0.2041549235482569,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    }
+   }
+  },
+  "corrected": {
+   "sources": {
+    "catlog": {
+     "kcat": {
+      "recall": {
+       "est": 0.9707446808510638,
+       "lo": 0.9431137724550899,
+       "hi": 0.9918710143974755,
+       "num": 365,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.9972677595628415,
+       "lo": 0.9913544668587896,
+       "hi": 1.0,
+       "num": 365,
+       "den": 366,
+       "papers": 46
+      },
+      "gold_n": 376,
+      "sys_n": 366,
+      "matched": 365
+     },
+     "Km": {
+      "recall": {
+       "est": 0.9609756097560975,
+       "lo": 0.9269042725955078,
+       "hi": 0.9863034422730192,
+       "num": 591,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.9916107382550335,
+       "lo": 0.979093375302283,
+       "hi": 1.0,
+       "num": 591,
+       "den": 596,
+       "papers": 77
+      },
+      "gold_n": 615,
+      "sys_n": 596,
+      "matched": 591
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.9720812182741116,
+       "lo": 0.9433948901598161,
+       "hi": 0.9947787460581194,
+       "num": 383,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.9973958333333334,
+       "lo": 0.9906832298136646,
+       "hi": 1.0,
+       "num": 383,
+       "den": 384,
+       "papers": 51
+      },
+      "gold_n": 394,
+      "sys_n": 384,
+      "matched": 383
+     },
+     "all": {
+      "recall": {
+       "est": 0.9667870036101083,
+       "lo": 0.9452693852975922,
+       "hi": 0.984285994697665,
+       "num": 1339,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.9947994056463596,
+       "lo": 0.9889589905362776,
+       "hi": 0.9992082500225502,
+       "num": 1339,
+       "den": 1346,
+       "papers": 78
+      },
+      "gold_n": 1385,
+      "sys_n": 1346,
+      "matched": 1339
+     },
+     "papers_with_values": 78
+    },
+    "plain": {
+     "kcat": {
+      "recall": {
+       "est": 0.925531914893617,
+       "lo": 0.8328682492828338,
+       "hi": 0.989247311827957,
+       "num": 348,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.9354838709677419,
+       "lo": 0.8426384188757285,
+       "hi": 0.994594958840242,
+       "num": 348,
+       "den": 372,
+       "papers": 46
+      },
+      "gold_n": 376,
+      "sys_n": 372,
+      "matched": 348
+     },
+     "Km": {
+      "recall": {
+       "est": 0.9804878048780488,
+       "lo": 0.9667772772193953,
+       "hi": 0.9921259842519685,
+       "num": 603,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.9601910828025477,
+       "lo": 0.9344524952838278,
+       "hi": 0.9812412067099567,
+       "num": 603,
+       "den": 628,
+       "papers": 77
+      },
+      "gold_n": 615,
+      "sys_n": 628,
+      "matched": 603
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.9441624365482234,
+       "lo": 0.8623818105223742,
+       "hi": 0.9947368421052631,
+       "num": 372,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.9051094890510949,
+       "lo": 0.7928104568212658,
+       "hi": 0.9865591397849462,
+       "num": 372,
+       "den": 411,
+       "papers": 52
+      },
+      "gold_n": 394,
+      "sys_n": 411,
+      "matched": 372
+     },
+     "all": {
+      "recall": {
+       "est": 0.9552346570397112,
+       "lo": 0.9061559739351002,
+       "hi": 0.986428586574579,
+       "num": 1323,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.9376328844790929,
+       "lo": 0.8812093663977959,
+       "hi": 0.9788833367824418,
+       "num": 1323,
+       "den": 1411,
+       "papers": 78
+      },
+      "gold_n": 1385,
+      "sys_n": 1411,
+      "matched": 1323
+     },
+     "papers_with_values": 78
+    },
+    "run_4o-05": {
+     "kcat": {
+      "recall": {
+       "est": 0.675531914893617,
+       "lo": 0.5342789598108747,
+       "hi": 0.8131894213381555,
+       "num": 254,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6150121065375302,
+       "lo": 0.48018403057119874,
+       "hi": 0.75862536211569,
+       "num": 254,
+       "den": 413,
+       "papers": 45
+      },
+      "gold_n": 376,
+      "sys_n": 413,
+      "matched": 254
+     },
+     "Km": {
+      "recall": {
+       "est": 0.8113821138211382,
+       "lo": 0.7222177848775293,
+       "hi": 0.8886987023262262,
+       "num": 499,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7338235294117647,
+       "lo": 0.639530118185284,
+       "hi": 0.8201550387596899,
+       "num": 499,
+       "den": 680,
+       "papers": 75
+      },
+      "gold_n": 615,
+      "sys_n": 680,
+      "matched": 499
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6700507614213198,
+       "lo": 0.5294015285928757,
+       "hi": 0.8070175438596491,
+       "num": 264,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.7394957983193278,
+       "lo": 0.6133273809523809,
+       "hi": 0.844011780940942,
+       "num": 264,
+       "den": 357,
+       "papers": 47
+      },
+      "gold_n": 394,
+      "sys_n": 357,
+      "matched": 264
+     },
+     "all": {
+      "recall": {
+       "est": 0.7342960288808664,
+       "lo": 0.656045950443317,
+       "hi": 0.806981308783676,
+       "num": 1017,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.7013793103448276,
+       "lo": 0.6246322681433442,
+       "hi": 0.775058777429467,
+       "num": 1017,
+       "den": 1450,
+       "papers": 78
+      },
+      "gold_n": 1385,
+      "sys_n": 1450,
+      "matched": 1017
+     },
+     "papers_with_values": 78
+    },
+    "run_4o-mini_Rx": {
+     "kcat": {
+      "recall": {
+       "est": 0.4574468085106383,
+       "lo": 0.3400423834662848,
+       "hi": 0.5994067451021223,
+       "num": 172,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.546031746031746,
+       "lo": 0.4175824175824176,
+       "hi": 0.6872905927835051,
+       "num": 172,
+       "den": 315,
+       "papers": 51
+      },
+      "gold_n": 376,
+      "sys_n": 315,
+      "matched": 172
+     },
+     "Km": {
+      "recall": {
+       "est": 0.5333333333333333,
+       "lo": 0.4552466208621368,
+       "hi": 0.6178582185886403,
+       "num": 328,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.8138957816377171,
+       "lo": 0.7394731944625832,
+       "hi": 0.8801977512999758,
+       "num": 328,
+       "den": 403,
+       "papers": 75
+      },
+      "gold_n": 615,
+      "sys_n": 403,
+      "matched": 328
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.33248730964467005,
+       "lo": 0.22683989621489623,
+       "hi": 0.46020087916581476,
+       "num": 131,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.40307692307692305,
+       "lo": 0.2715654952076677,
+       "hi": 0.545211706102117,
+       "num": 131,
+       "den": 325,
+       "papers": 57
+      },
+      "gold_n": 394,
+      "sys_n": 325,
+      "matched": 131
+     },
+     "all": {
+      "recall": {
+       "est": 0.4555956678700361,
+       "lo": 0.37817546936029395,
+       "hi": 0.5437234923702626,
+       "num": 631,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.6049856184084372,
+       "lo": 0.5250724928342818,
+       "hi": 0.6914896157207016,
+       "num": 631,
+       "den": 1043,
+       "papers": 78
+      },
+      "gold_n": 1385,
+      "sys_n": 1043,
+      "matched": 631
+     },
+     "papers_with_values": 78
+    },
+    "run_4o-mini": {
+     "kcat": {
+      "recall": {
+       "est": 0.5851063829787234,
+       "lo": 0.4538830411834492,
+       "hi": 0.7220915572558907,
+       "num": 220,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.5789473684210527,
+       "lo": 0.43646375717105873,
+       "hi": 0.7296640760813988,
+       "num": 220,
+       "den": 380,
+       "papers": 50
+      },
+      "gold_n": 376,
+      "sys_n": 380,
+      "matched": 220
+     },
+     "Km": {
+      "recall": {
+       "est": 0.71869918699187,
+       "lo": 0.6282051282051282,
+       "hi": 0.8043515871821875,
+       "num": 442,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.778169014084507,
+       "lo": 0.6942898167653723,
+       "hi": 0.8524272687432578,
+       "num": 442,
+       "den": 568,
+       "papers": 78
+      },
+      "gold_n": 615,
+      "sys_n": 568,
+      "matched": 442
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.550761421319797,
+       "lo": 0.41624259138473757,
+       "hi": 0.6957696095469819,
+       "num": 217,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.5535714285714286,
+       "lo": 0.4097912598210636,
+       "hi": 0.6956521739130435,
+       "num": 217,
+       "den": 392,
+       "papers": 57
+      },
+      "gold_n": 394,
+      "sys_n": 392,
+      "matched": 217
+     },
+     "all": {
+      "recall": {
+       "est": 0.6346570397111914,
+       "lo": 0.5515201423013923,
+       "hi": 0.7196014536795484,
+       "num": 879,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.6559701492537313,
+       "lo": 0.5764400185808849,
+       "hi": 0.7346290544781655,
+       "num": 879,
+       "den": 1340,
+       "papers": 79
+      },
+      "gold_n": 1385,
+      "sys_n": 1340,
+      "matched": 879
+     },
+     "papers_with_values": 79
+    },
+    "run_4o-mini_xG": {
+     "kcat": {
+      "recall": {
+       "est": 0.5797872340425532,
+       "lo": 0.4491704164583449,
+       "hi": 0.7194573869151621,
+       "num": 218,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6228571428571429,
+       "lo": 0.4861859269490485,
+       "hi": 0.7577680025775502,
+       "num": 218,
+       "den": 350,
+       "papers": 50
+      },
+      "gold_n": 376,
+      "sys_n": 350,
+      "matched": 218
+     },
+     "Km": {
+      "recall": {
+       "est": 0.5300813008130081,
+       "lo": 0.43224681476841464,
+       "hi": 0.6292787410502314,
+       "num": 326,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.6059479553903345,
+       "lo": 0.4961367070062722,
+       "hi": 0.7105284312066339,
+       "num": 326,
+       "den": 538,
+       "papers": 77
+      },
+      "gold_n": 615,
+      "sys_n": 538,
+      "matched": 326
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.47715736040609136,
+       "lo": 0.33839452003768705,
+       "hi": 0.6329427702115329,
+       "num": 188,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.49604221635883905,
+       "lo": 0.35597826086956524,
+       "hi": 0.6384843072037668,
+       "num": 188,
+       "den": 379,
+       "papers": 58
+      },
+      "gold_n": 394,
+      "sys_n": 379,
+      "matched": 188
+     },
+     "all": {
+      "recall": {
+       "est": 0.5285198555956678,
+       "lo": 0.44030218783246294,
+       "hi": 0.621662147606954,
+       "num": 732,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.5777426992896606,
+       "lo": 0.49225739012599373,
+       "hi": 0.6650565542549238,
+       "num": 732,
+       "den": 1267,
+       "papers": 78
+      },
+      "gold_n": 1385,
+      "sys_n": 1267,
+      "matched": 732
+     },
+     "papers_with_values": 78
+    },
+    "run_RGF": {
+     "kcat": {
+      "recall": {
+       "est": 0.6569148936170213,
+       "lo": 0.5161270410195141,
+       "hi": 0.7924585826046939,
+       "num": 247,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.57981220657277,
+       "lo": 0.45018345055245423,
+       "hi": 0.7360713994786575,
+       "num": 247,
+       "den": 426,
+       "papers": 42
+      },
+      "gold_n": 376,
+      "sys_n": 426,
+      "matched": 247
+     },
+     "Km": {
+      "recall": {
+       "est": 0.8357723577235773,
+       "lo": 0.7550636842300419,
+       "hi": 0.904194087073378,
+       "num": 514,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7764350453172205,
+       "lo": 0.6917071747814737,
+       "hi": 0.8539139506252835,
+       "num": 514,
+       "den": 662,
+       "papers": 74
+      },
+      "gold_n": 615,
+      "sys_n": 662,
+      "matched": 514
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6345177664974619,
+       "lo": 0.4951760684294321,
+       "hi": 0.7726294400963274,
+       "num": 250,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.7246376811594203,
+       "lo": 0.5920677329951627,
+       "hi": 0.8397630211321868,
+       "num": 250,
+       "den": 345,
+       "papers": 46
+      },
+      "gold_n": 394,
+      "sys_n": 345,
+      "matched": 250
+     },
+     "all": {
+      "recall": {
+       "est": 0.7299638989169676,
+       "lo": 0.6646170539520726,
+       "hi": 0.7955159145147882,
+       "num": 1011,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.7055129099790649,
+       "lo": 0.6303922978997653,
+       "hi": 0.7793204044002003,
+       "num": 1011,
+       "den": 1433,
+       "papers": 77
+      },
+      "gold_n": 1385,
+      "sys_n": 1433,
+      "matched": 1011
+     },
+     "papers_with_values": 77
+    },
+    "run_RxF": {
+     "kcat": {
+      "recall": {
+       "est": 0.550531914893617,
+       "lo": 0.40344370037111527,
+       "hi": 0.6944444444444444,
+       "num": 207,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6448598130841121,
+       "lo": 0.5061691209281571,
+       "hi": 0.7680733804784354,
+       "num": 207,
+       "den": 321,
+       "papers": 41
+      },
+      "gold_n": 376,
+      "sys_n": 321,
+      "matched": 207
+     },
+     "Km": {
+      "recall": {
+       "est": 0.7609756097560976,
+       "lo": 0.6843853820598007,
+       "hi": 0.834077144502015,
+       "num": 468,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7918781725888325,
+       "lo": 0.70867296404989,
+       "hi": 0.8667993066193006,
+       "num": 468,
+       "den": 591,
+       "papers": 76
+      },
+      "gold_n": 615,
+      "sys_n": 591,
+      "matched": 468
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.5101522842639594,
+       "lo": 0.3681707259427329,
+       "hi": 0.6561100818280068,
+       "num": 201,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.5843023255813954,
+       "lo": 0.4269605152941856,
+       "hi": 0.740983606557377,
+       "num": 201,
+       "den": 344,
+       "papers": 47
+      },
+      "gold_n": 394,
+      "sys_n": 344,
+      "matched": 201
+     },
+     "all": {
+      "recall": {
+       "est": 0.6324909747292419,
+       "lo": 0.5523800928313564,
+       "hi": 0.7164317918809305,
+       "num": 876,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.697452229299363,
+       "lo": 0.625554375578829,
+       "hi": 0.7676004360759561,
+       "num": 876,
+       "den": 1256,
+       "papers": 79
+      },
+      "gold_n": 1385,
+      "sys_n": 1256,
+      "matched": 876
+     },
+     "papers_with_values": 79
+    },
+    "run_gemini": {
+     "kcat": {
+      "recall": {
+       "est": 0.651595744680851,
+       "lo": 0.5011596946062321,
+       "hi": 0.7906404958677685,
+       "num": 245,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.7101449275362319,
+       "lo": 0.5755099133670563,
+       "hi": 0.8299383904505198,
+       "num": 245,
+       "den": 345,
+       "papers": 41
+      },
+      "gold_n": 376,
+      "sys_n": 345,
+      "matched": 245
+     },
+     "Km": {
+      "recall": {
+       "est": 0.7609756097560976,
+       "lo": 0.6671349663784822,
+       "hi": 0.8473795438827552,
+       "num": 468,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7244582043343654,
+       "lo": 0.6389763965807036,
+       "hi": 0.805371555277412,
+       "num": 468,
+       "den": 646,
+       "papers": 74
+      },
+      "gold_n": 615,
+      "sys_n": 646,
+      "matched": 468
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.27918781725888325,
+       "lo": 0.16357841846585924,
+       "hi": 0.42507191542745726,
+       "num": 110,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.5978260869565217,
+       "lo": 0.43915343915343913,
+       "hi": 0.752382108183079,
+       "num": 110,
+       "den": 184,
+       "papers": 31
+      },
+      "gold_n": 394,
+      "sys_n": 184,
+      "matched": 110
+     },
+     "all": {
+      "recall": {
+       "est": 0.5942238267148015,
+       "lo": 0.5195485729519167,
+       "hi": 0.671715397311263,
+       "num": 823,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.7004255319148937,
+       "lo": 0.6274204875308218,
+       "hi": 0.7684871119219435,
+       "num": 823,
+       "den": 1175,
+       "papers": 76
+      },
+      "gold_n": 1385,
+      "sys_n": 1175,
+      "matched": 823
+     },
+     "papers_with_values": 76
+    },
+    "run_sonnet37": {
+     "kcat": {
+      "recall": {
+       "est": 0.6622340425531915,
+       "lo": 0.5295697197114189,
+       "hi": 0.8042184794222762,
+       "num": 249,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.6974789915966386,
+       "lo": 0.5684515977443609,
+       "hi": 0.8291487927442088,
+       "num": 249,
+       "den": 357,
+       "papers": 44
+      },
+      "gold_n": 376,
+      "sys_n": 357,
+      "matched": 249
+     },
+     "Km": {
+      "recall": {
+       "est": 0.8390243902439024,
+       "lo": 0.7549190606475148,
+       "hi": 0.9115345831943593,
+       "num": 516,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.8805460750853242,
+       "lo": 0.8022583348854536,
+       "hi": 0.9445439109315221,
+       "num": 516,
+       "den": 586,
+       "papers": 73
+      },
+      "gold_n": 615,
+      "sys_n": 586,
+      "matched": 516
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6776649746192893,
+       "lo": 0.5503197829214961,
+       "hi": 0.8074716485340218,
+       "num": 267,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.7852941176470588,
+       "lo": 0.6519580610021787,
+       "hi": 0.8997056143127803,
+       "num": 267,
+       "den": 340,
+       "papers": 48
+      },
+      "gold_n": 394,
+      "sys_n": 340,
+      "matched": 267
+     },
+     "all": {
+      "recall": {
+       "est": 0.7451263537906138,
+       "lo": 0.6588392619752231,
+       "hi": 0.8289042357512284,
+       "num": 1032,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.8043647700701481,
+       "lo": 0.7332323009131094,
+       "hi": 0.8715610133151749,
+       "num": 1032,
+       "den": 1283,
+       "papers": 75
+      },
+      "gold_n": 1385,
+      "sys_n": 1283,
+      "matched": 1032
+     },
+     "papers_with_values": 75
+    },
+    "run_xGF": {
+     "kcat": {
+      "recall": {
+       "est": 0.6569148936170213,
+       "lo": 0.5151515151515151,
+       "hi": 0.7944806127555464,
+       "num": 247,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.5880952380952381,
+       "lo": 0.44222108843537417,
+       "hi": 0.7507171928375367,
+       "num": 247,
+       "den": 420,
+       "papers": 44
+      },
+      "gold_n": 376,
+      "sys_n": 420,
+      "matched": 247
+     },
+     "Km": {
+      "recall": {
+       "est": 0.6959349593495935,
+       "lo": 0.5883283158813264,
+       "hi": 0.7958301431433742,
+       "num": 428,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.6123032904148784,
+       "lo": 0.5093236916596426,
+       "hi": 0.7125748502994012,
+       "num": 428,
+       "den": 699,
+       "papers": 77
+      },
+      "gold_n": 615,
+      "sys_n": 699,
+      "matched": 428
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.565989847715736,
+       "lo": 0.4176321358455929,
+       "hi": 0.723962823275862,
+       "num": 223,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.6463768115942029,
+       "lo": 0.4757268433482026,
+       "hi": 0.8155625210524345,
+       "num": 223,
+       "den": 345,
+       "papers": 45
+      },
+      "gold_n": 394,
+      "sys_n": 345,
+      "matched": 223
+     },
+     "all": {
+      "recall": {
+       "est": 0.6483754512635379,
+       "lo": 0.561580793281541,
+       "hi": 0.7319177303610406,
+       "num": 898,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.6133879781420765,
+       "lo": 0.5175880640934768,
+       "hi": 0.7118434752739881,
+       "num": 898,
+       "den": 1464,
+       "papers": 79
+      },
+      "gold_n": 1385,
+      "sys_n": 1464,
+      "matched": 898
+     },
+     "papers_with_values": 79
+    },
+    "enzyextract_db": {
+     "kcat": {
+      "recall": {
+       "est": 0.3484042553191489,
+       "lo": 0.2,
+       "hi": 0.5060653409090908,
+       "num": 131,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.7081081081081081,
+       "lo": 0.5627184139784946,
+       "hi": 0.9019607843137255,
+       "num": 131,
+       "den": 185,
+       "papers": 20
+      },
+      "gold_n": 376,
+      "sys_n": 185,
+      "matched": 131
+     },
+     "Km": {
+      "recall": {
+       "est": 0.1967479674796748,
+       "lo": 0.101007784264665,
+       "hi": 0.307586970613656,
+       "num": 121,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.7333333333333333,
+       "lo": 0.5901639344262295,
+       "hi": 0.8720045112781954,
+       "num": 121,
+       "den": 165,
+       "papers": 20
+      },
+      "gold_n": 615,
+      "sys_n": 165,
+      "matched": 121
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.14720812182741116,
+       "lo": 0.05737653816278975,
+       "hi": 0.25953705476828787,
+       "num": 58,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.6236559139784946,
+       "lo": 0.37233424047501235,
+       "hi": 0.8507542076849792,
+       "num": 58,
+       "den": 93,
+       "papers": 13
+      },
+      "gold_n": 394,
+      "sys_n": 93,
+      "matched": 58
+     },
+     "all": {
+      "recall": {
+       "est": 0.22382671480144403,
+       "lo": 0.12421377322318551,
+       "hi": 0.33668017832035174,
+       "num": 310,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.6997742663656885,
+       "lo": 0.5929161084589694,
+       "hi": 0.8287166591905041,
+       "num": 310,
+       "den": 443,
+       "papers": 20
+      },
+      "gold_n": 1385,
+      "sys_n": 443,
+      "matched": 310
+     },
+     "papers_with_values": 20
+    },
+    "brenda": {
+     "kcat": {
+      "recall": {
+       "est": 0.05851063829787234,
+       "lo": 0.0140051125345243,
+       "hi": 0.12281108804493826,
+       "num": 22,
+       "den": 376,
+       "papers": 46
+      },
+      "precision": {
+       "est": 0.5789473684210527,
+       "lo": 0.2765957446808511,
+       "hi": 0.8947368421052632,
+       "num": 22,
+       "den": 38,
+       "papers": 8
+      },
+      "gold_n": 376,
+      "sys_n": 38,
+      "matched": 22
+     },
+     "Km": {
+      "recall": {
+       "est": 0.6455284552845528,
+       "lo": 0.5624011323938775,
+       "hi": 0.7256810464577866,
+       "num": 397,
+       "den": 615,
+       "papers": 77
+      },
+      "precision": {
+       "est": 0.8593073593073594,
+       "lo": 0.7834519464720195,
+       "hi": 0.9201794145194586,
+       "num": 397,
+       "den": 462,
+       "papers": 78
+      },
+      "gold_n": 615,
+      "sys_n": 462,
+      "matched": 397
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.03299492385786802,
+       "lo": 0.0,
+       "hi": 0.0843380968040898,
+       "num": 13,
+       "den": 394,
+       "papers": 51
+      },
+      "precision": {
+       "est": 0.8125,
+       "lo": 0.5,
+       "hi": 1.0,
+       "num": 13,
+       "den": 16,
+       "papers": 3
+      },
+      "gold_n": 394,
+      "sys_n": 16,
+      "matched": 13
+     },
+     "all": {
+      "recall": {
+       "est": 0.311913357400722,
+       "lo": 0.2643213865983923,
+       "hi": 0.36904814210394177,
+       "num": 432,
+       "den": 1385,
+       "papers": 78
+      },
+      "precision": {
+       "est": 0.8372093023255814,
+       "lo": 0.7638334081753516,
+       "hi": 0.9002048087520506,
+       "num": 432,
+       "den": 516,
+       "papers": 78
+      },
+      "gold_n": 1385,
+      "sys_n": 516,
+      "matched": 432
+     },
+     "papers_with_values": 78
+    }
+   },
+   "catlog_minus": {
+    "plain": {
+     "kcat": {
+      "recall": {
+       "est": 0.04521276595744683,
+       "lo": -0.013586956521739135,
+       "hi": 0.14004954021240676,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.061783888595099645,
+       "lo": 0.0027232517552245455,
+       "hi": 0.15476481961924454,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": -0.019512195121951237,
+       "lo": -0.052032520325203224,
+       "hi": 0.0,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.03141965545248582,
+       "lo": 0.012730917376524143,
+       "hi": 0.05539076154831927,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.027918781725888242,
+       "lo": -0.021126760563380254,
+       "hi": 0.11024235462068652,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.09228634428223847,
+       "lo": 0.011820285082889168,
+       "hi": 0.2040746510845948,
+       "papers": 52,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.011552346570397054,
+       "lo": -0.023048638875250348,
+       "hi": 0.06277857148622572,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.057166521167266726,
+       "lo": 0.018835357003332276,
+       "hi": 0.10876383131677689,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_4o-05": {
+     "kcat": {
+      "recall": {
+       "est": 0.29521276595744683,
+       "lo": 0.15451776529427103,
+       "hi": 0.4418621121285987,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3822556530253113,
+       "lo": 0.23617274099471236,
+       "hi": 0.52,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.1495934959349593,
+       "lo": 0.0636821311218902,
+       "hi": 0.24548309090018613,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2577872088432689,
+       "lo": 0.17127665155188251,
+       "hi": 0.35131750248823057,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.30203045685279184,
+       "lo": 0.15959745905506498,
+       "hi": 0.44909010934477706,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2579000350140056,
+       "lo": 0.152751404907967,
+       "hi": 0.3868495347230037,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.23249097472924185,
+       "lo": 0.1545451168445225,
+       "hi": 0.314569536423841,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.293420095301532,
+       "lo": 0.22061950854060172,
+       "hi": 0.3689834824064187,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_4o-mini_Rx": {
+     "kcat": {
+      "recall": {
+       "est": 0.5132978723404256,
+       "lo": 0.3650740025740025,
+       "hi": 0.6359748803827749,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.45123601353109555,
+       "lo": 0.3097949798812033,
+       "hi": 0.5835749491540588,
+       "papers": 53,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.4276422764227642,
+       "lo": 0.3370979492955732,
+       "hi": 0.5135542769162775,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.1777149566173164,
+       "lo": 0.10914251023942832,
+       "hi": 0.25505871699399646,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6395939086294415,
+       "lo": 0.4985316815412691,
+       "hi": 0.7560414842914114,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.5943189102564104,
+       "lo": 0.4542571990722518,
+       "hi": 0.7259622175141244,
+       "papers": 63,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.5111913357400721,
+       "lo": 0.4173733032568574,
+       "hi": 0.5938371785987716,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.38981378723792237,
+       "lo": 0.3055532712595461,
+       "hi": 0.472069566549496,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_4o-mini": {
+     "kcat": {
+      "recall": {
+       "est": 0.3856382978723404,
+       "lo": 0.24175361155698227,
+       "hi": 0.5249999999999999,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.41832039114178887,
+       "lo": 0.26983444768083326,
+       "hi": 0.5588235294117647,
+       "papers": 52,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.24227642276422756,
+       "lo": 0.14896593336477382,
+       "hi": 0.3375914598540146,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.21344172417052654,
+       "lo": 0.14011870511312544,
+       "hi": 0.2973687459484352,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.42131979695431465,
+       "lo": 0.2732390517971215,
+       "hi": 0.5604946393762182,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.44382440476190477,
+       "lo": 0.3021423147635914,
+       "hi": 0.5853804297068245,
+       "papers": 58,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.3321299638989169,
+       "lo": 0.24205226705183194,
+       "hi": 0.4204166460373061,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3388292563926283,
+       "lo": 0.26008591075531,
+       "hi": 0.418244390495032,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_4o-mini_xG": {
+     "kcat": {
+      "recall": {
+       "est": 0.39095744680851063,
+       "lo": 0.24341885964912274,
+       "hi": 0.5288688734924301,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.37441061670569864,
+       "lo": 0.2376926988175881,
+       "hi": 0.5124227465158678,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.43089430894308944,
+       "lo": 0.3272681425203039,
+       "hi": 0.5320430504088289,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.385662782864699,
+       "lo": 0.28054608070343123,
+       "hi": 0.4950130452044822,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.4949238578680203,
+       "lo": 0.3307065275377163,
+       "hi": 0.6406665168314852,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.5013536169744943,
+       "lo": 0.36025174810722194,
+       "hi": 0.6442289131642082,
+       "papers": 60,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.43826714801444044,
+       "lo": 0.341992149014891,
+       "hi": 0.5311980946276064,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.417056706356699,
+       "lo": 0.332785632049142,
+       "hi": 0.5011455777737338,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_RGF": {
+     "kcat": {
+      "recall": {
+       "est": 0.31382978723404253,
+       "lo": 0.17272505182114303,
+       "hi": 0.46333536585365853,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.41745555299007153,
+       "lo": 0.26491235406410496,
+       "hi": 0.5462764327865244,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.12520325203252025,
+       "lo": 0.05067366473616472,
+       "hi": 0.20911998043571975,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.21517569293781302,
+       "lo": 0.13761948296781062,
+       "hi": 0.3002177849582297,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.3375634517766497,
+       "lo": 0.19083432729007632,
+       "hi": 0.48451528841625147,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2727581521739131,
+       "lo": 0.1601302599691562,
+       "hi": 0.4071065544281946,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.23682310469314072,
+       "lo": 0.16613122322008944,
+       "hi": 0.3091185320274387,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2892864956672947,
+       "lo": 0.21492228400318691,
+       "hi": 0.3621128469758201,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_RxF": {
+     "kcat": {
+      "recall": {
+       "est": 0.42021276595744683,
+       "lo": 0.2746111025479897,
+       "hi": 0.5707669059876721,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.3524079464787294,
+       "lo": 0.22680299987490585,
+       "hi": 0.4866480125464003,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.19999999999999996,
+       "lo": 0.12603517843851605,
+       "hi": 0.2782106948804156,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.199732565666201,
+       "lo": 0.12400459323329388,
+       "hi": 0.28360287901108394,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.4619289340101522,
+       "lo": 0.3130147614321478,
+       "hi": 0.6071428571428571,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.413093507751938,
+       "lo": 0.26074155260906756,
+       "hi": 0.57084576387833,
+       "papers": 53,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.3342960288808664,
+       "lo": 0.24961227702278743,
+       "hi": 0.41723008363605646,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2973471763469966,
+       "lo": 0.22795531006567124,
+       "hi": 0.36874459114829533,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_gemini": {
+     "kcat": {
+      "recall": {
+       "est": 0.3191489361702128,
+       "lo": 0.18156548735817027,
+       "hi": 0.469574720836303,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2871228320266096,
+       "lo": 0.16805237554944585,
+       "hi": 0.425414999790146,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.19999999999999996,
+       "lo": 0.10526315789473684,
+       "hi": 0.30000000000000004,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2671525339206682,
+       "lo": 0.18471544857227598,
+       "hi": 0.3529413516955771,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.6928934010152283,
+       "lo": 0.5519078575466365,
+       "hi": 0.8070542237957785,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.39956974637681164,
+       "lo": 0.24656684566106726,
+       "hi": 0.5595933207991571,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.3725631768953068,
+       "lo": 0.2929969552187359,
+       "hi": 0.4464582912696701,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.29437387373146595,
+       "lo": 0.22500784430032478,
+       "hi": 0.366080144492374,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_sonnet37": {
+     "kcat": {
+      "recall": {
+       "est": 0.3085106382978723,
+       "lo": 0.16911408261365485,
+       "hi": 0.44240112369279305,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2997887679662029,
+       "lo": 0.17028840499073983,
+       "hi": 0.4289799956651921,
+       "papers": 47,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.12195121951219512,
+       "lo": 0.04152162506002145,
+       "hi": 0.20847940528334735,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.11106466316970931,
+       "lo": 0.048801124896716924,
+       "hi": 0.19083870397886218,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.29441624365482233,
+       "lo": 0.16307608695652168,
+       "hi": 0.4220198379602049,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.21210171568627456,
+       "lo": 0.09658422459893046,
+       "hi": 0.34196068079169867,
+       "papers": 53,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.22166064981949452,
+       "lo": 0.13671153631275462,
+       "hi": 0.30731391347389003,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.19043463557621154,
+       "lo": 0.12344919830540688,
+       "hi": 0.2613402668872939,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "run_xGF": {
+     "kcat": {
+      "recall": {
+       "est": 0.31382978723404253,
+       "lo": 0.16996425685971714,
+       "hi": 0.462647353648757,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.4091725214676034,
+       "lo": 0.24517541571486123,
+       "hi": 0.5552178305994597,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.26504065040650404,
+       "lo": 0.15969956555251902,
+       "hi": 0.3780526891807379,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.37930744784015513,
+       "lo": 0.2791577306304014,
+       "hi": 0.4815034681027551,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.40609137055837563,
+       "lo": 0.23989109848484855,
+       "hi": 0.5586902724759774,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.35101902173913047,
+       "lo": 0.1832033840656933,
+       "hi": 0.5259891277764496,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.31841155234657037,
+       "lo": 0.23144626140686558,
+       "hi": 0.4100532527345999,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.38141142750428314,
+       "lo": 0.2828270996264448,
+       "hi": 0.47705921346225866,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "enzyextract_db": {
+     "kcat": {
+      "recall": {
+       "est": 0.6223404255319149,
+       "lo": 0.46859204695173073,
+       "hi": 0.7703931345952277,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.28915965145473344,
+       "lo": 0.08942788925984033,
+       "hi": 0.4347826412126499,
+       "papers": 47,
+       "resamples_without_a_share": 0
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.7642276422764227,
+       "lo": 0.653264948596192,
+       "hi": 0.8630154792146435,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.25827740492170026,
+       "lo": 0.1196257990180679,
+       "hi": 0.39948858019536465,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.8248730964467005,
+       "lo": 0.7014866704214775,
+       "hi": 0.9232506955745708,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.37373991935483875,
+       "lo": 0.13960763897163475,
+       "hi": 0.6363636363636364,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.7429602888086643,
+       "lo": 0.6293674341324472,
+       "hi": 0.8441499617331919,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.2950251392806711,
+       "lo": 0.161948278443303,
+       "hi": 0.4019322244616983,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      }
+     }
+    },
+    "brenda": {
+     "kcat": {
+      "recall": {
+       "est": 0.9122340425531914,
+       "lo": 0.8444428434197887,
+       "hi": 0.9614326839320997,
+       "papers": 46,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.41832039114178887,
+       "lo": 0.05345080505883123,
+       "hi": 0.75,
+       "papers": 46,
+       "resamples_without_a_share": 3
+      }
+     },
+     "Km": {
+      "recall": {
+       "est": 0.3154471544715447,
+       "lo": 0.22647919268950104,
+       "hi": 0.4050240096038415,
+       "papers": 77,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.1323033789476742,
+       "lo": 0.07048527833962066,
+       "hi": 0.20750233195687956,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     },
+     "kcat/Km": {
+      "recall": {
+       "est": 0.9390862944162436,
+       "lo": 0.8826402998266698,
+       "hi": 0.9810426540284359,
+       "papers": 51,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.18489583333333337,
+       "lo": -0.00708885320487087,
+       "hi": 0.5,
+       "papers": 51,
+       "resamples_without_a_share": 471
+      }
+     },
+     "all": {
+      "recall": {
+       "est": 0.6548736462093863,
+       "lo": 0.5946567030190185,
+       "hi": 0.7058354965512126,
+       "papers": 78,
+       "resamples_without_a_share": 0
+      },
+      "precision": {
+       "est": 0.15759010332077816,
+       "lo": 0.09368492503461488,
+       "hi": 0.2306158803040467,
+       "papers": 79,
+       "resamples_without_a_share": 0
+      }
+     }
+    }
+   }
+  }
+ },
+ "against_the_curation_list": {
+  "catlog": {
+   "kcat": {
+    "recall": {
+     "est": 0.6963350785340314,
+     "lo": 0.570992887713998,
+     "hi": 0.824563806777217,
+     "num": 266,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.726775956284153,
+     "lo": 0.5926940282979608,
+     "hi": 0.859336037404092,
+     "num": 266,
+     "den": 366,
+     "papers": 46
+    },
+    "gold_n": 382,
+    "sys_n": 366,
+    "matched": 266
+   },
+   "Km": {
+    "recall": {
+     "est": 0.7871720116618076,
+     "lo": 0.7106915906164268,
+     "hi": 0.8565461050811641,
+     "num": 540,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.9060402684563759,
+     "lo": 0.8529411764705882,
+     "hi": 0.9496402877697842,
+     "num": 540,
+     "den": 596,
+     "papers": 77
+    },
+    "gold_n": 686,
+    "sys_n": 596,
+    "matched": 540
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.7027777777777777,
+     "lo": 0.5854296557332611,
+     "hi": 0.8068551536534784,
+     "num": 253,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.6588541666666666,
+     "lo": 0.49864867039465743,
+     "hi": 0.8191221342569686,
+     "num": 253,
+     "den": 384,
+     "papers": 51
+    },
+    "gold_n": 360,
+    "sys_n": 384,
+    "matched": 253
+   },
+   "all": {
+    "recall": {
+     "est": 0.7415966386554622,
+     "lo": 0.6732075437229015,
+     "hi": 0.8079473667172297,
+     "num": 1059,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.7867756315007429,
+     "lo": 0.717670357242423,
+     "hi": 0.8559640739846558,
+     "num": 1059,
+     "den": 1346,
+     "papers": 78
+    },
+    "gold_n": 1428,
+    "sys_n": 1346,
+    "matched": 1059
+   },
+   "papers_with_values": 78
+  },
+  "plain": {
+   "kcat": {
+    "recall": {
+     "est": 0.743455497382199,
+     "lo": 0.6113260954691321,
+     "hi": 0.874636520031362,
+     "num": 284,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.7634408602150538,
+     "lo": 0.6409688700909176,
+     "hi": 0.882183908045977,
+     "num": 284,
+     "den": 372,
+     "papers": 46
+    },
+    "gold_n": 382,
+    "sys_n": 372,
+    "matched": 284
+   },
+   "Km": {
+    "recall": {
+     "est": 0.8163265306122449,
+     "lo": 0.7449935133239832,
+     "hi": 0.8810649977098362,
+     "num": 560,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.89171974522293,
+     "lo": 0.8395899874066908,
+     "hi": 0.9355359204569622,
+     "num": 560,
+     "den": 628,
+     "papers": 77
+    },
+    "gold_n": 686,
+    "sys_n": 628,
+    "matched": 560
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.7027777777777777,
+     "lo": 0.5780327397600846,
+     "hi": 0.8126587750337431,
+     "num": 253,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.6155717761557178,
+     "lo": 0.4514616576531471,
+     "hi": 0.7838621992800667,
+     "num": 253,
+     "den": 411,
+     "papers": 52
+    },
+    "gold_n": 360,
+    "sys_n": 411,
+    "matched": 253
+   },
+   "all": {
+    "recall": {
+     "est": 0.7682072829131653,
+     "lo": 0.6994009340830865,
+     "hi": 0.8375621162629341,
+     "num": 1097,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.777462792345854,
+     "lo": 0.7064079301075269,
+     "hi": 0.8488211045232407,
+     "num": 1097,
+     "den": 1411,
+     "papers": 78
+    },
+    "gold_n": 1428,
+    "sys_n": 1411,
+    "matched": 1097
+   },
+   "papers_with_values": 78
+  },
+  "run_4o-05": {
+   "kcat": {
+    "recall": {
+     "est": 0.8298429319371727,
+     "lo": 0.7325227963525835,
+     "hi": 0.9144547624592455,
+     "num": 317,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.7675544794188862,
+     "lo": 0.6306287537537537,
+     "hi": 0.8854983667266407,
+     "num": 317,
+     "den": 413,
+     "papers": 45
+    },
+    "gold_n": 382,
+    "sys_n": 413,
+    "matched": 317
+   },
+   "Km": {
+    "recall": {
+     "est": 0.8075801749271136,
+     "lo": 0.7248891263278516,
+     "hi": 0.8779882642712257,
+     "num": 554,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.8147058823529412,
+     "lo": 0.7291351846320335,
+     "hi": 0.8930824244354219,
+     "num": 554,
+     "den": 680,
+     "papers": 75
+    },
+    "gold_n": 686,
+    "sys_n": 680,
+    "matched": 554
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.7111111111111111,
+     "lo": 0.565913225588086,
+     "hi": 0.837133964907046,
+     "num": 256,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.7170868347338936,
+     "lo": 0.5673504043978264,
+     "hi": 0.8497109826589595,
+     "num": 256,
+     "den": 357,
+     "papers": 47
+    },
+    "gold_n": 360,
+    "sys_n": 357,
+    "matched": 256
+   },
+   "all": {
+    "recall": {
+     "est": 0.7892156862745098,
+     "lo": 0.713083865974693,
+     "hi": 0.8528308625336928,
+     "num": 1127,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.7772413793103449,
+     "lo": 0.7024242455910749,
+     "hi": 0.8450716080997771,
+     "num": 1127,
+     "den": 1450,
+     "papers": 78
+    },
+    "gold_n": 1428,
+    "sys_n": 1450,
+    "matched": 1127
+   },
+   "papers_with_values": 78
+  },
+  "run_4o-mini_Rx": {
+   "kcat": {
+    "recall": {
+     "est": 0.4607329842931937,
+     "lo": 0.345185337969238,
+     "hi": 0.6085779630464172,
+     "num": 176,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.5587301587301587,
+     "lo": 0.42507624428167884,
+     "hi": 0.7017543859649122,
+     "num": 176,
+     "den": 315,
+     "papers": 51
+    },
+    "gold_n": 382,
+    "sys_n": 315,
+    "matched": 176
+   },
+   "Km": {
+    "recall": {
+     "est": 0.4868804664723032,
+     "lo": 0.4136533890664699,
+     "hi": 0.5665053480371297,
+     "num": 334,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.8287841191066998,
+     "lo": 0.7542997542997543,
+     "hi": 0.8952169432693351,
+     "num": 334,
+     "den": 403,
+     "papers": 75
+    },
+    "gold_n": 686,
+    "sys_n": 403,
+    "matched": 334
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.41944444444444445,
+     "lo": 0.31595049888761545,
+     "hi": 0.5300284689672528,
+     "num": 151,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.4646153846153846,
+     "lo": 0.32737399866488653,
+     "hi": 0.6068390804597701,
+     "num": 151,
+     "den": 325,
+     "papers": 57
+    },
+    "gold_n": 360,
+    "sys_n": 325,
+    "matched": 151
+   },
+   "all": {
+    "recall": {
+     "est": 0.46288515406162467,
+     "lo": 0.3913324408540566,
+     "hi": 0.5448578604964898,
+     "num": 661,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.6337488015340365,
+     "lo": 0.5569193277196848,
+     "hi": 0.7165776744685997,
+     "num": 661,
+     "den": 1043,
+     "papers": 78
+    },
+    "gold_n": 1428,
+    "sys_n": 1043,
+    "matched": 661
+   },
+   "papers_with_values": 78
+  },
+  "run_4o-mini": {
+   "kcat": {
+    "recall": {
+     "est": 0.693717277486911,
+     "lo": 0.5859122134769401,
+     "hi": 0.8132941377274236,
+     "num": 265,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.6973684210526315,
+     "lo": 0.5492227979274611,
+     "hi": 0.8373660714285714,
+     "num": 265,
+     "den": 380,
+     "papers": 50
+    },
+    "gold_n": 382,
+    "sys_n": 380,
+    "matched": 265
+   },
+   "Km": {
+    "recall": {
+     "est": 0.6690962099125365,
+     "lo": 0.5835652719068392,
+     "hi": 0.7555895115035627,
+     "num": 459,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.8080985915492958,
+     "lo": 0.7278772491189018,
+     "hi": 0.8817567567567568,
+     "num": 459,
+     "den": 568,
+     "papers": 78
+    },
+    "gold_n": 686,
+    "sys_n": 568,
+    "matched": 459
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.5861111111111111,
+     "lo": 0.4534598893256586,
+     "hi": 0.717770569248199,
+     "num": 211,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.5382653061224489,
+     "lo": 0.38848920863309355,
+     "hi": 0.6915167095115681,
+     "num": 211,
+     "den": 392,
+     "papers": 57
+    },
+    "gold_n": 360,
+    "sys_n": 392,
+    "matched": 211
+   },
+   "all": {
+    "recall": {
+     "est": 0.6547619047619048,
+     "lo": 0.5794314119755993,
+     "hi": 0.7329892822764303,
+     "num": 935,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.6977611940298507,
+     "lo": 0.6145200836644468,
+     "hi": 0.7819617005731238,
+     "num": 935,
+     "den": 1340,
+     "papers": 79
+    },
+    "gold_n": 1428,
+    "sys_n": 1340,
+    "matched": 935
+   },
+   "papers_with_values": 79
+  },
+  "run_4o-mini_xG": {
+   "kcat": {
+    "recall": {
+     "est": 0.6649214659685864,
+     "lo": 0.5320160245716641,
+     "hi": 0.8067844322261098,
+     "num": 254,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.7257142857142858,
+     "lo": 0.5871313672922251,
+     "hi": 0.8546003361519525,
+     "num": 254,
+     "den": 350,
+     "papers": 50
+    },
+    "gold_n": 382,
+    "sys_n": 350,
+    "matched": 254
+   },
+   "Km": {
+    "recall": {
+     "est": 0.5014577259475219,
+     "lo": 0.41405030810320687,
+     "hi": 0.5924214498859048,
+     "num": 344,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.6394052044609665,
+     "lo": 0.5249988447319779,
+     "hi": 0.747555219211758,
+     "num": 344,
+     "den": 538,
+     "papers": 77
+    },
+    "gold_n": 686,
+    "sys_n": 538,
+    "matched": 344
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.5472222222222223,
+     "lo": 0.4127906976744186,
+     "hi": 0.6829986929339695,
+     "num": 197,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.5197889182058048,
+     "lo": 0.3744069992762589,
+     "hi": 0.6675914534788984,
+     "num": 197,
+     "den": 379,
+     "papers": 58
+    },
+    "gold_n": 360,
+    "sys_n": 379,
+    "matched": 197
+   },
+   "all": {
+    "recall": {
+     "est": 0.5567226890756303,
+     "lo": 0.47496803154608636,
+     "hi": 0.6436114990096102,
+     "num": 795,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.6274664561957379,
+     "lo": 0.5344193517884803,
+     "hi": 0.7191489931600158,
+     "num": 795,
+     "den": 1267,
+     "papers": 78
+    },
+    "gold_n": 1428,
+    "sys_n": 1267,
+    "matched": 795
+   },
+   "papers_with_values": 78
+  },
+  "run_RGF": {
+   "kcat": {
+    "recall": {
+     "est": 0.8900523560209425,
+     "lo": 0.810897206303725,
+     "hi": 0.949103065056328,
+     "num": 340,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.7981220657276995,
+     "lo": 0.6737028084067492,
+     "hi": 0.9242053789731052,
+     "num": 340,
+     "den": 426,
+     "papers": 42
+    },
+    "gold_n": 382,
+    "sys_n": 426,
+    "matched": 340
+   },
+   "Km": {
+    "recall": {
+     "est": 0.8163265306122449,
+     "lo": 0.7430241055621887,
+     "hi": 0.8804782383326,
+     "num": 560,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.8459214501510574,
+     "lo": 0.7809239940387481,
+     "hi": 0.9043901995011181,
+     "num": 560,
+     "den": 662,
+     "papers": 74
+    },
+    "gold_n": 686,
+    "sys_n": 662,
+    "matched": 560
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.75,
+     "lo": 0.6194412878787879,
+     "hi": 0.8607260144973411,
+     "num": 270,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.782608695652174,
+     "lo": 0.6451554464703132,
+     "hi": 0.8981495342648037,
+     "num": 270,
+     "den": 345,
+     "papers": 46
+    },
+    "gold_n": 360,
+    "sys_n": 345,
+    "matched": 270
+   },
+   "all": {
+    "recall": {
+     "est": 0.819327731092437,
+     "lo": 0.7589722617354197,
+     "hi": 0.8727934811102779,
+     "num": 1170,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.8164689462665736,
+     "lo": 0.7427967660959633,
+     "hi": 0.8830862670343933,
+     "num": 1170,
+     "den": 1433,
+     "papers": 77
+    },
+    "gold_n": 1428,
+    "sys_n": 1433,
+    "matched": 1170
+   },
+   "papers_with_values": 77
+  },
+  "run_RxF": {
+   "kcat": {
+    "recall": {
+     "est": 0.599476439790576,
+     "lo": 0.461329933481153,
+     "hi": 0.7507790618827206,
+     "num": 229,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.7133956386292835,
+     "lo": 0.5825216046089832,
+     "hi": 0.8350906761285235,
+     "num": 229,
+     "den": 321,
+     "papers": 41
+    },
+    "gold_n": 382,
+    "sys_n": 321,
+    "matched": 229
+   },
+   "Km": {
+    "recall": {
+     "est": 0.7026239067055393,
+     "lo": 0.6255840044922552,
+     "hi": 0.7800014662756598,
+     "num": 482,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.8155668358714044,
+     "lo": 0.7489422678172949,
+     "hi": 0.8767361973989397,
+     "num": 482,
+     "den": 591,
+     "papers": 76
+    },
+    "gold_n": 686,
+    "sys_n": 591,
+    "matched": 482
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.5583333333333333,
+     "lo": 0.4181804891015417,
+     "hi": 0.698982978147011,
+     "num": 201,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.5843023255813954,
+     "lo": 0.4222857608341479,
+     "hi": 0.7464846645663453,
+     "num": 201,
+     "den": 344,
+     "papers": 47
+    },
+    "gold_n": 360,
+    "sys_n": 344,
+    "matched": 201
+   },
+   "all": {
+    "recall": {
+     "est": 0.6386554621848739,
+     "lo": 0.5542711260747377,
+     "hi": 0.7228429780861726,
+     "num": 912,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.7261146496815286,
+     "lo": 0.6522458236530589,
+     "hi": 0.7970137075718016,
+     "num": 912,
+     "den": 1256,
+     "papers": 79
+    },
+    "gold_n": 1428,
+    "sys_n": 1256,
+    "matched": 912
+   },
+   "papers_with_values": 79
+  },
+  "run_gemini": {
+   "kcat": {
+    "recall": {
+     "est": 0.756544502617801,
+     "lo": 0.625,
+     "hi": 0.8874626610095321,
+     "num": 289,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.8376811594202899,
+     "lo": 0.7,
+     "hi": 0.9607857902197023,
+     "num": 289,
+     "den": 345,
+     "papers": 41
+    },
+    "gold_n": 382,
+    "sys_n": 345,
+    "matched": 289
+   },
+   "Km": {
+    "recall": {
+     "est": 0.7361516034985423,
+     "lo": 0.6475928981531764,
+     "hi": 0.8142491965770445,
+     "num": 505,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.781733746130031,
+     "lo": 0.6885469136367799,
+     "hi": 0.8671475361288793,
+     "num": 505,
+     "den": 646,
+     "papers": 74
+    },
+    "gold_n": 686,
+    "sys_n": 646,
+    "matched": 505
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.38333333333333336,
+     "lo": 0.2320401953719273,
+     "hi": 0.5543190264734784,
+     "num": 138,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.75,
+     "lo": 0.5754631440023462,
+     "hi": 0.8938851095993952,
+     "num": 138,
+     "den": 184,
+     "papers": 31
+    },
+    "gold_n": 360,
+    "sys_n": 184,
+    "matched": 138
+   },
+   "all": {
+    "recall": {
+     "est": 0.6526610644257703,
+     "lo": 0.5823169694707151,
+     "hi": 0.7210336958632744,
+     "num": 932,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.7931914893617021,
+     "lo": 0.7169340568467888,
+     "hi": 0.8626774193548385,
+     "num": 932,
+     "den": 1175,
+     "papers": 76
+    },
+    "gold_n": 1428,
+    "sys_n": 1175,
+    "matched": 932
+   },
+   "papers_with_values": 76
+  },
+  "run_sonnet37": {
+   "kcat": {
+    "recall": {
+     "est": 0.7225130890052356,
+     "lo": 0.6033742746324303,
+     "hi": 0.8477511232763518,
+     "num": 276,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.773109243697479,
+     "lo": 0.6232677171533276,
+     "hi": 0.9109912061078139,
+     "num": 276,
+     "den": 357,
+     "papers": 44
+    },
+    "gold_n": 382,
+    "sys_n": 357,
+    "matched": 276
+   },
+   "Km": {
+    "recall": {
+     "est": 0.7711370262390671,
+     "lo": 0.6887905604719764,
+     "hi": 0.8497384310915317,
+     "num": 529,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.9027303754266212,
+     "lo": 0.829501695005032,
+     "hi": 0.9616,
+     "num": 529,
+     "den": 586,
+     "papers": 73
+    },
+    "gold_n": 686,
+    "sys_n": 586,
+    "matched": 529
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.6388888888888888,
+     "lo": 0.49127888853447776,
+     "hi": 0.7819158934570468,
+     "num": 230,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.6764705882352942,
+     "lo": 0.5110397095018546,
+     "hi": 0.8337882603411158,
+     "num": 230,
+     "den": 340,
+     "papers": 48
+    },
+    "gold_n": 360,
+    "sys_n": 340,
+    "matched": 230
+   },
+   "all": {
+    "recall": {
+     "est": 0.7247899159663865,
+     "lo": 0.6380515473792602,
+     "hi": 0.8096656014939483,
+     "num": 1035,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.8067030397505845,
+     "lo": 0.7211882105178606,
+     "hi": 0.8886392751808341,
+     "num": 1035,
+     "den": 1283,
+     "papers": 75
+    },
+    "gold_n": 1428,
+    "sys_n": 1283,
+    "matched": 1035
+   },
+   "papers_with_values": 75
+  },
+  "run_xGF": {
+   "kcat": {
+    "recall": {
+     "est": 0.887434554973822,
+     "lo": 0.8050375698884873,
+     "hi": 0.9534250734845543,
+     "num": 339,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.8071428571428572,
+     "lo": 0.6505709380479252,
+     "hi": 0.9404398044484251,
+     "num": 339,
+     "den": 420,
+     "papers": 44
+    },
+    "gold_n": 382,
+    "sys_n": 420,
+    "matched": 339
+   },
+   "Km": {
+    "recall": {
+     "est": 0.6953352769679301,
+     "lo": 0.596624452917455,
+     "hi": 0.7865516832622096,
+     "num": 477,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.6824034334763949,
+     "lo": 0.5802113185806719,
+     "hi": 0.7814393207719458,
+     "num": 477,
+     "den": 699,
+     "papers": 77
+    },
+    "gold_n": 686,
+    "sys_n": 699,
+    "matched": 477
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.7111111111111111,
+     "lo": 0.5652116249567524,
+     "hi": 0.8466196623421254,
+     "num": 256,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.7420289855072464,
+     "lo": 0.5614973262032086,
+     "hi": 0.9067417761176044,
+     "num": 256,
+     "den": 345,
+     "papers": 45
+    },
+    "gold_n": 360,
+    "sys_n": 345,
+    "matched": 256
+   },
+   "all": {
+    "recall": {
+     "est": 0.7507002801120448,
+     "lo": 0.6704774832445961,
+     "hi": 0.8217771642037419,
+     "num": 1072,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.73224043715847,
+     "lo": 0.623141772345594,
+     "hi": 0.8325333747594612,
+     "num": 1072,
+     "den": 1464,
+     "papers": 79
+    },
+    "gold_n": 1428,
+    "sys_n": 1464,
+    "matched": 1072
+   },
+   "papers_with_values": 79
+  },
+  "enzyextract_db": {
+   "kcat": {
+    "recall": {
+     "est": 0.39528795811518325,
+     "lo": 0.238587691800033,
+     "hi": 0.545026576487625,
+     "num": 151,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.8162162162162162,
+     "lo": 0.6811594202898551,
+     "hi": 1.0,
+     "num": 151,
+     "den": 185,
+     "papers": 20
+    },
+    "gold_n": 382,
+    "sys_n": 185,
+    "matched": 151
+   },
+   "Km": {
+    "recall": {
+     "est": 0.20116618075801748,
+     "lo": 0.1005092134530549,
+     "hi": 0.31360653951557493,
+     "num": 138,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.8363636363636363,
+     "lo": 0.68,
+     "hi": 0.9556962025316456,
+     "num": 138,
+     "den": 165,
+     "papers": 20
+    },
+    "gold_n": 686,
+    "sys_n": 165,
+    "matched": 138
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.225,
+     "lo": 0.10335878042458943,
+     "hi": 0.3579246015219778,
+     "num": 81,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.8709677419354839,
+     "lo": 0.6666666666666666,
+     "hi": 1.0,
+     "num": 81,
+     "den": 93,
+     "papers": 13
+    },
+    "gold_n": 360,
+    "sys_n": 93,
+    "matched": 81
+   },
+   "all": {
+    "recall": {
+     "est": 0.25910364145658266,
+     "lo": 0.14242376294591486,
+     "hi": 0.3776287505198923,
+     "num": 370,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.835214446952596,
+     "lo": 0.7307671081677704,
+     "hi": 0.9475819020995898,
+     "num": 370,
+     "den": 443,
+     "papers": 20
+    },
+    "gold_n": 1428,
+    "sys_n": 443,
+    "matched": 370
+   },
+   "papers_with_values": 20
+  },
+  "brenda": {
+   "kcat": {
+    "recall": {
+     "est": 0.06806282722513089,
+     "lo": 0.019178082191780823,
+     "hi": 0.13694376581450132,
+     "num": 26,
+     "den": 382,
+     "papers": 43
+    },
+    "precision": {
+     "est": 0.6842105263157895,
+     "lo": 0.38636363636363635,
+     "hi": 0.9743749999999998,
+     "num": 26,
+     "den": 38,
+     "papers": 8
+    },
+    "gold_n": 382,
+    "sys_n": 38,
+    "matched": 26
+   },
+   "Km": {
+    "recall": {
+     "est": 0.6253644314868805,
+     "lo": 0.547686897268474,
+     "hi": 0.7069500837069679,
+     "num": 429,
+     "den": 686,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.9285714285714286,
+     "lo": 0.8908684555639719,
+     "hi": 0.9598470363288719,
+     "num": 429,
+     "den": 462,
+     "papers": 78
+    },
+    "gold_n": 686,
+    "sys_n": 462,
+    "matched": 429
+   },
+   "kcat/Km": {
+    "recall": {
+     "est": 0.027777777777777776,
+     "lo": 0.0,
+     "hi": 0.08187734732726235,
+     "num": 10,
+     "den": 360,
+     "papers": 46
+    },
+    "precision": {
+     "est": 0.625,
+     "lo": 0.0,
+     "hi": 1.0,
+     "num": 10,
+     "den": 16,
+     "papers": 3
+    },
+    "gold_n": 360,
+    "sys_n": 16,
+    "matched": 10
+   },
+   "all": {
+    "recall": {
+     "est": 0.32563025210084034,
+     "lo": 0.27449616538462307,
+     "hi": 0.3851998962325811,
+     "num": 465,
+     "den": 1428,
+     "papers": 79
+    },
+    "precision": {
+     "est": 0.9011627906976745,
+     "lo": 0.8527131782945736,
+     "hi": 0.9439871499176277,
+     "num": 465,
+     "den": 516,
+     "papers": 78
+    },
+    "gold_n": 1428,
+    "sys_n": 516,
+    "matched": 465
+   },
+   "papers_with_values": 78
+  }
+ },
+ "second_agent": {
+  "values": 67,
+  "same_verdict": 67,
+  "same_right_or_not": 67
+ },
+ "bootstrap": {
+  "B": 10000,
+  "seed": 20261031
+ }
+}

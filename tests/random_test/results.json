@@ -1,0 +1,1742 @@
+{
+ "time": "2026-11-09 12:43:08 -0600",
+ "which": "randfull",
+ "interim": false,
+ "triage": {
+  "time": "2026-11-05 00:01:03 -0600",
+  "run": "rand",
+  "papers_listed": 167,
+  "papers_analysed": 150,
+  "papers_failed": {
+   "10966789": "refused",
+   "17244603": "refused",
+   "17293380": "refused",
+   "19903476": "refused",
+   "21958314": "refused",
+   "24919140": "refused",
+   "29402941": "refused",
+   "29596975": "refused",
+   "32284326": "refused",
+   "35501883": "refused",
+   "37833899": "refused",
+   "39859356": "refused",
+   "40868019": "refused",
+   "40894891": "refused",
+   "42228390": "refused",
+   "39825575": "refused",
+   "16215230": "refused"
+  },
+  "left_out_by_reason": {
+   "refused": 17
+  },
+  "values": {
+   "plain": 4587,
+   "catlog": 4447
+  },
+  "catlog_rows": 4463,
+  "repeats_dropped": {
+   "catlog": 4,
+   "plain": 19
+  },
+  "plain_mass_rows_left_out": [],
+  "pairs": 4432,
+  "identity_suspect_pairs": 143,
+  "agreeing_pairs": 4289,
+  "agreeing_pairs_sampled": 750,
+  "unmatched": {
+   "plain": 155,
+   "catlog": 15
+  },
+  "claims": 2132,
+  "decoys": 176,
+  "chunks": 151,
+  "papers_with_claims": 144,
+  "members_by_kind": {
+   "catlog identity_suspect": 143,
+   "catlog matched_sample": 750,
+   "catlog unmatched": 15,
+   "decoy decoy": 174,
+   "plain identity_suspect": 143,
+   "plain matched_sample": 750,
+   "plain unmatched": 155
+  },
+  "seed": 20261102,
+  "randfull": {
+   "time": "2026-11-06 16:30:14 -0600",
+   "seed": 20261106,
+   "claims": 2132,
+   "decoys": 176,
+   "decoy_kinds": {
+    "x1000": 76,
+    "x60": 100
+   },
+   "decoys_twin_visible": 9,
+   "chunks": 151,
+   "papers": 144,
+   "real_claims_by_source": {
+    "catlog": 908,
+    "plain": 1048
+   },
+   "first_final_by_source": {
+    "plain": {
+     "supported": 985,
+     "error": 63
+    },
+    "catlog": {
+     "supported": 890,
+     "error": 15,
+     "cannot_decide": 3
+    }
+   },
+   "details_empty_by_source": {
+    "plain": 0,
+    "catlog": 0
+   }
+  }
+ },
+ "papers_used": 147,
+ "left_out": {
+  "judge_session_refused_or_switched_whole_paper": [
+   "19737010",
+   "31095809",
+   "35546366"
+  ],
+  "claims_cannot_decide_by_a_stopped_judge_session": {
+   "31095809": 10,
+   "19737010": 16,
+   "35546366": 8,
+   "33082260": 38
+  },
+  "unjudged_interim": []
+ },
+ "per_source": {
+  "plain": {
+   "papers": 147,
+   "papers_with_values": 147,
+   "values": 4530,
+   "values_judged": 1011,
+   "values_agreed_not_judged": 3499,
+   "wrong": 42,
+   "cannot_decide": 20,
+   "wrong_per_1000": 9.31,
+   "papers_with_a_wrong_value": 5,
+   "papers_with_a_wrong_value_per_100": 3.4,
+   "papers_per_100_exact": [
+    1.1,
+    7.8
+   ],
+   "share_on_papers_with_values": 3.4,
+   "largest_paper_share_of_wrong": 0.643,
+   "sensitivity_cannot_decide_as_wrong_per_1000": 13.69,
+   "sensitivity_cap_200_per_1000": 9.31,
+   "sample": {
+    "wrong": 1,
+    "of": 739,
+    "exact_share": [
+     3.425896387128427e-05,
+     0.007516157107080511
+    ]
+   },
+   "scaled_per_1000": 10.36,
+   "upper_limit_per_1000": 15.14,
+   "kinds": {
+    "not_measured_here": 29,
+    "wrong_metric": 13
+   },
+   "misses_supported_values_only_the_other_stored": 7,
+   "bootstrap": {
+    "per_1000_lo": 0.6494526551753322,
+    "per_1000_hi": 23.691596334412502,
+    "scaled_per_1000_lo": 0.6494526551753322,
+    "scaled_per_1000_hi": 26.959331389248334
+   }
+  },
+  "catlog": {
+   "papers": 147,
+   "papers_with_values": 147,
+   "values": 4390,
+   "values_judged": 873,
+   "values_agreed_not_judged": 3499,
+   "wrong": 6,
+   "cannot_decide": 21,
+   "wrong_per_1000": 1.37,
+   "papers_with_a_wrong_value": 1,
+   "papers_with_a_wrong_value_per_100": 0.7,
+   "papers_per_100_exact": [
+    0.0,
+    3.7
+   ],
+   "share_on_papers_with_values": 0.7,
+   "largest_paper_share_of_wrong": 1.0,
+   "sensitivity_cannot_decide_as_wrong_per_1000": 6.15,
+   "sensitivity_cap_200_per_1000": 1.37,
+   "sample": {
+    "wrong": 0,
+    "of": 739,
+    "exact_share": [
+     0.0,
+     0.004979279880720182
+    ]
+   },
+   "scaled_per_1000": 1.37,
+   "upper_limit_per_1000": 5.36,
+   "kinds": {
+    "wrong_scale": 6
+   },
+   "misses_supported_values_only_the_other_stored": 110,
+   "bootstrap": {
+    "per_1000_lo": 0.0,
+    "per_1000_hi": 4.647590038473602,
+    "scaled_per_1000_lo": 0.0,
+    "scaled_per_1000_hi": 4.647590038473602
+   }
+  }
+ },
+ "by_reader_model": {
+  "claude-opus-5-5": {
+   "papers": 147,
+   "plain": {
+    "values": 4530,
+    "wrong": 42,
+    "wrong_per_1000": 9.31,
+    "papers_with_a_wrong_value": 5
+   },
+   "catlog": {
+    "values": 4390,
+    "wrong": 6,
+    "wrong_per_1000": 1.37,
+    "papers_with_a_wrong_value": 1
+   }
+  }
+ },
+ "papers_wrong_in_one_source_only": {
+  "plain": 5,
+  "catlog": 1
+ },
+ "plain_minus_catlog": {
+  "per_1000_lo": -1.6827251361877231,
+  "per_1000_hi": 22.52746860858437,
+  "papers_per_100_lo": 0.0,
+  "papers_per_100_hi": 6.122448979591837,
+  "share_plain_higher": 0.9112,
+  "B": 10000
+ },
+ "matched_sample": {
+  "claims": 1482,
+  "final": {
+   "supported": 1477,
+   "not_measured_here": 1,
+   "cannot_decide": 4
+  }
+ },
+ "claims_final": {
+  "supported": 1833,
+  "not_measured_here": 29,
+  "wrong_scale": 6,
+  "wrong_metric": 13,
+  "cannot_decide": 41
+ },
+ "judges": {
+  "j1": {
+   "decoys_judged": 171,
+   "decoys_called_an_error": 171,
+   "real_claims_judged": 1922
+  },
+  "j2": {
+   "decoys_judged": 171,
+   "decoys_called_an_error": 171,
+   "real_claims_judged": 1884
+  },
+  "j3": {
+   "decoys_judged": 0,
+   "decoys_called_an_error": 0,
+   "real_claims_judged": 17
+  },
+  "kappa_real_claims": 0.8367409355741433,
+  "kappa_with_decoys": 0.9575638091628649,
+  "first_two_agree": 0.991727493917275,
+  "first_two_agree_real": 0.9909766454352441,
+  "first_two_agree_disputed": 0.9704433497536946,
+  "decoys": 171,
+  "decoys_final_an_error": 171,
+  "gate_passed": true
+ },
+ "wrong": "[48 per-value entries left out here: the records are in the TSV files beside this file]",
+ "misses": {
+  "plain": "[7 per-value entries left out here: the records are in the TSV files beside this file]",
+  "catlog": "[110 per-value entries left out here: the records are in the TSV files beside this file]"
+ },
+ "restated_values_not_counted_as_misses": "[4 per-value entries left out here: the records are in the TSV files beside this file]",
+ "per_paper": {
+  "10360943": {
+   "plain": {
+    "values": 41,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 33,
+    "wrong": 0
+   }
+  },
+  "10419486": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "10578049": {
+   "plain": {
+    "values": 21,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 21,
+    "wrong": 0
+   }
+  },
+  "10592030": {
+   "plain": {
+    "values": 16,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 16,
+    "wrong": 0
+   }
+  },
+  "10769128": {
+   "plain": {
+    "values": 62,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 62,
+    "wrong": 0
+   }
+  },
+  "11272816": {
+   "plain": {
+    "values": 36,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 36,
+    "wrong": 0
+   }
+  },
+  "11322943": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "12091097": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "12481088": {
+   "plain": {
+    "values": 4,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 2,
+    "wrong": 0
+   }
+  },
+  "12604222": {
+   "plain": {
+    "values": 55,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 55,
+    "wrong": 0
+   }
+  },
+  "12773527": {
+   "plain": {
+    "values": 9,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 9,
+    "wrong": 0
+   }
+  },
+  "12831838": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "14089442": {
+   "plain": {
+    "values": 3,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 3,
+    "wrong": 0
+   }
+  },
+  "14555658": {
+   "plain": {
+    "values": 14,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 11,
+    "wrong": 0
+   }
+  },
+  "14604985": {
+   "plain": {
+    "values": 51,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 51,
+    "wrong": 0
+   }
+  },
+  "14610090": {
+   "plain": {
+    "values": 13,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 13,
+    "wrong": 0
+   }
+  },
+  "14690376": {
+   "plain": {
+    "values": 120,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 117,
+    "wrong": 0
+   }
+  },
+  "14960577": {
+   "plain": {
+    "values": 141,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 125,
+    "wrong": 0
+   }
+  },
+  "15122013": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "15461450": {
+   "plain": {
+    "values": 11,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 11,
+    "wrong": 0
+   }
+  },
+  "15723541": {
+   "plain": {
+    "values": 69,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 69,
+    "wrong": 0
+   }
+  },
+  "15845397": {
+   "plain": {
+    "values": 9,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 9,
+    "wrong": 0
+   }
+  },
+  "15927342": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "15937184": {
+   "plain": {
+    "values": 21,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 21,
+    "wrong": 0
+   }
+  },
+  "16297670": {
+   "plain": {
+    "values": 60,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 60,
+    "wrong": 0
+   }
+  },
+  "16573681": {
+   "plain": {
+    "values": 13,
+    "wrong": 1
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "16788183": {
+   "plain": {
+    "values": 56,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 56,
+    "wrong": 0
+   }
+  },
+  "16999821": {
+   "plain": {
+    "values": 89,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 77,
+    "wrong": 0
+   }
+  },
+  "17049749": {
+   "plain": {
+    "values": 13,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 13,
+    "wrong": 0
+   }
+  },
+  "17105197": {
+   "plain": {
+    "values": 22,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 22,
+    "wrong": 0
+   }
+  },
+  "17240984": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "17293530": {
+   "plain": {
+    "values": 4,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 4,
+    "wrong": 0
+   }
+  },
+  "17426028": {
+   "plain": {
+    "values": 60,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 60,
+    "wrong": 0
+   }
+  },
+  "17679145": {
+   "plain": {
+    "values": 19,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "17717531": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "17949745": {
+   "plain": {
+    "values": 22,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 22,
+    "wrong": 0
+   }
+  },
+  "18092808": {
+   "plain": {
+    "values": 194,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 180,
+    "wrong": 0
+   }
+  },
+  "18247525": {
+   "plain": {
+    "values": 126,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 126,
+    "wrong": 0
+   }
+  },
+  "19019076": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "1917839": {
+   "plain": {
+    "values": 13,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 13,
+    "wrong": 0
+   }
+  },
+  "19211556": {
+   "plain": {
+    "values": 16,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 16,
+    "wrong": 0
+   }
+  },
+  "19626290": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "19647806": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "19683506": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "19846563": {
+   "plain": {
+    "values": 47,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 47,
+    "wrong": 0
+   }
+  },
+  "20557289": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "20851904": {
+   "plain": {
+    "values": 41,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 41,
+    "wrong": 0
+   }
+  },
+  "21454632": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "2157484": {
+   "plain": {
+    "values": 42,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 41,
+    "wrong": 0
+   }
+  },
+  "21593056": {
+   "plain": {
+    "values": 26,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 26,
+    "wrong": 0
+   }
+  },
+  "21766194": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "21958066": {
+   "plain": {
+    "values": 95,
+    "wrong": 4
+   },
+   "catlog": {
+    "values": 82,
+    "wrong": 0
+   }
+  },
+  "22123821": {
+   "plain": {
+    "values": 25,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 26,
+    "wrong": 0
+   }
+  },
+  "22128181": {
+   "plain": {
+    "values": 27,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 27,
+    "wrong": 0
+   }
+  },
+  "22183084": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 8,
+    "wrong": 0
+   }
+  },
+  "22997138": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "23201198": {
+   "plain": {
+    "values": 108,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 108,
+    "wrong": 0
+   }
+  },
+  "23282241": {
+   "plain": {
+    "values": 25,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 25,
+    "wrong": 0
+   }
+  },
+  "23954295": {
+   "plain": {
+    "values": 36,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 36,
+    "wrong": 0
+   }
+  },
+  "24066157": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "24463512": {
+   "plain": {
+    "values": 59,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 59,
+    "wrong": 0
+   }
+  },
+  "24586552": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "24731825": {
+   "plain": {
+    "values": 11,
+    "wrong": 2
+   },
+   "catlog": {
+    "values": 9,
+    "wrong": 0
+   }
+  },
+  "25020232": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "25495127": {
+   "plain": {
+    "values": 122,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 122,
+    "wrong": 0
+   }
+  },
+  "26472925": {
+   "plain": {
+    "values": 16,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 16,
+    "wrong": 0
+   }
+  },
+  "26519738": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "26555264": {
+   "plain": {
+    "values": 23,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 21,
+    "wrong": 0
+   }
+  },
+  "26792860": {
+   "plain": {
+    "values": 22,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 22,
+    "wrong": 0
+   }
+  },
+  "26808559": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "27009306": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 30,
+    "wrong": 0
+   }
+  },
+  "27172425": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "27406240": {
+   "plain": {
+    "values": 20,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 20,
+    "wrong": 0
+   }
+  },
+  "27671251": {
+   "plain": {
+    "values": 21,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 21,
+    "wrong": 0
+   }
+  },
+  "27791009": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "28120515": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "28160314": {
+   "plain": {
+    "values": 36,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 39,
+    "wrong": 0
+   }
+  },
+  "28258219": {
+   "plain": {
+    "values": 16,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 16,
+    "wrong": 0
+   }
+  },
+  "28416574": {
+   "plain": {
+    "values": 1,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 1,
+    "wrong": 0
+   }
+  },
+  "28429057": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "28486765": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 30,
+    "wrong": 0
+   }
+  },
+  "28680153": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 30,
+    "wrong": 0
+   }
+  },
+  "28842490": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "28921884": {
+   "plain": {
+    "values": 27,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 27,
+    "wrong": 0
+   }
+  },
+  "29225823": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "29332217": {
+   "plain": {
+    "values": 48,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 48,
+    "wrong": 0
+   }
+  },
+  "29806742": {
+   "plain": {
+    "values": 47,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 46,
+    "wrong": 0
+   }
+  },
+  "30631897": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "31307578": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "31344342": {
+   "plain": {
+    "values": 27,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 27,
+    "wrong": 0
+   }
+  },
+  "31665566": {
+   "plain": {
+    "values": 38,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 38,
+    "wrong": 0
+   }
+  },
+  "33082260": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 30,
+    "wrong": 0
+   }
+  },
+  "33166455": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "33741634": {
+   "plain": {
+    "values": 105,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 105,
+    "wrong": 0
+   }
+  },
+  "33857841": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "35122395": {
+   "plain": {
+    "values": 28,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 28,
+    "wrong": 0
+   }
+  },
+  "35580446": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 30,
+    "wrong": 0
+   }
+  },
+  "40097398": {
+   "plain": {
+    "values": 21,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "40195502": {
+   "plain": {
+    "values": 55,
+    "wrong": 27
+   },
+   "catlog": {
+    "values": 27,
+    "wrong": 0
+   }
+  },
+  "40584351": {
+   "plain": {
+    "values": 27,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 27,
+    "wrong": 0
+   }
+  },
+  "40679944": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "40725165": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 30,
+    "wrong": 0
+   }
+  },
+  "40739138": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 5,
+    "wrong": 0
+   }
+  },
+  "40998909": {
+   "plain": {
+    "values": 3,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 3,
+    "wrong": 0
+   }
+  },
+  "41683478": {
+   "plain": {
+    "values": 27,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 27,
+    "wrong": 0
+   }
+  },
+  "41770933": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 14,
+    "wrong": 0
+   }
+  },
+  "42197205": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "42236700": {
+   "plain": {
+    "values": 7,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 2,
+    "wrong": 0
+   }
+  },
+  "42630012": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "4389863": {
+   "plain": {
+    "values": 2,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 2,
+    "wrong": 0
+   }
+  },
+  "4672667": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 0
+   }
+  },
+  "6338006": {
+   "plain": {
+    "values": 8,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 8,
+    "wrong": 0
+   }
+  },
+  "7240129": {
+   "plain": {
+    "values": 14,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 14,
+    "wrong": 0
+   }
+  },
+  "7334001": {
+   "plain": {
+    "values": 6,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 6,
+    "wrong": 6
+   }
+  },
+  "8180187": {
+   "plain": {
+    "values": 21,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 21,
+    "wrong": 0
+   }
+  },
+  "8204627": {
+   "plain": {
+    "values": 31,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 31,
+    "wrong": 0
+   }
+  },
+  "8429044": {
+   "plain": {
+    "values": 28,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 28,
+    "wrong": 0
+   }
+  },
+  "8550415": {
+   "plain": {
+    "values": 9,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 9,
+    "wrong": 0
+   }
+  },
+  "8662720": {
+   "plain": {
+    "values": 29,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 29,
+    "wrong": 0
+   }
+  },
+  "9013810": {
+   "plain": {
+    "values": 23,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 23,
+    "wrong": 0
+   }
+  },
+  "9119035": {
+   "plain": {
+    "values": 20,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 8,
+    "wrong": 0
+   }
+  },
+  "9131996": {
+   "plain": {
+    "values": 45,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 45,
+    "wrong": 0
+   }
+  },
+  "9153075": {
+   "plain": {
+    "values": 108,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 100,
+    "wrong": 0
+   }
+  },
+  "9266856": {
+   "plain": {
+    "values": 39,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 39,
+    "wrong": 0
+   }
+  },
+  "9546047": {
+   "plain": {
+    "values": 101,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 101,
+    "wrong": 0
+   }
+  },
+  "9930669": {
+   "plain": {
+    "values": 48,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 48,
+    "wrong": 0
+   }
+  },
+  "NP1BB02D2D": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 30,
+    "wrong": 0
+   }
+  },
+  "NP5DDBFD3E": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 15,
+    "wrong": 0
+   }
+  },
+  "NP9811D5AB": {
+   "plain": {
+    "values": 45,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 45,
+    "wrong": 0
+   }
+  },
+  "NP99AF2509": {
+   "plain": {
+    "values": 15,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "NPB1724208": {
+   "plain": {
+    "values": 42,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 42,
+    "wrong": 0
+   }
+  },
+  "NPFC780889": {
+   "plain": {
+    "values": 21,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 21,
+    "wrong": 0
+   }
+  },
+  "15210687": {
+   "plain": {
+    "values": 30,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 30,
+    "wrong": 0
+   }
+  },
+  "NPCFF4A126": {
+   "plain": {
+    "values": 24,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 24,
+    "wrong": 0
+   }
+  },
+  "41495879": {
+   "plain": {
+    "values": 16,
+    "wrong": 8
+   },
+   "catlog": {
+    "values": 8,
+    "wrong": 0
+   }
+  },
+  "NP47D07043": {
+   "plain": {
+    "values": 60,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 60,
+    "wrong": 0
+   }
+  },
+  "15769597": {
+   "plain": {
+    "values": 72,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 72,
+    "wrong": 0
+   }
+  },
+  "33859982": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "12960159": {
+   "plain": {
+    "values": 7,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 7,
+    "wrong": 0
+   }
+  },
+  "23408955": {
+   "plain": {
+    "values": 40,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 40,
+    "wrong": 0
+   }
+  },
+  "3527154": {
+   "plain": {
+    "values": 5,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 5,
+    "wrong": 0
+   }
+  },
+  "23941541": {
+   "plain": {
+    "values": 27,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 27,
+    "wrong": 0
+   }
+  },
+  "19487664": {
+   "plain": {
+    "values": 12,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 12,
+    "wrong": 0
+   }
+  },
+  "16223729": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  },
+  "40568848": {
+   "plain": {
+    "values": 5,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 4,
+    "wrong": 0
+   }
+  },
+  "8518286": {
+   "plain": {
+    "values": 40,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 40,
+    "wrong": 0
+   }
+  },
+  "8381043": {
+   "plain": {
+    "values": 18,
+    "wrong": 0
+   },
+   "catlog": {
+    "values": 18,
+    "wrong": 0
+   }
+  }
+ }
+}

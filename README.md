@@ -76,13 +76,18 @@ texts kept only in the agents' logs, which the authors archive.
 - `config.json`: the queue's source lists and reading order.
 - `.claude/settings.example.json`: permissions for the agents (see "Install").
 - `analysis/`: the paper's analysis code (see "The paper's analysis code").
-- `sync_from_catlog.py`: how this copy is made, and `sync_analysis.py`: how `analysis/` is made (see the end).
+- `tests/`: the paper's tests, each registered test's plan exactly as committed before its first result (with the commit
+  and its time), and every test's records: both sides' stored values, every claim the judges ruled on and every
+  verdict, the planted errors, the papers and why any left, the blinding keys and the scores (see "The tests'
+  registrations and records").
+- `sync_from_catlog.py`: how this copy is made, `sync_analysis.py`: how `analysis/` is made, and `sync_tests.py`: how
+  `tests/` is made (see the end).
 
 Not here: the data (the catalogue, paper texts, agents' outputs, database downloads, reviews, and the hand-checked
 tables and held-out lists in `sources/`), the website's own code, the authors' notes (`CLAUDE.md` and their guides),
 the reviewers' review page (`tools/review_ui/`, so `catlog.py review pack` stops with a message), the authors'
-machine helpers (Chrome and memory watchers, a website wording check), and the inputs of the paper's analysis code in
-`analysis/`: the catalogue frozen for the paper and the tests' records (see "The paper's analysis code").
+machine helpers (Chrome and memory watchers, a website wording check), and the catalogue frozen for the paper, which
+the analysis code in `analysis/` reads (see "The paper's analysis code").
 
 ## Install
 
@@ -205,10 +210,22 @@ are, but they need the earlier system (`REALKCAT_DIR`).
 `analysis/` holds the code behind the paper's results: the two tests (the plain reading's runner, CatLog's run in a
 frozen copy, the judges, the audits of every session and the scoring), the statistics, and the builders of every
 figure, Extended Data item and Supplementary Table. `analysis/README.md` says which script makes each item, what it
-reads, the command that ran it, and what was left out. The scripts' inputs, the catalogue frozen for the paper and the
-tests' records, are not in this repository, so the scripts show how each result was made rather than remake it from
-here. `sync_analysis.py` copies them from the authors' folders (the tests' kit as committed at the commit the locked
-test's report ran at) by fixed rules for paths, e-mail addresses and names, as `sync_from_catlog.py` makes this copy.
+reads, the command that ran it, and what was left out. The catalogue frozen for the paper is not in this repository,
+and the tests' records are in `tests/` as tables rather than the files the scripts read, so the scripts show how each
+result was made rather than remake it from here. `sync_analysis.py` copies them from the authors' folders (the tests'
+kit as committed at the commit the locked test's report ran at) by fixed rules for paths, e-mail addresses and names,
+as `sync_from_catlog.py` makes this copy.
+
+## The tests' registrations and records
+
+`tests/` has one folder per test: the locked test, its second stage (with that stage's page check of every disputed
+value), the broad test against EnzyExtract's released database, the comparison against values people checked, and the
+random test, which was not registered. For each registered test it holds the plan as committed in the authors'
+repository before any result, the commits that registered and amended it, and the time of its first result
+(`tests/README.md` has the table; each folder's README the full commit ids and what each file is). The records are
+scrubbed by `sync_tests.py`: the papers' text appears only as a printed line of at most 25 words, a judge's reasoning
+that copies the paper is dropped, EnzyExtract's values (its data are released under CC BY-NC 4.0) are named by their
+file and row, the databases' values are not listed, and no reviewer or review time appears.
 
 ## Versions
 
@@ -260,3 +277,9 @@ would carry a personal name or e-mail.
 (`analysis/README.md` lists the rules):
 
     python3 -I -B sync_analysis.py --catlog <CatLog folder> --kit <kit folder> --names <private names file> [--check]
+
+`tests/` is made by `sync_tests.py` from the same two folders: the plans by `git show` at the commits that fixed them,
+the other committed files at one commit of the CatLog folder, and the kit's records from its disk; its scrub rules and
+checks are listed at its top (`tests/README.md` says what they do):
+
+    python3 -B sync_tests.py --catlog <CatLog folder> --kit <kit folder> --names <private names file> [--ref REF] [--check]

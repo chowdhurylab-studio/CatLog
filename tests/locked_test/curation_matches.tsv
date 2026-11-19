@@ -1,0 +1,1527 @@
+curation_file	curation_row	pmid	metric	matched_by	plain_value_id	catlog_value_id
+manual_curated_runeem_dataset.csv	978	1100398	Km	both	A0-locked:1100398:10	7d74588e26b47be8
+manual_curated_runeem_dataset.csv	979	1100398	Km	both	A0-locked:1100398:4	f3ba17e0ba0c9e94
+manual_curated_runeem_dataset.csv	3081	8948426	kcat	both	A0-locked:8948426:1	42da74718dca98ae
+manual_curated_runeem_dataset.csv	3081	8948426	Km	neither		
+manual_curated_runeem_dataset.csv	3081	8948426	kcat/Km	both	A0-locked:8948426:2	d1fb76c75500a0db
+manual_curated_runeem_dataset.csv	3082	8948426	kcat	both	A0-locked:8948426:7	ee3efb13317e1575
+manual_curated_runeem_dataset.csv	3082	8948426	Km	neither		
+manual_curated_runeem_dataset.csv	3082	8948426	kcat/Km	both	A0-locked:8948426:8	0d37432f502a8cdd
+manual_curated_runeem_dataset.csv	3083	8948426	kcat	both	A0-locked:8948426:4	048e5980c3787bf0
+manual_curated_runeem_dataset.csv	3083	8948426	Km	neither		
+manual_curated_runeem_dataset.csv	3083	8948426	kcat/Km	both	A0-locked:8948426:5	ff12d819e927db0d
+manual_curated_runeem_dataset.csv	3131	9111016	Km	both	A0-locked:9111016:4	b761860146c3d17c
+manual_curated_runeem_dataset.csv	3132	9111016	Km	both	A0-locked:9111016:9	53cf5c608b014e71
+manual_curated_runeem_dataset.csv	3133	9111016	Km	both	A0-locked:9111016:2	6d7ba135592f3f2a
+manual_curated_runeem_dataset.csv	3134	9111016	Km	both	A0-locked:9111016:3	ae9f31f02dd756ee
+manual_curated_runeem_dataset.csv	3135	9111016	Km	both	A0-locked:9111016:5	0dbbdaaedba374e2
+manual_curated_runeem_dataset.csv	3136	9111016	Km	neither		
+manual_curated_runeem_dataset.csv	3137	9111016	Km	both	A0-locked:9111016:7	04b6aa1962862dc3
+manual_curated_runeem_dataset.csv	3138	9111016	Km	both	A0-locked:9111016:8	b43e3f08656cc754
+manual_curated_runeem_dataset.csv	3139	9111016	Km	both	A0-locked:9111016:0	03092211817a2ff4
+manual_curated_runeem_dataset.csv	3140	9111016	Km	both	A0-locked:9111016:10	cba12ec48d5c87c9
+manual_curated_runeem_dataset.csv	3141	9111016	Km	both	A0-locked:9111016:11	eceb1be70a16a028
+manual_curated_runeem_dataset.csv	3142	9111016	Km	both	A0-locked:9111016:12	5161907fc9957451
+manual_curated_runeem_dataset.csv	3144	9111016	Km	both	A0-locked:9111016:1	4446ad004935c1d7
+manual_curated_runeem_dataset.csv	3145	9202000	kcat	neither		
+manual_curated_runeem_dataset.csv	3145	9202000	Km	both	A0-locked:9202000:1	4d9b89f5e5e16e39
+manual_curated_runeem_dataset.csv	3145	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3146	9202000	kcat	both	A0-locked:9202000:0	42375e81e22e0372
+manual_curated_runeem_dataset.csv	3146	9202000	Km	both	A0-locked:9202000:2	11f0531cfe050b3c
+manual_curated_runeem_dataset.csv	3146	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3147	9202000	kcat	neither		
+manual_curated_runeem_dataset.csv	3147	9202000	Km	both	A0-locked:9202000:3	4eeb3091adf330b6
+manual_curated_runeem_dataset.csv	3147	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3148	9202000	kcat	neither		
+manual_curated_runeem_dataset.csv	3148	9202000	Km	both	A0-locked:9202000:15	06dd3cd8c7613c8f
+manual_curated_runeem_dataset.csv	3148	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3149	9202000	kcat	both	A0-locked:9202000:14	21310395c2462688
+manual_curated_runeem_dataset.csv	3149	9202000	Km	both	A0-locked:9202000:16	1a062c5d01d5cbbf
+manual_curated_runeem_dataset.csv	3149	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3150	9202000	kcat	neither		
+manual_curated_runeem_dataset.csv	3150	9202000	Km	both	A0-locked:9202000:17	4833bdf422336271
+manual_curated_runeem_dataset.csv	3150	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3151	9202000	kcat	unscored		
+manual_curated_runeem_dataset.csv	3151	9202000	Km	unscored		
+manual_curated_runeem_dataset.csv	3151	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3152	9202000	kcat	unscored		
+manual_curated_runeem_dataset.csv	3152	9202000	Km	both	A0-locked:9202000:9	e15b5993586aa2f0
+manual_curated_runeem_dataset.csv	3152	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3153	9202000	kcat	unscored		
+manual_curated_runeem_dataset.csv	3153	9202000	Km	both	A0-locked:9202000:10	0859431ce375ca50
+manual_curated_runeem_dataset.csv	3153	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3154	9202000	kcat	unscored		
+manual_curated_runeem_dataset.csv	3154	9202000	Km	both	A0-locked:9202000:22	8254888a88c7971d
+manual_curated_runeem_dataset.csv	3154	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3155	9202000	kcat	unscored		
+manual_curated_runeem_dataset.csv	3155	9202000	Km	both	A0-locked:9202000:23	bcc7324675fdbb0a
+manual_curated_runeem_dataset.csv	3155	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3156	9202000	kcat	unscored		
+manual_curated_runeem_dataset.csv	3156	9202000	Km	both	A0-locked:9202000:24	feaae01ea669e0b2
+manual_curated_runeem_dataset.csv	3156	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3157	9202000	kcat	neither		
+manual_curated_runeem_dataset.csv	3157	9202000	Km	both	A0-locked:9202000:29	e0157d213920b718
+manual_curated_runeem_dataset.csv	3157	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3158	9202000	kcat	both	A0-locked:9202000:28	e0388eace4ce0339
+manual_curated_runeem_dataset.csv	3158	9202000	Km	both	A0-locked:9202000:30	631d4358146bc043
+manual_curated_runeem_dataset.csv	3158	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3159	9202000	kcat	neither		
+manual_curated_runeem_dataset.csv	3159	9202000	Km	both	A0-locked:9202000:31	c9d6d85d26e1b6a1
+manual_curated_runeem_dataset.csv	3159	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3160	9202000	kcat	neither		
+manual_curated_runeem_dataset.csv	3160	9202000	Km	both	A0-locked:9202000:36	089ccaaab5cfc2d5
+manual_curated_runeem_dataset.csv	3160	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3161	9202000	kcat	both	A0-locked:9202000:35	0e2b139814044d98
+manual_curated_runeem_dataset.csv	3161	9202000	Km	both	A0-locked:9202000:37	005410c60c77763f
+manual_curated_runeem_dataset.csv	3161	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3162	9202000	kcat	neither		
+manual_curated_runeem_dataset.csv	3162	9202000	Km	both	A0-locked:9202000:38	079df088443fe9ef
+manual_curated_runeem_dataset.csv	3162	9202000	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	3163	9235932	kcat	neither		
+manual_curated_runeem_dataset.csv	3163	9235932	Km	neither		
+manual_curated_runeem_dataset.csv	3163	9235932	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	3164	9235932	kcat	neither		
+manual_curated_runeem_dataset.csv	3164	9235932	Km	both	A0-locked:9235932:1	ced69a378b157657
+manual_curated_runeem_dataset.csv	3164	9235932	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	3165	9235932	kcat	neither		
+manual_curated_runeem_dataset.csv	3165	9235932	Km	neither		
+manual_curated_runeem_dataset.csv	3165	9235932	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	3166	9235932	kcat	both	A0-locked:9235932:0	0deaaebb290d81fc
+manual_curated_runeem_dataset.csv	3166	9235932	Km	both	A0-locked:9235932:2	a3accc8d946375f9
+manual_curated_runeem_dataset.csv	3166	9235932	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	3177	9359420	kcat	both	A0-locked:9359420:0	d0259712726e196e
+manual_curated_runeem_dataset.csv	3177	9359420	Km	both	A0-locked:9359420:1	c8c8b3dcf7166ade
+manual_curated_runeem_dataset.csv	3177	9359420	kcat/Km	both	A0-locked:9359420:2	44e68e806e5cccc3
+manual_curated_runeem_dataset.csv	3178	9359420	kcat	both	A0-locked:9359420:3	a73f48a22925ff7d
+manual_curated_runeem_dataset.csv	3178	9359420	Km	both	A0-locked:9359420:4	b5e12233ef0b5f1b
+manual_curated_runeem_dataset.csv	3178	9359420	kcat/Km	both	A0-locked:9359420:5	68ba2f0c4002597b
+manual_curated_runeem_dataset.csv	3179	9359420	kcat	both	A0-locked:9359420:6	de2a28bb50f6db74
+manual_curated_runeem_dataset.csv	3179	9359420	Km	both	A0-locked:9359420:7	4e3ad806502f3c8a
+manual_curated_runeem_dataset.csv	3179	9359420	kcat/Km	both	A0-locked:9359420:8	d230ceb70642be6b
+manual_curated_runeem_dataset.csv	3200	9495750	kcat	neither		
+manual_curated_runeem_dataset.csv	3200	9495750	Km	neither		
+manual_curated_runeem_dataset.csv	3200	9495750	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	3201	9495750	kcat	neither		
+manual_curated_runeem_dataset.csv	3201	9495750	Km	neither		
+manual_curated_runeem_dataset.csv	3201	9495750	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	3202	9495750	kcat	both	A0-locked:9495750:1	e24ad56d97ccc8cb
+manual_curated_runeem_dataset.csv	3202	9495750	Km	both	A0-locked:9495750:0	e4f7fb4fe1287028
+manual_curated_runeem_dataset.csv	3202	9495750	kcat/Km	both	A0-locked:9495750:2	c7ccdfc6ea7b2261
+manual_curated_runeem_dataset.csv	3203	9495750	kcat	both	A0-locked:9495750:4	2177b2c71426f4db
+manual_curated_runeem_dataset.csv	3203	9495750	Km	both	A0-locked:9495750:3	47e8346e30919c6c
+manual_curated_runeem_dataset.csv	3203	9495750	kcat/Km	both	A0-locked:9495750:5	effad1118d036cfa
+manual_curated_runeem_dataset.csv	3204	9495750	kcat	both	A0-locked:9495750:7	2f071a96c27e5174
+manual_curated_runeem_dataset.csv	3204	9495750	Km	both	A0-locked:9495750:6	98238e74d4147bad
+manual_curated_runeem_dataset.csv	3204	9495750	kcat/Km	both	A0-locked:9495750:8	086b29e06ebfbddf
+manual_curated_runeem_dataset.csv	3205	9495750	kcat	both	A0-locked:9495750:10	e1bf1cbb650f59e7
+manual_curated_runeem_dataset.csv	3205	9495750	Km	both	A0-locked:9495750:9	b56219e4a806b512
+manual_curated_runeem_dataset.csv	3205	9495750	kcat/Km	both	A0-locked:9495750:11	297439b5d2175ad9
+manual_curated_runeem_dataset.csv	3206	9495750	kcat	both	A0-locked:9495750:13	ae639345703d7528
+manual_curated_runeem_dataset.csv	3206	9495750	Km	both	A0-locked:9495750:12	b60d47fa16020483
+manual_curated_runeem_dataset.csv	3206	9495750	kcat/Km	both	A0-locked:9495750:14	c3b92fa9e615cd8e
+manual_curated_runeem_dataset.csv	3207	9495750	kcat	both	A0-locked:9495750:16	4ceff372fbb3feac
+manual_curated_runeem_dataset.csv	3207	9495750	Km	both	A0-locked:9495750:15	4d7974ea8954c9d4
+manual_curated_runeem_dataset.csv	3207	9495750	kcat/Km	both	A0-locked:9495750:17	d04b923dab6ed9bb
+manual_curated_runeem_dataset.csv	3208	9495750	kcat	both	A0-locked:9495750:19	755bf3cdf5eec7b1
+manual_curated_runeem_dataset.csv	3208	9495750	Km	both	A0-locked:9495750:18	594807e8bb5d69ee
+manual_curated_runeem_dataset.csv	3208	9495750	kcat/Km	both	A0-locked:9495750:20	e39c9a3bfd0ac458
+manual_curated_runeem_dataset.csv	3209	9495750	kcat	both	A0-locked:9495750:22	e6ab64ceb92f961c
+manual_curated_runeem_dataset.csv	3209	9495750	Km	both	A0-locked:9495750:21	38c702eef347efc5
+manual_curated_runeem_dataset.csv	3209	9495750	kcat/Km	both	A0-locked:9495750:23	946d2a7e5e4bec64
+manual_curated_runeem_dataset.csv	3210	9495750	kcat	both	A0-locked:9495750:25	56d14a6a91dcae8b
+manual_curated_runeem_dataset.csv	3210	9495750	Km	both	A0-locked:9495750:24	e70da902b1377e00
+manual_curated_runeem_dataset.csv	3210	9495750	kcat/Km	both	A0-locked:9495750:26	3d0e06eafdc2e20e
+manual_curated_runeem_dataset.csv	3211	9495750	kcat	both	A0-locked:9495750:28	a547ba083594a84e
+manual_curated_runeem_dataset.csv	3211	9495750	Km	both	A0-locked:9495750:27	520d675ad98a90dc
+manual_curated_runeem_dataset.csv	3211	9495750	kcat/Km	both	A0-locked:9495750:29	9813537223801f32
+manual_curated_runeem_dataset.csv	3212	9495750	kcat	both	A0-locked:9495750:31	ac3bae2ddb453593
+manual_curated_runeem_dataset.csv	3212	9495750	Km	both	A0-locked:9495750:30	1ed1d8c1e3259fe7
+manual_curated_runeem_dataset.csv	3212	9495750	kcat/Km	both	A0-locked:9495750:32	b9af51c5e95a4897
+manual_curated_runeem_dataset.csv	3213	9495750	kcat	both	A0-locked:9495750:34	01ca03ebe8b6d174
+manual_curated_runeem_dataset.csv	3213	9495750	Km	both	A0-locked:9495750:33	8ba154d9dbde586d
+manual_curated_runeem_dataset.csv	3213	9495750	kcat/Km	both	A0-locked:9495750:35	76078d56407e1271
+manual_curated_runeem_dataset.csv	3214	9495750	kcat	both	A0-locked:9495750:37	ccaaaf196efea9d5
+manual_curated_runeem_dataset.csv	3214	9495750	Km	both	A0-locked:9495750:36	a28d65cba81fa705
+manual_curated_runeem_dataset.csv	3214	9495750	kcat/Km	both	A0-locked:9495750:38	850757735d537389
+manual_curated_runeem_dataset.csv	3215	9495750	kcat	both	A0-locked:9495750:40	9d24036e298cf1a8
+manual_curated_runeem_dataset.csv	3215	9495750	Km	both	A0-locked:9495750:39	e929df1b29970701
+manual_curated_runeem_dataset.csv	3215	9495750	kcat/Km	both	A0-locked:9495750:41	74c391b7e4ec559c
+manual_curated_runeem_dataset.csv	3216	9495750	kcat	both	A0-locked:9495750:43	ef15eade21696aa1
+manual_curated_runeem_dataset.csv	3216	9495750	Km	both	A0-locked:9495750:42	95df53a5838d28ed
+manual_curated_runeem_dataset.csv	3216	9495750	kcat/Km	both	A0-locked:9495750:44	0e746c0b4eb368b8
+manual_curated_runeem_dataset.csv	3217	9495750	kcat	both	A0-locked:9495750:46	a3125570809ea683
+manual_curated_runeem_dataset.csv	3217	9495750	Km	both	A0-locked:9495750:45	bfbfd61a38ee805e
+manual_curated_runeem_dataset.csv	3217	9495750	kcat/Km	both	A0-locked:9495750:47	177742934a6ee4a7
+manual_curated_runeem_dataset.csv	3218	9495750	kcat	both	A0-locked:9495750:49	48ce49bddc24cade
+manual_curated_runeem_dataset.csv	3218	9495750	Km	both	A0-locked:9495750:48	d7dfde4ab6f68f1c
+manual_curated_runeem_dataset.csv	3218	9495750	kcat/Km	both	A0-locked:9495750:50	a975b8a98e767c35
+manual_curated_runeem_dataset.csv	3219	9495750	kcat	both	A0-locked:9495750:52	1fc0a4981be9f4f1
+manual_curated_runeem_dataset.csv	3219	9495750	Km	both	A0-locked:9495750:51	9d3a9499082c8616
+manual_curated_runeem_dataset.csv	3219	9495750	kcat/Km	both	A0-locked:9495750:53	82a8a9343f5fe38c
+manual_curated_runeem_dataset.csv	3220	9495750	kcat	both	A0-locked:9495750:55	31ecbca7c24abfaa
+manual_curated_runeem_dataset.csv	3220	9495750	Km	both	A0-locked:9495750:54	92b21e1a70ac4e18
+manual_curated_runeem_dataset.csv	3220	9495750	kcat/Km	both	A0-locked:9495750:56	a86cbc5dbd88f427
+manual_curated_runeem_dataset.csv	3221	9495750	kcat	both	A0-locked:9495750:58	6128f2943ab2220d
+manual_curated_runeem_dataset.csv	3221	9495750	Km	both	A0-locked:9495750:57	998cabe949b03aab
+manual_curated_runeem_dataset.csv	3221	9495750	kcat/Km	both	A0-locked:9495750:59	3ddf8f32e208f58a
+manual_curated_runeem_dataset.csv	3283	9761457	Km	both	A0-locked:9761457:4	cd85537942fd4a07
+manual_curated_runeem_dataset.csv	3283	9761457	kcat/Km	both	A0-locked:9761457:5	c83a5fc022db7130
+manual_curated_runeem_dataset.csv	3285	9761457	Km	both	A0-locked:9761457:2	ddf46e07219953fe
+manual_curated_runeem_dataset.csv	3285	9761457	kcat/Km	both	A0-locked:9761457:3	f025e926502f4c61
+manual_curated_runeem_dataset.csv	3286	9761457	Km	both	A0-locked:9761457:1	dbf3d1190a436054
+manual_curated_runeem_dataset.csv	3324	9973343	kcat	plain_only	A0-locked:9973343:1	
+manual_curated_runeem_dataset.csv	3324	9973343	Km	both	A0-locked:9973343:0	82ac350bfb7345fe
+manual_curated_runeem_dataset.csv	3324	9973343	kcat/Km	catlog_only		1eda2651f430bd48
+manual_curated_runeem_dataset.csv	3326	9973343	kcat	plain_only	A0-locked:9973343:4	
+manual_curated_runeem_dataset.csv	3326	9973343	Km	both	A0-locked:9973343:3	cc6d2e0ad5fde50e
+manual_curated_runeem_dataset.csv	3326	9973343	kcat/Km	catlog_only		131ed74130915dc6
+manual_curated_runeem_dataset.csv	3328	9973343	kcat	plain_only	A0-locked:9973343:7	
+manual_curated_runeem_dataset.csv	3328	9973343	Km	both	A0-locked:9973343:6	4abec3e655a9da59
+manual_curated_runeem_dataset.csv	3328	9973343	kcat/Km	catlog_only		464578266c8ff59b
+manual_curated_runeem_dataset.csv	3330	9973343	kcat	plain_only	A0-locked:9973343:10	
+manual_curated_runeem_dataset.csv	3330	9973343	Km	both	A0-locked:9973343:9	1c811ffd6d3f5cf6
+manual_curated_runeem_dataset.csv	3330	9973343	kcat/Km	catlog_only		54aa89fc8cb4ecf1
+manual_curated_runeem_dataset.csv	3332	9973343	kcat	plain_only	A0-locked:9973343:13	
+manual_curated_runeem_dataset.csv	3332	9973343	Km	both	A0-locked:9973343:12	fe6e2d140c58f004
+manual_curated_runeem_dataset.csv	3332	9973343	kcat/Km	catlog_only		aca7a67c0410b699
+manual_curated_runeem_dataset.csv	3334	9973343	kcat	plain_only	A0-locked:9973343:16	
+manual_curated_runeem_dataset.csv	3334	9973343	Km	both	A0-locked:9973343:15	2926c11102d5006d
+manual_curated_runeem_dataset.csv	3334	9973343	kcat/Km	catlog_only		11040b120a2f4731
+manual_curated_runeem_dataset.csv	3336	9973343	kcat	plain_only	A0-locked:9973343:19	
+manual_curated_runeem_dataset.csv	3336	9973343	Km	both	A0-locked:9973343:18	ba296bb7ca12c994
+manual_curated_runeem_dataset.csv	3336	9973343	kcat/Km	catlog_only		72945a3461b3a26e
+manual_curated_runeem_dataset.csv	1212	10029307	Km	both	A0-locked:10029307:0	1c121601e850b87d
+manual_curated_runeem_dataset.csv	1212	10029307	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1213	10029307	Km	both	A0-locked:10029307:1	d0bda270eee137ec
+manual_curated_runeem_dataset.csv	1213	10029307	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1214	10029307	Km	both	A0-locked:10029307:2	57df59e8f0148a79
+manual_curated_runeem_dataset.csv	1214	10029307	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1215	10029307	Km	both	A0-locked:10029307:3	7cdd8fdf30b86e8b
+manual_curated_runeem_dataset.csv	1215	10029307	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1216	10029307	Km	both	A0-locked:10029307:4	91bd3bd7aa61ab16
+manual_curated_runeem_dataset.csv	1216	10029307	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1217	10029307	Km	both	A0-locked:10029307:5	f7c37226335edf31
+manual_curated_runeem_dataset.csv	1217	10029307	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1219	10029307	Km	both	A0-locked:10029307:6	1dddb6a35d540c94
+manual_curated_runeem_dataset.csv	1219	10029307	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1220	10029307	Km	both	A0-locked:10029307:10	93aea7de7aa1f63f
+manual_curated_runeem_dataset.csv	1221	10029307	Km	both	A0-locked:10029307:11	bb2cce6770a2da71
+manual_curated_runeem_dataset.csv	1222	10029307	Km	both	A0-locked:10029307:12	ae752a03938cb4a3
+manual_curated_runeem_dataset.csv	1224	10029307	Km	both	A0-locked:10029307:13	dedbd004ba4645af
+manual_curated_runeem_dataset.csv	1225	10029307	Km	both	A0-locked:10029307:14	9e4f34ddb5e5d1d0
+manual_curated_runeem_dataset.csv	1226	10029307	Km	both	A0-locked:10029307:15	c973f58e8b7c34bd
+manual_curated_runeem_dataset.csv	1227	10029307	Km	both	A0-locked:10029307:16	6bb43b5169f0c4f6
+manual_curated_runeem_dataset.csv	1228	10029307	Km	both	A0-locked:10029307:17	a199b5f46679ec8a
+manual_curated_runeem_dataset.csv	1229	10029307	Km	both	A0-locked:10029307:18	e527380f19b19fd1
+manual_curated_runeem_dataset.csv	1230	10029307	Km	both	A0-locked:10029307:19	8f2494e69605c85e
+manual_curated_runeem_dataset.csv	23	10095764	kcat	both	A0-locked:10095764:0	b4387cebc38bda74
+manual_curated_runeem_dataset.csv	23	10095764	Km	both	A0-locked:10095764:1	396b48eeb7c358d7
+manual_curated_runeem_dataset.csv	24	10095764	kcat	both	A0-locked:10095764:2	0af52f3a6b9cc39c
+manual_curated_runeem_dataset.csv	24	10095764	Km	both	A0-locked:10095764:3	eda99d5efbdbdf83
+manual_curated_runeem_dataset.csv	25	10095764	kcat	both	A0-locked:10095764:4	02ae2552e148c462
+manual_curated_runeem_dataset.csv	25	10095764	Km	both	A0-locked:10095764:5	b6ee8b50ebd70cfa
+manual_curated_runeem_dataset.csv	26	10095764	kcat	both	A0-locked:10095764:6	e00e3372dc1d978e
+manual_curated_runeem_dataset.csv	26	10095764	Km	both	A0-locked:10095764:7	f8fac51155dc21bd
+manual_curated_runeem_dataset.csv	27	10095764	kcat	both	A0-locked:10095764:8	df68bfed2523c099
+manual_curated_runeem_dataset.csv	27	10095764	Km	both	A0-locked:10095764:9	4766d5c5db4bb898
+manual_curated_runeem_dataset.csv	28	10095764	kcat	both	A0-locked:10095764:10	19b315fb86a63ffc
+manual_curated_runeem_dataset.csv	28	10095764	Km	both	A0-locked:10095764:11	4d520574441308cf
+manual_curated_runeem_dataset.csv	29	10095764	kcat	both	A0-locked:10095764:12	9df2671b12e9a1db
+manual_curated_runeem_dataset.csv	29	10095764	Km	both	A0-locked:10095764:13	d59d90581b84c257
+manual_curated_runeem_dataset.csv	30	10095764	kcat	both	A0-locked:10095764:14	8d9ad4531e0efdf8
+manual_curated_runeem_dataset.csv	30	10095764	Km	both	A0-locked:10095764:15	0798d732ac5a31cb
+manual_curated_runeem_dataset.csv	31	10095764	kcat	both	A0-locked:10095764:16	45ce9e1c8c146da5
+manual_curated_runeem_dataset.csv	31	10095764	Km	both	A0-locked:10095764:17	da133ba4a0b66520
+manual_curated_runeem_dataset.csv	848	10095793	Km	both	A0-locked:10095793:0	29d42a58b4b43d23
+manual_curated_runeem_dataset.csv	849	10095793	Km	both	A0-locked:10095793:1	65a445dadbbf47ef
+manual_curated_runeem_dataset.csv	51	10411640	kcat	both	A0-locked:10411640:1	2bbc86f197ba563d
+manual_curated_runeem_dataset.csv	51	10411640	Km	both	A0-locked:10411640:0	4e86dd487db98ee3
+manual_curated_runeem_dataset.csv	51	10411640	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	52	10411640	kcat	both	A0-locked:10411640:4	bb22e1b5bc373adc
+manual_curated_runeem_dataset.csv	52	10411640	Km	both	A0-locked:10411640:3	965c399796ef5de3
+manual_curated_runeem_dataset.csv	52	10411640	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	55	10411640	kcat	both	A0-locked:10411640:7	940e456a3851e6e4
+manual_curated_runeem_dataset.csv	55	10411640	Km	both	A0-locked:10411640:6	21e5b85d7a544dd2
+manual_curated_runeem_dataset.csv	55	10411640	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	60	10411640	kcat	both	A0-locked:10411640:10	3f2089a3e74a5634
+manual_curated_runeem_dataset.csv	60	10411640	Km	both	A0-locked:10411640:9	56ebb2dde9a9dac0
+manual_curated_runeem_dataset.csv	60	10411640	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	84	10447675	kcat	plain_only	A0-locked:10447675:1	
+manual_curated_runeem_dataset.csv	84	10447675	Km	both	A0-locked:10447675:0	d5eee393d8b08414
+manual_curated_runeem_dataset.csv	85	10447675	kcat	plain_only	A0-locked:10447675:3	
+manual_curated_runeem_dataset.csv	85	10447675	Km	both	A0-locked:10447675:2	8a78e061a23f48a1
+manual_curated_runeem_dataset.csv	86	10447675	kcat	plain_only	A0-locked:10447675:5	
+manual_curated_runeem_dataset.csv	86	10447675	Km	both	A0-locked:10447675:4	75f65fda5e9f71d0
+manual_curated_runeem_dataset.csv	87	10447675	kcat	plain_only	A0-locked:10447675:7	
+manual_curated_runeem_dataset.csv	87	10447675	Km	both	A0-locked:10447675:6	6bfcaf76f57c456f
+manual_curated_runeem_dataset.csv	88	10447675	kcat	plain_only	A0-locked:10447675:9	
+manual_curated_runeem_dataset.csv	88	10447675	Km	both	A0-locked:10447675:8	94b40fe0b3bc7e13
+manual_curated_runeem_dataset.csv	129	10491091	Km	both	A0-locked:10491091:0	67cf6dc5c306c44b
+manual_curated_runeem_dataset.csv	130	10491091	Km	both	A0-locked:10491091:1	c8c29cffdad739f1
+manual_curated_runeem_dataset.csv	131	10491091	Km	both	A0-locked:10491091:2	0bf2a2c5763bee86
+manual_curated_runeem_dataset.csv	132	10491091	Km	both	A0-locked:10491091:3	ee1f34213307036d
+manual_curated_runeem_dataset.csv	133	10491091	Km	both	A0-locked:10491091:4	59350ffb56535f19
+manual_curated_runeem_dataset.csv	134	10491091	Km	both	A0-locked:10491091:5	89563908501d42dd
+manual_curated_runeem_dataset.csv	135	10491091	Km	both	A0-locked:10491091:6	7091a40005c4421a
+manual_curated_runeem_dataset.csv	136	10491091	Km	both	A0-locked:10491091:7	19ea63fb516fa4aa
+manual_curated_runeem_dataset.csv	137	10491091	Km	both	A0-locked:10491091:8	af9fb70e2081cc14
+manual_curated_runeem_dataset.csv	138	10491091	Km	unscored		
+manual_curated_runeem_dataset.csv	139	10491091	Km	unscored		
+manual_curated_runeem_dataset.csv	140	10491091	Km	unscored		
+manual_curated_runeem_dataset.csv	1522	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1522	10514486	Km	both	A0-locked:10514486:0	f0085eb479fb4847
+manual_curated_runeem_dataset.csv	1522	10514486	kcat/Km	both	A0-locked:10514486:2	f7254e385a743b56
+manual_curated_runeem_dataset.csv	1523	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1523	10514486	Km	both	A0-locked:10514486:24	89f088e8e5399166
+manual_curated_runeem_dataset.csv	1523	10514486	kcat/Km	both	A0-locked:10514486:26	3f2560dd77b8dccc
+manual_curated_runeem_dataset.csv	1524	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1524	10514486	Km	both	A0-locked:10514486:3	ec7d82b83b062d5d
+manual_curated_runeem_dataset.csv	1524	10514486	kcat/Km	both	A0-locked:10514486:5	36b6377ee9d7c95c
+manual_curated_runeem_dataset.csv	1525	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1525	10514486	Km	both	A0-locked:10514486:27	745e238eb0aa2c75
+manual_curated_runeem_dataset.csv	1525	10514486	kcat/Km	both	A0-locked:10514486:29	f49eb49421bd695a
+manual_curated_runeem_dataset.csv	1526	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1526	10514486	Km	both	A0-locked:10514486:6	55dbd6ad30e0372e
+manual_curated_runeem_dataset.csv	1526	10514486	kcat/Km	both	A0-locked:10514486:8	81fc4eee2d14323a
+manual_curated_runeem_dataset.csv	1527	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1527	10514486	Km	both	A0-locked:10514486:30	6e1db308bc7868f0
+manual_curated_runeem_dataset.csv	1527	10514486	kcat/Km	both	A0-locked:10514486:32	357129a1173c54c9
+manual_curated_runeem_dataset.csv	1528	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1528	10514486	Km	both	A0-locked:10514486:9	265665a77919e6d6
+manual_curated_runeem_dataset.csv	1528	10514486	kcat/Km	both	A0-locked:10514486:11	c73b722794575746
+manual_curated_runeem_dataset.csv	1529	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1529	10514486	Km	both	A0-locked:10514486:33	967f8320903d10e5
+manual_curated_runeem_dataset.csv	1529	10514486	kcat/Km	both	A0-locked:10514486:35	7abfd53d832612f6
+manual_curated_runeem_dataset.csv	1530	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1530	10514486	Km	both	A0-locked:10514486:12	502626c051822fba
+manual_curated_runeem_dataset.csv	1530	10514486	kcat/Km	both	A0-locked:10514486:14	0e2f8ab0b2656fb5
+manual_curated_runeem_dataset.csv	1531	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1531	10514486	Km	both	A0-locked:10514486:36	c38a99521c8e841f
+manual_curated_runeem_dataset.csv	1531	10514486	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1532	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1532	10514486	Km	both	A0-locked:10514486:15	f6c02e35f265ec82
+manual_curated_runeem_dataset.csv	1532	10514486	kcat/Km	both	A0-locked:10514486:17	66b5cc3d20ec044f
+manual_curated_runeem_dataset.csv	1533	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1533	10514486	Km	both	A0-locked:10514486:18	62bd7b6f5c42d068
+manual_curated_runeem_dataset.csv	1533	10514486	kcat/Km	both	A0-locked:10514486:20	f95b561fee921b38
+manual_curated_runeem_dataset.csv	1534	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1534	10514486	Km	both	A0-locked:10514486:38	8bdeb14349b517cc
+manual_curated_runeem_dataset.csv	1534	10514486	kcat/Km	both	A0-locked:10514486:40	95ce3301fd84d037
+manual_curated_runeem_dataset.csv	1535	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1535	10514486	Km	both	A0-locked:10514486:21	ae455d0a6fc66865
+manual_curated_runeem_dataset.csv	1535	10514486	kcat/Km	both	A0-locked:10514486:23	3c2a8351bf5d2834
+manual_curated_runeem_dataset.csv	1536	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1536	10514486	Km	both	A0-locked:10514486:41	5576158ae919c1f0
+manual_curated_runeem_dataset.csv	1536	10514486	kcat/Km	both	A0-locked:10514486:43	0d4a8a60f1e23dfe
+manual_curated_runeem_dataset.csv	1537	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1537	10514486	Km	both	A0-locked:10514486:44	afad366e3c70c779
+manual_curated_runeem_dataset.csv	1537	10514486	kcat/Km	both	A0-locked:10514486:46	3bcfe047ea37625b
+manual_curated_runeem_dataset.csv	1538	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1538	10514486	Km	both	A0-locked:10514486:47	07f8cdea33c1902c
+manual_curated_runeem_dataset.csv	1538	10514486	kcat/Km	both	A0-locked:10514486:49	e8123425c356a1cd
+manual_curated_runeem_dataset.csv	1539	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1539	10514486	Km	both	A0-locked:10514486:50	4370821e9eb4a9b7
+manual_curated_runeem_dataset.csv	1539	10514486	kcat/Km	both	A0-locked:10514486:52	4f5870f02b890fab
+manual_curated_runeem_dataset.csv	1540	10514486	kcat	unscored		
+manual_curated_runeem_dataset.csv	1540	10514486	Km	both	A0-locked:10514486:53	92ef841eb6f2004c
+manual_curated_runeem_dataset.csv	1540	10514486	kcat/Km	both	A0-locked:10514486:55	6f26620bbedb2717
+manual_curated_runeem_dataset.csv	182	10561608	kcat	both	A0-locked:10561608:2	5b682b3d56824437
+manual_curated_runeem_dataset.csv	182	10561608	Km	both	A0-locked:10561608:3	2a23c432279edf8d
+manual_curated_runeem_dataset.csv	182	10561608	kcat/Km	both	A0-locked:10561608:4	5a16f5459e744216
+manual_curated_runeem_dataset.csv	183	10561608	kcat	both	A0-locked:10561608:5	a3ce9ee61fbfc437
+manual_curated_runeem_dataset.csv	183	10561608	Km	both	A0-locked:10561608:6	ea88d56d9640f171
+manual_curated_runeem_dataset.csv	183	10561608	kcat/Km	both	A0-locked:10561608:7	337816438180a5c4
+manual_curated_runeem_dataset.csv	184	10561608	kcat	both	A0-locked:10561608:8	0248bf5080de042b
+manual_curated_runeem_dataset.csv	184	10561608	Km	both	A0-locked:10561608:9	aa922ac5c6cf3f61
+manual_curated_runeem_dataset.csv	184	10561608	kcat/Km	both	A0-locked:10561608:10	1f29f4a2aa13e281
+manual_curated_runeem_dataset.csv	185	10561608	kcat/Km	both	A0-locked:10561608:11	a585f9420842d692
+manual_curated_runeem_dataset.csv	186	10561608	kcat/Km	plain_only	A0-locked:10561608:12	
+manual_curated_runeem_dataset.csv	187	10561608	kcat/Km	both	A0-locked:10561608:13	5d73573a0a71ec1b
+manual_curated_runeem_dataset.csv	188	10561608	kcat	both	A0-locked:10561608:14	bdf56c24f745a93b
+manual_curated_runeem_dataset.csv	188	10561608	Km	both	A0-locked:10561608:15	b0b81fa4bd266fd9
+manual_curated_runeem_dataset.csv	188	10561608	kcat/Km	both	A0-locked:10561608:16	2197f9c8272df3d2
+manual_curated_runeem_dataset.csv	189	10561608	kcat	both	A0-locked:10561608:17	dfaf1927b432dcc6
+manual_curated_runeem_dataset.csv	189	10561608	Km	both	A0-locked:10561608:18	cbc507cd86c70bb8
+manual_curated_runeem_dataset.csv	189	10561608	kcat/Km	both	A0-locked:10561608:19	e4a91953e0ff4767
+manual_curated_runeem_dataset.csv	190	10561608	kcat	both	A0-locked:10561608:20	424ae01f5d69708d
+manual_curated_runeem_dataset.csv	190	10561608	Km	both	A0-locked:10561608:21	b68ad6fd990ff1b1
+manual_curated_runeem_dataset.csv	190	10561608	kcat/Km	both	A0-locked:10561608:22	0e725d058c67f7cf
+manual_curated_runeem_dataset.csv	191	10561608	kcat	plain_only	A0-locked:10561608:23	
+manual_curated_runeem_dataset.csv	191	10561608	Km	both	A0-locked:10561608:24	cc3e91355f286cb9
+manual_curated_runeem_dataset.csv	191	10561608	kcat/Km	plain_only	A0-locked:10561608:25	
+manual_curated_runeem_dataset.csv	192	10561608	kcat	plain_only	A0-locked:10561608:26	
+manual_curated_runeem_dataset.csv	192	10561608	Km	both	A0-locked:10561608:27	a54b3a9189d09ea0
+manual_curated_runeem_dataset.csv	192	10561608	kcat/Km	plain_only	A0-locked:10561608:28	
+manual_curated_runeem_dataset.csv	193	10561608	kcat	both	A0-locked:10561608:29	b9ed04918941c4cb
+manual_curated_runeem_dataset.csv	193	10561608	Km	both	A0-locked:10561608:30	23461961f7d39c21
+manual_curated_runeem_dataset.csv	193	10561608	kcat/Km	both	A0-locked:10561608:31	1103595c87800f64
+manual_curated_runeem_dataset.csv	194	10561608	kcat	both	A0-locked:10561608:32	cfb58cff5a6365a0
+manual_curated_runeem_dataset.csv	194	10561608	Km	both	A0-locked:10561608:33	cdbe72fdb699cb9a
+manual_curated_runeem_dataset.csv	194	10561608	kcat/Km	both	A0-locked:10561608:34	b0dc6f7a3f35d6ac
+manual_curated_runeem_dataset.csv	195	10561608	kcat	both	A0-locked:10561608:35	c91723addf7dd452
+manual_curated_runeem_dataset.csv	195	10561608	Km	both	A0-locked:10561608:36	30e756579ff47ea7
+manual_curated_runeem_dataset.csv	195	10561608	kcat/Km	both	A0-locked:10561608:37	33773155c57cc222
+manual_curated_runeem_dataset.csv	1546	10564758	kcat	both	A0-locked:10564758:1	1a096eb6c40226ef
+manual_curated_runeem_dataset.csv	1546	10564758	Km	both	A0-locked:10564758:0	338943067f0a082e
+manual_curated_runeem_dataset.csv	1547	10564758	kcat	both	A0-locked:10564758:3	6c80419f78859fd2
+manual_curated_runeem_dataset.csv	1547	10564758	Km	both	A0-locked:10564758:2	7b8ef1629b562962
+manual_curated_runeem_dataset.csv	1548	10564758	kcat	both	A0-locked:10564758:5	c0c7b141ca015edf
+manual_curated_runeem_dataset.csv	1548	10564758	Km	both	A0-locked:10564758:4	67439c0d98d65fc6
+manual_curated_runeem_dataset.csv	1549	10564758	kcat	both	A0-locked:10564758:7	6b41e604ee01d327
+manual_curated_runeem_dataset.csv	1549	10564758	Km	both	A0-locked:10564758:6	66e33de026c9f5a0
+manual_curated_runeem_dataset.csv	1550	10564758	kcat	both	A0-locked:10564758:9	72c0566a928122a5
+manual_curated_runeem_dataset.csv	1550	10564758	Km	both	A0-locked:10564758:8	5d3b1d4d11b2ea50
+manual_curated_runeem_dataset.csv	1551	10564758	kcat	both	A0-locked:10564758:11	3a5ba479ea7a2d26
+manual_curated_runeem_dataset.csv	1551	10564758	Km	both	A0-locked:10564758:10	53337fb891edef21
+manual_curated_runeem_dataset.csv	1552	10564758	kcat	both	A0-locked:10564758:13	ff59e93ed31e36d6
+manual_curated_runeem_dataset.csv	1552	10564758	Km	both	A0-locked:10564758:12	087a42259a067742
+manual_curated_runeem_dataset.csv	1553	10564758	kcat	both	A0-locked:10564758:15	c6a8a219dcec0b8a
+manual_curated_runeem_dataset.csv	1553	10564758	Km	both	A0-locked:10564758:14	127d64614241493d
+manual_curated_runeem_dataset.csv	1554	10564758	kcat	both	A0-locked:10564758:17	fd89961cd0153597
+manual_curated_runeem_dataset.csv	1554	10564758	Km	both	A0-locked:10564758:16	7d812148091651a9
+manual_curated_runeem_dataset.csv	1561	10671479	kcat	both	A0-locked:10671479:0	33491ad6a93d3b21
+manual_curated_runeem_dataset.csv	1561	10671479	Km	both	A0-locked:10671479:1	1160cbfc91e45080
+manual_curated_runeem_dataset.csv	1561	10671479	kcat/Km	both	A0-locked:10671479:2	7fbd69a3fa7c03d3
+manual_curated_runeem_dataset.csv	1562	10671479	kcat	both	A0-locked:10671479:5	81a0d7a30da3fabd
+manual_curated_runeem_dataset.csv	1562	10671479	Km	both	A0-locked:10671479:6	de0885599a87a64d
+manual_curated_runeem_dataset.csv	1562	10671479	kcat/Km	both	A0-locked:10671479:7	bea3f455ddb5b99a
+manual_curated_runeem_dataset.csv	1563	10671479	Km	both	A0-locked:10671479:10	fa743f5a32500183
+manual_curated_runeem_dataset.csv	1564	10671479	Km	both	A0-locked:10671479:11	7819e4174b96ed50
+manual_curated_runeem_dataset.csv	1566	10671479	kcat	neither		
+manual_curated_runeem_dataset.csv	1566	10671479	Km	neither		
+manual_curated_runeem_dataset.csv	1566	10671479	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1567	10671479	Km	both	A0-locked:10671479:13	2359cf424715ec36
+manual_curated_runeem_dataset.csv	1568	10671479	Km	both	A0-locked:10671479:9	2a3b71bd60f6f873
+manual_curated_runeem_dataset.csv	1569	10671479	Km	neither		
+manual_curated_runeem_dataset.csv	1573	10714990	kcat	both	A0-locked:10714990:1	e4df2cc9e5acf00a
+manual_curated_runeem_dataset.csv	1573	10714990	Km	both	A0-locked:10714990:0	abc5e42064e00488
+manual_curated_runeem_dataset.csv	1573	10714990	kcat/Km	both	A0-locked:10714990:2	f70be5e3c41b91b9
+manual_curated_runeem_dataset.csv	1574	10714990	kcat	both	A0-locked:10714990:4	b568b5dc1e0bf120
+manual_curated_runeem_dataset.csv	1574	10714990	Km	both	A0-locked:10714990:3	7693fea4e9408385
+manual_curated_runeem_dataset.csv	1574	10714990	kcat/Km	both	A0-locked:10714990:5	95dccb896ae6d7f1
+manual_curated_runeem_dataset.csv	1575	10714990	kcat	both	A0-locked:10714990:7	582747680b75a3ab
+manual_curated_runeem_dataset.csv	1575	10714990	Km	neither		
+manual_curated_runeem_dataset.csv	1575	10714990	kcat/Km	both	A0-locked:10714990:8	10485e6bc8431a12
+manual_curated_runeem_dataset.csv	1576	10714990	kcat	both	A0-locked:10714990:10	5f6094ffeb2fe3e1
+manual_curated_runeem_dataset.csv	1576	10714990	Km	neither		
+manual_curated_runeem_dataset.csv	1576	10714990	kcat/Km	both	A0-locked:10714990:11	24ca79e970298d0f
+manual_curated_runeem_dataset.csv	1577	10714990	kcat	both	A0-locked:10714990:13	73883dfab119b8dc
+manual_curated_runeem_dataset.csv	1577	10714990	Km	both	A0-locked:10714990:12	dddb4c14f4c4f3ad
+manual_curated_runeem_dataset.csv	1577	10714990	kcat/Km	both	A0-locked:10714990:14	e1ea997900c5d085
+manual_curated_runeem_dataset.csv	1578	10714990	kcat	both	A0-locked:10714990:16	b5150d0ded80a4ef
+manual_curated_runeem_dataset.csv	1578	10714990	Km	both	A0-locked:10714990:15	5d8ab3a3a0150386
+manual_curated_runeem_dataset.csv	1578	10714990	kcat/Km	both	A0-locked:10714990:17	3398ce4e7f89e9f4
+manual_curated_runeem_dataset.csv	1579	10714990	kcat	both	A0-locked:10714990:19	af43923a86fb3cb7
+manual_curated_runeem_dataset.csv	1579	10714990	Km	both	A0-locked:10714990:18	6dbaef2798aac514
+manual_curated_runeem_dataset.csv	1579	10714990	kcat/Km	both	A0-locked:10714990:20	dc4db45396a56266
+manual_curated_runeem_dataset.csv	1580	10714990	kcat	both	A0-locked:10714990:21	d84f8694bb471641
+manual_curated_runeem_dataset.csv	1580	10714990	Km	catlog_only		3a9c483e83244871
+manual_curated_runeem_dataset.csv	1581	10714990	kcat	both	A0-locked:10714990:23	eb3fec314d267337
+manual_curated_runeem_dataset.csv	1581	10714990	Km	both	A0-locked:10714990:22	0c5efe8850e08983
+manual_curated_runeem_dataset.csv	1581	10714990	kcat/Km	both	A0-locked:10714990:24	533f5a0c88ff0913
+manual_curated_runeem_dataset.csv	1582	10714990	kcat	both	A0-locked:10714990:26	bd48dd6511c74278
+manual_curated_runeem_dataset.csv	1582	10714990	Km	plain_only	A0-locked:10714990:25	
+manual_curated_runeem_dataset.csv	1582	10714990	kcat/Km	both	A0-locked:10714990:27	b329a26deedbfe32
+manual_curated_runeem_dataset.csv	1583	10714990	kcat	plain_only	A0-locked:10714990:29	
+manual_curated_runeem_dataset.csv	1583	10714990	Km	plain_only	A0-locked:10714990:28	
+manual_curated_runeem_dataset.csv	1583	10714990	kcat/Km	plain_only	A0-locked:10714990:30	
+manual_curated_runeem_dataset.csv	1584	10714990	kcat	both	A0-locked:10714990:32	9abb03214de3c88b
+manual_curated_runeem_dataset.csv	1584	10714990	Km	both	A0-locked:10714990:31	01d25807aa68e571
+manual_curated_runeem_dataset.csv	1584	10714990	kcat/Km	both	A0-locked:10714990:33	437af790c844e24a
+manual_curated_runeem_dataset.csv	1585	10714990	kcat	both	A0-locked:10714990:35	a21d7af92793453f
+manual_curated_runeem_dataset.csv	1585	10714990	Km	both	A0-locked:10714990:34	3d819e849864d5a3
+manual_curated_runeem_dataset.csv	1585	10714990	kcat/Km	both	A0-locked:10714990:36	1900f84ab391dec5
+manual_curated_runeem_dataset.csv	1586	10714990	kcat	both	A0-locked:10714990:38	edccdd736e4f6514
+manual_curated_runeem_dataset.csv	1586	10714990	Km	both	A0-locked:10714990:37	37f27b2b740a0f9a
+manual_curated_runeem_dataset.csv	1586	10714990	kcat/Km	both	A0-locked:10714990:39	d7e898db1c74493f
+manual_curated_runeem_dataset.csv	1587	10714990	kcat	both	A0-locked:10714990:41	0f399cae314747b7
+manual_curated_runeem_dataset.csv	1587	10714990	Km	both	A0-locked:10714990:40	0f598768789955e4
+manual_curated_runeem_dataset.csv	1587	10714990	kcat/Km	both	A0-locked:10714990:42	a9191ac12489d499
+manual_curated_runeem_dataset.csv	1588	10714990	kcat	neither		
+manual_curated_runeem_dataset.csv	1589	10714990	kcat	both	A0-locked:10714990:43	af2ba6afc2336f10
+manual_curated_runeem_dataset.csv	1589	10714990	Km	neither		
+manual_curated_runeem_dataset.csv	1590	10714990	kcat	both	A0-locked:10714990:45	a97575c2268bf871
+manual_curated_runeem_dataset.csv	1590	10714990	Km	both	A0-locked:10714990:44	266b840a9def1f4f
+manual_curated_runeem_dataset.csv	1590	10714990	kcat/Km	both	A0-locked:10714990:46	48b9eb9ff35111f5
+manual_curated_runeem_dataset.csv	1669	10801893	kcat	both	A0-locked:10801893:1	62d349542baa4fe9
+manual_curated_runeem_dataset.csv	1669	10801893	Km	both	A0-locked:10801893:0	01dccbc103d855bd
+manual_curated_runeem_dataset.csv	1669	10801893	kcat/Km	both	A0-locked:10801893:2	038f450892f7d1a6
+manual_curated_runeem_dataset.csv	1670	10801893	kcat	both	A0-locked:10801893:4	81ee5445cda729ba
+manual_curated_runeem_dataset.csv	1670	10801893	Km	both	A0-locked:10801893:3	1de8272a80043397
+manual_curated_runeem_dataset.csv	1670	10801893	kcat/Km	both	A0-locked:10801893:5	6b2b76f7bef8f2cb
+manual_curated_runeem_dataset.csv	1671	10801893	kcat	both	A0-locked:10801893:7	532e99dd358a7163
+manual_curated_runeem_dataset.csv	1671	10801893	Km	plain_only	A0-locked:10801893:6	
+manual_curated_runeem_dataset.csv	1671	10801893	kcat/Km	plain_only	A0-locked:10801893:8	
+manual_curated_runeem_dataset.csv	1672	10801893	kcat	both	A0-locked:10801893:10	4945e04510478e04
+manual_curated_runeem_dataset.csv	1672	10801893	Km	both	A0-locked:10801893:9	ca4306ecb4df4a0b
+manual_curated_runeem_dataset.csv	1672	10801893	kcat/Km	both	A0-locked:10801893:11	34476a3922e69089
+manual_curated_runeem_dataset.csv	363	10806397	Km	both	A0-locked:10806397:0	2eb9d41f4b7a55c9
+manual_curated_runeem_dataset.csv	364	10806397	Km	unscored		
+manual_curated_runeem_dataset.csv	365	10806397	Km	both	A0-locked:10806397:2	09660ee512e40b73
+manual_curated_runeem_dataset.csv	366	10806397	Km	unscored		
+manual_curated_runeem_dataset.csv	367	10806397	Km	both	A0-locked:10806397:4	d2b7f109ac53fe65
+manual_curated_runeem_dataset.csv	368	10806397	Km	both	A0-locked:10806397:5	c893c74fdbe8cc92
+manual_curated_runeem_dataset.csv	369	10848966	kcat	both	A0-locked:10848966:1	924edb72927b8223
+manual_curated_runeem_dataset.csv	369	10848966	Km	both	A0-locked:10848966:0	39600143a17f8c91
+manual_curated_runeem_dataset.csv	369	10848966	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	370	10848966	kcat	both	A0-locked:10848966:4	35b0786186f945a6
+manual_curated_runeem_dataset.csv	370	10848966	Km	both	A0-locked:10848966:3	bd1aead41a836fab
+manual_curated_runeem_dataset.csv	370	10848966	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	371	10848966	kcat	both	A0-locked:10848966:7	90635dfa8be83d80
+manual_curated_runeem_dataset.csv	371	10848966	Km	both	A0-locked:10848966:6	f2598fdc5268e389
+manual_curated_runeem_dataset.csv	371	10848966	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	372	10848966	kcat	both	A0-locked:10848966:10	3e520da876c90da3
+manual_curated_runeem_dataset.csv	372	10848966	Km	both	A0-locked:10848966:9	797539a39adbb5f5
+manual_curated_runeem_dataset.csv	372	10848966	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	373	10848966	kcat	both	A0-locked:10848966:13	08c6078d5832198c
+manual_curated_runeem_dataset.csv	373	10848966	Km	both	A0-locked:10848966:12	9719a4943fd614bd
+manual_curated_runeem_dataset.csv	373	10848966	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	374	10848966	kcat	both	A0-locked:10848966:16	30e0f6b834328907
+manual_curated_runeem_dataset.csv	374	10848966	Km	both	A0-locked:10848966:15	fbd1b876e9d56130
+manual_curated_runeem_dataset.csv	374	10848966	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	375	10848966	kcat	both	A0-locked:10848966:19	9f6e833ac18f582e
+manual_curated_runeem_dataset.csv	375	10848966	Km	both	A0-locked:10848966:18	50e114088efcf4b8
+manual_curated_runeem_dataset.csv	375	10848966	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	376	10848966	kcat	both	A0-locked:10848966:22	8db6a20a47499d2a
+manual_curated_runeem_dataset.csv	376	10848966	Km	both	A0-locked:10848966:21	659ad93d29dce43d
+manual_curated_runeem_dataset.csv	376	10848966	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	377	10848975	Km	both	A0-locked:10848975:0	54c3b74cded26c61
+manual_curated_runeem_dataset.csv	378	10848975	Km	both	A0-locked:10848975:4	9641c9bb284120d0
+manual_curated_runeem_dataset.csv	379	10848975	Km	both	A0-locked:10848975:1	e67556bf2bf9e5de
+manual_curated_runeem_dataset.csv	380	10848975	Km	both	A0-locked:10848975:2	358ee5a089b9674b
+manual_curated_runeem_dataset.csv	381	10848975	Km	both	A0-locked:10848975:3	53d9ff55d95ca2bb
+manual_curated_runeem_dataset.csv	382	10848975	Km	both	A0-locked:10848975:5	11c20c82696e8e45
+manual_curated_runeem_dataset.csv	463	10998050	kcat	both	A0-locked:10998050:0	42bdd7bf75fff810
+manual_curated_runeem_dataset.csv	463	10998050	Km	both	A0-locked:10998050:1	50d3e56cfb771f66
+manual_curated_runeem_dataset.csv	463	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	464	10998050	kcat	both	A0-locked:10998050:3	88c900f26df11df6
+manual_curated_runeem_dataset.csv	464	10998050	Km	both	A0-locked:10998050:4	e4e29c7e2cd9a7cc
+manual_curated_runeem_dataset.csv	464	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	465	10998050	kcat	both	A0-locked:10998050:6	841e4f2117e83f30
+manual_curated_runeem_dataset.csv	465	10998050	Km	both	A0-locked:10998050:7	f4ffcde7e5e01ea5
+manual_curated_runeem_dataset.csv	465	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	466	10998050	kcat	both	A0-locked:10998050:9	95130d0136362805
+manual_curated_runeem_dataset.csv	466	10998050	Km	both	A0-locked:10998050:10	b8e95b08c7ae85ff
+manual_curated_runeem_dataset.csv	466	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	467	10998050	kcat	both	A0-locked:10998050:12	29cd7c9d4e26d502
+manual_curated_runeem_dataset.csv	467	10998050	Km	both	A0-locked:10998050:13	ff61a3afe3cc532f
+manual_curated_runeem_dataset.csv	467	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	468	10998050	kcat	both	A0-locked:10998050:15	57e95a32eb7d6008
+manual_curated_runeem_dataset.csv	468	10998050	Km	both	A0-locked:10998050:16	e141bfd96e096dbb
+manual_curated_runeem_dataset.csv	468	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	469	10998050	kcat	both	A0-locked:10998050:18	19eda1a3e759f1af
+manual_curated_runeem_dataset.csv	469	10998050	Km	both	A0-locked:10998050:19	4a2ebf0f2c463efa
+manual_curated_runeem_dataset.csv	469	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	470	10998050	kcat	both	A0-locked:10998050:21	ebcca95e3b4bcf34
+manual_curated_runeem_dataset.csv	470	10998050	Km	both	A0-locked:10998050:22	0e520897eae8095b
+manual_curated_runeem_dataset.csv	470	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	471	10998050	kcat	neither		
+manual_curated_runeem_dataset.csv	471	10998050	Km	neither		
+manual_curated_runeem_dataset.csv	471	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	472	10998050	kcat	neither		
+manual_curated_runeem_dataset.csv	472	10998050	Km	neither		
+manual_curated_runeem_dataset.csv	472	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	473	10998050	kcat	neither		
+manual_curated_runeem_dataset.csv	473	10998050	Km	neither		
+manual_curated_runeem_dataset.csv	473	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	474	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	475	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	476	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	477	10998050	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1777	11016923	kcat	both	A0-locked:11016923:0	c03aaa1dd0379b9b
+manual_curated_runeem_dataset.csv	1777	11016923	Km	both	A0-locked:11016923:1	afc29005bddec70c
+manual_curated_runeem_dataset.csv	1777	11016923	kcat/Km	both	A0-locked:11016923:18	18ad51b1b048a820
+manual_curated_runeem_dataset.csv	1778	11016923	kcat	both	A0-locked:11016923:3	e95c408b88b779b5
+manual_curated_runeem_dataset.csv	1778	11016923	Km	both	A0-locked:11016923:4	901169f0d1b7b7a6
+manual_curated_runeem_dataset.csv	1778	11016923	kcat/Km	both	A0-locked:11016923:5	5822c9f4f4bfc370
+manual_curated_runeem_dataset.csv	1779	11016923	kcat	both	A0-locked:11016923:6	40257d6c8e5e2d48
+manual_curated_runeem_dataset.csv	1779	11016923	Km	both	A0-locked:11016923:7	f62b1b3537bd8304
+manual_curated_runeem_dataset.csv	1779	11016923	kcat/Km	both	A0-locked:11016923:8	e87476d05398bc5d
+manual_curated_runeem_dataset.csv	1780	11016923	kcat	both	A0-locked:11016923:9	ccfbc9a99401bfff
+manual_curated_runeem_dataset.csv	1780	11016923	Km	both	A0-locked:11016923:10	4330d3e96cc4624e
+manual_curated_runeem_dataset.csv	1780	11016923	kcat/Km	both	A0-locked:11016923:11	be00a7b3fa587b22
+manual_curated_runeem_dataset.csv	1781	11016923	kcat	both	A0-locked:11016923:12	e62fd92dbd6c0970
+manual_curated_runeem_dataset.csv	1781	11016923	Km	both	A0-locked:11016923:13	e30a393c731cb7f4
+manual_curated_runeem_dataset.csv	1781	11016923	kcat/Km	both	A0-locked:11016923:14	6a0813be4f66bd70
+manual_curated_runeem_dataset.csv	1782	11016923	kcat	both	A0-locked:11016923:15	96a2752570e818fc
+manual_curated_runeem_dataset.csv	1782	11016923	Km	both	A0-locked:11016923:16	92af38067734ae3d
+manual_curated_runeem_dataset.csv	1782	11016923	kcat/Km	both	A0-locked:11016923:17	345a323849041d32
+manual_curated_runeem_dataset.csv	1783	11016923	kcat/Km	both	A0-locked:11016923:2	2b93ef03636d5f1e
+manual_curated_runeem_dataset.csv	1784	11016923	kcat/Km	both	A0-locked:11016923:20	ae0466d3696db3dd
+manual_curated_runeem_dataset.csv	1785	11016923	kcat/Km	both	A0-locked:11016923:21	243a9132d131236a
+manual_curated_runeem_dataset.csv	1786	11016923	kcat/Km	plain_only	A0-locked:11016923:22	
+manual_curated_runeem_dataset.csv	1787	11016923	kcat/Km	both	A0-locked:11016923:23	4147917137c47945
+manual_curated_runeem_dataset.csv	559	11106417	Km	both	A0-locked:11106417:0	8960d8d3f03ad255
+manual_curated_runeem_dataset.csv	560	11106417	Km	both	A0-locked:11106417:1	195afd2dc32566a6
+manual_curated_runeem_dataset.csv	561	11106417	Km	both	A0-locked:11106417:2	8ac831dd04c7b89b
+manual_curated_runeem_dataset.csv	562	11106417	Km	both	A0-locked:11106417:3	4ecbff30b62cbf03
+manual_curated_runeem_dataset.csv	563	11106417	Km	both	A0-locked:11106417:4	55004e167dab7a09
+manual_curated_runeem_dataset.csv	564	11106417	Km	both	A0-locked:11106417:5	87079a3f6f861750
+manual_curated_runeem_dataset.csv	565	11106417	Km	both	A0-locked:11106417:6	1abf2a75333d4e76
+manual_curated_runeem_dataset.csv	566	11106417	Km	both	A0-locked:11106417:7	7e402c42ede86a6a
+manual_curated_runeem_dataset.csv	567	11106417	Km	both	A0-locked:11106417:8	486d7424cf5092a0
+manual_curated_runeem_dataset.csv	568	11106417	Km	both	A0-locked:11106417:9	5c1322fc09d1fdbe
+manual_curated_runeem_dataset.csv	569	11106417	Km	both	A0-locked:11106417:10	471435b1b3f4bb13
+manual_curated_runeem_dataset.csv	570	11106417	Km	both	A0-locked:11106417:11	7610132a2f49823e
+manual_curated_runeem_dataset.csv	571	11106417	Km	both	A0-locked:11106417:12	78090760033ef54a
+manual_curated_runeem_dataset.csv	572	11106417	Km	both	A0-locked:11106417:13	cf07240465ecc834
+manual_curated_runeem_dataset.csv	581	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	582	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	583	11172800	Km	unscored		
+manual_curated_runeem_dataset.csv	584	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	585	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	586	11172800	Km	unscored		
+manual_curated_runeem_dataset.csv	587	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	588	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	589	11172800	Km	unscored		
+manual_curated_runeem_dataset.csv	590	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	591	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	592	11172800	Km	unscored		
+manual_curated_runeem_dataset.csv	593	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	594	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	595	11172800	Km	unscored		
+manual_curated_runeem_dataset.csv	596	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	597	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	598	11172800	Km	unscored		
+manual_curated_runeem_dataset.csv	599	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	600	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	601	11172800	Km	neither		
+manual_curated_runeem_dataset.csv	995	11172808	Km	both	A0-locked:11172808:0	b385e3a47033daf2
+manual_curated_runeem_dataset.csv	996	11172808	Km	both	A0-locked:11172808:1	e35d92b57f712b2f
+manual_curated_runeem_dataset.csv	997	11172808	Km	both	A0-locked:11172808:2	e6012ca016170756
+manual_curated_runeem_dataset.csv	998	11172808	Km	both	A0-locked:11172808:3	b5cf01b87fc4487a
+manual_curated_runeem_dataset.csv	999	11172808	Km	both	A0-locked:11172808:4	15b62a6aaf7d6381
+manual_curated_runeem_dataset.csv	1032	11248687	kcat	both	A0-locked:11248687:0	be51fe7612225324
+manual_curated_runeem_dataset.csv	1032	11248687	Km	both	A0-locked:11248687:1	70a8e1947b36f5e9
+manual_curated_runeem_dataset.csv	1033	11248687	kcat	neither		
+manual_curated_runeem_dataset.csv	1033	11248687	Km	neither		
+manual_curated_runeem_dataset.csv	1797	11278915	Km	neither		
+manual_curated_runeem_dataset.csv	1798	11278915	Km	neither		
+manual_curated_runeem_dataset.csv	1798	11278915	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1799	11278915	Km	both	A0-locked:11278915:0	077c3dad8e2fd923
+manual_curated_runeem_dataset.csv	1800	11278915	Km	both	A0-locked:11278915:1	2b93510b3240ce85
+manual_curated_runeem_dataset.csv	1800	11278915	kcat/Km	both	A0-locked:11278915:2	e3ec913b2fce45fe
+manual_curated_runeem_dataset.csv	1801	11278915	Km	both	A0-locked:11278915:3	ddde32dec3d9f08c
+manual_curated_runeem_dataset.csv	1802	11278915	Km	both	A0-locked:11278915:4	135c8fa50acbe46f
+manual_curated_runeem_dataset.csv	1802	11278915	kcat/Km	both	A0-locked:11278915:5	77a2d3657d2f7575
+manual_curated_runeem_dataset.csv	1803	11278915	Km	both	A0-locked:11278915:6	d8f73f95f2b8d9ac
+manual_curated_runeem_dataset.csv	1804	11278915	Km	both	A0-locked:11278915:7	bcd150f35938f9e6
+manual_curated_runeem_dataset.csv	1804	11278915	kcat/Km	both	A0-locked:11278915:8	9f253b0dce70946f
+manual_curated_runeem_dataset.csv	1805	11278915	Km	both	A0-locked:11278915:9	cde4dfe3f266bede
+manual_curated_runeem_dataset.csv	1806	11278915	Km	both	A0-locked:11278915:10	bedcfe39b746f66a
+manual_curated_runeem_dataset.csv	1806	11278915	kcat/Km	both	A0-locked:11278915:11	5b7349a21766f813
+manual_curated_runeem_dataset.csv	1807	11279139	kcat	both	A0-locked:11279139:0	a27202c975e02489
+manual_curated_runeem_dataset.csv	1807	11279139	Km	neither		
+manual_curated_runeem_dataset.csv	1807	11279139	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1808	11279139	kcat	both	A0-locked:11279139:1	a6ff0b3e33aeae01
+manual_curated_runeem_dataset.csv	1808	11279139	Km	neither		
+manual_curated_runeem_dataset.csv	1808	11279139	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1809	11279139	kcat	both	A0-locked:11279139:2	7557bd9e110e3977
+manual_curated_runeem_dataset.csv	1809	11279139	Km	neither		
+manual_curated_runeem_dataset.csv	1809	11279139	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1810	11279139	kcat	both	A0-locked:11279139:3	3c4a31506c2d4908
+manual_curated_runeem_dataset.csv	1810	11279139	Km	neither		
+manual_curated_runeem_dataset.csv	1810	11279139	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1811	11279139	kcat	both	A0-locked:11279139:4	9b60e8a385d4c46b
+manual_curated_runeem_dataset.csv	1811	11279139	Km	neither		
+manual_curated_runeem_dataset.csv	1811	11279139	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1812	11279139	kcat	both	A0-locked:11279139:5	0e02a9ce57e9a658
+manual_curated_runeem_dataset.csv	1812	11279139	Km	neither		
+manual_curated_runeem_dataset.csv	1812	11279139	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1813	11279139	kcat	both	A0-locked:11279139:6	e4bcd5ed896a0c45
+manual_curated_runeem_dataset.csv	1813	11279139	Km	neither		
+manual_curated_runeem_dataset.csv	1813	11279139	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	653	11298760	Km	both	A0-locked:11298760:0	c9c79b9bb535e82c
+manual_curated_runeem_dataset.csv	653	11298760	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	654	11298760	Km	both	A0-locked:11298760:4	c628a7dfcadd85f3
+manual_curated_runeem_dataset.csv	654	11298760	kcat/Km	both	A0-locked:11298760:5	858d6dfd30191708
+manual_curated_runeem_dataset.csv	655	11298760	Km	both	A0-locked:11298760:8	f0e8500feedda39d
+manual_curated_runeem_dataset.csv	655	11298760	kcat/Km	both	A0-locked:11298760:9	3f7570840cced8e1
+manual_curated_runeem_dataset.csv	656	11298760	Km	both	A0-locked:11298760:12	bb1595f040bbfd3a
+manual_curated_runeem_dataset.csv	656	11298760	kcat/Km	both	A0-locked:11298760:13	bfd0161c3bab32fe
+manual_curated_runeem_dataset.csv	657	11298760	Km	both	A0-locked:11298760:16	1b9a91a33ac5e2dc
+manual_curated_runeem_dataset.csv	657	11298760	kcat/Km	both	A0-locked:11298760:17	882c4c5448af7913
+manual_curated_runeem_dataset.csv	658	11298760	Km	both	A0-locked:11298760:20	925fb6692f3b520d
+manual_curated_runeem_dataset.csv	658	11298760	kcat/Km	both	A0-locked:11298760:21	b636f22cc0472a13
+manual_curated_runeem_dataset.csv	659	11298760	Km	both	A0-locked:11298760:24	6e44d57e2d32aadf
+manual_curated_runeem_dataset.csv	659	11298760	kcat/Km	both	A0-locked:11298760:25	7cb780db99c40b46
+manual_curated_runeem_dataset.csv	660	11298760	Km	both	A0-locked:11298760:28	73489575a9f5bd23
+manual_curated_runeem_dataset.csv	660	11298760	kcat/Km	both	A0-locked:11298760:29	6ba472056feedb28
+manual_curated_runeem_dataset.csv	661	11298760	Km	both	A0-locked:11298760:2	4da302b3a8f03c14
+manual_curated_runeem_dataset.csv	661	11298760	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	662	11298760	Km	both	A0-locked:11298760:6	2b0fa93e439e7260
+manual_curated_runeem_dataset.csv	662	11298760	kcat/Km	both	A0-locked:11298760:7	42febd086e6de053
+manual_curated_runeem_dataset.csv	663	11298760	Km	both	A0-locked:11298760:10	803b362338a6dd8b
+manual_curated_runeem_dataset.csv	663	11298760	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	664	11298760	Km	both	A0-locked:11298760:14	0b31c050744e51ef
+manual_curated_runeem_dataset.csv	664	11298760	kcat/Km	both	A0-locked:11298760:15	f3c5937708581587
+manual_curated_runeem_dataset.csv	665	11298760	Km	both	A0-locked:11298760:18	a2a2bedf50857ae0
+manual_curated_runeem_dataset.csv	665	11298760	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	666	11298760	Km	both	A0-locked:11298760:22	fee799a2c578d380
+manual_curated_runeem_dataset.csv	666	11298760	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	667	11298760	Km	both	A0-locked:11298760:26	bbe469c7836fd717
+manual_curated_runeem_dataset.csv	667	11298760	kcat/Km	both	A0-locked:11298760:27	d06760cdb2ffa02c
+manual_curated_runeem_dataset.csv	668	11298760	Km	both	A0-locked:11298760:30	494b96af90074655
+manual_curated_runeem_dataset.csv	668	11298760	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1825	11322958	kcat	both	A0-locked:11322958:0	a637184839cabd2d
+manual_curated_runeem_dataset.csv	1825	11322958	Km	both	A0-locked:11322958:1	cdff30759f1a6621
+manual_curated_runeem_dataset.csv	1825	11322958	kcat/Km	both	A0-locked:11322958:2	22bd05839dddfa7f
+manual_curated_runeem_dataset.csv	1826	11322958	kcat	both	A0-locked:11322958:3	9a31b33f97d0ca74
+manual_curated_runeem_dataset.csv	1826	11322958	Km	both	A0-locked:11322958:4	9fd3fb289a8a31c1
+manual_curated_runeem_dataset.csv	1826	11322958	kcat/Km	both	A0-locked:11322958:5	64eb67740fa1565f
+manual_curated_runeem_dataset.csv	1827	11322958	kcat	both	A0-locked:11322958:6	76c5929eab88842b
+manual_curated_runeem_dataset.csv	1827	11322958	Km	both	A0-locked:11322958:7	a0440e4114ef78e1
+manual_curated_runeem_dataset.csv	1827	11322958	kcat/Km	both	A0-locked:11322958:8	e51b108d2038f815
+manual_curated_runeem_dataset.csv	1828	11322958	kcat	both	A0-locked:11322958:9	1f0dc8c8b35db4a4
+manual_curated_runeem_dataset.csv	1828	11322958	Km	both	A0-locked:11322958:10	02318b17bb2892cc
+manual_curated_runeem_dataset.csv	1828	11322958	kcat/Km	both	A0-locked:11322958:11	484e1c130d168152
+manual_curated_runeem_dataset.csv	1829	11322958	kcat	both	A0-locked:11322958:12	0bb2acb744ed66b1
+manual_curated_runeem_dataset.csv	1829	11322958	Km	both	A0-locked:11322958:13	440853864a11daef
+manual_curated_runeem_dataset.csv	1829	11322958	kcat/Km	both	A0-locked:11322958:14	a599c74b25764356
+manual_curated_runeem_dataset.csv	1830	11322958	kcat	both	A0-locked:11322958:15	2a32267f22f0d3c3
+manual_curated_runeem_dataset.csv	1830	11322958	Km	both	A0-locked:11322958:16	57536a19e7db9942
+manual_curated_runeem_dataset.csv	1830	11322958	kcat/Km	both	A0-locked:11322958:17	5e08dd157f0da9be
+manual_curated_runeem_dataset.csv	1831	11322958	kcat	both	A0-locked:11322958:18	78cfe4268cc5b000
+manual_curated_runeem_dataset.csv	1831	11322958	Km	both	A0-locked:11322958:19	b25d3239ca46a32a
+manual_curated_runeem_dataset.csv	1831	11322958	kcat/Km	both	A0-locked:11322958:20	6b46f698363ea132
+manual_curated_runeem_dataset.csv	1832	11322958	kcat	both	A0-locked:11322958:21	2705008a2f2ab611
+manual_curated_runeem_dataset.csv	1832	11322958	Km	both	A0-locked:11322958:22	822b22f20ed62ff3
+manual_curated_runeem_dataset.csv	1832	11322958	kcat/Km	both	A0-locked:11322958:23	d526840fa2fa2657
+manual_curated_runeem_dataset.csv	1841	11336650	kcat	both	A0-locked:11336650:1	83b1867c93fd270c
+manual_curated_runeem_dataset.csv	1841	11336650	Km	both	A0-locked:11336650:0	b77d254302f26b30
+manual_curated_runeem_dataset.csv	1841	11336650	kcat/Km	both	A0-locked:11336650:2	dd03f0640d83d357
+manual_curated_runeem_dataset.csv	1842	11336650	kcat	neither		
+manual_curated_runeem_dataset.csv	1842	11336650	Km	neither		
+manual_curated_runeem_dataset.csv	1842	11336650	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1049	11358525	Km	both	A0-locked:11358525:3	d28d1bd5c479aac1
+manual_curated_runeem_dataset.csv	1049	11358525	kcat/Km	both	A0-locked:11358525:4	a89d19e0234b8cb3
+manual_curated_runeem_dataset.csv	1050	11358525	Km	both	A0-locked:11358525:0	5931aa15a7b76a90
+manual_curated_runeem_dataset.csv	1050	11358525	kcat/Km	both	A0-locked:11358525:1	4a2b4d47093390b1
+manual_curated_runeem_dataset.csv	1051	11358525	Km	both	A0-locked:11358525:2	1ca7ccd6990634c6
+manual_curated_runeem_dataset.csv	1908	11382747	kcat	both	A0-locked:11382747:1	6ecc694b8586066d
+manual_curated_runeem_dataset.csv	1908	11382747	Km	both	A0-locked:11382747:2	ee6a5738f1c21528
+manual_curated_runeem_dataset.csv	1908	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1909	11382747	kcat	both	A0-locked:11382747:8	a6f767b9bdbd75c6
+manual_curated_runeem_dataset.csv	1909	11382747	Km	both	A0-locked:11382747:9	c4dd2b01fd4cc956
+manual_curated_runeem_dataset.csv	1909	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1910	11382747	kcat	both	A0-locked:11382747:15	c7ea659f7cf0f1fb
+manual_curated_runeem_dataset.csv	1910	11382747	Km	both	A0-locked:11382747:16	ec9035cd8bae2d52
+manual_curated_runeem_dataset.csv	1910	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1911	11382747	kcat	both	A0-locked:11382747:20	1d6ac52f5e8c39af
+manual_curated_runeem_dataset.csv	1911	11382747	Km	both	A0-locked:11382747:21	7400c33e166e60de
+manual_curated_runeem_dataset.csv	1911	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1912	11382747	kcat	both	A0-locked:11382747:28	dd86722e83f503cd
+manual_curated_runeem_dataset.csv	1912	11382747	Km	both	A0-locked:11382747:29	8fbfa1a31149f693
+manual_curated_runeem_dataset.csv	1912	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1913	11382747	kcat	both	A0-locked:11382747:33	1340210ff2310914
+manual_curated_runeem_dataset.csv	1913	11382747	Km	both	A0-locked:11382747:34	ef7942543931a360
+manual_curated_runeem_dataset.csv	1913	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1914	11382747	kcat	plain_only	A0-locked:11382747:51	
+manual_curated_runeem_dataset.csv	1914	11382747	Km	plain_only	A0-locked:11382747:52	
+manual_curated_runeem_dataset.csv	1914	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1915	11382747	kcat	both	A0-locked:11382747:55	7946b88c89329b97
+manual_curated_runeem_dataset.csv	1915	11382747	Km	both	A0-locked:11382747:56	42e3d1fad7a4e184
+manual_curated_runeem_dataset.csv	1915	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1916	11382747	kcat	both	A0-locked:11382747:60	47029c07b491fcbd
+manual_curated_runeem_dataset.csv	1916	11382747	Km	both	A0-locked:11382747:61	98fc428c2361b1bc
+manual_curated_runeem_dataset.csv	1916	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1917	11382747	kcat	both	A0-locked:11382747:43	2b28ca2f177f6d17
+manual_curated_runeem_dataset.csv	1917	11382747	Km	both	A0-locked:11382747:44	442b1e849e48fb0f
+manual_curated_runeem_dataset.csv	1917	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1918	11382747	kcat	both	A0-locked:11382747:47	4ebe3326f2e4f7bc
+manual_curated_runeem_dataset.csv	1918	11382747	Km	both	A0-locked:11382747:48	a684ab2fb1b99298
+manual_curated_runeem_dataset.csv	1918	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1919	11382747	kcat	both	A0-locked:11382747:38	fde687fdde83bce5
+manual_curated_runeem_dataset.csv	1919	11382747	Km	both	A0-locked:11382747:39	d01cb67e992c23b0
+manual_curated_runeem_dataset.csv	1919	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1920	11382747	kcat	both	A0-locked:11382747:0	30bdc62f18b5abfe
+manual_curated_runeem_dataset.csv	1920	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1921	11382747	kcat	both	A0-locked:11382747:7	ccb037adf90ac8bf
+manual_curated_runeem_dataset.csv	1921	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1922	11382747	kcat	both	A0-locked:11382747:14	c4cc79b5b1f2b602
+manual_curated_runeem_dataset.csv	1922	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1923	11382747	kcat	both	A0-locked:11382747:19	b662e8f2e96211ce
+manual_curated_runeem_dataset.csv	1923	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1924	11382747	kcat	both	A0-locked:11382747:27	d48b77db1ce7142a
+manual_curated_runeem_dataset.csv	1924	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1925	11382747	kcat	both	A0-locked:11382747:32	e3a77cc75e40d162
+manual_curated_runeem_dataset.csv	1925	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1926	11382747	kcat	both	A0-locked:11382747:37	490d138d5ebb961b
+manual_curated_runeem_dataset.csv	1926	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1927	11382747	kcat	both	A0-locked:11382747:42	343993b54b168771
+manual_curated_runeem_dataset.csv	1927	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1928	11382747	kcat	both	A0-locked:11382747:54	5346456f986d1b16
+manual_curated_runeem_dataset.csv	1928	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1929	11382747	kcat	both	A0-locked:11382747:59	56b446c6b1242b5d
+manual_curated_runeem_dataset.csv	1929	11382747	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	1930	11415449	kcat	both	A0-locked:11415449:1	4da05848ce3ecab1
+manual_curated_runeem_dataset.csv	1930	11415449	Km	both	A0-locked:11415449:0	ffac7293072fc50e
+manual_curated_runeem_dataset.csv	1930	11415449	kcat/Km	both	A0-locked:11415449:2	7af991f3c9a1d7f0
+manual_curated_runeem_dataset.csv	1931	11415449	kcat	both	A0-locked:11415449:4	a6b4cdffe751b9f1
+manual_curated_runeem_dataset.csv	1931	11415449	Km	both	A0-locked:11415449:3	54154377d9bdd766
+manual_curated_runeem_dataset.csv	1931	11415449	kcat/Km	both	A0-locked:11415449:5	a842b8100cd8d073
+manual_curated_runeem_dataset.csv	1932	11415449	kcat	both	A0-locked:11415449:7	adaf36a1fdf5304e
+manual_curated_runeem_dataset.csv	1932	11415449	Km	both	A0-locked:11415449:6	37c37b4cfd498510
+manual_curated_runeem_dataset.csv	1932	11415449	kcat/Km	both	A0-locked:11415449:8	fd923e3f89076b2c
+manual_curated_runeem_dataset.csv	1933	11468288	kcat	plain_only	A0-locked:11468288:0	
+manual_curated_runeem_dataset.csv	1933	11468288	Km	both	A0-locked:11468288:1	73745001a85f1436
+manual_curated_runeem_dataset.csv	1934	11468288	kcat	both	A0-locked:11468288:4	993048ff89b3b5c3
+manual_curated_runeem_dataset.csv	1934	11468288	Km	both	A0-locked:11468288:5	64a4f10854494454
+manual_curated_runeem_dataset.csv	1935	11468288	kcat	both	A0-locked:11468288:7	2d676938a2c6b8ad
+manual_curated_runeem_dataset.csv	1935	11468288	Km	both	A0-locked:11468288:8	55bb6fde519b8200
+manual_curated_runeem_dataset.csv	1936	11468288	kcat	both	A0-locked:11468288:11	c9f516664a9d8b83
+manual_curated_runeem_dataset.csv	1936	11468288	Km	both	A0-locked:11468288:12	b2919ec3b5ab71ce
+manual_curated_runeem_dataset.csv	1937	11468288	kcat	both	A0-locked:11468288:15	a3edf38676628a2c
+manual_curated_runeem_dataset.csv	1937	11468288	Km	both	A0-locked:11468288:16	a9e61c88cef76af4
+manual_curated_runeem_dataset.csv	1938	11468288	kcat	both	A0-locked:11468288:19	f60664f5a57d7be0
+manual_curated_runeem_dataset.csv	1938	11468288	Km	both	A0-locked:11468288:20	dca5755c02d54de7
+manual_curated_runeem_dataset.csv	1939	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1939	11468288	Km	neither		
+manual_curated_runeem_dataset.csv	1940	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1940	11468288	Km	neither		
+manual_curated_runeem_dataset.csv	1941	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1942	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1943	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1944	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1945	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1946	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1947	11468288	kcat	both	A0-locked:11468288:29	249e0c18ad34baaa
+manual_curated_runeem_dataset.csv	1947	11468288	Km	both	A0-locked:11468288:30	4d523c4226a436e4
+manual_curated_runeem_dataset.csv	1948	11468288	kcat	both	A0-locked:11468288:31	3d3932d00c70e349
+manual_curated_runeem_dataset.csv	1948	11468288	Km	both	A0-locked:11468288:32	e88dd8c53744b995
+manual_curated_runeem_dataset.csv	1949	11468288	kcat	both	A0-locked:11468288:33	024974ea8bf1a7ac
+manual_curated_runeem_dataset.csv	1949	11468288	Km	both	A0-locked:11468288:34	937580edf3774a3f
+manual_curated_runeem_dataset.csv	1950	11468288	kcat	both	A0-locked:11468288:35	f433b3a2a16d2de3
+manual_curated_runeem_dataset.csv	1950	11468288	Km	both	A0-locked:11468288:36	43f2c344c2b2cf7e
+manual_curated_runeem_dataset.csv	1951	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1952	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1953	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1954	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1955	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1956	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1957	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1958	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1959	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1959	11468288	Km	neither		
+manual_curated_runeem_dataset.csv	1960	11468288	kcat	both	A0-locked:11468288:45	cfc28cb197997c07
+manual_curated_runeem_dataset.csv	1960	11468288	Km	both	A0-locked:11468288:46	8dfffef15f2541c8
+manual_curated_runeem_dataset.csv	1961	11468288	kcat	both	A0-locked:11468288:47	f025ae3e89287032
+manual_curated_runeem_dataset.csv	1961	11468288	Km	both	A0-locked:11468288:48	3f5254f579125b58
+manual_curated_runeem_dataset.csv	1962	11468288	kcat	both	A0-locked:11468288:49	266a18b11dadf20c
+manual_curated_runeem_dataset.csv	1962	11468288	Km	both	A0-locked:11468288:50	22be02d71b41d3f7
+manual_curated_runeem_dataset.csv	1963	11468288	kcat	catlog_only		f739ea815e77aba3
+manual_curated_runeem_dataset.csv	1963	11468288	Km	neither		
+manual_curated_runeem_dataset.csv	1964	11468288	kcat	both	A0-locked:11468288:53	d92e2b557b2fadb9
+manual_curated_runeem_dataset.csv	1964	11468288	Km	both	A0-locked:11468288:54	9418ec798a30bfa7
+manual_curated_runeem_dataset.csv	1965	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1965	11468288	Km	both	A0-locked:11468288:2	1e68e2a5e0fc75e2
+manual_curated_runeem_dataset.csv	1966	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1966	11468288	Km	both	A0-locked:11468288:6	93595b970551e507
+manual_curated_runeem_dataset.csv	1967	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1967	11468288	Km	both	A0-locked:11468288:9	259fae42a73a8d9f
+manual_curated_runeem_dataset.csv	1968	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1968	11468288	Km	both	A0-locked:11468288:13	85271314455d2f84
+manual_curated_runeem_dataset.csv	1969	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1969	11468288	Km	both	A0-locked:11468288:17	eb43893cd086b630
+manual_curated_runeem_dataset.csv	1970	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1970	11468288	Km	both	A0-locked:11468288:21	2677ab6fb1ddac16
+manual_curated_runeem_dataset.csv	1971	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1971	11468288	Km	neither		
+manual_curated_runeem_dataset.csv	1972	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1972	11468288	Km	neither		
+manual_curated_runeem_dataset.csv	1973	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1973	11468288	Km	both	A0-locked:11468288:3	8fd38efe86ef8cee
+manual_curated_runeem_dataset.csv	1974	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1975	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1975	11468288	Km	both	A0-locked:11468288:10	57858e8e371fe98f
+manual_curated_runeem_dataset.csv	1976	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1976	11468288	Km	both	A0-locked:11468288:14	0e20b4df27801f4d
+manual_curated_runeem_dataset.csv	1977	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1977	11468288	Km	both	A0-locked:11468288:18	e92109b9e967de3e
+manual_curated_runeem_dataset.csv	1978	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1978	11468288	Km	both	A0-locked:11468288:22	a119e8af75d32569
+manual_curated_runeem_dataset.csv	1979	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1979	11468288	Km	neither		
+manual_curated_runeem_dataset.csv	1980	11468288	kcat	neither		
+manual_curated_runeem_dataset.csv	1980	11468288	Km	neither		
+manual_curated_runeem_dataset.csv	1061	11470266	Km	both	A0-locked:11470266:0	0ede4c199aacbc7e
+manual_curated_runeem_dataset.csv	1062	11470266	Km	both	A0-locked:11470266:1	ab1791edfd3d365c
+manual_curated_runeem_dataset.csv	1063	11470266	Km	unscored		
+manual_curated_runeem_dataset.csv	1064	11470266	Km	both	A0-locked:11470266:2	ff400120f20e7915
+manual_curated_runeem_dataset.csv	1065	11470266	Km	both	A0-locked:11470266:3	8231403223a7ba11
+manual_curated_runeem_dataset.csv	705	11488932	kcat	both	A0-locked:11488932:2	8be8db9d49f96493
+manual_curated_runeem_dataset.csv	705	11488932	Km	both	A0-locked:11488932:0	7f6096d785a58973
+manual_curated_runeem_dataset.csv	705	11488932	kcat/Km	both	A0-locked:11488932:4	a97033909fe27f04
+manual_curated_runeem_dataset.csv	706	11488932	kcat	both	A0-locked:11488932:3	5690b18c0eb90826
+manual_curated_runeem_dataset.csv	706	11488932	Km	both	A0-locked:11488932:1	a2ef7fb5d9398da3
+manual_curated_runeem_dataset.csv	706	11488932	kcat/Km	both	A0-locked:11488932:5	253b6eef30c3cbf1
+manual_curated_runeem_dataset.csv	707	11488932	kcat	plain_only	A0-locked:11488932:8	
+manual_curated_runeem_dataset.csv	707	11488932	Km	plain_only	A0-locked:11488932:6	
+manual_curated_runeem_dataset.csv	707	11488932	kcat/Km	plain_only	A0-locked:11488932:10	
+manual_curated_runeem_dataset.csv	708	11488932	kcat	plain_only	A0-locked:11488932:9	
+manual_curated_runeem_dataset.csv	708	11488932	Km	plain_only	A0-locked:11488932:7	
+manual_curated_runeem_dataset.csv	708	11488932	kcat/Km	plain_only	A0-locked:11488932:11	
+manual_curated_runeem_dataset.csv	709	11502204	Km	both	A0-locked:11502204:0	5079b98d8536e459
+manual_curated_runeem_dataset.csv	710	11502204	Km	both	A0-locked:11502204:1	1dfb8900784872e4
+manual_curated_runeem_dataset.csv	711	11502204	Km	both	A0-locked:11502204:2	587926a476e17ded
+manual_curated_runeem_dataset.csv	712	11502204	Km	both	A0-locked:11502204:3	147e97219de1ebda
+manual_curated_runeem_dataset.csv	713	11502204	Km	both	A0-locked:11502204:4	c2deec4151014b97
+manual_curated_runeem_dataset.csv	714	11502204	Km	both	A0-locked:11502204:5	da6d4e21a37dfe17
+manual_curated_runeem_dataset.csv	715	11502204	Km	both	A0-locked:11502204:6	d618b8edca6d05f0
+manual_curated_runeem_dataset.csv	716	11502204	Km	both	A0-locked:11502204:7	eae272deaa216d63
+manual_curated_runeem_dataset.csv	717	11502204	Km	both	A0-locked:11502204:8	964aaa5b3584f8aa
+manual_curated_runeem_dataset.csv	718	11502204	Km	both	A0-locked:11502204:9	eeea6c0788b4ee67
+manual_curated_runeem_dataset.csv	719	11502204	Km	both	A0-locked:11502204:10	2d6b9664279c51cf
+manual_curated_runeem_dataset.csv	720	11502204	Km	both	A0-locked:11502204:11	8254031e3556d2c2
+manual_curated_runeem_dataset.csv	721	11502204	Km	both	A0-locked:11502204:12	4c12082413864f1f
+manual_curated_runeem_dataset.csv	722	11502204	Km	both	A0-locked:11502204:13	6602aa13eafc2911
+manual_curated_runeem_dataset.csv	723	11502204	Km	both	A0-locked:11502204:14	894f788cbbf2bd17
+manual_curated_runeem_dataset.csv	724	11502204	Km	both	A0-locked:11502204:15	e0033c504d85176c
+manual_curated_runeem_dataset.csv	1078	11513863	kcat	both	A0-locked:11513863:1	b7fa7b2e2ec22849
+manual_curated_runeem_dataset.csv	1078	11513863	Km	both	A0-locked:11513863:0	3b49750e4e804b45
+manual_curated_runeem_dataset.csv	1078	11513863	kcat/Km	both	A0-locked:11513863:2	f0030e2ab83b5c5c
+manual_curated_runeem_dataset.csv	1079	11513863	kcat	both	A0-locked:11513863:4	d9e2e963adfe53fd
+manual_curated_runeem_dataset.csv	1079	11513863	Km	both	A0-locked:11513863:3	8984465957babde6
+manual_curated_runeem_dataset.csv	1079	11513863	kcat/Km	both	A0-locked:11513863:5	a6e31fec5e730819
+manual_curated_runeem_dataset.csv	1080	11513863	kcat	both	A0-locked:11513863:7	9cc6c130a80a329c
+manual_curated_runeem_dataset.csv	1080	11513863	Km	both	A0-locked:11513863:6	2e91428ed2f6abb4
+manual_curated_runeem_dataset.csv	1080	11513863	kcat/Km	both	A0-locked:11513863:8	6f542636be83804d
+manual_curated_runeem_dataset.csv	1081	11513863	kcat	both	A0-locked:11513863:10	f603b284570ed470
+manual_curated_runeem_dataset.csv	1081	11513863	Km	both	A0-locked:11513863:9	3511bd271176b9fd
+manual_curated_runeem_dataset.csv	1081	11513863	kcat/Km	both	A0-locked:11513863:11	90ef6e0a096f774d
+manual_curated_runeem_dataset.csv	1082	11513863	kcat	both	A0-locked:11513863:13	6aca1823853c85d5
+manual_curated_runeem_dataset.csv	1082	11513863	Km	both	A0-locked:11513863:12	41c12778362a60c4
+manual_curated_runeem_dataset.csv	1082	11513863	kcat/Km	both	A0-locked:11513863:14	724451415fd9a5c4
+manual_curated_runeem_dataset.csv	1083	11513863	kcat	both	A0-locked:11513863:16	0569e733f0dbe0fc
+manual_curated_runeem_dataset.csv	1083	11513863	Km	both	A0-locked:11513863:15	3b99e7824fe32bf8
+manual_curated_runeem_dataset.csv	1083	11513863	kcat/Km	both	A0-locked:11513863:17	217b5521e305520d
+manual_curated_runeem_dataset.csv	1084	11513863	kcat	both	A0-locked:11513863:19	59e225467be33dcb
+manual_curated_runeem_dataset.csv	1084	11513863	Km	both	A0-locked:11513863:18	c144b7d3bff6fdcd
+manual_curated_runeem_dataset.csv	1084	11513863	kcat/Km	both	A0-locked:11513863:20	549cb093a2f5edba
+manual_curated_runeem_dataset.csv	2005	11535122	kcat	both	A0-locked:11535122:0	f4b32be52b42d1c7
+manual_curated_runeem_dataset.csv	2005	11535122	Km	both	A0-locked:11535122:1	0aa735891bb16418
+manual_curated_runeem_dataset.csv	2005	11535122	kcat/Km	both	A0-locked:11535122:2	6a9a7723cb71b7ca
+manual_curated_runeem_dataset.csv	2006	11535122	Km	neither		
+manual_curated_runeem_dataset.csv	2007	11535122	Km	neither		
+manual_curated_runeem_dataset.csv	2007	11535122	kcat/Km	both	A0-locked:11535122:3	ecfa37ee512efa8c
+manual_curated_runeem_dataset.csv	2008	11535122	Km	plain_only	A0-locked:11535122:5	
+manual_curated_runeem_dataset.csv	2009	11535122	kcat	both	A0-locked:11535122:4	deb937e2b1922d27
+manual_curated_runeem_dataset.csv	2009	11535122	Km	catlog_only		86b233beefd9a5a2
+manual_curated_runeem_dataset.csv	2009	11535122	kcat/Km	both	A0-locked:11535122:6	c319b07796af2741
+manual_curated_runeem_dataset.csv	2010	11535122	kcat/Km	both	A0-locked:11535122:7	e2395df37aac9384
+manual_curated_runeem_dataset.csv	2011	11535122	kcat	both	A0-locked:11535122:8	1b4b8deb174ed46b
+manual_curated_runeem_dataset.csv	2011	11535122	Km	both	A0-locked:11535122:9	d445263dd47596c0
+manual_curated_runeem_dataset.csv	2011	11535122	kcat/Km	both	A0-locked:11535122:10	16679c8f8bc9567f
+manual_curated_runeem_dataset.csv	2012	11535122	kcat	both	A0-locked:11535122:11	8390d1abed4045b0
+manual_curated_runeem_dataset.csv	2012	11535122	Km	both	A0-locked:11535122:12	db4a39a55ce07cff
+manual_curated_runeem_dataset.csv	2012	11535122	kcat/Km	both	A0-locked:11535122:13	62233e0b258459f2
+manual_curated_runeem_dataset.csv	2013	11535122	kcat	both	A0-locked:11535122:14	81a963e7ea021027
+manual_curated_runeem_dataset.csv	2013	11535122	Km	catlog_only		f82ef028f0199b49
+manual_curated_runeem_dataset.csv	2013	11535122	kcat/Km	both	A0-locked:11535122:16	b3baa97369d79c14
+manual_curated_runeem_dataset.csv	2014	11535122	kcat/Km	both	A0-locked:11535122:17	93b180d27b916916
+manual_curated_runeem_dataset.csv	2015	11535122	kcat	both	A0-locked:11535122:18	1f30291281ab034c
+manual_curated_runeem_dataset.csv	2015	11535122	Km	both	A0-locked:11535122:19	78b1c741bf1a6bee
+manual_curated_runeem_dataset.csv	2015	11535122	kcat/Km	both	A0-locked:11535122:20	7af9fe068dab223f
+manual_curated_runeem_dataset.csv	2016	11535122	Km	plain_only	A0-locked:11535122:15	
+manual_curated_runeem_dataset.csv	2017	11535122	kcat	neither		
+manual_curated_runeem_dataset.csv	2017	11535122	Km	neither		
+manual_curated_runeem_dataset.csv	2017	11535122	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2018	11535122	kcat	both	A0-locked:11535122:21	ac54311edf8ca8f3
+manual_curated_runeem_dataset.csv	2018	11535122	Km	neither		
+manual_curated_runeem_dataset.csv	2018	11535122	kcat/Km	both	A0-locked:11535122:23	3cf530178ce5bf7a
+manual_curated_runeem_dataset.csv	2020	11535122	kcat	neither		
+manual_curated_runeem_dataset.csv	2020	11535122	Km	neither		
+manual_curated_runeem_dataset.csv	2020	11535122	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2021	11535122	kcat	both	A0-locked:11535122:24	838bb5400fdc9aab
+manual_curated_runeem_dataset.csv	2021	11535122	Km	both	A0-locked:11535122:25	306e992c9215f896
+manual_curated_runeem_dataset.csv	2021	11535122	kcat/Km	both	A0-locked:11535122:26	e4c556d265f34b58
+manual_curated_runeem_dataset.csv	2022	11535122	kcat	neither		
+manual_curated_runeem_dataset.csv	2022	11535122	Km	neither		
+manual_curated_runeem_dataset.csv	2022	11535122	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2023	11535122	Km	both	A0-locked:11535122:22	6608d76b957dfb0b
+manual_curated_runeem_dataset.csv	2023	11535122	kcat/Km	both	A0-locked:11535122:27	bd2c69541ca7c317
+manual_curated_runeem_dataset.csv	761	11589710	Km	neither		
+manual_curated_runeem_dataset.csv	761	11589710	kcat/Km	both	A0-locked:11589710:1	28de7a7a0b8bc30b
+manual_curated_runeem_dataset.csv	762	11589710	Km	both	A0-locked:11589710:2	7e11f92b1891e1a7
+manual_curated_runeem_dataset.csv	762	11589710	kcat/Km	both	A0-locked:11589710:3	a681ac6ad431c336
+manual_curated_runeem_dataset.csv	764	11589710	Km	neither		
+manual_curated_runeem_dataset.csv	764	11589710	kcat/Km	both	A0-locked:11589710:5	0dd683f4dac1335e
+manual_curated_runeem_dataset.csv	765	11589710	Km	neither		
+manual_curated_runeem_dataset.csv	765	11589710	kcat/Km	both	A0-locked:11589710:7	07b834883559f9b4
+manual_curated_runeem_dataset.csv	766	11589710	Km	neither		
+manual_curated_runeem_dataset.csv	766	11589710	kcat/Km	both	A0-locked:11589710:9	3836cd04a0ba2ea9
+manual_curated_runeem_dataset.csv	2105	11707391	Km	both	A0-locked:11707391:0	56ba081c0e33f373
+manual_curated_runeem_dataset.csv	2105	11707391	kcat/Km	both	A0-locked:11707391:1	9a21e94f8d48fce0
+manual_curated_runeem_dataset.csv	2106	11707391	Km	both	A0-locked:11707391:8	33a057d99c312d4c
+manual_curated_runeem_dataset.csv	2106	11707391	kcat/Km	both	A0-locked:11707391:9	ec6b4ea1965dc408
+manual_curated_runeem_dataset.csv	2107	11707391	Km	both	A0-locked:11707391:2	80c416e53b32b44c
+manual_curated_runeem_dataset.csv	2107	11707391	kcat/Km	both	A0-locked:11707391:3	de09dbf62aac4c85
+manual_curated_runeem_dataset.csv	2108	11707391	Km	both	A0-locked:11707391:10	c152552191fe5547
+manual_curated_runeem_dataset.csv	2108	11707391	kcat/Km	both	A0-locked:11707391:11	21b60f65d9d7ba85
+manual_curated_runeem_dataset.csv	2109	11707391	Km	both	A0-locked:11707391:4	209a0c696e25524e
+manual_curated_runeem_dataset.csv	2109	11707391	kcat/Km	both	A0-locked:11707391:5	8a2e1f916913333c
+manual_curated_runeem_dataset.csv	2110	11707391	Km	both	A0-locked:11707391:12	6fb8d877ed929e0d
+manual_curated_runeem_dataset.csv	2110	11707391	kcat/Km	both	A0-locked:11707391:13	5832ea7ae2498a97
+manual_curated_runeem_dataset.csv	2111	11707391	Km	both	A0-locked:11707391:6	39d9ee140d8a0fe6
+manual_curated_runeem_dataset.csv	2111	11707391	kcat/Km	both	A0-locked:11707391:7	5579adfee5948c38
+manual_curated_runeem_dataset.csv	2112	11707391	Km	both	A0-locked:11707391:14	d6571f5308bbf3a1
+manual_curated_runeem_dataset.csv	2112	11707391	kcat/Km	both	A0-locked:11707391:15	e57e01e53668c65f
+manual_curated_runeem_dataset.csv	808	11733006	Km	both	A0-locked:11733006:5	abfbb4a2df44f38c
+manual_curated_runeem_dataset.csv	809	11733006	Km	both	A0-locked:11733006:6	7c5cf8afb9a5e5f1
+manual_curated_runeem_dataset.csv	810	11733006	Km	both	A0-locked:11733006:7	0ed9686f4dba31b6
+manual_curated_runeem_dataset.csv	811	11733006	Km	both	A0-locked:11733006:0	889f321f41bc01ee
+manual_curated_runeem_dataset.csv	812	11733006	Km	both	A0-locked:11733006:1	391316cbd3e080f0
+manual_curated_runeem_dataset.csv	813	11733006	Km	both	A0-locked:11733006:2	df8f24f502c0e708
+manual_curated_runeem_dataset.csv	814	11733006	Km	both	A0-locked:11733006:3	07a7f5ef3d82637d
+manual_curated_runeem_dataset.csv	815	11733006	Km	both	A0-locked:11733006:4	c054b95b3e6390eb
+manual_curated_runeem_dataset.csv	2126	11820932	Km	both	A0-locked:11820932:0	89ed064d355cb1de
+manual_curated_runeem_dataset.csv	2127	11820932	Km	both	A0-locked:11820932:1	710bc9b14cebbeea
+manual_curated_runeem_dataset.csv	2128	11820932	Km	both	A0-locked:11820932:3	1e8879c238d9ea34
+manual_curated_runeem_dataset.csv	2129	11820932	Km	both	A0-locked:11820932:2	d98a0b92f2f3d830
+manual_curated_runeem_dataset.csv	2130	11820932	Km	both	A0-locked:11820932:4	fff7136dadb2f824
+manual_curated_runeem_dataset.csv	2131	11820932	Km	both	A0-locked:11820932:5	2c4e5e95a7c83a05
+manual_curated_runeem_dataset.csv	2132	11820932	Km	both	A0-locked:11820932:6	b677693b46949c53
+manual_curated_runeem_dataset.csv	2133	11880657	kcat	both	A0-locked:11880657:1	062b1e8f9c07b519
+manual_curated_runeem_dataset.csv	2133	11880657	Km	both	A0-locked:11880657:0	42e356cd88ca5a3a
+manual_curated_runeem_dataset.csv	2133	11880657	kcat/Km	both	A0-locked:11880657:2	3f17f1f48ef79001
+manual_curated_runeem_dataset.csv	2134	11880657	kcat	both	A0-locked:11880657:4	650caf79af738c2f
+manual_curated_runeem_dataset.csv	2134	11880657	Km	both	A0-locked:11880657:3	64485253c0219a72
+manual_curated_runeem_dataset.csv	2134	11880657	kcat/Km	both	A0-locked:11880657:5	03a73d726d361551
+manual_curated_runeem_dataset.csv	2135	11880657	kcat	both	A0-locked:11880657:7	003efddd5093e5ef
+manual_curated_runeem_dataset.csv	2135	11880657	Km	both	A0-locked:11880657:6	c3a7e74ba8928e0c
+manual_curated_runeem_dataset.csv	2135	11880657	kcat/Km	both	A0-locked:11880657:8	29465e09f082b0a2
+manual_curated_runeem_dataset.csv	2136	11880657	kcat	both	A0-locked:11880657:10	7fb6dbbf4edd13ef
+manual_curated_runeem_dataset.csv	2136	11880657	Km	both	A0-locked:11880657:9	38ed90473c288ab6
+manual_curated_runeem_dataset.csv	2136	11880657	kcat/Km	both	A0-locked:11880657:11	c896850af6001e00
+manual_curated_runeem_dataset.csv	2137	11880657	kcat	both	A0-locked:11880657:13	c285565f100380c0
+manual_curated_runeem_dataset.csv	2137	11880657	Km	both	A0-locked:11880657:12	08568c05700a9a0f
+manual_curated_runeem_dataset.csv	2137	11880657	kcat/Km	both	A0-locked:11880657:14	5f57046615e7f2fd
+manual_curated_runeem_dataset.csv	2138	11880657	kcat	both	A0-locked:11880657:16	29b7037f8d44d833
+manual_curated_runeem_dataset.csv	2138	11880657	Km	both	A0-locked:11880657:15	4b872d6ed6870fbf
+manual_curated_runeem_dataset.csv	2138	11880657	kcat/Km	both	A0-locked:11880657:17	2ee39139c3c9e010
+manual_curated_runeem_dataset.csv	2139	11880657	kcat	both	A0-locked:11880657:19	9fc404936131bbdc
+manual_curated_runeem_dataset.csv	2139	11880657	Km	both	A0-locked:11880657:18	3413baf2dd87b449
+manual_curated_runeem_dataset.csv	2139	11880657	kcat/Km	both	A0-locked:11880657:20	109f8782106abdf0
+manual_curated_runeem_dataset.csv	2140	11880657	kcat	both	A0-locked:11880657:22	e1fa8e678efb7282
+manual_curated_runeem_dataset.csv	2140	11880657	Km	both	A0-locked:11880657:21	6129f31f632af910
+manual_curated_runeem_dataset.csv	2140	11880657	kcat/Km	both	A0-locked:11880657:23	c56993adaecad4e3
+manual_curated_runeem_dataset.csv	2141	11880657	kcat	both	A0-locked:11880657:25	90b070c9a9074c71
+manual_curated_runeem_dataset.csv	2141	11880657	Km	both	A0-locked:11880657:24	913dfbeb933b09e7
+manual_curated_runeem_dataset.csv	2141	11880657	kcat/Km	both	A0-locked:11880657:26	c6d12dc955eab253
+manual_curated_runeem_dataset.csv	2142	11880657	kcat	both	A0-locked:11880657:28	fbfd5bdba48e868e
+manual_curated_runeem_dataset.csv	2142	11880657	Km	both	A0-locked:11880657:27	048ed449b5a3a618
+manual_curated_runeem_dataset.csv	2142	11880657	kcat/Km	both	A0-locked:11880657:29	3da171033e47f2db
+manual_curated_runeem_dataset.csv	2143	11880657	kcat	both	A0-locked:11880657:31	0ce460dd0458e086
+manual_curated_runeem_dataset.csv	2143	11880657	Km	both	A0-locked:11880657:30	727a07ae7cd80d0e
+manual_curated_runeem_dataset.csv	2143	11880657	kcat/Km	both	A0-locked:11880657:32	1f9b89d1e49b07b0
+manual_curated_runeem_dataset.csv	1135	11997034	kcat	both	A0-locked:11997034:1	305e3cc3566a8bbd
+manual_curated_runeem_dataset.csv	1135	11997034	Km	both	A0-locked:11997034:0	efeab728ab576ee0
+manual_curated_runeem_dataset.csv	1135	11997034	kcat/Km	both	A0-locked:11997034:2	130caa60cad362f9
+manual_curated_runeem_dataset.csv	1136	11997034	kcat	both	A0-locked:11997034:4	e5969a20240aeca4
+manual_curated_runeem_dataset.csv	1136	11997034	Km	both	A0-locked:11997034:3	8d22f319c5c750d4
+manual_curated_runeem_dataset.csv	1136	11997034	kcat/Km	both	A0-locked:11997034:5	4a95a1cb25100495
+manual_curated_runeem_dataset.csv	1137	11997034	kcat	both	A0-locked:11997034:7	6890fb48ad276eec
+manual_curated_runeem_dataset.csv	1137	11997034	Km	both	A0-locked:11997034:6	a14dd2e06807948b
+manual_curated_runeem_dataset.csv	1137	11997034	kcat/Km	both	A0-locked:11997034:8	f988492922185382
+manual_curated_runeem_dataset.csv	1138	11997034	kcat	both	A0-locked:11997034:10	d6056f4849ff2bde
+manual_curated_runeem_dataset.csv	1138	11997034	Km	both	A0-locked:11997034:9	78c3caf7bff21730
+manual_curated_runeem_dataset.csv	1138	11997034	kcat/Km	both	A0-locked:11997034:11	6f17b302918194bc
+manual_curated_runeem_dataset.csv	1139	12023023	kcat	both	A0-locked:12023023:1	70a6b8af3aca3dd3
+manual_curated_runeem_dataset.csv	1139	12023023	Km	both	A0-locked:12023023:0	69ef58a8fd2aaa81
+manual_curated_runeem_dataset.csv	1139	12023023	kcat/Km	both	A0-locked:12023023:2	60f1398c1bd4a100
+manual_curated_runeem_dataset.csv	1140	12023023	kcat	both	A0-locked:12023023:4	89e5dac83c7d2c5c
+manual_curated_runeem_dataset.csv	1140	12023023	Km	both	A0-locked:12023023:3	f79f9899a1a03b66
+manual_curated_runeem_dataset.csv	1140	12023023	kcat/Km	both	A0-locked:12023023:5	400e30279baa9fde
+manual_curated_runeem_dataset.csv	1141	12023023	kcat	both	A0-locked:12023023:7	6fcea5fee0ef893e
+manual_curated_runeem_dataset.csv	1141	12023023	Km	both	A0-locked:12023023:6	c81ac5a90ba8ca0a
+manual_curated_runeem_dataset.csv	1141	12023023	kcat/Km	both	A0-locked:12023023:8	31c311e1e5023a4e
+manual_curated_runeem_dataset.csv	2176	12029084	kcat	both	A0-locked:12029084:9	9b390ea746852da6
+manual_curated_runeem_dataset.csv	2176	12029084	Km	both	A0-locked:12029084:0	705c5bd8d0e50ffd
+manual_curated_runeem_dataset.csv	2176	12029084	kcat/Km	both	A0-locked:12029084:10	d24fd0ed2deb6bae
+manual_curated_runeem_dataset.csv	2177	12029084	kcat	both	A0-locked:12029084:12	ad74f9416c446bda
+manual_curated_runeem_dataset.csv	2177	12029084	Km	both	A0-locked:12029084:7	e8ff9cc97cc33cc4
+manual_curated_runeem_dataset.csv	2177	12029084	kcat/Km	both	A0-locked:12029084:13	c2aa15065bda0b1d
+manual_curated_runeem_dataset.csv	2178	12029084	kcat	both	A0-locked:12029084:15	95b3594bdb1270c9
+manual_curated_runeem_dataset.csv	2178	12029084	Km	both	A0-locked:12029084:14	f97c643d9ad99029
+manual_curated_runeem_dataset.csv	2178	12029084	kcat/Km	both	A0-locked:12029084:16	8bc3581c6003b1db
+manual_curated_runeem_dataset.csv	2179	12029084	kcat	both	A0-locked:12029084:18	de2428af695f0430
+manual_curated_runeem_dataset.csv	2179	12029084	Km	both	A0-locked:12029084:17	d88d141a571c8dc6
+manual_curated_runeem_dataset.csv	2179	12029084	kcat/Km	both	A0-locked:12029084:19	594ede233f0664a2
+manual_curated_runeem_dataset.csv	2180	12029084	Km	both	A0-locked:12029084:1	98c6391196e356ad
+manual_curated_runeem_dataset.csv	2181	12029084	Km	both	A0-locked:12029084:2	075afea463866d34
+manual_curated_runeem_dataset.csv	2182	12029084	Km	both	A0-locked:12029084:5	edb03d330a316be1
+manual_curated_runeem_dataset.csv	2183	12029084	Km	both	A0-locked:12029084:20	d9472b9b4153ea8b
+manual_curated_runeem_dataset.csv	2184	12029084	Km	both	A0-locked:12029084:3	c0726102bdd5570a
+manual_curated_runeem_dataset.csv	2185	12029084	Km	both	A0-locked:12029084:4	018c69bb27c7e8b6
+manual_curated_runeem_dataset.csv	1142	12047629	Km	both	A0-locked:12047629:0	e77ca6225f56cb5e
+manual_curated_runeem_dataset.csv	1143	12047629	Km	both	A0-locked:12047629:1	8cecf7bd02a3e2c4
+manual_curated_runeem_dataset.csv	1144	12047629	Km	both	A0-locked:12047629:2	dd17e2b47ea8c3c4
+manual_curated_runeem_dataset.csv	1147	12047629	Km	neither		
+manual_curated_runeem_dataset.csv	1148	12047629	Km	neither		
+manual_curated_runeem_dataset.csv	1149	12047629	Km	neither		
+manual_curated_runeem_dataset.csv	1156	12095636	Km	both	A0-locked:12095636:0	df69d892bbe27a64
+manual_curated_runeem_dataset.csv	1157	12095636	Km	both	A0-locked:12095636:1	696a32d9978fb7e9
+manual_curated_runeem_dataset.csv	1158	12095636	Km	both	A0-locked:12095636:2	4da79473133dd5a2
+manual_curated_runeem_dataset.csv	2343	12205087	Km	neither		
+manual_curated_runeem_dataset.csv	2344	12205087	Km	both	A0-locked:12205087:1	4094a2a7c5503f52
+manual_curated_runeem_dataset.csv	2345	12205087	Km	both	A0-locked:12205087:2	7ba4faa1346795ac
+manual_curated_runeem_dataset.csv	2346	12205087	Km	both	A0-locked:12205087:0	875c2cda1de38519
+manual_curated_runeem_dataset.csv	2347	12205087	Km	both	A0-locked:12205087:4	f01385964838751e
+manual_curated_runeem_dataset.csv	2348	12205087	Km	both	A0-locked:12205087:5	dc09165df1190baa
+manual_curated_runeem_dataset.csv	2349	12205087	Km	both	A0-locked:12205087:6	c55097d22912e487
+manual_curated_runeem_dataset.csv	2350	12205087	Km	neither		
+manual_curated_runeem_dataset.csv	2351	12234492	kcat	both	A0-locked:12234492:0	e7ce1e57462efa17
+manual_curated_runeem_dataset.csv	2351	12234492	Km	both	A0-locked:12234492:1	49303ddeae891dcb
+manual_curated_runeem_dataset.csv	2351	12234492	kcat/Km	both	A0-locked:12234492:2	08b783a648692dc9
+manual_curated_runeem_dataset.csv	2352	12234492	kcat	both	A0-locked:12234492:15	65a0a2c6cd13bbf0
+manual_curated_runeem_dataset.csv	2352	12234492	Km	both	A0-locked:12234492:16	19b272a10b892ddb
+manual_curated_runeem_dataset.csv	2352	12234492	kcat/Km	both	A0-locked:12234492:17	c0fdb111842b5de9
+manual_curated_runeem_dataset.csv	2353	12234492	kcat	both	A0-locked:12234492:4	1d5a11c7c288cf65
+manual_curated_runeem_dataset.csv	2353	12234492	Km	both	A0-locked:12234492:5	4374609794890876
+manual_curated_runeem_dataset.csv	2353	12234492	kcat/Km	both	A0-locked:12234492:6	8e4423d8ab252ce5
+manual_curated_runeem_dataset.csv	2354	12234492	kcat	both	A0-locked:12234492:19	2db2636592d3f002
+manual_curated_runeem_dataset.csv	2354	12234492	Km	both	A0-locked:12234492:20	9f2f0b2fbd6c732e
+manual_curated_runeem_dataset.csv	2354	12234492	kcat/Km	both	A0-locked:12234492:21	d1dfc2cefba12065
+manual_curated_runeem_dataset.csv	2355	12234492	kcat	both	A0-locked:12234492:8	80ae2b66c023f885
+manual_curated_runeem_dataset.csv	2355	12234492	Km	both	A0-locked:12234492:9	e8590bba83bdb9c1
+manual_curated_runeem_dataset.csv	2355	12234492	kcat/Km	both	A0-locked:12234492:10	c4231f4aac430833
+manual_curated_runeem_dataset.csv	2356	12234492	kcat	both	A0-locked:12234492:23	091d257069dddc07
+manual_curated_runeem_dataset.csv	2356	12234492	Km	both	A0-locked:12234492:24	cb7e13246b7f6e00
+manual_curated_runeem_dataset.csv	2356	12234492	kcat/Km	both	A0-locked:12234492:25	5109edb49191a725
+manual_curated_runeem_dataset.csv	2357	12234492	Km	neither		
+manual_curated_runeem_dataset.csv	2357	12234492	kcat/Km	both	A0-locked:12234492:12	66685c3db24f07a7
+manual_curated_runeem_dataset.csv	2358	12234492	Km	neither		
+manual_curated_runeem_dataset.csv	2358	12234492	kcat/Km	both	A0-locked:12234492:27	741a2a986a4d96cb
+manual_curated_runeem_dataset.csv	1185	12297285	Km	both	A0-locked:12297285:0	55e4499745240ead
+manual_curated_runeem_dataset.csv	1186	12297285	Km	both	A0-locked:12297285:2	c0189720c093844d
+manual_curated_runeem_dataset.csv	2360	12351635	Km	both	A0-locked:12351635:0	38c99a7bf2d75df4
+manual_curated_runeem_dataset.csv	2361	12351635	Km	both	A0-locked:12351635:1	1c0362adfc50ca34
+manual_curated_runeem_dataset.csv	2362	12351635	Km	both	A0-locked:12351635:2	9a47aa8a44b7d40b
+manual_curated_runeem_dataset.csv	2363	12351635	Km	both	A0-locked:12351635:3	f134fb00055efeb5
+manual_curated_runeem_dataset.csv	2364	12351635	Km	both	A0-locked:12351635:4	ed720a983e169e62
+manual_curated_runeem_dataset.csv	2365	12351635	Km	both	A0-locked:12351635:5	ecbdf88733f4c27c
+manual_curated_runeem_dataset.csv	2366	12351635	Km	both	A0-locked:12351635:6	e36579a2b05f4ec8
+manual_curated_runeem_dataset.csv	2367	12351635	Km	both	A0-locked:12351635:7	7c277e43a3bdf9e1
+manual_curated_runeem_dataset.csv	2368	12351635	Km	both	A0-locked:12351635:8	76227ec1ed1e20bd
+manual_curated_runeem_dataset.csv	2369	12351635	Km	both	A0-locked:12351635:9	66a6a814c4a6d8d7
+manual_curated_runeem_dataset.csv	2370	12351635	Km	both	A0-locked:12351635:10	a00c6f87e13e2782
+manual_curated_runeem_dataset.csv	2371	12351635	Km	both	A0-locked:12351635:11	f17383c5df3e2470
+manual_curated_runeem_dataset.csv	2372	12351635	Km	both	A0-locked:12351635:12	619b59daa375a42f
+manual_curated_runeem_dataset.csv	2373	12351635	Km	both	A0-locked:12351635:13	27c2bd6d93fef8e5
+manual_curated_runeem_dataset.csv	2374	12351635	Km	both	A0-locked:12351635:14	8073d68347e8795f
+manual_curated_runeem_dataset.csv	2375	12351635	Km	both	A0-locked:12351635:15	72bd378e0cb089a0
+manual_curated_runeem_dataset.csv	2376	12379146	kcat	both	A0-locked:12379146:0	95618879a187ebb1
+manual_curated_runeem_dataset.csv	2376	12379146	Km	both	A0-locked:12379146:1	d6c1011066e441c8
+manual_curated_runeem_dataset.csv	2377	12379146	kcat	both	A0-locked:12379146:2	751174036a3d1727
+manual_curated_runeem_dataset.csv	2377	12379146	kcat/Km	both	A0-locked:12379146:3	701be836548a7898
+manual_curated_runeem_dataset.csv	2378	12379146	kcat	both	A0-locked:12379146:4	e8448c1bda4e46bf
+manual_curated_runeem_dataset.csv	2378	12379146	kcat/Km	both	A0-locked:12379146:5	f1077938e1a838f4
+manual_curated_runeem_dataset.csv	2379	12379146	kcat	both	A0-locked:12379146:6	2ef6e78779bb8713
+manual_curated_runeem_dataset.csv	2379	12379146	kcat/Km	both	A0-locked:12379146:7	f29b2b6e3589c713
+manual_curated_runeem_dataset.csv	2380	12379146	kcat	both	A0-locked:12379146:8	33b10754aa20a3a2
+manual_curated_runeem_dataset.csv	2380	12379146	kcat/Km	both	A0-locked:12379146:9	abf47f1bd964d33a
+manual_curated_runeem_dataset.csv	2381	12379146	kcat	both	A0-locked:12379146:10	82ed0947b55ab597
+manual_curated_runeem_dataset.csv	2381	12379146	kcat/Km	both	A0-locked:12379146:11	b201d9767b89dd7d
+manual_curated_runeem_dataset.csv	2382	12379146	kcat	both	A0-locked:12379146:12	5779ae00db101b2b
+manual_curated_runeem_dataset.csv	2382	12379146	kcat/Km	both	A0-locked:12379146:13	a48b638aabdb63f2
+manual_curated_runeem_dataset.csv	2383	12379146	kcat	neither		
+manual_curated_runeem_dataset.csv	2383	12379146	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2384	12379146	kcat	neither		
+manual_curated_runeem_dataset.csv	2384	12379146	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	1191	12387887	Km	both	A0-locked:12387887:4	12934597fb44fd3b
+manual_curated_runeem_dataset.csv	1192	12387887	Km	both	A0-locked:12387887:5	d05edafa6a8d48ea
+manual_curated_runeem_dataset.csv	1193	12387887	Km	both	A0-locked:12387887:0	09b441155c2a32fe
+manual_curated_runeem_dataset.csv	1194	12387887	Km	both	A0-locked:12387887:1	4674f4147db27811
+manual_curated_runeem_dataset.csv	2391	12493767	Km	plain_only	A0-locked:12493767:6	
+manual_curated_runeem_dataset.csv	2392	12493767	Km	plain_only	A0-locked:12493767:9	
+manual_curated_runeem_dataset.csv	2393	12493767	Km	plain_only	A0-locked:12493767:7	
+manual_curated_runeem_dataset.csv	2394	12493767	Km	plain_only	A0-locked:12493767:10	
+manual_curated_runeem_dataset.csv	2395	12493767	Km	plain_only	A0-locked:12493767:8	
+manual_curated_runeem_dataset.csv	2396	12493767	Km	plain_only	A0-locked:12493767:11	
+manual_curated_runeem_dataset.csv	2397	12493767	Km	plain_only	A0-locked:12493767:0	
+manual_curated_runeem_dataset.csv	2398	12493767	Km	both	A0-locked:12493767:3	d4954cedaa047d00
+manual_curated_runeem_dataset.csv	2399	12493767	Km	both	A0-locked:12493767:1	faf7b6277a9dde20
+manual_curated_runeem_dataset.csv	2400	12493767	Km	both	A0-locked:12493767:4	4692f4b5bb02638a
+manual_curated_runeem_dataset.csv	2401	12493767	Km	plain_only	A0-locked:12493767:2	
+manual_curated_runeem_dataset.csv	2402	12493767	Km	both	A0-locked:12493767:5	b9a96b2b086e507f
+manual_curated_runeem_dataset.csv	2455	12615324	kcat	both	A0-locked:12615324:2	bf8e3ed393d11708
+manual_curated_runeem_dataset.csv	2455	12615324	Km	both	A0-locked:12615324:0	763988a41876d08e
+manual_curated_runeem_dataset.csv	2455	12615324	kcat/Km	both	A0-locked:12615324:3	6052cdb25ffff202
+manual_curated_runeem_dataset.csv	2456	12615324	kcat	neither		
+manual_curated_runeem_dataset.csv	2456	12615324	Km	unscored		
+manual_curated_runeem_dataset.csv	2456	12615324	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2457	12615324	kcat	both	A0-locked:12615324:6	b544461025e34971
+manual_curated_runeem_dataset.csv	2457	12615324	Km	both	A0-locked:12615324:4	1e1b573c0e3c55d7
+manual_curated_runeem_dataset.csv	2457	12615324	kcat/Km	both	A0-locked:12615324:7	09c86a3ec969a855
+manual_curated_runeem_dataset.csv	2458	12615324	kcat	neither		
+manual_curated_runeem_dataset.csv	2458	12615324	Km	both	A0-locked:12615324:5	0da47b41001e53e1
+manual_curated_runeem_dataset.csv	2458	12615324	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2459	12615324	kcat	both	A0-locked:12615324:10	cc789ab265ddfe27
+manual_curated_runeem_dataset.csv	2459	12615324	Km	both	A0-locked:12615324:8	b72093bb8ec1283c
+manual_curated_runeem_dataset.csv	2459	12615324	kcat/Km	both	A0-locked:12615324:11	55515f2453c28989
+manual_curated_runeem_dataset.csv	2460	12615324	kcat	neither		
+manual_curated_runeem_dataset.csv	2460	12615324	Km	both	A0-locked:12615324:9	89f4c5c535ce314d
+manual_curated_runeem_dataset.csv	2460	12615324	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2503	12741958	Km	both	A0-locked:12741958:0	f5d4acf4b05b5290
+manual_curated_runeem_dataset.csv	2503	12741958	kcat/Km	both	A0-locked:12741958:1	e03f589eadd3c69c
+manual_curated_runeem_dataset.csv	2504	12741958	Km	both	A0-locked:12741958:2	60939f4887190625
+manual_curated_runeem_dataset.csv	2504	12741958	kcat/Km	both	A0-locked:12741958:3	91010297b1d63bbc
+manual_curated_runeem_dataset.csv	2505	12741958	Km	both	A0-locked:12741958:4	18d9c510a769aa40
+manual_curated_runeem_dataset.csv	2505	12741958	kcat/Km	both	A0-locked:12741958:5	cf4610b44d18efcc
+manual_curated_runeem_dataset.csv	2510	12741958	Km	both	A0-locked:12741958:6	127aaf359ca40a4c
+manual_curated_runeem_dataset.csv	2510	12741958	kcat/Km	both	A0-locked:12741958:7	a65a28deee9933d6
+manual_curated_runeem_dataset.csv	2511	12741958	Km	both	A0-locked:12741958:8	a9402c43d9a08eb1
+manual_curated_runeem_dataset.csv	2511	12741958	kcat/Km	both	A0-locked:12741958:9	21857bccb6b93fcb
+manual_curated_runeem_dataset.csv	2543	12813039	Km	both	A0-locked:12813039:1	79ce9c3a6aa9f7b7
+manual_curated_runeem_dataset.csv	2543	12813039	kcat/Km	both	A0-locked:12813039:2	ce891fab6da6352a
+manual_curated_runeem_dataset.csv	2544	12813039	Km	both	A0-locked:12813039:6	a2e2b780ed05dd09
+manual_curated_runeem_dataset.csv	2544	12813039	kcat/Km	both	A0-locked:12813039:7	427ab07cf738fe87
+manual_curated_runeem_dataset.csv	2545	12813039	Km	both	A0-locked:12813039:11	325b6aef6c305aef
+manual_curated_runeem_dataset.csv	2545	12813039	kcat/Km	both	A0-locked:12813039:12	992a0e1020b9119a
+manual_curated_runeem_dataset.csv	2546	12813039	Km	both	A0-locked:12813039:3	c7f3fe5ec9ab1134
+manual_curated_runeem_dataset.csv	2546	12813039	kcat/Km	both	A0-locked:12813039:4	a142813fd5587545
+manual_curated_runeem_dataset.csv	2547	12813039	Km	both	A0-locked:12813039:8	0b34b30c857fb506
+manual_curated_runeem_dataset.csv	2547	12813039	kcat/Km	both	A0-locked:12813039:9	c78190d724d2dc52
+manual_curated_runeem_dataset.csv	2548	12813039	Km	both	A0-locked:12813039:13	c50eaa317b066ab2
+manual_curated_runeem_dataset.csv	2548	12813039	kcat/Km	both	A0-locked:12813039:14	b5b623901d9ae038
+manual_curated_runeem_dataset.csv	2549	12878037	Km	both	A0-locked:12878037:0	7a2f81c021535910
+manual_curated_runeem_dataset.csv	2550	12878037	Km	both	A0-locked:12878037:1	eab04638a099a239
+manual_curated_runeem_dataset.csv	2551	12878037	Km	both	A0-locked:12878037:2	8a3296b2ef87f8fd
+manual_curated_runeem_dataset.csv	2552	12878037	Km	both	A0-locked:12878037:3	98f2ccfbc991f332
+manual_curated_runeem_dataset.csv	2579	12962500	kcat	both	A0-locked:12962500:1	b1de2a6be56b7285
+manual_curated_runeem_dataset.csv	2579	12962500	Km	both	A0-locked:12962500:0	0dad08c68da5636b
+manual_curated_runeem_dataset.csv	2579	12962500	kcat/Km	both	A0-locked:12962500:2	105339cbcd95a6c8
+manual_curated_runeem_dataset.csv	2580	12962500	kcat	both	A0-locked:12962500:4	3295b5d700ffb8f4
+manual_curated_runeem_dataset.csv	2580	12962500	Km	both	A0-locked:12962500:15	158bb85c02e06f76
+manual_curated_runeem_dataset.csv	2580	12962500	kcat/Km	both	A0-locked:12962500:5	393891453bd7fb3d
+manual_curated_runeem_dataset.csv	2581	12962500	kcat	both	A0-locked:12962500:7	324b029c6bb9e5d3
+manual_curated_runeem_dataset.csv	2581	12962500	Km	both	A0-locked:12962500:6	9a8a34ae6d390e7b
+manual_curated_runeem_dataset.csv	2581	12962500	kcat/Km	both	A0-locked:12962500:17	00656ed689778128
+manual_curated_runeem_dataset.csv	2582	12962500	kcat	both	A0-locked:12962500:10	76cc8973116e5927
+manual_curated_runeem_dataset.csv	2582	12962500	Km	both	A0-locked:12962500:9	a0d97d2d8190e09b
+manual_curated_runeem_dataset.csv	2582	12962500	kcat/Km	both	A0-locked:12962500:11	a92a3605030356ba
+manual_curated_runeem_dataset.csv	2583	12962500	kcat	both	A0-locked:12962500:13	fb9de57925090c59
+manual_curated_runeem_dataset.csv	2583	12962500	Km	both	A0-locked:12962500:12	f922d05c2f3ed7ae
+manual_curated_runeem_dataset.csv	2583	12962500	kcat/Km	both	A0-locked:12962500:14	57d649f894339cb2
+manual_curated_runeem_dataset.csv	2584	12962500	kcat	both	A0-locked:12962500:16	3c9ef31d4520085a
+manual_curated_runeem_dataset.csv	2584	12962500	Km	both	A0-locked:12962500:3	57a0323971a3dd5e
+manual_curated_runeem_dataset.csv	2584	12962500	kcat/Km	both	A0-locked:12962500:8	a11671cf7ac21335
+manual_curated_runeem_dataset.csv	2589	13678419	kcat	both	A0-locked:13678419:1	8b97ea0404830f95
+manual_curated_runeem_dataset.csv	2589	13678419	Km	both	A0-locked:13678419:0	068ce259904efea0
+manual_curated_runeem_dataset.csv	2589	13678419	kcat/Km	both	A0-locked:13678419:2	572ab652ef3d2b5b
+manual_curated_runeem_dataset.csv	2590	13678419	kcat	neither		
+manual_curated_runeem_dataset.csv	2590	13678419	Km	neither		
+manual_curated_runeem_dataset.csv	2590	13678419	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2591	13678419	kcat	both	A0-locked:13678419:7	2afb6be2235257c0
+manual_curated_runeem_dataset.csv	2591	13678419	Km	both	A0-locked:13678419:6	21e072342c670b46
+manual_curated_runeem_dataset.csv	2591	13678419	kcat/Km	both	A0-locked:13678419:8	f245ac1f76d3146a
+manual_curated_runeem_dataset.csv	2592	13678419	kcat	neither		
+manual_curated_runeem_dataset.csv	2592	13678419	Km	neither		
+manual_curated_runeem_dataset.csv	2592	13678419	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2593	13678419	kcat	neither		
+manual_curated_runeem_dataset.csv	2593	13678419	Km	neither		
+manual_curated_runeem_dataset.csv	2593	13678419	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2594	13678419	kcat	both	A0-locked:13678419:4	08a6812dfbddaf4d
+manual_curated_runeem_dataset.csv	2594	13678419	Km	both	A0-locked:13678419:3	fd5873127170c62f
+manual_curated_runeem_dataset.csv	2594	13678419	kcat/Km	both	A0-locked:13678419:5	42d7c5b4c0289d6c
+manual_curated_runeem_dataset.csv	2595	13678419	kcat	neither		
+manual_curated_runeem_dataset.csv	2595	13678419	Km	neither		
+manual_curated_runeem_dataset.csv	2595	13678419	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2596	13678419	kcat	both	A0-locked:13678419:10	8e18ff56d6e785ec
+manual_curated_runeem_dataset.csv	2596	13678419	Km	both	A0-locked:13678419:9	ff6878d640b21e53
+manual_curated_runeem_dataset.csv	2596	13678419	kcat/Km	both	A0-locked:13678419:11	e8567929cc5b55a2
+manual_curated_runeem_dataset.csv	2597	13678419	kcat	neither		
+manual_curated_runeem_dataset.csv	2597	13678419	Km	neither		
+manual_curated_runeem_dataset.csv	2597	13678419	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2598	13678419	kcat	neither		
+manual_curated_runeem_dataset.csv	2598	13678419	Km	neither		
+manual_curated_runeem_dataset.csv	2598	13678419	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2599	13678419	kcat	both	A0-locked:13678419:13	70efdb222ae28afb
+manual_curated_runeem_dataset.csv	2599	13678419	Km	both	A0-locked:13678419:12	574f4faa75a4b9bd
+manual_curated_runeem_dataset.csv	2599	13678419	kcat/Km	both	A0-locked:13678419:14	7c6279764462b685
+manual_curated_runeem_dataset.csv	2600	13678419	kcat	neither		
+manual_curated_runeem_dataset.csv	2600	13678419	Km	neither		
+manual_curated_runeem_dataset.csv	2600	13678419	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2601	13678419	kcat	neither		
+manual_curated_runeem_dataset.csv	2601	13678419	Km	neither		
+manual_curated_runeem_dataset.csv	2601	13678419	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2602	13678419	kcat	both	A0-locked:13678419:19	2cd0bb94c83d2fbd
+manual_curated_runeem_dataset.csv	2602	13678419	Km	neither		
+manual_curated_runeem_dataset.csv	2602	13678419	kcat/Km	both	A0-locked:13678419:20	cc4e7c85e3df07df
+manual_curated_runeem_dataset.csv	2603	13678419	kcat	both	A0-locked:13678419:25	2892da93d028e85f
+manual_curated_runeem_dataset.csv	2603	13678419	Km	both	A0-locked:13678419:24	57168b68f9bfe2c8
+manual_curated_runeem_dataset.csv	2603	13678419	kcat/Km	both	A0-locked:13678419:26	96de962912dac761
+manual_curated_runeem_dataset.csv	2604	13678419	kcat	both	A0-locked:13678419:22	ca3962dffd1da22d
+manual_curated_runeem_dataset.csv	2604	13678419	Km	both	A0-locked:13678419:21	cf23ef3777231ae5
+manual_curated_runeem_dataset.csv	2604	13678419	kcat/Km	both	A0-locked:13678419:23	b68bc7123b94f5e1
+manual_curated_runeem_dataset.csv	2605	13678419	kcat	both	A0-locked:13678419:28	e85aebbb99bea0bd
+manual_curated_runeem_dataset.csv	2605	13678419	Km	both	A0-locked:13678419:27	571372807448398e
+manual_curated_runeem_dataset.csv	2605	13678419	kcat/Km	both	A0-locked:13678419:29	afb7189e3cbc904b
+manual_curated_runeem_dataset.csv	2606	13678419	kcat	both	A0-locked:13678419:31	75cb6d5c7a77e479
+manual_curated_runeem_dataset.csv	2606	13678419	Km	both	A0-locked:13678419:30	d49f5a004f11aee0
+manual_curated_runeem_dataset.csv	2606	13678419	kcat/Km	both	A0-locked:13678419:32	009277fe85ed55d4
+manual_curated_runeem_dataset.csv	2607	13678419	kcat	both	A0-locked:13678419:34	4a51cb2dc71c4f60
+manual_curated_runeem_dataset.csv	2607	13678419	Km	both	A0-locked:13678419:33	90b255330aa19d10
+manual_curated_runeem_dataset.csv	2607	13678419	kcat/Km	both	A0-locked:13678419:35	22dc0dc0dfe129ee
+manual_curated_runeem_dataset.csv	2608	13678419	kcat	both	A0-locked:13678419:16	d9ebb50ff69bd61e
+manual_curated_runeem_dataset.csv	2608	13678419	Km	both	A0-locked:13678419:15	06fb5f4bdf6ec116
+manual_curated_runeem_dataset.csv	2608	13678419	kcat/Km	both	A0-locked:13678419:17	ca6d5fd3609c7c2e
+manual_curated_runeem_dataset.csv	2628	14580998	Km	plain_only	A0-locked:14580998:0	
+manual_curated_runeem_dataset.csv	2629	14580998	Km	both	A0-locked:14580998:1	191160f9397a941d
+manual_curated_runeem_dataset.csv	2630	14580998	Km	both	A0-locked:14580998:11	3a346f513758e565
+manual_curated_runeem_dataset.csv	2631	14580998	Km	both	A0-locked:14580998:12	6f114ba6ce789810
+manual_curated_runeem_dataset.csv	2632	14580998	Km	unscored		
+manual_curated_runeem_dataset.csv	2633	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2634	14580998	Km	unscored		
+manual_curated_runeem_dataset.csv	2635	14580998	Km	unscored		
+manual_curated_runeem_dataset.csv	2636	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2637	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2638	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2639	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2640	14580998	kcat	both	A0-locked:14580998:2	09014ccf1cb48a00
+manual_curated_runeem_dataset.csv	2640	14580998	Km	catlog_only		358f7b20890f7fa0
+manual_curated_runeem_dataset.csv	2640	14580998	kcat/Km	both	A0-locked:14580998:3	0bd7194af5b9be50
+manual_curated_runeem_dataset.csv	2641	14580998	kcat	neither		
+manual_curated_runeem_dataset.csv	2641	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2641	14580998	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2642	14580998	kcat	both	A0-locked:14580998:6	b4ca7f041c3677af
+manual_curated_runeem_dataset.csv	2642	14580998	Km	both	A0-locked:14580998:4	68705ad672760f6a
+manual_curated_runeem_dataset.csv	2642	14580998	kcat/Km	both	A0-locked:14580998:7	5acb464799d511f7
+manual_curated_runeem_dataset.csv	2643	14580998	kcat	neither		
+manual_curated_runeem_dataset.csv	2643	14580998	Km	both	A0-locked:14580998:5	eae839a135a7c96a
+manual_curated_runeem_dataset.csv	2643	14580998	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2644	14580998	kcat	both	A0-locked:14580998:9	f045a00b7ae6e411
+manual_curated_runeem_dataset.csv	2644	14580998	Km	both	A0-locked:14580998:8	57ec0a58f41aecec
+manual_curated_runeem_dataset.csv	2644	14580998	kcat/Km	both	A0-locked:14580998:10	3d570e1a47751109
+manual_curated_runeem_dataset.csv	2645	14580998	kcat	neither		
+manual_curated_runeem_dataset.csv	2645	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2645	14580998	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2646	14580998	kcat	both	A0-locked:14580998:13	be5d7add4d1512bb
+manual_curated_runeem_dataset.csv	2646	14580998	Km	both	A0-locked:14580998:15	ec82bf414300f72d
+manual_curated_runeem_dataset.csv	2646	14580998	kcat/Km	both	A0-locked:14580998:14	2812015bca6f2273
+manual_curated_runeem_dataset.csv	2647	14580998	kcat	neither		
+manual_curated_runeem_dataset.csv	2647	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2647	14580998	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2648	14580998	kcat	both	A0-locked:14580998:17	094b41670d15a823
+manual_curated_runeem_dataset.csv	2648	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2648	14580998	kcat/Km	both	A0-locked:14580998:18	12fb9ace571aefc2
+manual_curated_runeem_dataset.csv	2649	14580998	kcat	neither		
+manual_curated_runeem_dataset.csv	2649	14580998	Km	both	A0-locked:14580998:16	79d601ab4b571629
+manual_curated_runeem_dataset.csv	2649	14580998	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2650	14580998	kcat	both	A0-locked:14580998:20	5c489871bcc2424a
+manual_curated_runeem_dataset.csv	2650	14580998	Km	both	A0-locked:14580998:19	5edb836d654f3c53
+manual_curated_runeem_dataset.csv	2650	14580998	kcat/Km	both	A0-locked:14580998:21	763764280ebce30e
+manual_curated_runeem_dataset.csv	2651	14580998	kcat	neither		
+manual_curated_runeem_dataset.csv	2651	14580998	Km	neither		
+manual_curated_runeem_dataset.csv	2651	14580998	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2652	14580998	Km	plain_only	A0-locked:14580998:22	
+manual_curated_runeem_dataset.csv	2653	14580998	Km	plain_only	A0-locked:14580998:23	
+manual_curated_runeem_dataset.csv	2654	14580998	Km	plain_only	A0-locked:14580998:24	
+manual_curated_runeem_dataset.csv	2678	14871895	Km	both	A0-locked:14871895:0	5cb44792ebd35438
+manual_curated_runeem_dataset.csv	2678	14871895	kcat/Km	both	A0-locked:14871895:1	5e0b808984b052d9
+manual_curated_runeem_dataset.csv	2680	14871895	Km	both	A0-locked:14871895:2	66f861aae7c7e266
+manual_curated_runeem_dataset.csv	2680	14871895	kcat/Km	both	A0-locked:14871895:3	ae37496ba8fc6669
+manual_curated_runeem_dataset.csv	2682	14871895	Km	both	A0-locked:14871895:4	281dfeaf38b90bb6
+manual_curated_runeem_dataset.csv	2682	14871895	kcat/Km	both	A0-locked:14871895:5	a2380c86fec191ae
+manual_curated_runeem_dataset.csv	2683	14871895	Km	both	A0-locked:14871895:6	39bd3e86578d689b
+manual_curated_runeem_dataset.csv	2683	14871895	kcat/Km	both	A0-locked:14871895:7	ea5be5523de55635
+manual_curated_runeem_dataset.csv	2684	14871895	Km	both	A0-locked:14871895:8	8603b2944ea87689
+manual_curated_runeem_dataset.csv	2684	14871895	kcat/Km	both	A0-locked:14871895:9	b1b515ee752ca73e
+manual_curated_runeem_dataset.csv	2685	14871895	Km	both	A0-locked:14871895:10	f439cd5812da43db
+manual_curated_runeem_dataset.csv	2685	14871895	kcat/Km	both	A0-locked:14871895:11	0118e6db15ed3cb5
+manual_curated_runeem_dataset.csv	2687	14960587	Km	neither		
+manual_curated_runeem_dataset.csv	2688	14960587	Km	neither		
+manual_curated_runeem_dataset.csv	2689	14960587	Km	both	A0-locked:14960587:2	a942d030211eb9c8
+manual_curated_runeem_dataset.csv	2690	14960587	Km	both	A0-locked:14960587:4	381bc13011d88317
+manual_curated_runeem_dataset.csv	2691	14960587	Km	neither		
+manual_curated_runeem_dataset.csv	2692	14960587	Km	neither		
+manual_curated_runeem_dataset.csv	2693	14960587	Km	both	A0-locked:14960587:15	1075de8354341883
+manual_curated_runeem_dataset.csv	2694	14960587	Km	both	A0-locked:14960587:16	60f613c92e08fa0a
+manual_curated_runeem_dataset.csv	2695	14960587	Km	both	A0-locked:14960587:9	b42fd6f4eaa6e80d
+manual_curated_runeem_dataset.csv	2696	14960587	Km	both	A0-locked:14960587:19	fa55cdb606ae1b17
+manual_curated_runeem_dataset.csv	2697	14960587	Km	both	A0-locked:14960587:12	87a3a799a289f759
+manual_curated_runeem_dataset.csv	2698	14960587	Km	both	A0-locked:14960587:22	2ef1c33a4eb1a21f
+manual_curated_runeem_dataset.csv	2699	14960587	Km	neither		
+manual_curated_runeem_dataset.csv	2700	14960587	Km	both	A0-locked:14960587:6	aaa6167ce4d7a189
+manual_curated_runeem_dataset.csv	2701	14960587	Km	neither		
+manual_curated_runeem_dataset.csv	2702	14960587	Km	neither		
+manual_curated_runeem_dataset.csv	2703	14976196	Km	neither		
+manual_curated_runeem_dataset.csv	2703	14976196	kcat/Km	both	A0-locked:14976196:4	9c0522766738de8c
+manual_curated_runeem_dataset.csv	2704	14976196	Km	both	A0-locked:14976196:0	44497f19bd85c851
+manual_curated_runeem_dataset.csv	2704	14976196	kcat/Km	both	A0-locked:14976196:1	18cf438d485dfa27
+manual_curated_runeem_dataset.csv	2705	14976196	Km	both	A0-locked:14976196:2	4249fd2144c3e5ff
+manual_curated_runeem_dataset.csv	2705	14976196	kcat/Km	both	A0-locked:14976196:3	6b01cc7638558576
+manual_curated_runeem_dataset.csv	2706	14976196	Km	both	A0-locked:14976196:5	860f41a07255abba
+manual_curated_runeem_dataset.csv	2706	14976196	kcat/Km	both	A0-locked:14976196:6	61c6bc9b51562a44
+manual_curated_runeem_dataset.csv	2769	15123417	kcat	neither		
+manual_curated_runeem_dataset.csv	2769	15123417	Km	both	A0-locked:15123417:0	a1812740f6e8ffc1
+manual_curated_runeem_dataset.csv	2769	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2770	15123417	kcat	neither		
+manual_curated_runeem_dataset.csv	2770	15123417	Km	both	A0-locked:15123417:3	bfbaed837541f044
+manual_curated_runeem_dataset.csv	2770	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2771	15123417	kcat	neither		
+manual_curated_runeem_dataset.csv	2771	15123417	Km	both	A0-locked:15123417:6	0576a53756ad1822
+manual_curated_runeem_dataset.csv	2771	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2772	15123417	kcat	neither		
+manual_curated_runeem_dataset.csv	2772	15123417	Km	both	A0-locked:15123417:9	1ae3d86c518eca9e
+manual_curated_runeem_dataset.csv	2772	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2773	15123417	kcat	neither		
+manual_curated_runeem_dataset.csv	2773	15123417	Km	both	A0-locked:15123417:12	0e5f3d543a9c2657
+manual_curated_runeem_dataset.csv	2773	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2774	15123417	kcat	neither		
+manual_curated_runeem_dataset.csv	2774	15123417	Km	both	A0-locked:15123417:15	35cb606ed0271744
+manual_curated_runeem_dataset.csv	2774	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2775	15123417	kcat	neither		
+manual_curated_runeem_dataset.csv	2775	15123417	Km	both	A0-locked:15123417:18	a42b0e299790ffe7
+manual_curated_runeem_dataset.csv	2775	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2776	15123417	kcat	neither		
+manual_curated_runeem_dataset.csv	2776	15123417	Km	both	A0-locked:15123417:21	18ce0a84f987275c
+manual_curated_runeem_dataset.csv	2776	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2777	15123417	kcat	neither		
+manual_curated_runeem_dataset.csv	2777	15123417	Km	both	A0-locked:15123417:24	8a838f80e3896a95
+manual_curated_runeem_dataset.csv	2777	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2778	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2779	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2780	15123417	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2811	15136574	Km	neither		
+manual_curated_runeem_dataset.csv	2811	15136574	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2812	15136574	Km	neither		
+manual_curated_runeem_dataset.csv	2812	15136574	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2813	15136574	Km	both	A0-locked:15136574:4	75b3cf3ef5bb0801
+manual_curated_runeem_dataset.csv	2813	15136574	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2814	15136574	Km	both	A0-locked:15136574:2	8c2d4710394b446d
+manual_curated_runeem_dataset.csv	2814	15136574	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	2815	15136574	Km	neither		
+manual_curated_runeem_dataset.csv	2815	15136574	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	2816	15136574	Km	both	A0-locked:15136574:0	2332f76df570bdc3
+manual_curated_runeem_dataset.csv	2816	15136574	kcat/Km	unscored		
+manual_curated_runeem_dataset.csv	2866	15158713	kcat	neither		
+manual_curated_runeem_dataset.csv	2866	15158713	Km	neither		
+manual_curated_runeem_dataset.csv	2866	15158713	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2867	15158713	kcat	neither		
+manual_curated_runeem_dataset.csv	2867	15158713	Km	neither		
+manual_curated_runeem_dataset.csv	2867	15158713	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2868	15158713	kcat	neither		
+manual_curated_runeem_dataset.csv	2868	15158713	Km	neither		
+manual_curated_runeem_dataset.csv	2868	15158713	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2869	15158713	kcat	neither		
+manual_curated_runeem_dataset.csv	2869	15158713	Km	neither		
+manual_curated_runeem_dataset.csv	2869	15158713	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2870	15158713	kcat	neither		
+manual_curated_runeem_dataset.csv	2870	15158713	Km	neither		
+manual_curated_runeem_dataset.csv	2870	15158713	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2871	15158713	kcat	neither		
+manual_curated_runeem_dataset.csv	2871	15158713	Km	neither		
+manual_curated_runeem_dataset.csv	2871	15158713	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2872	15158713	kcat	neither		
+manual_curated_runeem_dataset.csv	2872	15158713	Km	neither		
+manual_curated_runeem_dataset.csv	2872	15158713	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2873	15158713	kcat	neither		
+manual_curated_runeem_dataset.csv	2873	15158713	Km	neither		
+manual_curated_runeem_dataset.csv	2873	15158713	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2874	15158713	kcat	neither		
+manual_curated_runeem_dataset.csv	2874	15158713	Km	neither		
+manual_curated_runeem_dataset.csv	2874	15158713	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2875	15158713	kcat	both	A0-locked:15158713:3	17f9998cf8a12f23
+manual_curated_runeem_dataset.csv	2875	15158713	Km	both	A0-locked:15158713:2	6c099fb75aa2035c
+manual_curated_runeem_dataset.csv	2875	15158713	kcat/Km	both	A0-locked:15158713:4	3c76660faf799434
+manual_curated_runeem_dataset.csv	2899	15210695	kcat	neither		
+manual_curated_runeem_dataset.csv	2899	15210695	Km	neither		
+manual_curated_runeem_dataset.csv	2899	15210695	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2901	15210695	kcat	both	A0-locked:15210695:0	72f5b59924089f35
+manual_curated_runeem_dataset.csv	2901	15210695	Km	both	A0-locked:15210695:1	17ed18bcd009fd62
+manual_curated_runeem_dataset.csv	2901	15210695	kcat/Km	both	A0-locked:15210695:2	14d62f786831b256
+manual_curated_runeem_dataset.csv	2902	15210695	kcat	both	A0-locked:15210695:3	661d9babee8cada3
+manual_curated_runeem_dataset.csv	2902	15210695	Km	both	A0-locked:15210695:4	737abc772ba216fa
+manual_curated_runeem_dataset.csv	2902	15210695	kcat/Km	both	A0-locked:15210695:5	b268d58e2c63c229
+manual_curated_runeem_dataset.csv	2903	15210695	kcat	both	A0-locked:15210695:6	e96901557def73d8
+manual_curated_runeem_dataset.csv	2903	15210695	Km	both	A0-locked:15210695:7	cd1f95bbe1e0945c
+manual_curated_runeem_dataset.csv	2903	15210695	kcat/Km	both	A0-locked:15210695:8	341e037868794ec6
+manual_curated_runeem_dataset.csv	2904	15210695	kcat	both	A0-locked:15210695:37	a0f98ebec4c2a154
+manual_curated_runeem_dataset.csv	2904	15210695	Km	both	A0-locked:15210695:38	89c79ab7340af8c9
+manual_curated_runeem_dataset.csv	2904	15210695	kcat/Km	both	A0-locked:15210695:39	2e281f354088e77d
+manual_curated_runeem_dataset.csv	2905	15210695	kcat	both	A0-locked:15210695:40	5ee02ca65f222c82
+manual_curated_runeem_dataset.csv	2905	15210695	Km	both	A0-locked:15210695:41	1412523dae4fa2d4
+manual_curated_runeem_dataset.csv	2905	15210695	kcat/Km	both	A0-locked:15210695:42	ca63f5db3b1ce847
+manual_curated_runeem_dataset.csv	2906	15210695	kcat	both	A0-locked:15210695:43	54b12d1441fde3b6
+manual_curated_runeem_dataset.csv	2906	15210695	Km	both	A0-locked:15210695:44	3a2cb2ae6678b026
+manual_curated_runeem_dataset.csv	2906	15210695	kcat/Km	both	A0-locked:15210695:45	25101ca70239a1c1
+manual_curated_runeem_dataset.csv	2907	15210695	kcat	both	A0-locked:15210695:9	1578e380ca6c32f0
+manual_curated_runeem_dataset.csv	2907	15210695	Km	both	A0-locked:15210695:12	810e54bc89a08e21
+manual_curated_runeem_dataset.csv	2907	15210695	kcat/Km	both	A0-locked:15210695:13	e72e2861a5273d5f
+manual_curated_runeem_dataset.csv	2908	15210695	kcat	both	A0-locked:15210695:10	164f304f30fb4ca7
+manual_curated_runeem_dataset.csv	2908	15210695	Km	both	A0-locked:15210695:11	00fb73f09690a27c
+manual_curated_runeem_dataset.csv	2908	15210695	kcat/Km	both	A0-locked:15210695:14	0a387ec00db02dd8
+manual_curated_runeem_dataset.csv	2911	15210695	kcat	both	A0-locked:15210695:16	f23310d3876a26c6
+manual_curated_runeem_dataset.csv	2911	15210695	Km	both	A0-locked:15210695:18	62a01d80b2a99c8c
+manual_curated_runeem_dataset.csv	2911	15210695	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2912	15210695	kcat	both	A0-locked:15210695:15	bfaf3945c0e1c4af
+manual_curated_runeem_dataset.csv	2912	15210695	Km	both	A0-locked:15210695:17	221572ce35a505d2
+manual_curated_runeem_dataset.csv	2912	15210695	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2913	15210695	kcat	both	A0-locked:15210695:21	94fb4a80863848e7
+manual_curated_runeem_dataset.csv	2913	15210695	Km	both	A0-locked:15210695:23	4afd9438cd2d4bb3
+manual_curated_runeem_dataset.csv	2913	15210695	kcat/Km	both	A0-locked:15210695:25	3a1199289f96d9ef
+manual_curated_runeem_dataset.csv	2914	15210695	kcat	both	A0-locked:15210695:22	fc4a986c80cd3038
+manual_curated_runeem_dataset.csv	2914	15210695	Km	both	A0-locked:15210695:24	33448549ee7efd68
+manual_curated_runeem_dataset.csv	2914	15210695	kcat/Km	both	A0-locked:15210695:26	03a08e9ec2d6fbd0
+manual_curated_runeem_dataset.csv	2915	15210695	kcat	both	A0-locked:15210695:27	6b0024a1bc3ad5fa
+manual_curated_runeem_dataset.csv	2915	15210695	Km	both	A0-locked:15210695:29	2f45e359da4f78e5
+manual_curated_runeem_dataset.csv	2915	15210695	kcat/Km	both	A0-locked:15210695:31	145d74eab1a0ce16
+manual_curated_runeem_dataset.csv	2916	15210695	kcat	both	A0-locked:15210695:28	c16ba947bd8e65fa
+manual_curated_runeem_dataset.csv	2916	15210695	Km	both	A0-locked:15210695:30	7ed6a91b794d8f25
+manual_curated_runeem_dataset.csv	2916	15210695	kcat/Km	both	A0-locked:15210695:32	df8e144cb033cb83
+manual_curated_runeem_dataset.csv	2917	15238222	Km	both	A0-locked:15238222:0	282e6bc6a4d82e28
+manual_curated_runeem_dataset.csv	2918	15238222	Km	plain_only	A0-locked:15238222:1	
+manual_curated_runeem_dataset.csv	2919	15238222	Km	both	A0-locked:15238222:2	05c2a4295173606c
+manual_curated_runeem_dataset.csv	2920	15238222	Km	plain_only	A0-locked:15238222:3	
+manual_curated_runeem_dataset.csv	2921	15238222	Km	neither		
+manual_curated_runeem_dataset.csv	2922	15238222	Km	neither		
+manual_curated_runeem_dataset.csv	2923	15238222	Km	neither		
+manual_curated_runeem_dataset.csv	2924	15238222	Km	neither		
+manual_curated_runeem_dataset.csv	2925	15238222	Km	neither		
+manual_curated_runeem_dataset.csv	2926	15238222	Km	neither		
+manual_curated_runeem_dataset.csv	2927	15238222	Km	neither		
+manual_curated_runeem_dataset.csv	2928	15238222	Km	neither		
+manual_curated_runeem_dataset.csv	2929	15247292	kcat	neither		
+manual_curated_runeem_dataset.csv	2929	15247292	Km	both	A0-locked:15247292:1	59acb496c93e9e28
+manual_curated_runeem_dataset.csv	2929	15247292	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2930	15247292	kcat	both	A0-locked:15247292:0	3e8add80181e68fe
+manual_curated_runeem_dataset.csv	2930	15247292	Km	both	A0-locked:15247292:2	c527a75f513cdaf1
+manual_curated_runeem_dataset.csv	2930	15247292	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2935	15288786	kcat	both	A0-locked:15288786:0	5227b931c38617b3
+manual_curated_runeem_dataset.csv	2935	15288786	Km	both	A0-locked:15288786:1	7b916a33b36d47a5
+manual_curated_runeem_dataset.csv	2936	15288786	kcat	both	A0-locked:15288786:4	60b8174723d85d0d
+manual_curated_runeem_dataset.csv	2936	15288786	Km	both	A0-locked:15288786:3	d5aaf25bc81c23cd
+manual_curated_runeem_dataset.csv	2937	15288786	kcat	both	A0-locked:15288786:6	ce535c68aa42ca33
+manual_curated_runeem_dataset.csv	2937	15288786	Km	both	A0-locked:15288786:5	427980eb804f6a7d
+manual_curated_runeem_dataset.csv	2938	15288786	kcat	both	A0-locked:15288786:8	781b2b99771ba03c
+manual_curated_runeem_dataset.csv	2938	15288786	Km	both	A0-locked:15288786:7	a21cf47747199f5f
+manual_curated_runeem_dataset.csv	2939	15288786	kcat	both	A0-locked:15288786:10	44bac31f4b026705
+manual_curated_runeem_dataset.csv	2939	15288786	Km	both	A0-locked:15288786:9	8abc52c038b9d69b
+manual_curated_runeem_dataset.csv	2953	15371425	kcat	both	A0-locked:15371425:1	ae988fc022ce7721
+manual_curated_runeem_dataset.csv	2953	15371425	Km	both	A0-locked:15371425:0	32b535232d480130
+manual_curated_runeem_dataset.csv	2954	15371425	kcat	both	A0-locked:15371425:3	c12d543af4575fdf
+manual_curated_runeem_dataset.csv	2954	15371425	Km	both	A0-locked:15371425:2	11c700aeaf907a00
+manual_curated_runeem_dataset.csv	2955	15371425	kcat	both	A0-locked:15371425:5	ab9edff1dff142d9
+manual_curated_runeem_dataset.csv	2955	15371425	Km	both	A0-locked:15371425:4	697eca9c38bb83bd
+manual_curated_runeem_dataset.csv	2956	15371425	kcat	both	A0-locked:15371425:7	c6ad5fdbc4bf907a
+manual_curated_runeem_dataset.csv	2956	15371425	Km	both	A0-locked:15371425:6	f5bbc1c0d146e6ea
+manual_curated_runeem_dataset.csv	2957	15371425	kcat	both	A0-locked:15371425:9	2bd2527d3df07740
+manual_curated_runeem_dataset.csv	2957	15371425	Km	both	A0-locked:15371425:8	0701a7d1837a09d7
+manual_curated_runeem_dataset.csv	2958	15371425	kcat	both	A0-locked:15371425:11	319886ffb41a9b6f
+manual_curated_runeem_dataset.csv	2958	15371425	Km	plain_only	A0-locked:15371425:10	
+manual_curated_runeem_dataset.csv	2959	15371425	kcat	both	A0-locked:15371425:24	cdb234f8ab80a869
+manual_curated_runeem_dataset.csv	2959	15371425	Km	both	A0-locked:15371425:25	6e30989e3adaa448
+manual_curated_runeem_dataset.csv	2959	15371425	kcat/Km	both	A0-locked:15371425:28	687deaa405abf69c
+manual_curated_runeem_dataset.csv	2960	15371425	kcat	unscored		
+manual_curated_runeem_dataset.csv	2960	15371425	Km	both	A0-locked:15371425:26	56925f163d1bda2a
+manual_curated_runeem_dataset.csv	2960	15371425	kcat/Km	both	A0-locked:15371425:29	8b11ede9535e4ce0
+manual_curated_runeem_dataset.csv	2961	15371425	kcat	unscored		
+manual_curated_runeem_dataset.csv	2961	15371425	Km	plain_only	A0-locked:15371425:27	
+manual_curated_runeem_dataset.csv	2961	15371425	kcat/Km	neither		
+manual_curated_runeem_dataset.csv	2963	15371425	Km	neither		
+manual_curated_runeem_dataset.csv	2964	15371425	Km	both	A0-locked:15371425:14	305c8a831247dddf
+manual_curated_runeem_dataset.csv	2965	15371425	Km	both	A0-locked:15371425:12	c9de3a9f05ee3e7c
+manual_curated_runeem_dataset.csv	2966	15371425	Km	both	A0-locked:15371425:22	0091c7a3dcff78bd
+manual_curated_runeem_dataset.csv	2967	15371425	Km	both	A0-locked:15371425:20	60cabd225cdb71ab
+manual_curated_runeem_dataset.csv	2968	15371425	Km	catlog_only		a16aac8239a0a746
