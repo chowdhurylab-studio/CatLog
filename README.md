@@ -33,6 +33,9 @@ The agents run as Claude Code subagents, started by the saved workflows in `.cla
 
 - `catlog-batch` (read and verify), `catlog-audit`, `catlog-dbcheck`, `catlog-scale`, `catlog-vmax` and
   `catlog-nd-census` (a one-off census of not-detected values);
+- `catlog-corrigendum`: when `python3 catlog.py status` lists a correction notice (a corrigendum or erratum of an
+  article that still has stored values), three agents, each blind to the others, map every value of both papers to
+  the notice; `tools/corrigendum.py` then applies only what all three agree on (a dry run first, then `--apply`);
 - `catlog-reprint-pairs` and `catlog-reprint-third-opinion` (the reprint sweep: a checker per suspect paper and
   refuters, then two judges where those split), `catlog-audit-followup` (the rest of a paper's values after an audit
   found an error that may repeat) and `catlog-unitcheck` (the unit of one table column, decided from the paper's own
@@ -67,10 +70,10 @@ texts kept only in the agents' logs, which the authors archive.
 - `tools/`: paper text (`fetch.py`, `jats_to_text.py`, `elsevier_to_text.py`), units (`units.py`), sequences and
   structures (`sequences.py`, `structures.py`, `enrich.py`, `ids.py`), the database comparison (`dbcompare.py`,
   `dbcheck.py` and the `*_values.py` importers), checks and sweeps (`recheck.py`, `scale_sweep.py`, `vmax_sweep.py`,
-  `reprint_pairs.py`, `censored_scan.py`, `nd_census.py`, `reread_copies.py`), provenance (`provenance_backfill.py`),
-  the human review (`human_review.py`), the website's data build (`site_release.py`, `export_site.py`, and
-  `publication_years.py`, which serves only the website's comparison with BRENDA), the browser download lane
-  (`lane_agent.py`) and tests (`test_*.py`).
+  `reprint_pairs.py`, `censored_scan.py`, `nd_census.py`, `reread_copies.py`), correction notices (`corrigendum.py`),
+  provenance (`provenance_backfill.py`), the human review (`human_review.py`), the website's data build
+  (`site_release.py`, `export_site.py`, and `publication_years.py`, which serves only the website's comparison with
+  BRENDA), the browser download lane (`lane_agent.py`) and tests (`test_*.py`).
 - `prompts/`: the scientific rules the agents follow. `prompts/versions/` keeps every earlier prompt and task text
   that a value's stamp names (see "Versions").
 - `config.json`: the queue's source lists and reading order.
@@ -170,9 +173,10 @@ that it can match to a waiting paper, from `~/Downloads` (and anything in `inbox
 - `python3 catlog.py status`: values, records and papers, what waits, what is stuck.
 - `/audit`: `python3 catlog.py sample`, the `catlog-audit` workflow, then
   `python3 catlog.py audit-record work/audit_*.json`.
-- Tests that need no data: `python3 tools/test_blind_check.py`, `tools/test_dropped_relabel.py`,
-  `tools/test_provenance.py`, `tools/test_provenance_backfill.py` and `tools/test_publication_years.py` (two of its
-  tests need the authors' BRENDA comparison files and are skipped without them).
+- Tests that need no data: `python3 tools/test_blind_check.py`, `tools/test_correction_notices.py`,
+  `tools/test_dropped_relabel.py`, `tools/test_provenance.py`, `tools/test_provenance_backfill.py`,
+  `tools/test_superseded_drop.py` and `tools/test_publication_years.py` (two of its tests need the authors' BRENDA
+  comparison files and are skipped without them).
 
 ## Database cross-check (optional)
 

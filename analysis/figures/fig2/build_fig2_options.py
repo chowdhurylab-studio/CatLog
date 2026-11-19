@@ -155,8 +155,10 @@ def papers(page, x_letter, left, top, pitch=1.5, cols=23, gap=9.0, key_right=Fal
         same(f'b: marks, {side}', len(loud), BOTH[side])
         page.text(x0, top - 2.6, name)
         page.text(x0 + cols * pitch, top - 2.6, str(len(loud)), ha='right', fontweight='bold', color=st['color'], fontsize=7.5)
-    # under CatLog's block: what an open diamond is; the line ends at the block's right edge where it would leave the page
-    x_cat, y_key, words = left + cols * pitch + gap, top + rows * pitch + 3.2, "unit changed, as the paper's own numbers support"
+    # under CatLog's block: what an open diamond is; the line ends at the block's right edge where it would leave the page.
+    # The words are Table 1 footnote 4's (final read, 17 Nov): "as the paper's own numbers support" stated as fact what
+    # two agents judged after the result, while the tests' own judges had ruled those values wrong
+    x_cat, y_key, words = left + cols * pitch + gap, top + rows * pitch + 3.2, "unit changed from the paper's own numbers"
     if key_right:
         t = page.text(x_cat + cols * pitch, y_key, words, fontsize=6.0, ha='right')
         page.fig.canvas.draw()

@@ -130,6 +130,25 @@ marked `censored` (see "Censored values").
   substrate panel or the method. When its text is on disk (`texts/<PMID>.txt`, the PMID from the reference list),
   compare the cells: a reference column identical to that paper's table is reprinted, so skip it and keep the new
   columns (PMID 12591933 Table II against 11694539 Table III: 22 of 26 wild-type values, dropped by audit 2026-10-14).
+- A correction notice (corrigendum, erratum, "Correction to ...", author correction) is read for what it corrects. It
+  often prints a whole table again: store only its kcat, Km and kcat/Km cells that differ from the article it
+  corrects (in value, ± or unit), adding `corrected by the authors (correction of <PMID>)` at the end of each one's
+  `metric_note`, after any qualifier the cell carries anyway; a cell printed again unchanged is that article's own
+  value, so skip it. Values the notice prints as the original or wrong ones (an "Original" table, the words before
+  "should read") are never stored. A changed cell still passes every other rule: a row the notice or the article
+  credits to other work (a footnote, caption or citation in the row label), a Hill constant, or a marker defined as
+  not determined stays skipped. Find the article from the notice's own citation (its DOI or title:
+  `cut -f1-3 papers.tsv | grep -i "<DOI>"` gives the PMID) and compare cell by cell with its text when it is on disk
+  (`texts/<PMID>.txt`, `.supp.txt` for a supplementary table); that text can already be the corrected version
+  (publishers update in place), and then nothing differs and nothing is stored. When the text is not on disk, go by
+  the notice's own words on which cells changed; if it does not say, store the cells the other rules allow and write
+  in `note` that unchanged ones could not be told apart. A change stated only in words, with no corrected number
+  printed (a unit or header multiplier, a label or condition, values withdrawn), stores nothing: say in `note` which
+  of the article's cells change and how. Whenever it corrects any kcat, Km or kcat/Km, also when you store nothing
+  from it, write the corrected article's PMID (digits only, or its DOI when the queue has no PMID for it; a JSON list
+  for several articles) at the top level as `"corrects"`: code then checks the article's stored values against the
+  correction (41287407, the corrigendum of 40465391: 16 cells it printed unchanged were stored twice, and the article
+  kept 40 values the correction had replaced; 2026-11-16/17).
 - kcat/Km: extract it only where the paper prints it. Never compute it yourself. A kcat/Km belongs to the substrate
   whose Km is its denominator (headers like `kcat/KM(A)` or `kcat/KM^NADH` say which): in a table that varies two
   substrates, file each efficiency under that substrate only. A kcat/(KmA·KmB) (units M^-2 s^-1) is not kcat/Km: skip.
@@ -217,6 +236,8 @@ worked out):
 the family name); "" if it states none, never a guess. Code stamps it on every row you read, with a hash of this
 prompt, so the catalog records which model read each value.
 
+A correction notice that corrects kinetic values also gets `"corrects": "<PMID or DOI of the article it corrects>"`
+(Rules).
 If the paper has no measured kinetic values, write `"rows": []` with the reason in `note`.
 If kinetic values the paper measured are only in supplementary material that is NOT in the text you were given
 (e.g. "see Supplemental Table S1"), extract what is in the text and add `"needs_supplement": "<which file/table>"`

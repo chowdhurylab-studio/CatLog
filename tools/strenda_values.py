@@ -62,7 +62,9 @@ with open(ROOT / 'sources' / 'strenda_proteins.tsv', 'w') as out:
     out.write('pmid\tsrn\tuniprot\torganism\tprotein_name\texpression_system\tsequence\tmodifications\n')
     for r in table('Proteins.csv'):
         if r['srn'] in pmid:
-            seq = (r['modified_sequence'] or r['original_sequence'] or '').replace('\n', '').replace(' ', '')
+            # 'null': a protein deposited without its sequence (25184516's two TrpB2o, 30921515's KARI2), not a sequence
+            seq = next((s for s in (r['modified_sequence'], r['original_sequence']) if s.strip().lower() not in ('', 'null')),
+                       '').replace('\n', '').replace(' ', '')
             f = [pmid[r['srn']], r['srn'], r['uniprotkb_xml'], r['organism'], r['protein_name'], r['expression_system'], seq,
                  r['sequence_modifications_json']]
             out.write('\t'.join(x.replace('\t', ' ').replace('\n', ' ') for x in f) + '\n')

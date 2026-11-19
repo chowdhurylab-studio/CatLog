@@ -2,7 +2,8 @@
 description: Run one CatLog v2 batch (get → read → verify → add → enrich → export → database differences) and report one line
 ---
 Run one batch in the CatLog folder (this repository). This command is the user's request
-to run the saved workflows `catlog-batch`, `catlog-dbcheck` (when step 1 says so) and `catlog-audit` (when step 6 applies).
+to run the saved workflows `catlog-batch`, `catlog-dbcheck` (when step 1 says so), `catlog-audit` (when step 6 applies)
+and `catlog-corrigendum` (when step 5 lists Correction notices).
 
 0. Agents: LANES = the user's number if they gave one (`/batch 12`, "use 10 agents": $ARGUMENTS), otherwise 5 (the user, 2026-11-09). No upper
    limit of ours (the workflow tool itself runs at most 9 at once on this 11-core Mac; extra lanes simply queue). Only
@@ -44,7 +45,12 @@ to run the saved workflows `catlog-batch`, `catlog-dbcheck` (when step 1 says so
    then `python3 catlog.py enrich`, then `python3 catlog.py export`, then `python3 catlog.py dbdiff <the batch's PMIDs>`
    (task files for the papers with a value that differs from a database by 1.5x or more and no check on record; the
    next batch's step 2 checks them against the paper, so the site's "not yet resolved" lines settle by themselves).
-5. `python3 catlog.py status` (for your own checks; no need to show it). If its Human review line's "CatLog v2 has re-read N of these papers" went
+5. `python3 catlog.py status` (for your own checks; no need to show it). If it lists Correction notices, check each
+   pair now, unasked (the user, 2026-11-17: "The batch loop, unasked"; the authors' notes ("Correction notices"; not included here)): run the saved
+   workflow `catlog-corrigendum` by scriptPath (`<this folder>/.claude/workflows/catlog-corrigendum.js`,
+   args `{"article": "<ARTICLE>", "notice": "<NOTICE>", "root": "<this folder, absolute path>"}`), then `python3 tools/corrigendum.py ARTICLE NOTICE` (a dry run:
+   read it), then the same with `--apply`, and do what it prints for values left waiting (a `reread` of the notice);
+   say in one line what it dropped, fixed or left open, and the next step 4's export carries it. If its Human review line's "CatLog v2 has re-read N of these papers" went
    up, run `python3 catlog.py review compare` and the authors' notes ("Learning from it"; not included here). Show progress to the user only when status
    says it is time (about every 50 agents), when the loop stops, or when they ask: then run `python3 catlog.py report`
    and paste its output as is (markdown, not in a code block). Otherwise the batch reply is a few words. Status is the only counter.

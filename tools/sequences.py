@@ -380,7 +380,7 @@ def check_active(acc):
     tg = e.get('targets') or prim
     why = {'demerged': f"split into {', '.join(tg)}", 'merged': f"merged into {', '.join(tg)}"}.get(e['status'], 'deleted')
     reason = f" ({e['reason']})" if e.get('reason') else ''
-    return {'acc': '', 'status': e['status'], 'uniparc': e.get('uniparc', ''),
+    return {'acc': '', 'status': e['status'], 'uniparc': e.get('uniparc', ''), 'targets': tg if why != 'deleted' else [],
             'note': f'{base}: UniProt entry {why}{reason}' + (f"; sequence from UniParc {e['uniparc']}" if e.get('uniparc') else '')}
 
 
@@ -678,10 +678,33 @@ def _from_id(kind, ident, org, label, unchecked_cds=True):
     return None
 
 
-def _from_pdbs(pdbs, org, label):
+PEPTIDE_MAX = 30  # an entry no chain maps more residues of is a bound peptide (or a short fused segment), never the enzyme
+
+
+def _peptides(pdb):
+    """{accession: (chains, residues)} for the UniProt entries of which no chain of a PDB entry maps more than
+    PEPTIDE_MAX residues (local SIFTS): a bound substrate or inhibitor peptide, or a few residues of another protein
+    fused into a construct. 24634223 prints 4C1Q, mouse PRDM9 with residues 2-11 of human histone H3 (chain C); the
+    species filter dropped the mouse enzyme and gave human PRDM9 the histone."""
+    span = {}
+    for _, chain, acc, beg, end, *_ in sifts_rows(pdb=pdb) if have_sifts() else []:
+        span.setdefault(acc, {}).setdefault(chain, 0)
+        span[acc][chain] += end - beg + 1
+    return {a: (sorted(c), max(c.values())) for a, c in span.items() if max(c.values()) <= PEPTIDE_MAX}
+
+
+def _from_pdbs(pdbs, org, label, notes=None):
+    """The same-species entry the PDB entries' chains map to. Entries only short chains map (_peptides) are left out;
+    one of the row's species is named in notes, when given."""
     accs, chains = [], {}
     for p in pdbs:
+        pep = _peptides(p)
         for a, ch in pdb_accs(p).items():
+            if a in pep:
+                if notes is not None and _acc_level(a, org):
+                    notes.append(f'PDB {p} chain {",".join(pep[a][0])} maps at most {pep[a][1]} residues of {a}, '
+                                 f'too short to be the enzyme')
+                continue
             accs.append((a, _acc_level(a, org)))
             chains.setdefault(a, []).append(f'{p}' + (f' chain {",".join(ch)}' if ch else ''))
     same = _same_species(accs, org)
@@ -709,6 +732,25 @@ def _is_entry_of(e, row):
         return True
     want = words(re.sub(r'\([^)]*\)', ' ', row.get('enzyme') or ''))
     return bool(want) and any(want <= words(n) for n in e.get('names', []))
+
+
+def _successors_other(accs, row):
+    """[] unless the active entries a retired printed accession was split into (accs) are all another protein: none is
+    the row's enzyme by gene or name, and none shares a name word with it. Then ['acc gene', ...], and the retired
+    entry's UniParc sequence is not the enzyme's either: 31314509 prints 'YdjH (Uniprot ID: P77492)', a retired
+    accession of the permease BrnQ (P0AD99, P0ADA0), for the sugar kinase YdjH (P77493)."""
+    own = _tokens(row.get('gene'), row.get('enzyme'))
+    if not own and not (row.get('gene') or '').strip():
+        return []  # nothing to compare with
+    named = []
+    for a in accs:
+        e = entry(a)
+        if e.get('status') != 'active':
+            continue
+        if _is_entry_of(e, row) or _tokens(*(e.get('genes', []) + e.get('names', []))) & own:
+            return []
+        named.append(f"{a} {(e.get('genes') or e.get('names') or ['?'])[0]}")
+    return named
 
 
 def unshare_cited(ids, paper_keys):
@@ -783,8 +825,13 @@ def find_protein(row, text=None):
                 other = (sprot().get(b) or ('', ''))[1] or ', '.join(entry(b).get('organism', [])[:1])
                 notes.append(f"printed {a}{' (' + st['note'] + ')' if st['note'] else ''} is {other}, not {org}: not used")
             elif st['uniparc'] and len(ups) == 1:
-                res = _result('', f"printed {st['note']}", [], uniparc=st['uniparc'], seq_ref=st['uniparc'],
-                              seq_how=f"UniParc {st['uniparc']}: the sequence of the printed, now inactive entry {a}")
+                other = _successors_other(st.get('targets', []), row)
+                if other:
+                    notes.append(f"printed {st['note'].split('; sequence from UniParc')[0]}, whose entries are not "
+                                 f"{row.get('gene') or row.get('enzyme')} ({'; '.join(other)}): not used")
+                else:
+                    res = _result('', f"printed {st['note']}", [], uniparc=st['uniparc'], seq_ref=st['uniparc'],
+                                  seq_how=f"UniParc {st['uniparc']}: the sequence of the printed, now inactive entry {a}")
             else:
                 notes.append(f"printed {st['note']}")
         accs = list(dict.fromkeys(a for a, _ in good))
@@ -794,7 +841,7 @@ def find_protein(row, text=None):
             res = _settle(accs, 'several printed accessions')
     # 2. printed PDB -> local SIFTS
     if (res is None or not res['seq_ref']) and printed_pdbs:
-        res = _from_pdbs(printed_pdbs, org, 'printed in paper') or res
+        res = _from_pdbs(printed_pdbs, org, 'printed in paper', notes) or res
     # 3. printed GenBank / EMBL / RefSeq / NCBI Gene ID
     if res is None or not res['seq_ref']:
         for kind, ident in printed:

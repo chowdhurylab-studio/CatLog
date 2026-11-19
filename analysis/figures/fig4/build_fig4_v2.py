@@ -1,4 +1,8 @@
-"""Fig. 4, co-learning: four panels, PNG only (16 November 2026, fifth pass).
+"""Fig. 4, co-learning: four panels since the evening of 18 November 2026, when the owner chose "Merge into Fig. 3"
+(Fig. 3 became the comparison figure): d is the rules and flags learned from errors, all 16, as Fig. 3a and Extended
+Data 7 drew them (panel_rules below). Earlier that day the owner had dropped the old c ("Yes, drop 4c": Fig. 3a then
+listed all 16 rules), and the old d became c, its two kinds side by side. Below, the panels as drawn on 16 November
+(fifth pass).
 
 a  Rules written, along papers read from the 12th paper on, stacked by who first found the error each rule answers.
    The grey bottom layer is named inside itself ('25 from checking databases against papers', the owner's 16 Nov wording as the files carry it); the y axis is ticked at 0, at the
@@ -75,6 +79,7 @@ import lean  # noqa: E402
 from lean import Page, same, GREEN, BLUE, SLATE, MINT, TAN, RED, INK, GRID  # noqa: E402
 import matplotlib.pyplot as plt  # noqa: E402
 from matplotlib.font_manager import FontProperties  # noqa: E402
+from matplotlib.patches import Rectangle  # noqa: E402
 from matplotlib.ticker import FixedLocator, FuncFormatter, NullFormatter  # noqa: E402
 from PIL import Image  # noqa: E402
 
@@ -1265,7 +1270,7 @@ def panel_c(pg, title_y, top, left_lab, ax_l, ax_r, rowh, key_end, gap=GAP):
     The papers first read before each rule (READ_BEFORE) are for the legend only; the owner dropped their open dots
     (16 Nov: "yeah drop")."""
     n_texts = len(TEXTS)
-    title(pg, 'c', 2, title_y, 'Rules learned from errors', f'({len(C_ROWS)} of {sum(A_COUNT.values()) - A_COUNT["known"]})')
+    title(pg, 'c', 2, title_y, 'Rules learned from errors')   # '(8 of 48)' left the title for the legend (the owner, 18 Nov 2026)
     title_end = max(mm_box(pg, drawn)[2] for _, drawn in TEXTS[n_texts:])
     groups = [[k for k in C_ROWS if k['effect'] == e] for e in C_HEADS]
     same('c: rows per group (errors kept out or corrected; right values no longer lost)', [len(g) for g in groups], [4, 4])
@@ -1320,52 +1325,122 @@ def panel_c(pg, title_y, top, left_lab, ax_l, ax_r, rowh, key_end, gap=GAP):
     return top + y                              # the axis line, mm
 
 
-def panel_d(pg, x0, title_y, top, left, right, heights, gap):
-    """Right values code refused, along papers read: one small axis per kind, a red step of the values refused and not
-    yet brought back, falling where a change to the rule brought them back; a dot at the change in the colour of who
-    had found these losses just before, with words of timing only; the y axis ticked at 0 and the peak; the values
-    still out at the curve's end."""
-    title(pg, 'd', x0, title_y, 'Right values refused, then brought back')
-    NAME = {'ratio': K + [(', ', '')] + M + [(' and ', '')] + KM + [(' disagree 5-fold or more', '')],
-            'unit': [('No unit in the column header', '')]}
-    y, tops = top, []
-    for i, name in enumerate(D_ART):
-        v = D[name]
-        hh = heights[i]
-        last = i == len(D_ART) - 1
-        rich(pg, left, y - 1.2, NAME[name])              # the kind, over its axis
-        ax = pg.box(left, y, right - left, hh)
-        papers_axis(ax, labels=True, title=last)        # both axes numbered (16 Nov, the owner: "no x axis for the first one in d")
-        ax.set_ylim(0, 1.3 * v['peak'])
-        ax.set_yticks([0, v['peak']])
-        ax.tick_params(axis='y', length=2, pad=1.2)
-        xs, ys = [0], [0]
-        for x, level in v['curve'][1:]:
-            xs += [x, x]
-            ys += [ys[-1], level]
-        xs.append(NOW)
-        ys.append(ys[-1])
-        same(f'd: {name}: the curve peaks, and ends at the values still out', (max(ys), ys[-1]), (v['peak'], v['end']))
-        # the earlier refusals handled at the change (16 Nov, the owner: "give the idea that after ... decision the previous
-        # ones got handled too"; then "looks ugly - some dotted line ... and legend explains"): the drop is dotted, in
-        # CatLog's green, with no words on the art; the legend gives the counts
-        xb = v['back_at'][0]
-        hi = max(y for x, y in v['curve'] if x < xb)
-        lo = [y for x, y in v['curve'] if x == xb][-1]
-        n_back = sum(b for _, b, _ in v['back'])
-        same(f'd: {name}: the drop is the values brought back', hi - lo, n_back)
-        # the owner went back to the plain red drop ("this was better"); the knee's words now say what the drop is
-        ax.plot(xs, ys, color=RED, linewidth=0.9, zorder=3, solid_joinstyle='miter')
-        dot(ax, v['at'], v['peak'], FINDER[v['who']][1], 4.6, mew=0.9, z=5)
-        at = mm_of(ax, left, y, right - left, hh)
-        xk, yk = at(v['at'], v['peak'])
-        label(pg, xk + 1.6, yk, 'brought back')                 # right of its dot: the curve there falls, brought back
-        label(pg, xk + 1.6, yk + 2.8, D_PARTS[v['who']])        # and under it, after whose decision
+C_WHEN = False   # c: when each change came (papers read) in the words on the art too; the legend gives it either way
 
-        label(pg, right + 1.2, at(NOW, v['end'])[1], f"{v['end']}", size=TOTAL, weight='bold', color=RED)
-        tops.append((y, hh))
-        y += hh + gap
-    return tops[-1][0] + tops[-1][1]
+
+def panel_d(pg, x0, title_y, top, left, width):
+    """Right values code refused, by why it refused them: one bar per reason on one values axis, the values brought back
+    (green) and those still out (red), and in words how many came back after whose finding.
+
+    Since 18 Nov 2026 this is panel c (the owner dropped the old c, whose rules Fig. 3a lists in full). Until then the
+    two reasons were red step curves along papers read, which the owner found misleading: the axis to 10,000 'make it
+    feel like 10k paper read or sth', when the values came from 9 and 28 papers. When each change came is in the
+    legend; fresh readers compared the step curves with these bars before the change (scratchpad fig4c_options)."""
+    title(pg, 'c', x0, title_y, 'Right values refused, then brought back')
+    NAME = {'ratio': KM + [(' and ', '')] + K + [(' ÷ ', '')] + M + [(' differ 5-fold or more', '')],   # what the
+            'unit': [('No unit in the column header', '')]}          # check compares (fresh readers, 18 Nov 2026)
+    BACK = {n: sum(b for _, b, _ in D[n]['back']) for n in D_ART}
+    same('c: brought back, still out at the end, refused in all, papers refused before the change, the change at',
+         {n: (BACK[n], D[n]['end'], D[n]['before'] + D[n]['after'], D[n]['papers_before'], D[n]['at']) for n in D_ART},
+         {'ratio': (36, 0, 36, 9, 893), 'unit': (301, 34, 335, 28, 6839)})
+    same('c: brought back plus still out is all refused', all(BACK[n] + D[n]['end'] == D[n]['before'] + D[n]['after']
+                                                                for n in D_ART), True)
+    vmax = 350.0
+    mm = width / vmax                                  # mm per value
+    tops = (top + C_FIRST, top + C_FIRST + C_STEP)     # each bar's top, page mm
+    ax = pg.box(left, top, width, C_H)
+    ax.set_xlim(0, vmax)
+    ax.set_ylim(C_H, 0)                                # y in mm down from the axes' top
+    for side in ('top', 'right', 'left'):
+        ax.spines[side].set_visible(False)
+    ax.set_yticks([])
+    ax.set_xticks([0, 100, 200, 300])
+    ax.set_xticklabels(['0', '100', '200', '300'])
+    ax.tick_params(axis='x', length=2, pad=1.5)
+    ax.set_xlabel('Values', labelpad=2)
+    for i, name in enumerate(D_ART):
+        v, back, out = D[name], BACK[name], D[name]['end']
+        y = tops[i] - top
+        rich(pg, left, tops[i] - 1.3, NAME[name])      # the reason, over its bar
+        ax.add_patch(Rectangle((0, y), back, C_BAR, facecolor=GREEN + '99', edgecolor=GREEN, linewidth=0.6))
+        if out:
+            ax.add_patch(Rectangle((back, y), out, C_BAR, facecolor=RED + '99', edgecolor=RED, linewidth=0.6))
+        end = left + (back + out) * mm + 1.6           # the words start just right of the bar
+        mid = tops[i] + C_BAR / 2
+        when = [(f' at {v["at"]:,} papers read', '')] if C_WHEN else []
+        who = [(', ', '')] + D_PARTS[v['who']]          # after whose finding, the key word in bold
+        if out:
+            label(pg, end, mid - 1.5, [(f'{back}', 'b'), (' brought back', '')] + when + who)
+            label(pg, end, mid + 1.6, [(f'{out}', 'b'), (' still out', '')], color=RED)
+        else:
+            label(pg, end, mid, [('all ', ''), (f'{back}', 'b'), (' brought back', '')] + when + who)
+    return top + C_H
+
+
+def panel_rules(pg, x0, title_y, top, label_right, ax_r, rowh, key_x):
+    """d (since 18 Nov 2026, evening): the rules and flags learned from errors, the full list of 16 (LEARNED), as
+    Extended Data 7 and Fig. 3a drew them. Two groups under their heads; within a group, rows by finder as a's names
+    run (0.8 mm between finders), then by reach. Each row: a filled dot at all papers the rule acted on, in the colour
+    of who found the error, its count beside it (log axis from 10: no rule acted on fewer). The rule b follows is
+    marked '(b)'. The key of who found the error stands at key_x, on the title's line and the next: a cold read found
+    the dots' colours undecoded without it, though a's key names the same finders."""
+    title(pg, 'd', x0, title_y, 'Rules and flags learned from errors')
+    x = x_first = label(pg, key_x, title_y, 'Error found by')[1] + 1.6
+    y_key = title_y
+    for i, who in enumerate(C_ORDER):
+        if i == 2:                                     # the second line starts under the first name's dot
+            x, y_key = x_first, title_y + 3.4
+        name, colour = FINDER[who][:2]
+        dot(pg.canvas(x, y_key - 1.5, 3, 3), 1.5, 1.5, colour, 4.6)
+        x = label(pg, x + 2.9, y_key, name)[1] + 2.6
+    groups = [sorted((k for k in LEARNED if k['effect'] == e), key=lambda k: (C_ORDER.index(k['who']), -k['papers'])) for e in EFFECT]
+    same('d: rows per group, as Extended Data 7 runs them', [[k['id'] for k in g] for g in groups],
+         [['PP1', 'IP2', 'PP5', 'RA3', 'IP4', 'IP8', 'RA8', 'RA11', 'IP6', 'CU7'], ['TL6', 'RA10', 'TL10', 'PP6', 'CU8', 'CU5']])
+    row_label = lambda k: LABEL[k['id']] + ([(' (b)', '')] if k['id'] == B_RULE else [])
+    line_y, head_y, y = {}, [], 0.0
+    for gi, group in enumerate(groups):
+        if gi:
+            y += HEAD_SPACE
+        head_y.append(top + y + LINE_IN_SLOT - HEAD_ABOVE)
+        prev = None
+        for k in group:
+            if prev is not None and k['who'] != prev:
+                y += GAP
+            line_y[k['id']] = y + LINE_IN_SLOT
+            y += rowh
+            prev = k['who']
+    lo, decades = 7.0, (10, 100, 1000, 10000)
+    same('d: no rule acted on fewer than 10 papers', min(k['papers'] for k in LEARNED) >= 10, True)
+    ax_l = label_right + 2.0
+    ax = pg.box(ax_l, top, ax_r - ax_l, y)
+    ax.set_xscale('log')
+    ax.set_xlim(lo, 10000)
+    ax.xaxis.set_major_locator(FixedLocator(decades))
+    ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f'{int(v):,}'))
+    ax.xaxis.set_minor_locator(FixedLocator([m * d for d in decades[:-1] for m in range(2, 10)]))
+    ax.xaxis.set_minor_formatter(NullFormatter())
+    ax.set_ylim(y, 0)
+    ax.set_yticks([])
+    ax.grid(axis='x', color=GRID, linewidth=0.5)
+    ax.set_axisbelow(True)
+    for sp in ('top', 'right', 'left'):
+        ax.spines[sp].set_visible(False)
+    ax.spines['bottom'].set_bounds(10, 10000)
+    ax.tick_params(axis='x', pad=1.5)
+    ax.set_xlabel('Papers the rule acted on', labelpad=2)
+    span = math.log10(10000) - math.log10(lo)
+    x_mm = lambda n: ax_l + (ax_r - ax_l) * (math.log10(n) - math.log10(lo)) / span
+    for name, hy in zip(EFFECT.values(), head_y):
+        label(pg, label_right, hy, name, ha='right', weight='bold')
+    drawn = {}
+    for k in (k for g in groups for k in g):
+        yc, colour, n = line_y[k['id']], FINDER[k['who']][1], len(REACH[k['id']])
+        dot(ax, n, yc, colour, FILLED, mew=1.0)
+        drawn[k['id']] = n
+        label(pg, x_mm(n) + 1.5, top + yc, f'{n:,}')
+        label(pg, label_right, top + yc, row_label(k), ha='right')
+    same('d: a dot per rule at the papers it acted on', drawn, {k['id']: k['papers'] for k in LEARNED})
+    return top + y
 
 
 def check_layout(pg, margin=1.0):
@@ -1405,7 +1480,12 @@ def words(fig):
     return n
 
 
-H = 114.0                                      # page height, mm (180 mm wide: lean.W)
+C_FIRST, C_STEP, C_BAR = 3.2, 12.0, 3.4           # c: the first bar's top, from one bar's top to the next's, bar height (mm)
+C_H = C_FIRST + C_STEP + C_BAR + 3.0             # c's axes, down to its values axis (mm)
+H1, D_ROW = 32.0, 3.45                            # a's and b's plot height (38 until d came, 18 Nov evening); d's row pitch, mm
+H = 170.0                                         # page height, mm (180 mm wide: lean.W): the journal's limit, since d came;
+                                                 # before: 10 + 38 + 11.5 + 6 + C_H + 10 = 97 mm; 114 until the old c was dropped,
+                                                 # 107 while c drew the old d's step curves (18 Nov 2026)
 
 
 def build(out=HERE / 'fig4.png'):
@@ -1413,25 +1493,23 @@ def build(out=HERE / 'fig4.png'):
     TEXTS.clear()
     pg = Page(H, HERE, HERE)
     xb, w = 104.0, 57.0                         # b's letter; the papers-read axis of a, b and d (one scale), mm
-    top1, h1 = 10.0, 38.0
+    top1, h1 = 10.0, H1
     panel_a(pg, 2.0, top=top1, left=13.0, right=13.0 + w, h=h1, limit=xb + 1.5)
     panel_b(pg, xb, top=top1, left=xb + 12.0, right=xb + 12.0 + w, h=h1)
-    row2 = top1 + h1 + 11.5                     # the second row's titles
-    below = row2 + 7.0                          # the top of c's axes and of d's first axis
-    axis = panel_c(pg, title_y=row2, top=below, left_lab=56.0, ax_l=58.0, ax_r=100.5, rowh=4.0, key_end=xb - 1.0)
-    gap = 10.5                                  # between d's two axes: the first's tick labels, the second's name
-    heights = ((axis - below - gap) / 2,) * 2   # the last ends on c's axis line
-    bottom = panel_d(pg, xb, title_y=row2, top=below, left=xb + 12.0, right=xb + 12.0 + w, heights=heights, gap=gap)
-    same("d's last axis ends on c's axis line (mm)", round(bottom, 6), round(axis, 6))
+    row2 = top1 + h1 + 11.5                     # the second row's title
+    below = row2 + 6.0                          # the top of c's axes
+    width = 92.0 if C_WHEN else 120.0           # c's values axis (mm): its words run on to the right of each bar
+    bottom = panel_d(pg, 2.0, title_y=row2, top=below, left=13.0, width=width)
+    row3 = bottom + 12.0                        # d's title: c's axis name ends about 7.5 mm under c's axis
+    end_d = panel_rules(pg, 2.0, row3, row3 + 5.6, 76.0, 168.0, D_ROW, 96.0)
+    same("d's axis and its name end above the page's foot (mm)", end_d + 8.5 <= H, True)
     edges = check_layout(pg)
     buf = io.BytesIO()
     pg.fig.savefig(buf, dpi=lean.DPI, facecolor='white', format='png')
     Image.open(buf).convert('RGB').save(out, dpi=(lean.DPI, lean.DPI))
-    c_words = sum(sum(any(ch.isalpha() for ch in w) for w in text_of(LABEL[k['id']]).split()) for k in C_ROWS)
-    print('wrote', out, f'({lean.W:.0f} x {H:.0f} mm; c\'s axis and d\'s last at {axis:.1f} mm, d\'s axes'
-                        f' {heights[0]:.1f} mm tall; text from {edges[0]:.1f} to {edges[2]:.1f} mm across and'
-                        f' {edges[1]:.1f} to {edges[3]:.1f} mm down; {words(pg.fig)} words, {c_words} of them the rule'
-                        f' labels of c)')
+    print('wrote', out, f'({lean.W:.0f} x {H:.0f} mm; c\'s values axis {width:.1f} mm wide; text from'
+                        f' {edges[0]:.1f} to {edges[2]:.1f} mm across and {edges[1]:.1f} to {edges[3]:.1f} mm down;'
+                        f' {words(pg.fig)} words)')
     plt.close(pg.fig)
 
 

@@ -44,16 +44,16 @@ MAX_BYTES = 5 * 1024 * 1024
 HOME = r'/[U]sers/[^/\'"`\s]+'  # a macOS home folder, any user
 VERSIONS = 'prompts/versions'  # the saved prompt and task texts, here
 
-TOOLS = '''brenda_count brenda_overlap brenda_values censored_scan coverage db_values dbcheck dbcompare discover_europepmc
+TOOLS = '''brenda_count brenda_overlap brenda_values censored_scan corrigendum coverage db_values dbcheck dbcompare discover_europepmc
 elsevier_to_text enrich export_site fetch human_review ids jats_to_text km_gain lane_agent nd_census nopmid
 provenance_backfill publication_years recheck ref_sequences ref_structures release_tree reprint_pairs sabio_values
-scale_sweep sequences site_release skid_values strenda_values structures test_blind_check test_dropped_relabel test_superseded_drop
+scale_sweep sequences site_release skid_values strenda_values structures test_blind_check test_correction_notices test_dropped_relabel test_superseded_drop
 test_provenance test_provenance_backfill test_publication_years uniprot_values units vmax_sweep'''.split()
 INCLUDE = (['catlog.py', 'config.json']
            + [f'tools/{t}.py' for t in TOOLS]
            + [f'prompts/{p}.md' for p in ('audit_standard', 'dbcheck', 'read', 'scale', 'verify', 'vmax')]
-           + [f'.claude/workflows/catlog-{w}.js' for w in ('audit', 'batch', 'chrome-lanes', 'dbcheck', 'nd-census',
-                                                           'scale', 'vmax')]
+           + [f'.claude/workflows/catlog-{w}.js' for w in ('audit', 'batch', 'chrome-lanes', 'corrigendum', 'dbcheck',
+                                                           'nd-census', 'scale', 'vmax')]
            + ['.claude/agents/catlog-reader.md', '.claude/commands/audit.md', '.claude/commands/batch.md'])
 
 # path here -> path in SOURCE, where git ignores it: the workflows and the tool of catalogue sweeps that ran from the
@@ -302,8 +302,8 @@ SCRUBS = [
          + ['.claude/workflows/catlog-audit-followup.js', '.claude/workflows/catlog-unitcheck.js'],
          r"^const DIR = '" + HOME + r"/Documents/catlog-v2'$", js_root('DIR'), 6, 'workflows: args.root'),
     Rule(['.claude/workflows/catlog-nd-census.js', '.claude/workflows/catlog-reprint-pairs.js',
-          '.claude/workflows/catlog-reprint-third-opinion.js'],
-         r"^const ROOT = '" + HOME + r"/Documents/catlog-v2'$", js_root('ROOT'), 3, 'workflows: args.root'),
+          '.claude/workflows/catlog-reprint-third-opinion.js', '.claude/workflows/catlog-corrigendum.js'],
+         r"^const ROOT = '" + HOME + r"/Documents/catlog-v2'$", js_root('ROOT'), 4, 'workflows: args.root'),
     Rule(FROM_WORK, r"^const SCRATCH = '/private/tmp/claude-\d+/[^'\n]*/scratchpad(/[a-z]+)?'$",
          lambda m: ("const SCRATCH = String((args && !Array.isArray(args) && args.scratch) || '/tmp/catlog-scratch')"
                     + (f" + '{m.group(1)}'" if m.group(1) else '') + "  // the agents' scratch folder (args.scratch)"),
@@ -331,8 +331,12 @@ SCRUBS = [
         '`args = {"pmids": [those PMIDs], "lanes": LANES, "dbcheck": [the claimed PMIDs]' + ARGS_ROOT, 1,
         'batch command: args.root'),
     Rule('.claude/commands/batch.md', r'(?:CLAUDE|HUMAN_REVIEW)\.md ("[^"\n]+")( says)?',
-         lambda m: f"the authors' notes ({m.group(1)}; not included here)" + (' say' if m.group(2) else ''), 3,
+         lambda m: f"the authors' notes ({m.group(1)}; not included here)" + (' say' if m.group(2) else ''), 4,
          "batch command: the authors' notes"),
+    Rule('.claude/commands/batch.md', r'`' + HOME + r'/Documents/catlog-v2/\.claude/workflows/catlog-corrigendum\.js`',
+         '`<this folder>/.claude/workflows/catlog-corrigendum.js`', 1, 'batch command: the correction workflow\'s path'),
+    lit('.claude/commands/batch.md', 'args `{"article": "<ARTICLE>", "notice": "<NOTICE>"}`',
+        'args `{"article": "<ARTICLE>", "notice": "<NOTICE>"' + ARGS_ROOT, 1, 'batch command: args.root'),
     Rule('.claude/commands/batch.md', r'^8\. Every 10th batch and when the loop stops, keep a data checkpoint '
                                       r'\(the catalog has no other backup\):\n   `git commit [^\n]*\n   \(named paths only[^\n]*\n',
          '8. Every 10th batch and when the loop stops, back up the data files (catalog.jsonl, rejected.jsonl, bounds.jsonl,\n'

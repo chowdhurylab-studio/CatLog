@@ -47,6 +47,24 @@ class Superseded(unittest.TestCase):
         self.assertEqual((e['sweep']['values'], e['sweep']['reprinted'], e['sweep']['other']), (1, 1, 0))
         self.assertEqual(e['all']['values'], 1)
 
+    def test_a_unit_the_authors_corrected_is_not_an_error(self):
+        import dbcheck, dbcompare, human_review
+        note = lambda why: (f'unit corrected to µM (2026-11-17 10:00): {why}')
+        rows = [{'row_id': 'c' * 16, 'pmid': '90001004', 'metric': 'Km', 'raw_value': '0.5', 'raw_unit': 'mM',
+                 'unit_for_conversion': 'µM', 'value': 0.0005, 'unit': 'mM',
+                 'verify_note': note("the authors' correction notice PMID 90001005 gives the unit of this cell as µM")},
+                {'row_id': 'd' * 16, 'pmid': '90001006', 'metric': 'Km', 'raw_value': '0.5', 'raw_unit': 'mM',
+                 'unit_for_conversion': 'µM', 'value': 0.0005, 'unit': 'mM',
+                 'verify_note': note('Table 2 header misprinted: the text gives µM')}]
+        catlog.CATALOG.write_text(''.join(json.dumps(r) + '\n' for r in rows))
+        saved = dbcompare.recorded, dbcheck.audit_first
+        dbcompare.recorded, dbcheck.audit_first = (lambda *a, **k: {}), (lambda *a, **k: set())
+        try:
+            e = human_review.catlog_errors()
+        finally:
+            dbcompare.recorded, dbcheck.audit_first = saved
+        self.assertEqual(e['unit_fix']['values'], 1)  # the misprinted header only
+
 
 if __name__ == '__main__':
     unittest.main()

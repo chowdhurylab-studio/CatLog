@@ -105,6 +105,15 @@ For each row, find the value in the paper yourself (do not trust `quote` or `loc
    the method, the wild-type/reference column may be that paper's numbers carried over silently while only the mutant
    column is new: if its text is on disk (`texts/<PMID>.txt`), compare the cells and reject a column identical to that
    paper's table (PMID 12591933 Table II against 11694539 Table III, audit 2026-10-14).
+   A correction notice (corrigendum, erratum, "Correction to ..."): only the cells it changes can be its own
+   (read.md Rules), and each still passes every other check. Compare each row with the cell of the article it
+   corrects when that text is on disk (its PMID: `cut -f1-3 papers.tsv | grep -i "<DOI>"`) and reject a cell the
+   notice prints again unchanged (same value, ± and unit), as that article's value; reject a value the notice prints
+   as the original or wrong one, and a changed cell of a row the notice or the article credits to other work. When
+   neither text holds the table, go by the notice's own words on which cells changed; if it does not say, confirm the
+   cells (the check run once the article is in the catalog removes unchanged ones). If the notice corrects any kcat,
+   Km or kcat/Km, write `"corrects"` (the corrected article's PMID as digits, or its DOI) at the top level of your
+   file when the read file lacks it or names another article than the notice's own citation; code takes both.
 8. The row is not a duplicate of another row in the file (same variant, substrate, metric, conditions).
 9. A row with `censored` set (read.md "Censored values": `<`, `>` or `not_detected`) is checked like any value: the
    bound or marker is printed at that location for this enzyme, variant, substrate and metric, `raw_value` is the

@@ -328,6 +328,11 @@ def commit_of(k):
 # One CatLog (BRIEF.md): four of the taxonomy's examples say 'the old catalogue' or 'the old system'; the table says
 # 'CatLog once', the same fact without an earlier and a newer CatLog
 OLD_CATLOG = re.compile(r'\bthe old (?:catalogue|catalog|system)\b')
+# DB2's example as the Methods count it: 302 papers whose reader or verifier opened such files, and 4 more that only a
+# completeness audit exposed, which the taxonomy's 306 counted among the readers' and verifiers' (final read, 17 Nov 2026)
+EXAMPLE_FIX = {'DB2': ('306 papers whose reader or verifier opened database values before the rule',
+                       '302 papers whose reader or verifier opened database values or other catalogue files before the '
+                       'rule')}
 
 
 def table_rows():
@@ -335,6 +340,9 @@ def table_rows():
     for kid, k in RULES.items():
         listed = kid in LISTED
         example = OLD_CATLOG.sub('CatLog once', TAX[kid]['example']) if kid in TAX else ''
+        if kid in EXAMPLE_FIX:
+            assert EXAMPLE_FIX[kid][0] in example, f'{kid}: its taxonomy example changed, so EXAMPLE_FIX needs a look'
+            example = example.replace(*EXAMPLE_FIX[kid])
         rows.append({
             'id': kid, 'kind of error': k['kind'], "example (from CatLog's records)": example,
             'status': k['status'], 'Fig. 4a layer': LAYER[kid] if k['status'] == 'rule' else

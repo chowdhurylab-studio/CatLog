@@ -1890,7 +1890,7 @@ def cmd_add(pmid):
     for (rd, vd), (rp, vp, by) in zip(pairs, ((read_p, ver_p, None), (miss_r, miss_v, pairs[0][1]))):
         k, r = judge(pmid, rd, vd, text_sq, row_stamp(pmid, rd, vd, rp, vp, by))  # missed rows: read by the verifier
         kept += k; rejected += r
-    corrects = str(read.get('corrects') or pairs[0][1].get('corrects') or '').strip()  # a correction notice (read.md)
+    corrects = [read.get('corrects'), pairs[0][1].get('corrects')]  # a correction notice's articles (read.md Rules)
     finish(pmid, read, kept, rejected, empty_reason=str(pairs[0][1].get('reason_if_empty') or ''), corrects=corrects)
 
 
@@ -2490,10 +2490,11 @@ def twin(r, cells, claimed=()):
     return min(hits, key=rank) if hits else None  # a twin that converts alike first, then the same enzyme
 
 
-def finish(pmid, read, kept, rejected, empty_reason='', corrects=''):
+def finish(pmid, read, kept, rejected, empty_reason='', corrects=()):
     """Append the paper's rows (append_rows), then set its status. A correction notice that corrects kinetic values
-    (`corrects`: the PMID or DOI of the article it corrects; read.md Rules) gets a `correction_notice` line, which
-    status lists until that article's stored values are checked against it (corrections_pending)."""
+    (`corrects`: the ids corrected_ids() finds in the read and verify files; read.md Rules) gets a `correction_notice`
+    line per article, which status lists while that article has stored values not yet checked against it
+    (corrections_pending)."""
     new, dup, nb = append_rows(pmid, kept, rejected)
     status = 'wrong_paper' if str(read.get('note', '')).startswith('wrong_paper') else 'done'
     note = str(read.get('note') or '')[:200].replace('\t', ' ').replace('\n', ' ')
@@ -2516,36 +2517,109 @@ def finish(pmid, read, kept, rejected, empty_reason='', corrects=''):
     log(pmid, 'add', f'kept={len(new)}', f'dup={dup}', f'rejected={len(rejected)}', f'status={status}',
         *([f'bounds={len(nb)}'] if nb or only else []), *(['pass=censored'] if only else []))
     print(f'{pmid}: kept {len(new)} (dup {dup}), rejected {len(rejected)}' + (f', censored {len(nb)}' if nb or only else ''))
-    if corrects and status != 'wrong_paper':
-        log(pmid, 'correction_notice', corrects[:100].replace('\t', ' ').replace('\n', ' '))
-        print(f"{pmid}: the authors' correction of {corrects}; status lists it while that article has stored values "
-              f'(CLAUDE.md "Correction notices")')
+    unread = []
+    ids = corrected_ids(corrects, unread) if status != 'wrong_paper' else []
+    for raw in unread if status != 'wrong_paper' else []:
+        log(pmid, 'corrects_unread', ' '.join(raw.split())[:100])
+        print(f"{pmid}: `corrects` {raw!r} names no PMID, stand-in or DOI, so it is not tracked: write the corrected "
+              f"article's PMID as `corrects` in work/{pmid}.verify.json and add again")
+    if ids:
+        for c in ids:
+            a = article_id(c)
+            if a == pmid:  # its own DOI or PMID: the article it corrects is still unknown
+                log(pmid, 'corrects_unread', f'names the notice itself: {c}')
+                print(f"{pmid}: `corrects` {c} names this notice itself, not the article it corrects: write that article's "
+                      f"PMID as `corrects` in work/{pmid}.verify.json and add again")
+                continue
+            log(pmid, 'correction_notice', c)
+            where = ("left out (the method paper's test set)" if {pmid, a} & locked() else
+                     'status lists it until its stored values are checked' if a in stored_papers() else
+                     'nothing stored under it yet; status lists it once something is')
+            print(f"{pmid}: the authors' correction of {c}; {where} (CLAUDE.md \"Correction notices\")")
+
+
+def corrected_ids(value, unread=None):
+    """The articles a correction notice's `corrects` names (read.md Rules): DOIs (any prefix or URL, lower case), PMIDs
+    (digits, or a PubMed URL) and stand-in ids, from a string, a number or a list (the read and the verify file's
+    together). A value is taken only when every word in it is such an id ('and' and 'PMID'/'doi' labels aside), so a
+    citation's volume and pages never become PMIDs; one that is not goes to `unread`. 'none', 'n/a' and '' name
+    nothing. In order, each once."""
+    out = []
+    for v in (value if isinstance(value, (list, tuple)) else [value]):
+        if isinstance(v, (list, tuple)):
+            out += corrected_ids(v, unread); continue
+        s = str(v if v is not None else '').strip()
+        if s.lower() in ('', 'none', 'n/a', 'na', 'null', '-'):
+            continue
+        s2 = re.sub(r'(?i)https?://(?:www\.)?(?:pubmed\.ncbi\.nlm\.nih\.gov|ncbi\.nlm\.nih\.gov/pubmed)/(\d{1,9})/?', r' \1 ', s)
+        dois = [d.rstrip('.,;:)]').lower() for d in re.findall(r'10\.\d{4,9}/\S+', s2)]
+        rest = re.sub(r'(?i)https?://(?:dx\.)?doi\.org/', ' ', re.sub(r'10\.\d{4,9}/\S+', ' ', s2))
+        rest = re.sub(r'(?i)\b(?:doi|pmid)\b:?', ' ', rest)
+        words = [w.strip('.,;:()[]{}#"\'') for w in re.split(r'[;,\s/]+', rest)]
+        words = [w for w in words if w and w.lower() != 'and']
+        if (dois or words) and all(re.fullmatch(r'\d{1,9}', w) or STANDIN.fullmatch(w.upper()) for w in words):
+            out += dois + [paper_id(w) for w in words]
+        elif unread is not None:
+            unread.append(s)
+    return list(dict.fromkeys(out))
+
+
+def article_id(c, qrows=None):
+    """A `correction_notice` article as a paper id: a PMID or stand-in as it is, a DOI looked up in papers.tsv (else
+    the DOI itself, never a stored paper)."""
+    if re.fullmatch(r'\d{1,9}', c) or is_standin(c):
+        return paper_id(c)
+    if qrows is None:
+        with Queue(write=False) as q:
+            qrows = list(q.rows.values())
+    by_doi = {(r.get('doi') or '').strip().lower(): r['pmid'] for r in qrows if (r.get('doi') or '').strip()}
+    return by_doi.get(corrected_ids(c)[0] if corrected_ids(c) else c.lower(), c)
+
+
+def stored_papers(cat=None):
+    """Papers with a stored value or censored value (catalog.jsonl and bounds.jsonl)."""
+    out = {r['pmid'] for r in cat} if cat is not None else set()
+    for path in (([] if cat is not None else [CATALOG]) + [BOUNDS]):
+        if path.exists():
+            out |= {m.group(1) for m in (re.search(r'"pmid": "([^"]+)"', l) for l in open(path)) if m}
+    return out
 
 
 def corrections_pending(ev=None, cat=None, qrows=None):
-    """[(notice, article)]: correction notices (log `correction_notice`, written by finish()) whose corrected article
-    has stored values and no `corrigendum_check` line for this notice yet (tools/corrigendum.py --apply writes it, under
-    the article's PMID). A DOI is looked up in papers.tsv. Papers of the method paper's test set are left out."""
+    """[(notice, article)]: correction notices (log `correction_notice`, finish()) whose article has stored values and
+    no `corrigendum_check` for this notice (tools/corrigendum.py --apply logs it under the article's PMID) at or after
+    the newest `added` stamp of either paper's stored values and censored values, so values either paper gains later
+    (a supplement, a re-read, a censored pass) are checked too. Papers of the method paper's test set are left out."""
     ev = events() if ev is None else ev
     if cat is None:
         cat = [json.loads(l) for l in open(CATALOG) if l.strip()] if CATALOG.exists() else []
     if qrows is None:
         with Queue(write=False) as q:
             qrows = list(q.rows.values())
-    by_doi = {(r.get('doi') or '').strip().lower(): r['pmid'] for r in qrows if (r.get('doi') or '').strip()}
-    stored = {r['pmid'] for r in cat}
+    newest = {}
+    for r in cat:
+        newest[r['pmid']] = max(newest.get(r['pmid'], ''), r.get('added') or '')
+    for l in (open(BOUNDS) if BOUNDS.exists() else []):  # read like stored_papers(): a cut-off last line never stops status
+        m = re.search(r'"pmid": "([^"]+)"', l)
+        if m:
+            a = re.search(r'"added": "([^"]*)"', l)
+            newest[m.group(1)] = max(newest.get(m.group(1), ''), a.group(1) if a else '')
     held = locked()
-    checked = {(f[3], f[1]) for f in ev if f[2] == 'corrigendum_check' and len(f) > 3}
+    last = {}
+    for f in ev:
+        if f[2] == 'corrigendum_check' and len(f) > 3:
+            last[(f[3], f[1])] = max(last.get((f[3], f[1]), ''), f[0])
     out = []
     for f in ev:
         if f[2] != 'correction_notice' or len(f) < 4:
             continue
-        notice, c = f[1], f[3].strip()
-        doi = re.sub(r'^(?:https?://(?:dx\.)?doi\.org/|doi:\s*)', '', c, flags=re.I).lower()
-        article = c if (c.isdigit() or is_standin(c)) else by_doi.get(doi, c)
-        if article in stored and article != notice and (notice, article) not in checked and (notice, article) not in out \
-                and notice not in held and article not in held:
-            out.append((notice, article))
+        notice, article = f[1], article_id(f[3].strip(), qrows)
+        if article not in newest or article == notice or notice in held or article in held or (notice, article) in out:
+            continue
+        done = last.get((notice, article))
+        if done and max(newest.get(article, ''), newest.get(notice, '')) < done:
+            continue
+        out.append((notice, article))
     return out
 
 
@@ -4550,8 +4624,9 @@ def evidence_of(r):
     return out
 
 
-def wide(part, ids, sm, paired, muts=None, db=None, forms=None):
-    """One measurement (kcat, Km, kcat/Km side by side) in the old catalog's field names."""
+def wide(part, ids, sm, paired, muts=None, db=None, forms=None, no_derive=False):
+    """One measurement (kcat, Km, kcat/Km side by side) in the old catalog's field names. no_derive: its printed line's
+    kcat/Km was replaced by the authors' correction (stored under the notice), so none is worked out here."""
     from enrich import parse_variant, binomial
     from sequences import variant_sequence, construct
     base = part[0]
@@ -4612,7 +4687,7 @@ def wide(part, ids, sm, paired, muts=None, db=None, forms=None):
     eff = molar(m.get('kcat/Km', {}))
     eff_src = 'printed' if eff is not None else ''
     mass = {k: m[k]['value'] for k in ('Km', 'kcat/Km') if k in m and molar(m[k]) is None}  # their own columns
-    if eff is None and paired and kcat and km:
+    if eff is None and paired and kcat and km and not no_derive:
         eff, eff_src = float(f'{kcat / km:.6g}'), 'derived: kcat / Km of this measurement'
         if eff > LIMITS['kcat/Km']:  # the limit check() holds a printed kcat/Km to (2026-10-22: 47 derived above it, 41 in 11779198)
             eff_src += '; above the physical limit'
@@ -4895,9 +4970,19 @@ def cmd_export():
         if nf0:  # keyed by the name the form carries: its variant, or its enzyme name under the current convention
             key = rows[0].get('enzyme') if nf0.get('_by') == 'enzyme' else rows[0]['variant']
             forms.setdefault(rows[0]['pmid'], {})[key] = ids.get(ident_key(rows[0]), {})
+    # a printed line whose kcat/Km its authors replaced in a correction notice (dropped "superseded by the authors'
+    # correction"; the corrected value is stored under the notice): no kcat ÷ Km is worked out beside it (40465391)
+    corrected = set()
+    for l in (open(REJECTED) if REJECTED.exists() else []):
+        if "superseded by the authors' correction" in l:
+            r = json.loads(l)
+            if r.get('metric') == 'kcat/Km' and any(str(w).startswith("audit: superseded by the authors' correction")
+                                                    for w in r.get('why') or []):
+                corrected.add((r['pmid'], squash(r.get('quote') or '')))
     out = []
     for rows in groups.values():  # measurements() already keeps one value per metric and refuses ambiguous pairings
-        out.append(wide(rows, ids, sm, len(rows) > 1, muts, db, forms))
+        out.append(wide(rows, ids, sm, len(rows) > 1, muts, db, forms,
+                        no_derive=any((r['pmid'], squash(r.get('quote') or '')) in corrected for r in rows)))
     # Two measurements of the same slot that could not be paired (one kcat-only, one Km-only: an ambiguous pairing
     # measurements() refuses) hash to the same measurement_id. Only those get their printed cells folded into the id,
     # so every other id stays what earlier exports and review packs printed.

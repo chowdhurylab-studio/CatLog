@@ -2286,8 +2286,9 @@ def audit_detail():
 
 SWEEP_COPY = re.compile(r"(?i)re-?read (?:duplicate|copy)|reworded|duplicate\b|same measurement as row")  # the value stays in another row
 # a value right as its paper printed it, which the paper's authors corrected later in a correction notice (the corrected
-# value is stored under the notice's own PMID): not CatLog's error (40465391 and its corrigendum 41287407, 2026-11-17)
-SUPERSEDED = re.compile(r"(?i)superseded by the authors' correction\b")
+# value is stored under the notice's own PMID) or withdrew there: not CatLog's error (40465391 and its corrigendum
+# 41287407, 2026-11-17; tools/corrigendum.py)
+SUPERSEDED = re.compile(r"(?i)(?:superseded|withdrawn) by the authors' correction\b")
 UNIT_FIXED = re.compile(r'unit corrected to (.+?) \(\d{4}-\d{2}-\d{2}')  # catlog.cmd_unitfix's verify_note
 AUDIT_ROW = re.compile(r'\(row ([0-9a-f]{16})\)')  # a unitfix reason naming the audited row it follows ('audit <day> (row <id>)')
 
@@ -2311,7 +2312,7 @@ def catlog_errors():
     misprints, also in unit_fix), sweep (values removed by a `drop` that no audit made: the sweeps of
     the catalog for an error an audit or check had found; reprinted and partial_constant say how many were values
     reprinted from an earlier paper and per-product partial constants; a copy of a value another row keeps is not an
-    error and not counted, nor a value its authors corrected later in a correction notice, SUPERSEDED),
+    error and not counted, nor a value its authors corrected or withdrew later in a correction notice, SUPERSEDED),
     unit_fix (values whose unit was corrected away from the printed one because the paper's unit is misprinted:
     cmd_unitfix's verify_note, in the catalog or in rows removed since, the two units compared as units.normalize reads
     them; a fix back to the printed unit is a reading change, counted under audit when an audit made it, else not an
@@ -2337,7 +2338,8 @@ def catlog_errors():
             if 'unit corrected to ' in line:
                 r = json.loads(line)
                 u = UNIT_FIXED.search(r.get('verify_note') or '')
-                if u:
+                # a unit the paper's own authors corrected in a correction notice (tools/corrigendum.py): not CatLog's error
+                if u and "): the authors' correction notice" not in (r.get('verify_note') or '').split('; unit corrected')[0]:
                     (unit if _unit_changed(r, u.group(1)) else back)[r['row_id']] = r['pmid']
     last, sweep, kinds, unit_audited = {}, {}, Counter(), set()
     evs = catlog.events()
