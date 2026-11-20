@@ -1,13 +1,15 @@
-# The random test (not registered)
+# The test on 147 random papers (not registered)
+
+This folder keeps the test's working name, the random test, which its files and the scripts in `analysis/` use.
 
 Papers CatLog had finished, drawn at random, each read once by a plain reading (Claude Opus 5.5 at maximum effort, one
 session per paper, on 4 November 2026) and compared with CatLog's catalogue: the reading plus every later check. Every
-disagreement and a sample of the agreeing pairs were judged blind, two judges per chunk and a third on split claims, with
-planted errors. The test was judged twice: first with each claim's short record (`first_judging/`), then again with each
-record's full details, the judging the paper reports. 147 papers were analysed.
+disagreement and a sample of the agreeing pairs were judged by agents not told which side stored a value, two judges per
+chunk and a third on split claims, with planted errors. The test was judged twice: first with each claim's short record
+(`first_judging/`), then again with each record's full details, the judging the paper reports. 147 papers were analysed.
 
 **This test was not registered.** Its papers were drawn, read and judged before any plan was committed for it, and the
-paper calls it unregistered. Its records are here because the paper reports it beside the locked test.
+paper calls it unregistered. Its records are here because the paper reports it beside the test on 83 unread papers.
 
 | Commit or record | Time (US Central) | What |
 | --- | --- | --- |

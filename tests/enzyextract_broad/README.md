@@ -1,11 +1,13 @@
-# The broad test: CatLog against EnzyExtract's released database
+# The test on 300 random papers: CatLog against EnzyExtract's released database
 
-On papers both cover, which holds more of the kinetic values the papers report, and fewer wrong ones: CatLog's
-catalogue at the paper's freeze (tag `paper-catalog-freeze-20261116`) or EnzyExtract's released database
-(`TheData.parquet` of its supplementary files)? The first 300 papers of a seeded order of 3,245 papers both cover. A value
-the other source does not match is disputed, and every disputed value (4,476 in 191 papers) was judged on its paper by
-one agent (Claude Fable 5.2), shown the two readings as A and B, no source named; a seeded 10% of the papers got a
-second agent for agreement.
+This folder keeps the test's working name, the broad test, which its plan, `CORRECTIONS.md` and scripts use. The test
+was registered.
+
+On papers both cover, which holds more of the kinetic values the papers report, and fewer wrong ones: CatLog's catalogue
+at the paper's freeze (tag `paper-catalog-freeze-20261116`) or EnzyExtract's released database (`TheData.parquet` of its
+supplementary files)? The first 300 papers of a seeded order of 3,245 papers both cover. A value the other source does
+not match is disputed, and every disputed value (4,476 in 191 papers) was judged on its paper by one agent (Claude Fable
+5.2), shown the two readings as A and B, no source named; a seeded 10% of the papers got a second agent for agreement.
 
 ## The plan and when it was fixed
 
@@ -40,7 +42,7 @@ and reproduces it exactly with the corrections off; its outputs are in `correcte
 | `PLAN.as_registered.md` | the plan as first registered (cd4cbe0) |
 | `frame.tsv`, `order.txt`, `frame_summary.json` | the frame (3,245 papers, each with its counts of values, agreed and disputed values and unread cells), the seeded order (seed 20261118), and why each other paper is out |
 | `sample_300.txt` | the sample: the first 300 papers of the order |
-| `key.json` | the blinding key: for each paper, which reading was A and which B, and the reading id of every value |
+| `key.json` | the key of which reading was whose: for each paper, which reading was A and which B, and the reading id of every value |
 | `values.tsv` | CatLog's stored values on the 300 papers: its row id, the value in catalogue units, the printed cell and unit, its labels, its quoted line, its record, and the EnzyExtract row it agreed with |
 | `enzyextract_rows.tsv` | EnzyExtract's values on the 300 papers, each by its row of `TheData.parquet` and its metric: how its string was read (CatLog's units code, the same after a notation fix, or the database's own number) and the CatLog value it agreed with |
 | `verdicts.tsv` | every verdict (4,476 by the first agents, 546 by the second): the paper, the part, the reading id, whose reading it was, the value (a CatLog value id or a row of `TheData.parquet`), the verdict, the right value the agent gave and its evidence (dropped where it copies the paper's text) |

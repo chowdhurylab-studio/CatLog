@@ -1,10 +1,14 @@
-# The locked test
+# The test on 83 unread papers
 
-Held-out papers that nothing had read, each read once by CatLog's frozen first pass (reader, independent verifier and
-code checks, at tag `catlog-freeze-20261109`, commit fb0cf1758951) and once by a plain reading by the same model
-(Claude Opus 5.5 at maximum effort, one session per paper). Every disagreement and 500 agreeing pairs were judged blind,
-two judges per chunk and a third on split claims, with planted errors as a gate. 83 of the 119 drawn papers were
-analysed.
+Papers neither side had read, each read once by CatLog, frozen (tag `catlog-freeze-20261109`, commit fb0cf1758951) and
+running only Read, Convert, Verify and Check (its reader, independent verifier and code checks), and once by a plain
+reading by the same model (Claude Opus 5.5 at maximum effort, one session per paper). Every disagreement and 500
+agreeing pairs were judged by agents not told which side stored a value, two judges per chunk and a third on split
+claims, with planted errors that the judges had to catch. 83 of the 119 drawn papers were analysed. The test was
+registered.
+
+This folder keeps the test's working name, the locked test, which its plan, its files and the scripts in `analysis/`
+use.
 
 ## The plan and when it was fixed
 
@@ -63,4 +67,4 @@ sharing a run of 8 words with it.
 ## Not here
 
 The papers (their PubMed ids only), the agents' and judges' transcripts, the code reviews of the kit (`review/`), the
-writing notes, and the post hoc blind re-checks of CatLog's 34 values judged wrong: kept by the authors.
+writing notes, and the post hoc re-checks of CatLog's 34 values judged wrong: kept by the authors.

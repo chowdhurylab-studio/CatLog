@@ -1,8 +1,11 @@
-# The locked test's second stage, and its page check
+# The second stage of the test on 83 unread papers, and its page check
 
-**Stage 2** scores, on the 79 of the locked test's 83 papers that EnzyExtract's manual curation covers, every source
-against that curation: CatLog's stored values and the plain reading from the locked test, EnzyExtract's nine runs on its
-benchmark (from its supplementary files; RGF, its full pipeline by our reading, is the primary comparator), its released
+This folder keeps the stage's working name (the locked test's second stage), which its plan and the scripts in
+`analysis/` use.
+
+**Stage 2**, registered, scores on the 79 of the test's 83 papers that EnzyExtract's manual curation covers every source
+against that curation: CatLog's stored values and the plain reading from the test, EnzyExtract's nine runs on its
+benchmark (from its supplementary files; RGF, its full workflow by our reading, is the primary comparator), its released
 database and BRENDA 2026.1. Nothing is judged in stage 2; it is code only.
 
 **The page check** then checked on the page every value that the curation, CatLog and RGF do not all three agree on
@@ -43,7 +46,7 @@ corrections are listed, with their reasons and every number they move, in `../en
 | `CHECK_PLAN.as_registered.md` | the page check's plan before its amendment |
 | `RESULTS.md`, `results.json` | stage 2's registered table: recall and precision of each source against the curation, with paired paper-bootstrap intervals (aggregates; the database sources counted only) |
 | `page_check/values.tsv` | every value shown to a page-check agent: the paper, its id in the agent's task (`A0`, `B3`, ...), whose reading it is (`curation`, `catlog`, `rgf`), the value itself as a reference (a CatLog value id, which `../locked_test/values.tsv` holds, or a row of EnzyExtract's file), whether it was to be judged, and each agent's verdict, the right value it gave and its evidence (dropped where it copies the paper's text) |
-| `page_check/key.json` | the blinding key: which reading each letter was, per paper; the two parts and the 6 papers that got a second agent |
+| `page_check/key.json` | the key of which reading was whose: the source of each letter, per paper; the two parts and the 6 papers that got a second agent |
 | `page_check/RESULTS.md`, `page_check/results.json` | the page check's registered scores (`score_checked.py`): the corrected reference, both views, every source's recall and precision |
 | `corrected/` | the corrected scores: `table.json` (stage 2's table read three ways: as registered, with the misreads fixed, and as written), `counts.json`, `f6_pagecheck.json` (the papers in EnzyExtract's fine-tuning set), `page_check/` (the page check with both fixes), `RESULTS.md`, and `changed_cells.tsv`, the cells of the curation and the runs that the corrected reader reads differently, by their rows |
 | `score_corrected.py` | the corrected scorer (`check_tasks.py`, `score_checked.py` and `score_stage2.py` are in `analysis/tests/second_stage/`) |

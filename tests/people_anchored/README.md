@@ -1,4 +1,7 @@
-# CatLog and EnzyExtract against values people checked
+# Values people confirmed: CatLog and EnzyExtract against them
+
+Planned before either source was scored; the paper does not call this comparison registered. This folder keeps its
+working name, the person-anchored comparison.
 
 On papers whose values people checked against the paper, how many of the values people confirmed does each source hold,
 and how many of the values people could not find in the paper, or found wrong? The reference is the reviewed records of
@@ -25,7 +28,7 @@ d3e39f832ea959c4a69316cabddf88c24e2fb629 (`git hash-object PLAN.md` gives it).
 | `reference.tsv` | every reference value on the 123 papers: its paper and metric, whether people confirmed it (`confirmed`, with the database it came from) or found it not in the paper or wrong (with that category), and the CatLog value and the EnzyExtract row that hold it. **The reference values themselves are not here**: they are the databases' values (BRENDA, OED, SABIO-RK, UniProt), whose licences are their own. No reviewer and no review time is given |
 | `values.tsv` | CatLog's stored values on the 123 papers (its row id, the value in catalogue units, the printed cell and unit, its labels and its quoted line) |
 | `enzyextract_rows.tsv` | EnzyExtract's values on the 123 papers, each by its row of `TheData.parquet` and its metric, with how its string was read |
-| `results.json` | the registered result (`build.py`): both endpoints, by metric and by database, per paper |
+| `results.json` | the result as planned (`build.py`): both endpoints, by metric and by database, per paper |
 | `results_v2.json` | the same with the F5 fix (`build_v2.py`), post hoc |
 | `build.py`, `build_v2.py` | the scorers |
 

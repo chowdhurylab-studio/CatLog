@@ -79,18 +79,18 @@ texts kept only in the agents' logs, which the authors archive.
 - `config.json`: the queue's source lists and reading order.
 - `.claude/settings.example.json`: permissions for the agents (see "Install").
 - `analysis/`: the paper's analysis code (see "The paper's analysis code").
-- `tests/`: the paper's tests, each registered test's plan exactly as committed before its first result (with the commit
-  and its time), and every test's records: both sides' stored values, every claim the judges ruled on and every
-  verdict, the planted errors, the papers and why any left, the blinding keys and the scores (see "The tests'
-  registrations and records").
+- `tests/`: the paper's tests, each test's plan exactly as committed before its first result (with the commit and its
+  time), and every test's records: both sides' stored values, every claim the judges ruled on and every verdict, the
+  planted errors, the papers and why any left, the keys of which reading was whose and the scores (see "The tests'
+  plans and records").
 - `sync_from_catlog.py`: how this copy is made, `sync_analysis.py`: how `analysis/` is made, and `sync_tests.py`: how
   `tests/` is made (see the end).
 
 Not here: the data (the catalogue, paper texts, agents' outputs, database downloads, reviews, and the hand-checked
-tables and held-out lists in `sources/`), the website's own code, the authors' notes (`CLAUDE.md` and their guides),
-the reviewers' review page (`tools/review_ui/`, so `catlog.py review pack` stops with a message), the authors'
-machine helpers (Chrome and memory watchers, a website wording check), and the catalogue frozen for the paper, which
-the analysis code in `analysis/` reads (see "The paper's analysis code").
+tables and the lists of papers kept unread in `sources/`), the website's own code, the authors' notes (`CLAUDE.md` and
+their guides), the reviewers' review page (`tools/review_ui/`, so `catlog.py review pack` stops with a message), the
+authors' machine helpers (Chrome and memory watchers, a website wording check), and the catalogue frozen for the paper,
+which the analysis code in `analysis/` reads (see "The paper's analysis code").
 
 ## Install
 
@@ -193,11 +193,11 @@ database table.
 | `sources/skid/Main_dataset_v1.xlsx`, `sources/skid/References.tar.gz` | SKiD | `tools/skid_values.py` |
 | `sources/strenda/STRENDA_Claude_handoff.zip` | a snapshot of STRENDA DB's public datasets (7 October 2026) prepared for the authors | `tools/strenda_values.py` |
 
-## Held-out papers
+## Papers kept unread
 
-`catlog.locked()` keeps the papers listed in `sources/holdout_locked.txt` (the paper's locked test set) and
-`sources/holdout_rand2.txt` out of `next`, the censored pass, `sample`, `dbdiff`, the sweeps and review packs. Neither
-list is in this repository; without them nothing is held out.
+`catlog.locked()` keeps the papers listed in `sources/holdout_locked.txt` (those the test on 83 unread papers was drawn
+from) and `sources/holdout_rand2.txt` (kept for a third test, not run) out of `next`, the censored pass, `sample`,
+`dbdiff`, the sweeps and review packs. Neither list is in this repository; without them no paper is kept unread.
 
 ## Data
 
@@ -212,33 +212,34 @@ are, but they need the earlier system (`REALKCAT_DIR`).
 ## The paper's analysis code
 
 `analysis/` holds the code behind the paper's results: the two tests (the plain reading's runner, CatLog's run in a
-frozen copy, the judges, the audits of every session and the scoring), the statistics, and the builders of every
-figure, Extended Data item and Supplementary Table. `analysis/README.md` says which script makes each item, what it
-reads, the command that ran it, and what was left out. The catalogue frozen for the paper is not in this repository,
-and the tests' records are in `tests/` as tables rather than the files the scripts read, so the scripts show how each
-result was made rather than remake it from here. `sync_analysis.py` copies them from the authors' folders (the tests'
-kit as committed at the commit the locked test's report ran at) by fixed rules for paths, e-mail addresses and names,
+frozen copy, the judges, the audits of every session and the scoring), the statistics, and the builders of every figure,
+Extended Data item and Supplementary Table. `analysis/README.md` says which script makes each item, what it reads, the
+command that ran it, and what was left out. The catalogue frozen for the paper is not in this repository, and the tests'
+records are in `tests/` as tables rather than the files the scripts read, so the scripts show how each result was made
+rather than remake it from here. `sync_analysis.py` copies them from the authors' folders (the tests' kit as committed
+at the commit the report of the test on 83 unread papers ran at) by fixed rules for paths, e-mail addresses and names,
 as `sync_from_catlog.py` makes this copy.
 
-## The tests' registrations and records
+## The tests' plans and records
 
-`tests/` has one folder per test: the locked test, its second stage (with that stage's page check of every disputed
-value), the broad test against EnzyExtract's released database, the comparison against values people checked, and the
-random test, which was not registered. For each registered test it holds the plan as committed in the authors'
-repository before any result, the commits that registered and amended it, and the time of its first result
-(`tests/README.md` has the table; each folder's README the full commit ids and what each file is). The records are
-scrubbed by `sync_tests.py`: the papers' text appears only as a printed line of at most 25 words, a judge's reasoning
-that copies the paper is dropped, EnzyExtract's values (its data are released under CC BY-NC 4.0) are named by their
-file and row, the databases' values are not listed, and no reviewer or review time appears.
+`tests/` has one folder per test, under the name the test had while it ran: `locked_test/` is the test on 83 unread
+papers and `locked_test_stage2/` its second stage (with that stage's page check of every disputed value), both
+registered; `enzyextract_broad/` is the test on 300 random papers against EnzyExtract's released database, registered;
+`people_anchored/` is the comparison against values people confirmed, planned before either source was scored; and
+`random_test/` is the test on 147 random papers, which was not registered. For each test with a plan it holds the plan
+as committed in the authors' repository before any result, the commits that fixed and amended it, and the time of its
+first result (`tests/README.md` has the table; each folder's README the full commit ids and what each file is). The
+records are scrubbed by `sync_tests.py`: the papers' text appears only as a printed line of at most 25 words, a judge's
+reasoning that copies the paper is dropped, EnzyExtract's values (its data are released under CC BY-NC 4.0) are named by
+their file and row, the databases' values are not listed, and no reviewer or review time appears.
 
 ## Versions
 
 This copy is made from a commit of the authors' working repository, which each commit message here names. The
-`pipeline_commit` stamped on each value names a commit of that repository, not of this one. The paper's counts come
-from its tag `paper-catalog-freeze-20261116`. This repository's tag of the same name (branch
-`paper-freeze-20261116`) is the code as it was then, made with `sync_from_catlog.py --ref
-paper-catalog-freeze-20261116 --older` (the files that come from disk aside); `main` has the code since. The locked
-test's CatLog run used the tag
+`pipeline_commit` stamped on each value names a commit of that repository, not of this one. The paper's counts come from
+its tag `paper-catalog-freeze-20261116`. This repository's tag of the same name (branch `paper-freeze-20261116`) is the
+code as it was then, made with `sync_from_catlog.py --ref paper-catalog-freeze-20261116 --older` (the files that come
+from disk aside); `main` has the code since. The CatLog run of the test on 83 unread papers used the tag
 `catlog-freeze-20261109`; the rules here are written for later code and stop on that tag, so a copy of it needs rule
 changes first.
 
